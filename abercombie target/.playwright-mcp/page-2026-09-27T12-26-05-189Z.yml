@@ -1,0 +1,983 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip to main content >" [ref=e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=e9]:
+        - link "Go back to homepage" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=e12]
+        - generic [ref=e14]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=e43]:
+      - link [ref=e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=e50]: Learn more about HackerOne
+      - link "Log in" [ref=e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - tree [ref=e59]:
+        - button [ref=e61] [cursor=pointer]:
+          - img "collapse menu" [ref=e62]:
+            - img "collapse menu" [ref=e64]
+        - generic [ref=e67]:
+          - treeitem "Security page" [expanded] [ref=e68] [cursor=pointer]
+          - group [ref=e71]:
+            - treeitem "Program guidelines" [selected] [ref=e72] [cursor=pointer]
+            - treeitem "Scope and Rewards" [ref=e74] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=e76] [cursor=pointer]
+            - treeitem "Thanks" [ref=e78] [cursor=pointer]
+            - treeitem "Updates" [ref=e80] [cursor=pointer]
+            - treeitem "Collaborators" [ref=e82] [cursor=pointer]
+            - treeitem "Safe harbor" [ref=e84] [cursor=pointer]
+      - generic [ref=e86]:
+        - generic [ref=e101]:
+          - strong [ref=e102]: Vercel Open Source
+          - text: is taking a break and is not accepting new submissions.
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Introduction" [level=2] [ref=e109]
+              - generic [ref=e114]:
+                - text: ⚠️
+                - strong [ref=e115]: Not accepting new submissions.
+                - text: Moving forward, please report Vercel open source findings at
+                - link "https://hackerone.com/vercel" [ref=e116] [cursor=pointer]:
+                  - /url: https://hackerone.com/vercel
+                - text: . In-progress reports will remain here.
+            - generic [ref=e117]:
+              - heading "Program highlights" [level=2] [ref=e120]
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: Gold Standard Safe Harbor
+                    - generic [ref=e135]:
+                      - text: Adheres to Gold Standard Safe Harbor.
+                      - link "Learn more about Gold Standard Safe Harbor (opens in a new tab)" [ref=e137] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8494525-gold-standard-safe-harbor-statement
+                  - generic [ref=e142]:
+                    - generic [ref=e143]: Platform Standards
+                    - generic [ref=e151]:
+                      - text: Fully compliant with Platform Standards.
+                      - link "Learn more about Platform Standards (opens in a new tab)" [ref=e153] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8369826-detailed-platform-standards#h_e01bc643a8
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: Coordinated Vulnerability Disclosure
+                    - generic [ref=e167]:
+                      - text: Standard
+                      - link "Learn more about Coordinated Vulnerability Disclosure (opens in a new tab)" [ref=e169] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/9829406-coordinated-vulnerability-disclosure
+                - generic [ref=e174]:
+                  - generic [ref=e175]: Managed by HackerOne
+                  - generic [ref=e180]: Collaboration Enabled
+                  - generic [ref=e185]: Includes Retesting
+            - generic [ref=e190]:
+              - generic [ref=e194]:
+                - generic [ref=e200]: 3 hours
+                - generic [ref=e201]: Average time to first response
+              - generic [ref=e205]:
+                - generic [ref=e211]: 3 days, 11 hours
+                - generic [ref=e212]: Average time to triage
+              - generic [ref=e216]:
+                - generic [ref=e222]: 2 weeks, 2 days
+                - generic [ref=e223]: Average time to bounty
+              - generic [ref=e227]:
+                - generic [ref=e233]: 2 weeks, 5 days
+                - generic [ref=e234]: Average time from submission to bounty
+              - generic [ref=e238]:
+                - generic [ref=e244]: 1 month, 1 week
+                - generic [ref=e245]: Average time to resolution
+            - generic [ref=e246]:
+              - heading "Scope exclusions" [level=2] [ref=e249]
+              - generic [ref=e254]:
+                - text: Core Ineligible Findings are out of scope.
+                - link "Learn more" [ref=e255] [cursor=pointer]:
+                  - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+            - generic [ref=e261]:
+              - generic [ref=e263]:
+                - heading "Overview" [level=2] [ref=e264]
+                - generic [ref=e266]:
+                  - generic [ref=e267]: Last updated on September 22, 2026.
+                  - link "View changes" [ref=e268] [cursor=pointer]:
+                    - /url: /vercel-open-source/policy_versions
+              - generic [ref=e276]:
+                - generic [ref=e277]: Vercel looks forward to working with the security community to find vulnerabilities in our open source projects in order to keep our ecosystem and users safe. This program covers core Vercel open source projects that power modern web development.
+                - heading "Getting Started" [level=2] [ref=e278]
+                - heading "Resources" [level=3] [ref=e279]
+                - list [ref=e280]:
+                  - listitem [ref=e281]:
+                    - link "Next.js Documentation" [ref=e282] [cursor=pointer]:
+                      - /url: https://nextjs.org/docs
+                  - listitem [ref=e283]:
+                    - link "Nuxt Documentation" [ref=e284] [cursor=pointer]:
+                      - /url: https://nuxt.com/docs
+                  - listitem [ref=e285]:
+                    - link "SWR Documentation" [ref=e286] [cursor=pointer]:
+                      - /url: https://swr.vercel.app
+                  - listitem [ref=e287]:
+                    - link "Svelte Documentation" [ref=e288] [cursor=pointer]:
+                      - /url: https://svelte.dev/docs
+                  - listitem [ref=e289]:
+                    - link "Turborepo Documentation" [ref=e290] [cursor=pointer]:
+                      - /url: https://turbo.build/repo/docs
+                  - listitem [ref=e291]:
+                    - link "AI SDK Documentation" [ref=e292] [cursor=pointer]:
+                      - /url: https://sdk.vercel.ai/docs
+                  - listitem [ref=e293]:
+                    - link "Vercel CLI Documentation" [ref=e294] [cursor=pointer]:
+                      - /url: https://vercel.com/docs/cli
+                  - listitem [ref=e295]:
+                    - link "Nitro Documentation" [ref=e296] [cursor=pointer]:
+                      - /url: https://nitro.unjs.io
+                  - listitem [ref=e297]:
+                    - link "Eve Documentation" [ref=e298] [cursor=pointer]:
+                      - /url: https://eve.dev/docs/introduction
+                  - listitem [ref=e299]:
+                    - link "chat Documentation" [ref=e300] [cursor=pointer]:
+                      - /url: https://chat-sdk.dev/docs
+                  - listitem [ref=e301]:
+                    - link "workflow Documentation" [ref=e302] [cursor=pointer]:
+                      - /url: https://workflow-sdk.dev/docs/getting-started
+                  - listitem [ref=e303]:
+                    - link "flags Repository" [ref=e304] [cursor=pointer]:
+                      - /url: https://github.com/vercel/flags
+                  - listitem [ref=e305]:
+                    - link "Agent-Skills Repository" [ref=e306] [cursor=pointer]:
+                      - /url: https://github.com/vercel-labs/agent-skills
+                  - listitem [ref=e307]:
+                    - link "Skills Repository" [ref=e308] [cursor=pointer]:
+                      - /url: https://github.com/vercel-labs/skills
+                  - listitem [ref=e309]:
+                    - link "Vercel Changelog" [ref=e310] [cursor=pointer]:
+                      - /url: https://vercel.com/changelog
+                    - text: — recently shipped changes (see eligible bonuses in
+                    - link "Severity Assessment" [ref=e311] [cursor=pointer]:
+                      - /url: "#user-content-severity-assessment"
+                    - text: )
+                - heading "Focus Areas" [level=3] [ref=e312]
+                - generic [ref=e313]: "We are particularly interested in reports that cover:"
+                - list [ref=e314]:
+                  - listitem [ref=e315]:
+                    - strong [ref=e316]: Authorization and authentication bypass
+                    - text: in framework-level primitives, especially where a default configuration leaves a protection unenforced
+                  - listitem [ref=e317]:
+                    - strong [ref=e318]: "AI agent security:"
+                    - text: tool execution control bypasses, MCP client trust boundary violations, and credential or session leakage through agent framework components
+                  - listitem [ref=e319]:
+                    - strong [ref=e320]: Cache poisoning and response integrity violations
+                    - text: that cause one user's data to be served to another
+                  - listitem [ref=e321]:
+                    - strong [ref=e322]: Supply chain attacks
+                    - text: against published packages and skill registries
+                  - listitem [ref=e323]:
+                    - strong [ref=e324]: Server-side vulnerabilities
+                    - text: (SSRF, RCE, path traversal) reachable in default or widely-used configurations
+                  - listitem [ref=e325]:
+                    - strong [ref=e326]: Cross-user or cross-session data leakage
+                    - text: through shared state, shared caches, or insufficient isolation
+                - generic [ref=e327]:
+                  - text: See the
+                  - link "Per-Asset Focus Areas" [ref=e328] [cursor=pointer]:
+                    - /url: "#user-content-per-asset-focus-areas"
+                  - text: section for the specific vulnerability classes and priority guidance for each project.
+                - heading "Scope" [level=2] [ref=e329]
+                - heading "Tier 1 (High Priority)" [level=3] [ref=e330]
+                - generic [ref=e331]: Official Vercel-maintained open source projects with the broadest production usage and highest ecosystem impact. These projects are actively used by millions of developers and represent the core of Vercel's open source portfolio. Reports against Tier 1 assets receive the highest bounty consideration and are reviewed with priority.
+                - list [ref=e332]:
+                  - listitem [ref=e333]:
+                    - link "Next.js" [ref=e334] [cursor=pointer]:
+                      - /url: https://github.com/vercel/next.js
+                    - text: — React framework for production web applications
+                  - listitem [ref=e335]:
+                    - link "Nuxt" [ref=e336] [cursor=pointer]:
+                      - /url: https://github.com/nuxt/nuxt
+                    - text: — Vue.js framework for building performant web applications
+                  - listitem [ref=e337]:
+                    - link "SWR" [ref=e338] [cursor=pointer]:
+                      - /url: https://github.com/vercel/swr
+                    - text: — React Hooks library for data fetching
+                  - listitem [ref=e339]:
+                    - link "Svelte" [ref=e340] [cursor=pointer]:
+                      - /url: https://github.com/sveltejs/svelte
+                    - text: — Compiler for building user interfaces
+                  - listitem [ref=e341]:
+                    - link "Turborepo" [ref=e342] [cursor=pointer]:
+                      - /url: https://github.com/vercel/turborepo
+                    - text: — High-performance build system for monorepos
+                  - listitem [ref=e343]:
+                    - link "AI SDK" [ref=e344] [cursor=pointer]:
+                      - /url: https://github.com/vercel/ai
+                    - text: — TypeScript toolkit for AI applications
+                  - listitem [ref=e345]:
+                    - link "Vercel CLI" [ref=e346] [cursor=pointer]:
+                      - /url: https://github.com/vercel/vercel
+                    - text: — Official CLI for deploying and managing Vercel projects
+                  - listitem [ref=e347]:
+                    - link "workflow" [ref=e348] [cursor=pointer]:
+                      - /url: https://github.com/vercel/workflow
+                    - text: — Framework for adding durability and observability to async JavaScript
+                  - listitem [ref=e349]:
+                    - link "flags" [ref=e350] [cursor=pointer]:
+                      - /url: https://github.com/vercel/flags
+                    - text: — Feature flags toolkit for Next.js and SvelteKit
+                  - listitem [ref=e351]:
+                    - link "Nitro" [ref=e352] [cursor=pointer]:
+                      - /url: https://github.com/nitrojs/nitro
+                    - text: — Next Generation Server Toolkit
+                  - listitem [ref=e353]:
+                    - link "Agent-Skills" [ref=e354] [cursor=pointer]:
+                      - /url: https://github.com/vercel-labs/agent-skills
+                    - text: — Vercel's official collection of skills for Claude and other AI agents
+                  - listitem [ref=e355]:
+                    - link "Skills" [ref=e356] [cursor=pointer]:
+                      - /url: https://github.com/vercel-labs/skills
+                    - text: — CLI and registry for discovering, installing, and managing AI agent skills
+                  - listitem [ref=e357]:
+                    - text: Vulnerabilities on Vercel maintained/sponsored websites supporting Tier 1 projects (e.g.,
+                    - link "nextjs.org" [ref=e358] [cursor=pointer]:
+                      - /url: http://nextjs.org
+                    - text: ", ...)"
+                - heading "Tier 2 (Standard Priority)" [level=3] [ref=e359]
+                - list [ref=e360]:
+                  - listitem [ref=e361]:
+                    - link "Eve" [ref=e362] [cursor=pointer]:
+                      - /url: https://github.com/vercel/eve
+                    - text: — Filesystem-first framework for building durable AI agents
+                  - listitem [ref=e363]:
+                    - link "chat" [ref=e364] [cursor=pointer]:
+                      - /url: https://github.com/vercel/chat
+                    - text: — Vercel's AI chat application and reference implementation
+                  - listitem [ref=e365]:
+                    - text: All other Vercel-owned open source projects within
+                    - link "github.com/vercel" [ref=e366] [cursor=pointer]:
+                      - /url: https://github.com/vercel
+                    - text: or
+                    - link "github.com/vercel-labs" [ref=e367] [cursor=pointer]:
+                      - /url: https://github.com/vercel-labs
+                    - text: ", including"
+                    - link [ref=e368] [cursor=pointer]:
+                      - /url: https://github.com/vercel/ms
+                      - strong [ref=e369]: ms
+                    - text: and
+                    - link [ref=e370] [cursor=pointer]:
+                      - /url: https://github.com/sveltejs/kit
+                      - strong [ref=e371]: SvelteKit
+                    - text: ", and vulnerabilities on Vercel-maintained project websites (e.g., nextjs.org). Includes projects with smaller user bases, niche use cases, or those requiring non-standard or experimental configurations to reproduce. Bounties are awarded at a lower rate than Tier 1."
+                - generic [ref=e372]:
+                  - strong [ref=e373]: "Tier 1 consideration:"
+                  - text: If a report against a Tier 2 asset demonstrates a critical or high-severity vulnerability with a clear, reproducible exploit chain and significant real-world impact, we will consider awarding at Tier 1 bounty levels on a case-by-case basis.
+                - heading "Submission Requirements" [level=2] [ref=e374]
+                - generic [ref=e375]: "We actively want to work with researchers who find real, impactful vulnerabilities and write clear, actionable reports. When a report demonstrates a genuine finding with a working exploit chain and a well-articulated impact, we take it seriously and compensate accordingly. The quality of a report matters: a concise, well-reasoned submission with a strong PoC will always be prioritized over volume."
+                - generic [ref=e376]:
+                  - text: Reports that appear to be generated by AI tools without manual validation, contain hallucinated or unverified claims, or consist of scanner output without a working exploit will be marked as
+                  - strong [ref=e377]: "'Not Applicable'"
+                  - text: . Researchers with a pattern of submitting such reports will be flagged and deprioritized in the program.
+                - generic [ref=e378]: "Every report must include a working proof-of-concept that demonstrates the complete exploit chain on a realistic, production-equivalent deployment. This means:"
+                - list [ref=e379]:
+                  - listitem [ref=e380]: A functional PoC that an independent reviewer can run and reproduce
+                  - listitem [ref=e381]: "Demonstrated end-to-end impact: not just the entry point, but what an attacker concretely reads, writes, executes, or extracts"
+                  - listitem [ref=e382]: Reproducible on a stable release (supported, in-scope versions. Please see the version eligibility note below on canary and RC releases.)
+                - generic [ref=e383]: "Reports will not be considered for bounty if they consist of:"
+                - list [ref=e384]:
+                  - listitem [ref=e385]: SAST or static analysis output without a working exploit chain
+                  - listitem [ref=e386]: AI or LLM tool findings that have not been manually verified with a functional PoC
+                  - listitem [ref=e387]: Theoretical chains where one or more steps require unrealistic conditions
+                  - listitem [ref=e388]: Issues that require the attacker to already have privileged access
+                  - listitem [ref=e389]: "Vulnerable or outdated dependency reports without a demonstrated exploit chain: flagging that a dependency has a CVE is not a valid submission on its own. We may consider a report if the researcher demonstrates a complete chain showing exploitable impact in the context of the affected project, and there is no existing open issue or pull request already tracking the fix."
+                  - listitem [ref=e390]: "Issues present only in a canary or RC release that has since been superseded by a more stable version: these are out of scope. Canary versions of an upcoming release are in scope if no stable release has superseded the affected version range."
+                - heading "What to include in your report" [level=3] [ref=e391]
+                - list [ref=e392]:
+                  - listitem [ref=e393]:
+                    - strong [ref=e394]: "Affected version(s):"
+                    - text: Please ensure you are submitting the correct affected version(s) of the code. You will be required to fill out a field called 'Affected version(s)'.
+                  - listitem [ref=e395]:
+                    - strong [ref=e396]: "Proof-of-concept artifact:"
+                    - text: All vulnerability reports must include a zip file containing working proof-of-concept code that demonstrates the issue in the affected version(s). Reports without demonstration artifacts will not be eligible for bounty consideration.
+                  - listitem [ref=e397]:
+                    - text: If the affected version(s) or POC artifact are not included, reports will be automatically moved to the
+                    - strong [ref=e398]: Needs More Info
+                    - text: state until the necessary info is provided.
+                  - listitem [ref=e399]: In cases where a PoC is not feasible, detailed reproduction steps or minimal test cases may be accepted at Vercel's discretion and not without Vercel's approval.
+                  - listitem [ref=e400]: Include any other helpful PoCs such as screenshots, videos, etc. when applicable.
+                  - listitem [ref=e401]: Suggestions for patches or mitigation are optional but can warrant a bonus at Vercel's discretion.
+                - generic [ref=e402]:
+                  - text: The
+                  - link "Per-Asset Focus Areas" [ref=e403] [cursor=pointer]:
+                    - /url: "#user-content-per-asset-focus-areas"
+                  - text: sections below describe the vulnerability classes of most interest for each project, and which areas are lower priority or require novelty to be considered.
+                - heading "Per-Asset Focus Areas" [level=2] [ref=e404]
+                - heading "Next.js" [level=3] [ref=e405]
+                - generic [ref=e406]: "The highest-value targets are in the production runtime: the middleware and routing layer, the response caching system, the React Server Components and Server Actions runtime, and the image optimization endpoint. The development server and build-time tooling are lower priority."
+                - strong [ref=e408]: "Vulnerability classes of highest interest, in order of priority:"
+                - list [ref=e409]:
+                  - listitem [ref=e410]:
+                    - strong [ref=e411]: Middleware / routing authorization bypass
+                    - text: – Vulnerabilities that allow a request to reach a protected route it should not reach.
+                  - listitem [ref=e412]:
+                    - strong [ref=e413]: Cache poisoning / cache-key confusion
+                    - text: – Vulnerabilities where an attacker can cause a crafted response to be stored in the cache and served to other users. The attack surface includes ISR, the full-route cache, and the use-cache directive.
+                  - listitem [ref=e414]:
+                    - strong [ref=e415]: RSC / Server Actions / Flight protocol
+                    - text: – Deserialization vulnerabilities, CSRF bypasses, or sensitive data exposure through the React Server Components runtime or the Server Actions handler.
+                  - listitem [ref=e416]:
+                    - strong [ref=e417]: Image optimizer SSRF and DoS
+                    - text: – SSRF via the built-in image optimization endpoint, particularly bypasses of the internal SSRF allowlist validation. DoS via malformed image input causing excessive resource consumption at scale.
+                  - listitem [ref=e418]:
+                    - strong [ref=e419]: SSRF via host reflection
+                    - text: – Vulnerabilities where a user-controlled Host header, forwarded header, or redirect target causes the server to make an unintended internal request.
+                - strong [ref=e421]: "Lower priority / accepted only if novel:"
+                - list [ref=e422]:
+                  - listitem [ref=e423]:
+                    - text: Dev server vulnerabilities (
+                    - code [ref=e424]: next dev
+                    - text: "), including DNS rebinding, inspector WebSocket leakage, source map exfiltration, and static handler path traversal: only accepted with a direct path to impact in a production deployment."
+                  - listitem [ref=e425]: Issues in custom server mode where the vulnerability is in user-supplied server code rather than the framework itself.
+                  - listitem [ref=e426]: Missing security headers that are not set by default.
+                  - listitem [ref=e427]: Build-time tooling (webpack, babel, terser) is out of scope.
+                - heading "AI SDK" [level=3] [ref=e428]
+                - generic [ref=e429]: The primary attack surface is tool execution controls, MCP client security, and input/output handling in the core SDK.
+                - strong [ref=e431]: "Vulnerability classes of highest interest:"
+                - list [ref=e432]:
+                  - listitem [ref=e433]: MCP client allowlist bypasses that allow unapproved tools to be exposed or executed, including prototype-based or prototype-inheritance bypasses.
+                  - listitem [ref=e434]: Tool execution control bypasses where restrictions on which tools the model can call fail to hold at execution time, with RCE or significant data access demonstrated.
+                  - listitem [ref=e435]: Prototype pollution in SDK internals leading to SSRF, authorization header theft, or privilege escalation.
+                  - listitem [ref=e436]:
+                    - text: "MCP OAuth metadata handling vulnerabilities: protocol bypass in URL validation (e.g. a"
+                    - code [ref=e437]: file://
+                    - text: URI passing the URL schema check), or SSRF via redirect-follow during OAuth metadata discovery.
+                  - listitem [ref=e438]: Input validation bypasses in structured output handling where raw, unvalidated LLM output reaches application code without the declared schema being enforced.
+                  - listitem [ref=e439]: "Supply chain issues in the SDK itself: the report must demonstrate a complete end-to-end exploit chain showing exploitable impact, and there must be no existing open issue or pull request already tracking the fix."
+                - strong [ref=e441]: "Lower priority / accepted only if novel:"
+                - list [ref=e442]:
+                  - listitem [ref=e443]: "Security issues in example code or documentation snippets: examples are explicitly out of scope."
+                  - listitem [ref=e444]: "Tool approval bypasses that rely entirely on forged client-side message history: the developer controls message history server-side, making this an application design concern."
+                  - listitem [ref=e445]: Prompt injection reports where no tool access, sensitive data, or meaningful attacker-controlled action is at risk. The report must demonstrate what the attacker concretely achieves beyond influencing model output.
+                  - listitem [ref=e446]: "Issues in provider packages (e.g. the OpenAI, Anthropic, or Fireworks provider integrations) that are not in the core SDK: report those to the relevant provider's security program."
+                - heading "Nuxt" [level=3] [ref=e447]
+                - generic [ref=e448]: The primary attack surface is URL sanitization in navigation primitives and template injection in component props.
+                - strong [ref=e450]: "Vulnerability classes of highest interest:"
+                - list [ref=e451]:
+                  - listitem [ref=e452]:
+                    - text: "XSS via unsanitized URL protocols in navigation components or functions: the NuxtLink component, the reloadNuxtApp utility, and router navigation accepting"
+                    - code [ref=e453]: "javascript:"
+                    - text: ","
+                    - code [ref=e454]: "data:"
+                    - text: ", or"
+                    - code [ref=e455]: "vbscript:"
+                    - text: URIs.
+                  - listitem [ref=e456]: XSS via template injection where user-controlled input reaches the DOM unsanitized through component props in production components.
+                  - listitem [ref=e457]: Auth token or session exfiltration chains starting from an exploitable XSS in a production component.
+                  - listitem [ref=e458]: Server-side path traversal in file handling.
+                  - listitem [ref=e459]: RCE chains that begin from an exploitable XSS in a production-enabled component.
+                - strong [ref=e461]: "Lower priority / accepted only if novel:"
+                - list [ref=e462]:
+                  - listitem [ref=e463]: "Nuxt DevTools vulnerabilities: DevTools is a development-only surface and is not a production target."
+                  - listitem [ref=e464]: "XSS in experimental components that require explicit opt-in via config flags documented as unsafe: only accepted if a realistic production path is demonstrated."
+                  - listitem [ref=e465]: "Nuxt UI component library issues: only accepted if the component itself introduces an unsanitized path that a developer cannot reasonably mitigate."
+                  - listitem [ref=e466]: Issues requiring the developer to already be rendering unsanitized user input directly into templates.
+                - heading "Turborepo" [level=3] [ref=e467]
+                - generic [ref=e468]: The remote cache is the primary attack surface. The most impactful bugs involve artifact integrity, token handling, and cache extraction.
+                - strong [ref=e470]: "Vulnerability classes of highest interest:"
+                - list [ref=e471]:
+                  - listitem [ref=e472]: "Remote cache poisoning: any path by which a malicious actor can serve a crafted artifact that gets restored into a victim's build, including weaknesses in artifact signing or HMAC key enforcement, and symlink traversal during cache extraction."
+                  - listitem [ref=e473]: SSRF via an untrusted remote cache API URL with internal network access demonstrated.
+                  - listitem [ref=e474]: Command injection in CLI operations that process user-controlled strings.
+                  - listitem [ref=e475]: Supply chain attacks via dependency confusion in published packages.
+                - strong [ref=e477]: "Lower priority / accepted only if novel:"
+                - list [ref=e478]:
+                  - listitem [ref=e479]: Cache poisoning claims that require the attacker to already have write access to the remote cache. Reports must demonstrate how unauthenticated or unauthorized write access is obtained.
+                  - listitem [ref=e480]: Local-only attacks where the attacker already has filesystem access to the machine running turbo.
+                  - listitem [ref=e481]:
+                    - text: Reports asserting that
+                    - code [ref=e482]: signature:false
+                    - text: as a default is a vulnerability without demonstrating a complete poisoning chain.
+                - heading "Vercel CLI" [level=3] [ref=e483]
+                - strong [ref=e485]: "Vulnerability classes of highest interest:"
+                - list [ref=e486]:
+                  - listitem [ref=e487]: Credential or token exposure to other local processes or the network during CLI operations.
+                  - listitem [ref=e488]: Arbitrary code execution triggered by malicious project configuration during deploy or build.
+                  - listitem [ref=e489]: Path traversal or file exfiltration during build or deploy operations.
+                  - listitem [ref=e490]: Privilege escalation between project or team scopes.
+                - strong [ref=e492]: "Lower priority / accepted only if novel:"
+                - list [ref=e493]:
+                  - listitem [ref=e494]: Output formatting or cosmetic issues.
+                  - listitem [ref=e495]: Issues requiring the attacker to already control the machine running the CLI.
+                - heading "chat" [level=3] [ref=e496]
+                - generic [ref=e497]: The core security property of the chat framework is that a session, its messages, and tool execution state belong to a specific authenticated owner. Violations of that ownership boundary are treated as high priority.
+                - generic [ref=e498]: "One class we consider a framework-level issue regardless of how the application is structured: if tool execution logic derives authorization decisions or tool approval state from the client-supplied messages array rather than server-verified state, that is a vulnerability in the framework. A developer building on the chat framework should not have to re-validate that the messages array has not been forged; the framework is expected to enforce that boundary server-side."
+                - strong [ref=e500]: "Vulnerability classes of highest interest:"
+                - list [ref=e501]:
+                  - listitem [ref=e502]: "Session ownership bypass: an authenticated actor can read, write to, append to, delete from, or modify the visibility of a session or its messages without owning that session, including IDOR via session or message IDs taken directly from client-controlled input."
+                  - listitem [ref=e503]: "Cross-role session access: team-level role boundaries not enforced in session listing or message access, allowing lower-privileged members to read or write sessions belonging to other users."
+                  - listitem [ref=e504]: "Tool approval bypass via client-supplied message state: the framework reconstructs tool-call approvals or tool inputs from the caller-supplied messages array, allowing a forged assistant or tool-result message to bypass approval checks and execute a tool the user did not approve."
+                  - listitem [ref=e505]: Caching issues where a cached response intended for one session or user is served to another, due to incorrect cache key scoping across user or session boundaries.
+                  - listitem [ref=e506]: Stored XSS in chat message rendering leading to session or token theft, particularly in rendered markdown, shared chat views, or third-party rendering libraries.
+                  - listitem [ref=e507]: Unauthenticated or insufficiently authenticated access to session endpoints that expose message history, trigger agent actions, or reach paid model APIs.
+                - strong [ref=e509]: "Lower priority / accepted only if novel:"
+                - list [ref=e510]:
+                  - listitem [ref=e511]: "Authorization issues where the developer explicitly bypassed or omitted ownership checks in application code built on top of the framework: these are application design concerns."
+                  - listitem [ref=e512]: Client-side message manipulation that only affects the attacker's own session with no cross-session or privilege-escalation impact.
+                - heading "Eve" [level=3] [ref=e513]
+                - generic [ref=e514]: Vulnerabilities must be in the Eve framework itself, not in a specific agent built on top of it. If the issue is that a developer made an insecure design choice when implementing their agent, that is an application-level concern and not a valid Eve vulnerability.
+                - strong [ref=e516]: "Vulnerability classes of highest interest:"
+                - list [ref=e517]:
+                  - listitem [ref=e518]: The framework executing tools or taking actions that the framework's own security model should have prevented, regardless of how the agent is configured.
+                  - listitem [ref=e519]: Credential or secret leakage through framework-owned runtime components or the built-in channel handlers (HTTP, Slack, Discord), where the leak occurs in Eve's code and not in user-written tools or skills.
+                  - listitem [ref=e520]: Unauthenticated control of agent behavior through framework-provided channel endpoints, where authentication is Eve's responsibility and not the developer's to implement.
+                  - listitem [ref=e521]: Sandbox or isolation escapes where code running in one agent context can affect another.
+                - strong [ref=e523]: "Lower priority / accepted only if novel:"
+                - list [ref=e524]:
+                  - listitem [ref=e525]: Issues in APIs explicitly marked as unstable or experimental in beta documentation.
+                  - listitem [ref=e526]: Development-mode-only attack paths with no production impact.
+                  - listitem [ref=e527]: "Vulnerabilities that only manifest because the developer built their agent insecurely (e.g. passing unsanitized user input directly to shell tools, trusting client-side state without server validation): these are agent implementation issues, not framework vulnerabilities."
+                - heading "workflow" [level=3] [ref=e528]
+                - generic [ref=e529]: The vulnerability must be in the workflow framework itself, not in how a developer has chosen to structure their workflow. If a developer puts no authorization check on a step, that is their design choice.
+                - strong [ref=e531]: "Vulnerability classes of highest interest:"
+                - list [ref=e532]:
+                  - listitem [ref=e533]: "Step injection: an attacker can cause the workflow runtime to execute a step that was not part of the original workflow definition, or substitute a malicious step in place of a legitimate one."
+                  - listitem [ref=e534]: "Step bypass: an attacker can cause the runtime to skip a step that should have executed, including steps that perform authorization checks or validation."
+                  - listitem [ref=e535]: "Cross-workflow access: an attacker can influence, read state from, or trigger steps belonging to a workflow they are not authorized to interact with."
+                  - listitem [ref=e536]: "Authorization boundary violations: any path by which an actor can escalate privileges within the workflow runtime, access another tenant's workflow context, or replay or forge step completions."
+                  - listitem [ref=e537]: Injection into the runtime's step scheduling, state persistence, or event handling that can be triggered across all workflows, not just a specific instance. These are treated as highest priority given the blast radius.
+                - heading "flags" [level=3] [ref=e538]
+                - generic [ref=e539]: The vulnerability must be in the flags framework itself, not in how a developer has chosen to configure or expose their flags.
+                - generic [ref=e540]: The most interesting attack surface is the framework's own flag discovery and override mechanisms. The flags SDK exposes a well-known endpoint that the Vercel Toolbar uses to read flag definitions (names, descriptions, and variants). If the framework's defaults leave this endpoint unauthenticated or insufficiently scoped, an attacker can enumerate every flag and variant, revealing unreleased features and experiments that operators expect to be confidential. The override mechanism, which forces flag values on or off for a given session, is a valid target if it can be triggered without authorization or if override state is not scoped to the session that set it, meaning an attacker could access features not yet released to them.
+                - strong [ref=e542]: "Vulnerability classes of highest interest:"
+                - list [ref=e543]:
+                  - listitem [ref=e544]: Unauthorized read of flag definitions or variant metadata via the framework's own well-known or discovery endpoint, revealing unreleased feature names, experiment variants, or rollout rules.
+                  - listitem [ref=e545]: "Unauthorized flag override: forcing a flag to evaluate as enabled for a session the attacker does not own, or reading override state belonging to another user or session, in order to access features or capabilities not yet released."
+                  - listitem [ref=e546]: Flag evaluation responses that reveal which segment or rollout cohort an arbitrary user belongs to, where that segmentation is not otherwise accessible.
+                  - listitem [ref=e547]: Authorization bypass where an actor can modify flag state (rollout rules, segment assignments) they should not have write access to.
+                  - listitem [ref=e548]: Stored XSS introduced by the framework's own rendering or UI components (e.g. the toolbar or flag display components).
+                - heading "Nitro" [level=3] [ref=e549]
+                - strong [ref=e551]: "Vulnerability classes of highest interest:"
+                - list [ref=e552]:
+                  - listitem [ref=e553]: Authentication bypass in the basicAuth route rule via percent-encoded characters in path segments where the encoded form passes the auth check but the decoded form reaches the protected handler.
+                  - listitem [ref=e554]: Authentication bypass via route rule composition where basicAuth is combined with a terminating rule (proxy, redirect, cache) on overlapping paths and the terminating rule executes first, skipping the auth check entirely.
+                  - listitem [ref=e555]: Path traversal in the proxy route rules or prerender pipeline leading to arbitrary file read or write within the project workspace.
+                - strong [ref=e557]: "Lower priority / accepted only if novel:"
+                - list [ref=e558]:
+                  - listitem [ref=e559]:
+                    - text: SSRF via the proxy target in
+                    - code [ref=e560]: proxyRequest()
+                    - text: "or route rules: only accepted if a framework-owned path bypasses developer-controlled allowlist configuration entirely."
+                  - listitem [ref=e561]: WebSocket upgrade requests bypassing global middleware auth.
+                  - listitem [ref=e562]: Overbroad route regex matching in the Vercel CDN preset without a demonstrated security impact.
+                - heading "SWR" [level=3] [ref=e563]
+                - strong [ref=e565]: "Vulnerability classes of highest interest:"
+                - list [ref=e566]:
+                  - listitem [ref=e567]: SSR request isolation failures where module-global internal state is shared across concurrent server-side requests, causing data from one request to be visible to another.
+                - strong [ref=e569]: "Lower priority / accepted only if novel:"
+                - list [ref=e570]:
+                  - listitem [ref=e571]: "Prototype pollution via crafted cache keys reaching the library's internal state: only accepted with a full chain from a framework-owned input to concrete downstream impact."
+                  - listitem [ref=e572]: Client-side-only cache state manipulation where the attacker already controls the client environment.
+                  - listitem [ref=e573]: "Dependency vulnerabilities in SWR example packages: these are not part of the published library."
+                - heading "Svelte (Tier 1)" [level=3] [ref=e574]
+                - generic [ref=e575]: The primary attack surfaces are HTML generation and hydration, including the SSR compiler output path (spread attributes, element tag interpolation, bind directives, template-literal generation, and hydration markers).
+                - strong [ref=e577]: "Vulnerability classes of highest interest:"
+                - list [ref=e578]:
+                  - listitem [ref=e579]: XSS where Svelte fails to preserve its documented escaping guarantees, including during SSR, hydration, attribute handling, or dynamic element rendering.
+                  - listitem [ref=e580]: SSR compiler template-literal injection where HTML entity sequences in attribute strings produce unescaped expressions in the generated JavaScript.
+                  - listitem [ref=e581]: DOM clobbering or prototype pollution affecting framework internals.
+                  - listitem [ref=e582]: Supply-chain vulnerabilities introduced by how Svelte builds or distributes its packages.
+                - strong [ref=e584]: "Out of scope unless a novel framework-level impact is demonstrated:"
+                - list [ref=e585]:
+                  - listitem [ref=e586]:
+                    - text: Passing unsanitized input to explicitly unsafe APIs such as
+                    - code [ref=e587]: "{@html}"
+                    - text: .
+                  - listitem [ref=e588]: Denial of service through excessive legitimate use, or compiler inputs whose impact is limited to the development environment.
+                  - listitem [ref=e589]:
+                    - text: Issues confined to features explicitly gated by an
+                    - code [ref=e590]: experimental.*
+                    - text: configuration option.
+                - heading "SvelteKit (Tier 2)" [level=3] [ref=e591]
+                - generic [ref=e592]: The primary attack surfaces are request handling, routing, serialization, prerendering, and official adapters.
+                - strong [ref=e594]: "Vulnerability classes of highest interest:"
+                - list [ref=e595]:
+                  - listitem [ref=e596]: XSS, CSRF bypasses, SSRF, path traversal, cache poisoning, or cross-request data leakage.
+                  - listitem [ref=e597]:
+                    - text: Prototype pollution or disproportionate CPU or memory consumption when processing untrusted serialized data, including through
+                    - code [ref=e598]: devalue
+                    - text: .
+                  - listitem [ref=e599]:
+                    - code [ref=e600]: BODY_SIZE_LIMIT
+                    - text: bypass via encoding tricks in the Node.js adapter.
+                  - listitem [ref=e601]:
+                    - text: Server-only module guard bypass where
+                    - code [ref=e602]: $lib/server
+                    - text: or
+                    - code [ref=e603]: "*.server.js"
+                    - text: isolation fails in a specific build pipeline, causing server-only code to be bundled into a publicly accessible asset.
+                  - listitem [ref=e604]: Authentication or session compromise resulting from an exploitable framework vulnerability.
+                  - listitem [ref=e605]: Supply-chain vulnerabilities introduced by how SvelteKit builds or distributes its packages.
+                - strong [ref=e607]: "Out of scope unless a novel framework-level impact is demonstrated:"
+                - list [ref=e608]:
+                  - listitem [ref=e609]:
+                    - text: Authentication bypass in the
+                    - code [ref=e610]: handle
+                    - text: hook via percent-encoded pathnames where the developer is using raw request path strings rather than
+                    - code [ref=e611]: event.url.pathname
+                    - text: ": this is an application design concern."
+                  - listitem [ref=e612]: Vulnerabilities solely in third-party dependencies, or in compromised browsers and server runtimes.
+                  - listitem [ref=e613]: Denial of service through excessive legitimate use.
+                  - listitem [ref=e614]:
+                    - text: Issues confined to features explicitly gated by an
+                    - code [ref=e615]: experimental.*
+                    - text: configuration option.
+                - heading "ms (Tier 2)" [level=3] [ref=e616]
+                - generic [ref=e617]: ms is a minimal time-parsing utility. Reports must demonstrate a vulnerability in the library's own parsing logic with a realistic path to downstream exploitability, not in how an application uses the output.
+                - strong [ref=e619]: "Lower priority / accepted only if novel:"
+                - list [ref=e620]:
+                  - listitem [ref=e621]: "DoS via crafted input strings: only accepted with a concrete production-reachable path to impact."
+                - heading "Skills" [level=3] [ref=e622]
+                - generic [ref=e623]: The Skills CLI and registry are the attack surface for this project. Vulnerabilities must be in the Skills framework itself (the CLI, the installation pipeline, the audit infrastructure) rather than in the content or behavior of individual skills published by third parties.
+                - strong [ref=e625]: "Vulnerability classes of highest interest:"
+                - list [ref=e626]:
+                  - listitem [ref=e627]: Path traversal during skill installation where the install path escapes the intended target directory and writes to arbitrary locations on the filesystem. The exploit must demonstrate actual out-of-bounds write.
+                  - listitem [ref=e628]: Terminal escape injection via malicious SKILL.md metadata fields (name, description) where ANSI or OSC sequences in the metadata are rendered unsanitized in the terminal, enabling output spoofing or terminal control.
+                  - listitem [ref=e629]: Prompt injection in SKILL.md content that causes the agent runtime to execute unintended tool calls or exfiltrate data during skill installation or invocation. The report must demonstrate a concrete attacker-controlled outcome beyond influencing model output.
+                  - listitem [ref=e630]: "Covert payload delivery embedded in SKILL.md: skill instructions that silently execute remote code (e.g. via curl-pipe-bash patterns or opaque redirect URLs) without user awareness or confirmation."
+                  - listitem [ref=e631]: Supply chain attacks against the skills registry or installation pipeline itself, not against individual third-party skill authors.
+                - strong [ref=e633]: "Out of scope:"
+                - list [ref=e634]:
+                  - listitem [ref=e635]: "Security score changes or alerts from Socket or Snyk scanners against skills listed on skills.sh: these reflect scanner judgments, not validated vulnerabilities in the framework."
+                  - listitem [ref=e636]: "Skills that are themselves written maliciously or deceptively by their authors (e.g. a skill that abuses wallet access, embeds covert instructions, or mislabels its purpose): skills.sh operates as a marketplace and we work with Socket and Snyk to surface these issues, but individual skill authors are responsible for their content. We cannot guarantee all malicious skills are caught, and that is not a bug in the framework."
+                - strong [ref=e638]: "Lower priority / accepted only if novel:"
+                - list [ref=e639]:
+                  - listitem [ref=e640]: "Namespace collision overwrite where a victim is tricked into installing a malicious skill with the same short name as a legitimate one: only accepted if the collision is possible against verified or official skills with no user-visible warning."
+                  - listitem [ref=e641]:
+                    - text: Telemetry that leaks private repository metadata (owner, repo, skill names) for repos where the user has set
+                    - code [ref=e642]: DISABLE_TELEMETRY=1
+                    - text: ": accepted if the bypass is demonstrated in a fixed release with no open tracking issue."
+                  - listitem [ref=e643]: "Path traversal in the skills init subcommand via the skill name parameter: rejected without a demonstrated write to a sensitive path outside the project directory."
+                  - listitem [ref=e644]: "Symlink preservation during install that could theoretically escape the install directory: accepted only if the target of the escaped write is reachable and impactful."
+                - heading "Agent-Skills" [level=3] [ref=e645]
+                - generic [ref=e646]: Agent-Skills is Vercel's official collection of skills for use with Claude and other AI agents. The attack surface is the skill execution and trust model, not the behavior of individual third-party skills.
+                - strong [ref=e648]: "Vulnerability classes of highest interest:"
+                - list [ref=e649]:
+                  - listitem [ref=e650]: Skills that embed external trust dependencies (remote URLs, third-party execution pipelines) without the user being made aware, allowing a malicious or compromised upstream to substitute instructions or code at runtime.
+                  - listitem [ref=e651]: Tool invocation without user confirmation gates for operations with irreversible or high-impact effects (financial transactions, destructive actions, data exfiltration), where the framework's own execution model should require confirmation.
+                  - listitem [ref=e652]: Authorization boundary violations in multi-skill or multi-agent contexts where one skill can read state, credentials, or tool outputs belonging to a different skill or agent context it should not access.
+                - strong [ref=e654]: "Out of scope:"
+                - list [ref=e655]:
+                  - listitem [ref=e656]: "Individual third-party skills published to the registry that are poorly written, deceptive, or malicious: these are the author's responsibility, and the marketplace relationship with Socket and Snyk is how we address them, not the bug bounty program."
+                  - listitem [ref=e657]: Scanner alerts (SAST, Socket, Snyk) about skill content without a demonstrated exploit in the framework's own execution logic.
+                - strong [ref=e659]: "Lower priority / accepted only if novel:"
+                - list [ref=e660]:
+                  - listitem [ref=e661]: Prompt injection that only affects model output with no tool invocation or data exfiltration.
+                - heading "Severity Assessment" [level=2] [ref=e662]
+                - generic [ref=e663]: "We use CVSS 4.0 scoring with adjustments for:"
+                - list [ref=e664]:
+                  - listitem [ref=e665]: Real-world exploitability in typical deployment scenarios
+                  - listitem [ref=e666]: Impact on the broader ecosystem
+                  - listitem [ref=e667]: Ease of exploitation and attack complexity
+                  - listitem [ref=e668]: Default vs. non-default configuration requirements
+                  - listitem [ref=e669]: Severity reduction in cases reliant on experimental features or "development mode"
+                - strong [ref=e671]: Bonus Modifiers
+                - generic [ref=e672]: "A finding may be eligible for a bonus on top of the base award. All bonuses are granted at Vercel's discretion and are not guaranteed. The following may qualify a finding for a bonus:"
+                - list [ref=e673]:
+                  - listitem [ref=e674]:
+                    - strong [ref=e675]: "Exceptional impact:"
+                    - text: For example, novel attack chains affecting widely-deployed default configurations, vulnerabilities that compromise user data at scale, or critical findings in Tier 1 assets that represent a meaningful advance over prior public research.
+                  - listitem [ref=e676]:
+                    - strong [ref=e677]: "High-quality reports:"
+                    - text: Well-structured reports with clear, reproducible analysis and demonstrated impact — particularly those that include suggested patches or mitigation.
+                  - listitem [ref=e678]:
+                    - strong [ref=e679]: "Recently shipped changes:"
+                    - text: Vulnerabilities in functionality reported within one week of that change being published in the
+                    - link "Vercel Changelog" [ref=e680] [cursor=pointer]:
+                      - /url: https://vercel.com/changelog
+                    - text: . Findings that catch regressions in newly shipped code before they spread are especially valued.
+                - heading "Out of Scope" [level=2] [ref=e681]
+                - generic [ref=e682]:
+                  - link "Core Ineligible Findings" [ref=e683] [cursor=pointer]:
+                    - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+                  - text: are out of scope.
+                - heading "Universal Exclusions" [level=3] [ref=e684]
+                - list [ref=e685]:
+                  - listitem [ref=e686]: Third-party dependencies (unless misused by the project)
+                  - listitem [ref=e687]: End of Life (EoL) or deprecated software versions
+                  - listitem [ref=e688]: Archived repositories
+                  - listitem [ref=e689]: Misuse of 3rd party by project
+                  - listitem [ref=e690]: Projects no longer under active development or maintenance
+                  - listitem [ref=e691]: Issues inherited from a fork are out of scope unless direct impact on Vercel, Vercel customers, or project users can be shown
+                  - listitem [ref=e692]: Templates, examples, starter projects, and documentation code snippets
+                  - listitem [ref=e693]: Community infrastructure (Discord, GitHub Discussions, etc.)
+                  - listitem [ref=e694]: Personal websites/blogs of maintainers
+                  - listitem [ref=e695]: Social engineering attacks
+                  - listitem [ref=e696]: Issues requiring destructive testing
+                  - listitem [ref=e697]: Documentation / code examples
+                  - listitem [ref=e698]: Content modification (wikis are intentionally editable)
+                  - listitem [ref=e699]: Issues that can only be exploited when the underlying platform (browser, server runtime) is compromised
+                  - listitem [ref=e700]: Using untrusted user content without sanitization in places that are not explicitly sanitized by the framework
+                  - listitem [ref=e701]: Denial of service via excessive legitimate use
+                  - listitem [ref=e702]: Denial of service that is dev-time only
+                - heading "Project-Specific Exclusions" [level=3] [ref=e703]
+                - list [ref=e704]:
+                  - listitem [ref=e705]:
+                    - strong [ref=e706]: "SWC:"
+                    - text: Rust standard library or LLVM vulnerabilities
+                  - listitem [ref=e707]:
+                    - strong [ref=e708]: "Next.js:"
+                    - text: Cloud provider-specific deployment issues (report these to our main program if on Vercel platform)
+                  - listitem [ref=e709]:
+                    - strong [ref=e710]: "Nuxt:"
+                    - text: Cloud provider-specific deployment issues (report these to our main program if on Vercel platform)
+                  - listitem [ref=e711]:
+                    - strong [ref=e712]: "Svelte/SvelteKit:"
+                    - text: Cloud provider-specific deployment issues (report these to our main program if on Vercel platform)
+                  - listitem [ref=e713]:
+                    - strong [ref=e714]: "Skills:"
+                    - text: Malicious skills not relating to vulnerabilities in the skills infrastructure or skills application
+                - heading "Rules of Engagement" [level=2] [ref=e715]
+                - list [ref=e716]:
+                  - listitem [ref=e717]:
+                    - strong [ref=e718]: "[Added November 2025] No testing on production systems or services:"
+                    - text: "Researchers must NOT conduct proof-of-concept testing or active exploitation directly against Vercel owned production repositories including:"
+                    - list [ref=e719]:
+                      - listitem [ref=e720]: Live Vercel services
+                      - listitem [ref=e721]: Vercel owned Production websites or APIs
+                      - listitem [ref=e722]: Deployed customer environments
+                      - listitem [ref=e723]: CI/CD in Vercel maintained repositories
+                      - listitem [ref=e724]: Vercel owned infrastructure
+                  - listitem [ref=e725]:
+                    - strong [ref=e726]: "Detailed reports required:"
+                    - text: Please provide detailed reports with reproducible steps and a zip artifact containing proof-of-concept code. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
+                  - listitem [ref=e727]:
+                    - strong [ref=e728]: "One vulnerability per report:"
+                    - text: Submit one vulnerability per report unless you need to chain vulnerabilities to provide impact.
+                  - listitem [ref=e729]:
+                    - strong [ref=e730]: "Duplicates:"
+                    - text: When duplicates occur, we award the first valid report against a currently supported version (provided it can be fully reproduced).
+                  - listitem [ref=e731]:
+                    - strong [ref=e732]: "Root cause consolidation:"
+                    - text: Multiple vulnerabilities caused by one underlying issue will be awarded one bounty. Reports addressing the same issue will be marked as duplicates if the previously rolled-out patch works for the submitted affected version. However, if the patch doesn't work on the submitted affected version, it may be considered for a bounty reward at Vercel's discretion.
+                  - listitem [ref=e733]:
+                    - strong [ref=e734]: "No social engineering:"
+                    - text: Social engineering (e.g., phishing, vishing, smishing) is prohibited.
+                  - listitem [ref=e735]:
+                    - strong [ref=e736]: "Good faith testing:"
+                    - text: Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of services.
+                  - listitem [ref=e737]: Do not access more data than necessary for a proof of vulnerability.
+                  - listitem [ref=e738]: Stop immediately if you encounter personal data/secrets; do not download; redact.
+                  - listitem [ref=e739]: Do not attempt to achieve, or maintain, persistence on any Vercel owned system.
+                  - listitem [ref=e740]:
+                    - strong [ref=e741]: "Scanner rate limits:"
+                    - text: When testing explicitly in-scope Vercel-operated assets, security scanners must be limited to 5 queries per second (QPS) when testing against Vercel domains to avoid service disruption.
+                  - listitem [ref=e742]:
+                    - strong [ref=e743]: "Account ownership:"
+                    - text: Only interact with accounts you own or with the explicit written permission of the account holder.
+                  - listitem [ref=e744]: Do not damage, cause disruption, access data, or modify data on any systems you are not authorized to test on (including all Vercel systems and services).
+                  - listitem [ref=e745]: All tests performed must not violate any law or compromise data that you do not own.
+                  - listitem [ref=e746]: Do not make any threats against or towards Vercel or HackerOne staff.
+                  - listitem [ref=e747]: Do not submit AI generated reports without first reviewing and confirming real impact and verifying a working Proof-of-Concept.
+                  - listitem [ref=e748]: Do not share or publish details of a report without explicit permission from Vercel staff.
+                  - listitem [ref=e749]: Any PRs or contributions related to a report should be shared with Vercel staff through private forks unless given explicit permission from Vercel staff.
+                - heading "Testing Guidelines" [level=2] [ref=e750]
+                - heading "For testing open source projects:" [level=3] [ref=e751]
+                - list [ref=e752]:
+                  - listitem [ref=e753]: Use standard development environments and officially documented setup procedures
+                  - listitem [ref=e754]: Test against the latest stable releases unless investigating specific version issues
+                  - listitem [ref=e755]:
+                    - text: Please use your HackerOne alias email when creating test accounts if needed (
+                    - link "h1username@wearehackerone.com" [ref=e756] [cursor=pointer]:
+                      - /url: mailto:h1username@wearehackerone.com
+                    - text: )
+                  - listitem [ref=e757]: Focus on the source code and documented functionality rather than specific deployment configurations
+                - generic [ref=e758]:
+                  - text: See
+                  - link "Submission Requirements" [ref=e759] [cursor=pointer]:
+                    - /url: "#user-content-submission-requirements"
+                  - text: (above) for what makes a report eligible and what to include in your report.
+                - heading "Disclosure & Confidentiality Policy" [level=2] [ref=e760]
+                - generic [ref=e761]: "Participation in this program is conditional on confidentiality obligations. By submitting a report, you agree to the following:"
+                - list [ref=e762]:
+                  - listitem [ref=e763]: Confidential Information includes all, but is not limited to, all vulnerability reports, proof-of-concept code, communications with Vercel, program documentation, and any related materials shared or generated through your participation.
+                  - listitem [ref=e764]: You may only use Confidential Information for the purpose of participating in this program.
+                  - listitem [ref=e765]: You may not disclose Confidential Information to any third party without Vercel's express written consent, except to authorized Vercel employees, or contractors who have a legitimate need to know and are bound by equivalent confidentiality obligations.
+                  - listitem [ref=e766]: You must keep all Confidential Information secure and promptly notify Vercel if you become aware of a breach.
+                  - listitem [ref=e767]: You must securely delete Confidential Information within 30 days of Vercel's written request, except where retention is required for legal or compliance reasons.
+                  - listitem [ref=e768]: Confidentiality obligations last for two (2) years from the date of disclosure, even if this program ends or your participation ceases.
+                - generic [ref=e769]: Disclosure of vulnerabilities, including resolved issues, will be at Vercel's discretion and coordinated with the researcher. Vercel aims to post advisories on applicable repositories after appropriate remediation and coordination periods.
+                - generic [ref=e770]:
+                  - text: Researchers must respect all applicable laws and the community standards outlined in the
+                  - link "Vercel Code of Conduct" [ref=e771] [cursor=pointer]:
+                    - /url: https://github.com/vercel/vercel/blob/main/.github/CODE_OF_CONDUCT.md
+                  - text: . Any behavior that violates this Code may result in disqualification from the program and forfeiture of bounty eligibility.
+                - generic [ref=e772]:
+                  - text: Researchers must also follow
+                  - link "HackerOne's disclosure guidelines" [ref=e773] [cursor=pointer]:
+                    - /url: https://www.hackerone.com/terms/disclosure-guidelines
+                  - text: . Where there is any conflict between those guidelines and this Policy, this Policy prevails.
+                - generic [ref=e774]: Breach of these obligations will result in disqualification from the program and forfeiture of eligibility for rewards.
+                - heading "CVEs" [level=2] [ref=e775]
+                - generic [ref=e776]: "CVEs will be provided at Vercel's discretion, but vulnerabilities must meet the following minimum requirements for consideration:"
+                - list [ref=e777]:
+                  - listitem [ref=e778]: Lead to action on a Tier 1 repository with an adjusted CVSS score of at least 3.8
+                  - listitem [ref=e779]: Lead to action on a Tier 2 repository with an adjusted CVSS score of at least 7.0
+                  - listitem [ref=e780]: Vulnerability must be present in distributable code (npm, pypi, or similar)
+                  - listitem [ref=e781]: Vulnerability must not be reliant on an experimental feature or "development mode"
+                - generic [ref=e782]: Reports given a CVE will be made public 30 days after the CVE's publication (subject to variability at Vercel's discretion).
+                - heading "Response Targets (SLAs)" [level=2] [ref=e783]
+                - generic [ref=e784]: "Vercel will make a best effort to meet the following response targets:"
+                - list [ref=e785]:
+                  - listitem [ref=e786]:
+                    - strong [ref=e787]: "Time to first response (from report submitted):"
+                    - text: 1 business day
+                  - listitem [ref=e788]:
+                    - strong [ref=e789]: "Time to triage (from report submitted):"
+                    - text: 7 business days
+                  - listitem [ref=e790]:
+                    - strong [ref=e791]: "Time to bounty decision (from triage):"
+                    - text: 10 business days
+                - generic [ref=e792]: We'll try to keep you informed of our progress throughout the process.
+                - heading "Ineligible Participants" [level=2] [ref=e793]
+                - list [ref=e794]:
+                  - listitem [ref=e795]: Vercel employees and contractors (past or present)
+                  - listitem [ref=e796]: Maintainers/contributors of Vercel Sponsored projects (past or present)
+                  - listitem [ref=e797]: Immediate family members of Vercel employees
+                  - listitem [ref=e798]: Individuals involved in the vulnerability discovery or fix
+                  - listitem [ref=e799]: HackerOne staff working on this program
+                - heading "Support" [level=2] [ref=e800]
+                - list [ref=e801]:
+                  - listitem [ref=e802]:
+                    - link "HackerOne Support" [ref=e803] [cursor=pointer]:
+                      - /url: https://docs.hackerone.com/en/articles/8872013-support-mediation-hours#h_554d36c0f9
+                  - listitem [ref=e804]:
+                    - link "security@vercel.com" [ref=e805] [cursor=pointer]:
+                      - /url: mailto:security@vercel.com
+                - generic [ref=e806]: Thank you for helping keep Vercel's open source ecosystem and developer community safe! We value your contributions to OSS security.
+            - generic [ref=e807]:
+              - generic [ref=e809]:
+                - heading "Top hackers" [level=2] [ref=e810]
+                - link "See all hackers" [ref=e813] [cursor=pointer]:
+                  - /url: /vercel-open-source/thanks
+              - generic [ref=e821]:
+                - generic [ref=e822]:
+                  - generic [ref=e823]: "1"
+                  - img "andrewmohawk" [ref=e827]
+                  - generic [ref=e828]:
+                    - link "andrewmohawk" [ref=e829] [cursor=pointer]:
+                      - /url: /andrewmohawk?type=user
+                    - generic "213" [ref=e831]: "Reputation: 213"
+                - generic [ref=e832]:
+                  - generic [ref=e833]: "2"
+                  - generic [ref=e835]:
+                    - img "aphantom" [ref=e837]
+                    - img [ref=e839]:
+                      - img "Clear-verified badge" [ref=e840]
+                  - generic [ref=e845]:
+                    - link "aphantom" [ref=e846] [cursor=pointer]:
+                      - /url: /aphantom?type=user
+                    - generic "189" [ref=e848]: "Reputation: 189"
+                - generic [ref=e849]:
+                  - generic [ref=e850]: "3"
+                  - generic [ref=e852]:
+                    - img "adnanthekhan" [ref=e854]
+                    - img [ref=e856]:
+                      - img "Clear-verified badge" [ref=e857]
+                  - generic [ref=e862]:
+                    - link "adnanthekhan" [ref=e863] [cursor=pointer]:
+                      - /url: /adnanthekhan?type=user
+                    - generic "175" [ref=e865]: "Reputation: 175"
+                - generic [ref=e866]:
+                  - generic [ref=e867]: "4"
+                  - generic [ref=e869]:
+                    - img "sndd" [ref=e871]
+                    - img [ref=e873]:
+                      - img "ID-verified" [ref=e874]
+                  - generic [ref=e878]:
+                    - link "sndd" [ref=e879] [cursor=pointer]:
+                      - /url: /sndd?type=user
+                    - generic "148" [ref=e881]: "Reputation: 148"
+                - generic [ref=e882]:
+                  - generic [ref=e883]: "5"
+                  - generic [ref=e885]:
+                    - img "jviide" [ref=e887]
+                    - img [ref=e889]:
+                      - img "ID-verified" [ref=e890]
+                  - generic [ref=e894]:
+                    - link "jviide" [ref=e895] [cursor=pointer]:
+                      - /url: /jviide?type=user
+                    - generic "142" [ref=e897]: "Reputation: 142"
+                - generic [ref=e898]:
+                  - generic [ref=e899]: "6"
+                  - img "mxnd" [ref=e903]
+                  - generic [ref=e904]:
+                    - link "mxnd" [ref=e905] [cursor=pointer]:
+                      - /url: /mxnd?type=user
+                    - generic "139" [ref=e907]: "Reputation: 139"
+                - generic [ref=e908]:
+                  - generic [ref=e909]: "7"
+                  - generic [ref=e911]:
+                    - img "aviv_keller" [ref=e913]
+                    - img [ref=e915]:
+                      - img "Clear-verified badge" [ref=e916]
+                  - generic [ref=e921]:
+                    - link "aviv_keller" [ref=e922] [cursor=pointer]:
+                      - /url: /aviv_keller?type=user
+                    - generic "116" [ref=e924]: "Reputation: 116"
+                - generic [ref=e925]:
+                  - generic [ref=e926]: "8"
+                  - generic [ref=e928]:
+                    - img "hellnia" [ref=e930]
+                    - img [ref=e932]:
+                      - img "Clear-verified badge" [ref=e933]
+                  - generic [ref=e938]:
+                    - link "hellnia" [ref=e939] [cursor=pointer]:
+                      - /url: /hellnia?type=user
+                    - generic "114" [ref=e941]: "Reputation: 114"
+                - generic [ref=e942]:
+                  - generic [ref=e943]: "9"
+                  - generic [ref=e945]:
+                    - img "rafabd1" [ref=e947]
+                    - img [ref=e949]:
+                      - img "ID-verified" [ref=e950]
+                  - generic [ref=e954]:
+                    - link "rafabd1" [ref=e955] [cursor=pointer]:
+                      - /url: /rafabd1?type=user
+                    - generic "103" [ref=e957]: "Reputation: 103"
+                - generic [ref=e958]:
+                  - generic [ref=e959]: "10"
+                  - generic [ref=e961]:
+                    - img "cswiers" [ref=e963]
+                    - img [ref=e965]:
+                      - img "Clear-verified badge" [ref=e966]
+                  - generic [ref=e971]:
+                    - link "cswiers" [ref=e972] [cursor=pointer]:
+                      - /url: /cswiers?type=user
+                    - generic "88" [ref=e974]: "Reputation: 88"
+                - generic [ref=e975]:
+                  - generic [ref=e976]: "11"
+                  - generic [ref=e978]:
+                    - img "ragrocks" [ref=e980]
+                    - img [ref=e982]:
+                      - img "ID-verified" [ref=e983]
+                  - generic [ref=e987]:
+                    - link "ragrocks" [ref=e988] [cursor=pointer]:
+                      - /url: /ragrocks?type=user
+                    - generic "79" [ref=e990]: "Reputation: 79"
+                - generic [ref=e991]:
+                  - generic [ref=e992]: "12"
+                  - generic [ref=e994]:
+                    - img "cyberjoker" [ref=e996]
+                    - img [ref=e998]:
+                      - img "ID-verified" [ref=e999]
+                  - generic [ref=e1003]:
+                    - link "cyberjoker" [ref=e1004] [cursor=pointer]:
+                      - /url: /cyberjoker?type=user
+                    - generic "76" [ref=e1006]: "Reputation: 76"
+          - generic [ref=e1008]:
+            - button [ref=e1009] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=e1010]:
+                - img "Collapse sidebar" [ref=e1012]
+            - generic [ref=e1017]:
+              - generic [ref=e1018]:
+                - generic [ref=e1019]:
+                  - img "vercel-open-source" [ref=e1023]
+                  - generic [ref=e1024]: Vercel Open Source
+                - generic [ref=e1026]:
+                  - link "https://vercel.com/" [ref=e1028] [cursor=pointer]:
+                    - /url: https://vercel.com/
+                  - generic [ref=e1029]:
+                    - text: Bounty
+                    - generic [ref=e1030]: launched in Feb 2026
+                - generic [ref=e1033]:
+                  - text: "Response efficiency: 89%"
+                  - img "Response efficiency calculation information" [ref=e1036] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=e1038]
+              - generic [ref=e1040]:
+                - generic [ref=e1042]:
+                  - button "upload Submit without Report Assistant" [disabled]:
+                    - img "upload":
+                      - generic:
+                        - img "upload"
+                    - generic: Submit without Report Assistant
+                - generic [ref=e1043]:
+                  - heading "Stats" [level=1] [ref=e1044]
+                  - table [ref=e1045]:
+                    - rowgroup [ref=e1046]:
+                      - row [ref=e1047]:
+                        - cell "Total bounties paid" [ref=e1048]
+                        - cell "$296,133" [ref=e1049]
+                      - row [ref=e1052]:
+                        - cell "Average bounty range" [ref=e1053]
+                        - cell "$700 - $907" [ref=e1054]:
+                          - generic [ref=e1055]:
+                            - generic [ref=e1056]: $700
+                            - text: "-"
+                            - generic [ref=e1058]: $907
+                      - row [ref=e1060]:
+                        - cell "Top bounty range" [ref=e1061]
+                        - cell "$5,000 - $10,250" [ref=e1062]:
+                          - generic [ref=e1063]:
+                            - generic [ref=e1064]: $5,000
+                            - text: "-"
+                            - generic [ref=e1066]: $10,250
+                      - row [ref=e1068]:
+                        - cell "Bounties paid | 90 days" [ref=e1069]
+                        - cell "$96,905" [ref=e1070]
+                      - row [ref=e1073]:
+                        - cell "Reports received | 90 days" [ref=e1074]
+                        - cell "5136" [ref=e1075]
+                      - row [ref=e1076]:
+                        - cell "Last report resolved" [ref=e1077]
+                        - cell "2 days ago" [ref=e1078]
+                      - row [ref=e1079]:
+                        - cell "Reports resolved" [ref=e1080]
+                        - cell "116" [ref=e1081]
+                      - row [ref=e1082]:
+                        - cell "Hackers thanked" [ref=e1083]
+                        - cell "880" [ref=e1084]
+                      - row [ref=e1085]:
+                        - cell "Assets In Scope" [ref=e1086]
+                        - cell "19" [ref=e1087]
+        - generic [ref=e1093]:
+          - generic [ref=e1094]: © HackerOne
+          - list [ref=e1095]:
+            - listitem [ref=e1096]:
+              - link "Opportunities" [ref=e1097] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=e1098]:
+              - link "Security" [ref=e1099] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=e1100]:
+              - link "Leaderboard" [ref=e1101] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=e1102]:
+              - link "Blog" [ref=e1103] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=e1104]:
+              - link "Status" [ref=e1105] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=e1106]:
+              - link "Docs" [ref=e1107] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=e1108]:
+              - link "Support" [ref=e1109] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=e1110]:
+              - link "Disclosure Guidelines" [ref=e1111] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=e1112]:
+              - link "Press" [ref=e1113] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=e1114]:
+              - link "Privacy" [ref=e1115] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=e1116]:
+              - link "Terms" [ref=e1117] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=e1118]:
+              - link [ref=e1119] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=e1120]

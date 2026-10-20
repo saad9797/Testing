@@ -1,0 +1,859 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip to main content >" [ref=e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=e9]:
+        - link "Go back to homepage" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=e12]
+        - generic [ref=e14]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=e43]:
+      - link [ref=e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=e50]: Learn more about HackerOne
+      - link "Log in" [ref=e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - tree [ref=e59]:
+        - button [ref=e61] [cursor=pointer]:
+          - img "collapse menu" [ref=e62]:
+            - img "collapse menu" [ref=e64]
+        - generic [ref=e67]:
+          - treeitem "Security page" [expanded] [ref=e68] [cursor=pointer]
+          - group [ref=e71]:
+            - treeitem "Program guidelines" [selected] [ref=e72] [cursor=pointer]
+            - treeitem "Scope" [ref=e74] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=e76] [cursor=pointer]
+            - treeitem "Thanks" [ref=e78] [cursor=pointer]
+            - treeitem "Updates" [ref=e80] [cursor=pointer]
+            - treeitem "Collaborators" [ref=e82] [cursor=pointer]
+            - treeitem "Safe harbor" [ref=e84] [cursor=pointer]
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - heading "Program highlights" [level=2] [ref=e93]
+              - generic [ref=e97]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: Gold Standard Safe Harbor
+                  - generic [ref=e108]:
+                    - text: Adheres to Gold Standard Safe Harbor.
+                    - link "Learn more about Gold Standard Safe Harbor (opens in a new tab)" [ref=e110] [cursor=pointer]:
+                      - /url: https://docs.hackerone.com/en/articles/8494525-gold-standard-safe-harbor-statement
+                - generic [ref=e115]:
+                  - generic [ref=e116]: Managed by HackerOne
+                  - generic [ref=e121]: Collaboration Enabled
+                  - generic [ref=e126]: Includes Retesting
+            - generic [ref=e131]:
+              - generic [ref=e135]:
+                - generic [ref=e141]: 3 hours
+                - generic [ref=e142]: Average time to first response
+              - generic [ref=e146]:
+                - generic [ref=e152]: 1 month, 1 week
+                - generic [ref=e153]: Average time to bounty
+              - generic [ref=e157]:
+                - generic [ref=e163]: 1 month, 1 week
+                - generic [ref=e164]: Average time from submission to bounty
+              - generic [ref=e168]:
+                - generic [ref=e174]: 2 months, 6 days
+                - generic [ref=e175]: Average time to resolution
+            - generic [ref=e176]:
+              - generic [ref=e178]:
+                - heading "Rewards summary" [level=2] [ref=e179]
+                - generic [ref=e181]:
+                  - generic [ref=e182]: Last updated on November 22, 2021.
+                  - link "View changes" [ref=e183] [cursor=pointer]:
+                    - /url: /gitlab/bounty_table_versions
+              - generic [ref=e191]:
+                - generic [ref=e192]: Each severity lists the 90-day average bounty and the percentage of total resolved reports, if applicable.
+                - table [ref=e194]:
+                  - row [ref=e196]:
+                    - columnheader "Low Avg. bounty $649 27.18% submissions" [ref=e197]:
+                      - generic [ref=e201]:
+                        - generic [ref=e202]: Low
+                        - paragraph [ref=e207]:
+                          - generic [ref=e208]: Avg. bounty $649
+                          - generic [ref=e209]: 27.18% submissions
+                    - columnheader "Medium Avg. bounty $1,345 46.16% submissions" [ref=e210]:
+                      - generic [ref=e214]:
+                        - generic [ref=e215]: Medium
+                        - paragraph [ref=e220]:
+                          - generic [ref=e221]: Avg. bounty $1,345
+                          - generic [ref=e222]: 46.16% submissions
+                    - columnheader "High Avg. bounty $11,153 21.51% submissions" [ref=e223]:
+                      - generic [ref=e227]:
+                        - generic [ref=e228]: High
+                        - paragraph [ref=e233]:
+                          - generic [ref=e234]: Avg. bounty $11,153
+                          - generic [ref=e235]: 21.51% submissions
+                    - columnheader "Critical Avg. bounty $17,731 5.15% submissions" [ref=e236]:
+                      - generic [ref=e240]:
+                        - generic [ref=e241]: Critical
+                        - paragraph [ref=e246]:
+                          - generic [ref=e247]: Avg. bounty $17,731
+                          - generic [ref=e248]: 5.15% submissions
+                  - row [ref=e250]:
+                    - cell "$100 – $750" [ref=e251]
+                    - cell "$1,000 – $2,500" [ref=e254]
+                    - cell "$5,000 – $15,000" [ref=e257]
+                    - cell "$20,000 – $35,000" [ref=e260]
+            - generic [ref=e263]:
+              - heading "Scope exclusions" [level=2] [ref=e266]
+              - generic [ref=e271]:
+                - text: Core Ineligible Findings are out of scope.
+                - link "Learn more" [ref=e272] [cursor=pointer]:
+                  - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+            - generic [ref=e278]:
+              - heading "Platform standards deviations" [level=2] [ref=e281]
+              - generic [ref=e285]:
+                - generic [ref=e286]: This program has not committed to the following Platform Standards. As such the report severity or outcome may differ.
+                - list [ref=e287]:
+                  - listitem [ref=e288]:
+                    - strong [ref=e291]: Severity rating for vulnerabilities involving a self-sign-up flow
+                    - generic [ref=e292]: "Note that even if GitLab.com allows self-registration, most GitLab instances in the wild don't -- which makes vulnerabilities that are exploitable without authentication a lot more impactful. For this reason, any vulnerability that requires an account will not be scored with \"Privilege Required: None\"."
+                - generic [ref=e293]:
+                  - text: Check
+                  - link "here" [ref=e294] [cursor=pointer]:
+                    - /url: https://docs.hackerone.com/en/articles/8369826-detailed-platform-standards#h_e01bc643a8
+                  - text: for the full Platform Standards page list.
+            - generic [ref=e295]:
+              - generic [ref=e297]:
+                - heading "Overview" [level=2] [ref=e298]
+                - generic [ref=e300]:
+                  - generic [ref=e301]: Last updated on July 21, 2026.
+                  - link "View changes" [ref=e302] [cursor=pointer]:
+                    - /url: /gitlab/policy_versions
+              - generic [ref=e310]:
+                - heading "Rewards" [level=1] [ref=e311]
+                - generic [ref=e312]: We have different rewards depending on the business impact of each asset. A more complete description of each asset will be in the scope section, but in general GitLab.com and all our products' source code is rewarded the highest, then non-production environments have reduced bounties and our static websites have the lowest payouts.
+                - generic [ref=e313]:
+                  - text: See the Rewards section above for our bounty ranges. For reports with critical or high severity we pay $1000 at the time the report is triaged, and for medium severity reports we pay $500. The remainder, if any, will be paid as soon as the severity has been fully analyzed internally. The calculator we use to calculate CVSS-based bounty amounts is
+                  - link "accessible to everyone" [ref=e314] [cursor=pointer]:
+                    - /url: https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/
+                  - text: .
+                - generic [ref=e315]: Reports about intended behavior resulting in an update of our documentation will be rewarded with a $100 bounty, as long as this update is security related.
+                - generic [ref=e316]: GitLab assigns CVE identifiers to vulnerabilities affecting GitLab products. While the CVSS score for those should generally align with the severity set in the HackerOne report, sometimes they will differ depending on our assessment of the business impact based on existing mitigations, the sensitivity of the impacted data, and number of impacted customers among other factors.
+                - generic [ref=e317]: While we try to be as consistent as possible with rewards, our program is also evolving and rewards may change accordingly to how our program evolves with time.
+                - generic [ref=e318]:
+                  - text: For valid reports for which the author can't accept monetary rewards, we offer to plant trees in our
+                  - link "GitLab forest" [ref=e319] [cursor=pointer]:
+                    - /url: https://tree-nation.com/trees/view/5119567
+                  - text: on their behalf.
+                - heading "GitLab Ultimate License" [level=2] [ref=e320]
+                - generic [ref=e321]:
+                  - text: Reporters which have submitted three or more valid findings to our program are eligible to receive a one year self-hosted Ultimate license supporting up to five users. If you believe you're eligible, please request the Ultimate license via a comment in one of your reports mentioning the assigned security engineer, and include links to your other two valid reports. Once verified, the license will be sent to your
+                  - code [ref=e322]: "[username]@wearehackerone.com"
+                  - text: email address. Any further valid submissions in that year will extend you the next year's license for free too.
+                - heading "How severity is determined" [level=2] [ref=e323]
+                - generic [ref=e324]:
+                  - text: Upon receipt of the finding, we will conduct an internal investigation to understand the full impact of the vulnerability. We then assess the severity using the Common Vulnerability Scoring System (CVSS) and score according to the guidelines you can see in the "help & definitions" section of our
+                  - link "CVSS calculator" [ref=e325] [cursor=pointer]:
+                    - /url: https://gitlab-com.gitlab.io/gl-security/appsec/cvss-calculator/
+                  - text: ". Note that even if GitLab.com allows self-registration, most GitLab instances in the wild don't -- which makes vulnerabilities that are exploitable without authentication a lot more impactful. For this reason, any vulnerability that requires an account will not be scored with \"Privilege Required: None\"."
+                - generic [ref=e326]: Reports for security issues that aren't vulnerabilities in our systems and where CVSS isn't appropriate (for example a leaked confidential document) will receive a discretionary bounty based on our assessment of the impact of the finding.
+                - generic [ref=e327]:
+                  - text: We collaborate with HackerOne Triage Service for quickly identifying valid and impactful reports. By-passing the HackerOne triage service by opening issues in GitLab project or reaching out to GitLab team members directly on reports or via other mediums is a violation of
+                  - link "HackerOne Code of Conduct (CoC)" [ref=e328] [cursor=pointer]:
+                    - /url: https://www.hackerone.com/policies/code-of-conduct
+                  - text: and might attract CoC enforcement actions.
+                - generic [ref=e329]: CVSS scores and bounty awards are determined by the consensus of the GitLab Bug Bounty Council. Multiple team members review and validate the CVSS for each triaged report to ensure accurate and impartial assessments. Reporters can raise concerns if they believe a CVSS metric has been misjudged. However, the final decision on CVSS scoring and bounty awards rests with the council.
+                - heading "Duplicates" [level=2] [ref=e330]
+                - generic [ref=e331]: For different attack vectors that result in the same mitigation, GitLab reserves the right to reward the first report that is validated for that fix. All subsequent reports that are addressed by that mitigation will be considered as duplicates, regardless of the attack vector.
+                - heading "Rules of Engagement, Testing, and Proof-of-concepts" [level=1] [ref=e332]
+                - generic [ref=e333]: "When researching security issues, especially those which may compromise the privacy of others, you must use only test accounts in order to respect our users’ privacy. Accessing private information of other users, performing actions that may negatively affect GitLab’s users (e.g., spam, denial of service) will disqualify the report. Activity that is disruptive to GitLab operations will result in account bans and disqualification of the report. Examples of disruptive activity include, but are not limited to:"
+                - list [ref=e334]:
+                  - listitem [ref=e335]: Generating abuse requests
+                  - listitem [ref=e336]: Submission of support, sales or other requests to 3rd party systems
+                  - listitem [ref=e337]: Mass creation of users, groups, and projects
+                  - listitem [ref=e338]: Typosquatting or other namesquatting
+                  - listitem [ref=e339]: Spam-like or other high volume activity
+                - generic [ref=e340]: Sending reports from automated tools without verifying them will immediately disqualify the report.
+                - generic [ref=e341]:
+                  - text: Disruptive activity such as that listed above can be researched freely on your own installation of
+                  - code [ref=e342]: gitlab
+                  - text: . GitLab is an open-core company, with the source code powering GitLab.com available in the
+                  - link "main GitLab Project" [ref=e343] [cursor=pointer]:
+                    - /url: https://gitlab.com/gitlab-org/gitlab
+                  - text: . You are encouraged to
+                  - link "install" [ref=e344] [cursor=pointer]:
+                    - /url: https://about.gitlab.com/install/
+                  - text: your own standalone instance for researching vulnerabilities.
+                - generic [ref=e345]: "Due to an increase in low-quality AI-generated submissions, all reports must include one of the following reproduction artifacts: screen captures, videos, and logs showing vulnerabilities against your own GitLab installation. Reports without sufficient and verifiable evidence will be closed as N/A without further investigation and will not be considered as the original submission when it comes to duplication handling."
+                - generic [ref=e346]:
+                  - strong [ref=e347]:
+                    - text: We strongly encourage security testing on your local
+                    - link "GitLab Development Kit (GDK)" [ref=e348] [cursor=pointer]:
+                      - /url: https://gitlab.com/gitlab-org/gitlab-development-kit
+                    - text: instance
+                  - text: "rather than GitLab.com for most vulnerability research. The GDK provides:"
+                - list [ref=e349]:
+                  - listitem [ref=e350]: Access to the latest development features before public release
+                  - listitem [ref=e351]: No rate limits or testing restrictions on your local instance
+                  - listitem [ref=e352]: Safe environment for testing most vulnerability types
+                  - listitem [ref=e353]: "[GDK Security Testing Guide - link to create]"
+                - generic [ref=e354]:
+                  - strong [ref=e355]: "For Denial of Service (DoS) vulnerabilities specifically:"
+                  - text: Testing and demonstrating DoS impact on a local GDK instance can be problematic. If you need to demonstrate DoS impact, we recommend testing on a self-managed GitLab instance with specifications and resources equal to or greater than the
+                  - link "self-managed GitLab installation requirements" [ref=e356] [cursor=pointer]:
+                    - /url: https://docs.gitlab.com/install/requirements/
+                  - text: .
+                  - strong [ref=e357]: Never test DoS vulnerabilities on GitLab.com.
+                - generic [ref=e358]:
+                  - text: For vulnerabilities requiring GitLab.com production architecture, you must use test accounts created with your HackerOne email alias (
+                  - link "yourhandle@wearehackerone.com" [ref=e359] [cursor=pointer]:
+                    - /url: mailto:yourhandle@wearehackerone.com
+                  - text: ).
+                  - strong [ref=e360]: Never test against projects, groups, accounts, or instances you do not own.
+                - generic [ref=e361]:
+                  - strong [ref=e362]: Behave professionally
+                  - text: . Failure to follow HackerOne's policies, such as the
+                  - link "Code of Conduct" [ref=e363] [cursor=pointer]:
+                    - /url: https://www.hackerone.com/policies/code-of-conduct
+                  - text: ", may result in the report being ineligible for a bounty at GitLab's sole discretion, in addition to any enforcement action HackerOne may decide to take."
+                - heading "Demonstrating Impact" [level=2] [ref=e364]
+                - list [ref=e365]:
+                  - listitem [ref=e366]: Always choose a non disruptive option to demonstrate the impact. If the only way to demonstrate an impact is a disruptive one then stop and report the issue, we will validate the impact.
+                  - listitem [ref=e367]: In the case of reports related to credential leaks do not create additional access credentials using the leaked one. We will determine impact ourselves and award for the maximum impact we uncover.
+                  - listitem [ref=e368]:
+                    - text: In the case of reports related to Subdomain Takeovers, PoC's should create a simple page with your HackerOne handle as a single line of text at the affected URL. The page should utilize a UUID or complex string that wouldn't ordinarily be accessed. An example would be
+                    - code [ref=e369]: vulnerable-subdomain.example.com/$UUID-poc.txt
+                    - text: where $UUID is a hard-to-guess value.
+                  - listitem [ref=e370]: For sharing POC videos, directly upload the video in the report. Do not upload POC videos in public platforms until the report is disclosed. Please refer to our disclosure policy for more details.
+                - heading "Testing on GitLab.com" [level=2] [ref=e371]
+                - generic [ref=e372]:
+                  - strong [ref=e373]:
+                    - text: When testing on GitLab.com, your
+                    - code [ref=e374]: "@wearehackerone.com"
+                    - text: address must be associated with the testing account.
+                  - text: If separate accounts are necessary,
+                  - link "you can use an alias" [ref=e375] [cursor=pointer]:
+                    - /url: https://docs.hackerone.com/hackers/hacker-email-alias.html#multiple-aliases
+                  - text: . This will help us separate testing from other forms of abuse, and help inform the decision of blocking an account. Note that this does not provide immunity and the Rules of engagement must be followed at all times.
+                - generic [ref=e376]: Please keep note of any IP addresses you use during your research, as this can help us when investigating and remediating vulnerabilities.
+                - generic [ref=e377]: Please don't request Developer access to our projects, including the GitLab Community Forks group. While it can indeed be a security risk for the company that a random person joins those projects, it is something the security team handles and we don't want bug bounty hunters to test those workflows as it creates unnecessary noise for our teams.
+                - heading "SLA" [level=1] [ref=e378]
+                - generic [ref=e379]: "GitLab will make a best effort to meet the following SLAs for hackers participating in our program:"
+                - list [ref=e380]:
+                  - listitem [ref=e381]: Time to first response (from report submit) - 1 business day
+                  - listitem [ref=e382]: Time to triage (from report submit) - 5 business days
+                  - listitem [ref=e383]: Time to bounty (from triage) - between 5 and 45 business days
+                - generic [ref=e384]: The only appropriate place to inquire about a HackerOne report's status is on the report itself. Please refrain from submitting your report or inquiring about its status through additional channels including any other unrelated HackerOne report, as this unnecessarily binds resources in the security team.
+                - heading "Scope" [level=1] [ref=e385]
+                - generic [ref=e386]: All GitLab Inc. products are in scope unless explicitly noted otherwise.
+                - generic [ref=e387]:
+                  - text: Testing on subdomains that are neither explicitly in scope nor out of scope isn't encouraged, but if you can find a vulnerability with business impact on such a subdomain please report it. We normally close sufficiently clear reports as
+                  - code [ref=e388]: Informative
+                  - text: so there will be
+                  - link "no negative effect" [ref=e389] [cursor=pointer]:
+                    - /url: https://www.hackerone.com/blog/reputation-signal-impact-enhancements-whats-changing-and-why-it-matters
+                  - text: on your reputation score if we decide that it's out of scope. However, remember that GitLab subdomains that are running third party services are strictly out of scope.
+                - heading "GitLab Releases" [level=2] [ref=e390]
+                - generic [ref=e391]:
+                  - text: We release new features every month. You can
+                  - link "learn more about our release process" [ref=e392] [cursor=pointer]:
+                    - /url: https://about.gitlab.com/releases/
+                  - text: ", see the latest"
+                  - link "monthly release blog post" [ref=e393] [cursor=pointer]:
+                    - /url: https://about.gitlab.com/releases/categories/releases/
+                  - text: and see what's coming in
+                  - link "future releases" [ref=e394] [cursor=pointer]:
+                    - /url: https://about.gitlab.com/upcoming-releases/
+                  - text: . If you're bug hunting, might we suggest a newly released feature? 😉
+                - heading "Vulnerabilities in 3rd-party dependencies & packaged software" [level=2] [ref=e395]
+                - generic [ref=e396]: "Reports on vulnerabilities in third-party software which GitLab depends on will be accepted and a bounty rewarded if and only if:"
+                - list [ref=e397]:
+                  - listitem [ref=e398]: The report includes a new vulnerability, for which a patch is not available, or
+                  - listitem [ref=e399]: A patch has been available for more than 30 days.
+                  - listitem [ref=e400]: It has a clear and working proof of concept that illustrates the impact to GitLab.
+                  - listitem [ref=e401]: It has Critical or High impact to GitLab.
+                - generic [ref=e402]:
+                  - text: This does
+                  - insertion [ref=e403]: not
+                  - text: include websites of third party software and services and only includes dependencies & packaged software.
+                - heading "AI related vulnerabilities" [level=3] [ref=e404]
+                - generic [ref=e405]:
+                  - text: We only accept prompt injection related vulnerability reports where there is demonstrable impact beyond its current security boundary. GitLab continues to develop security protections for Duo and agentic systems which can be referred to
+                  - link "here" [ref=e406] [cursor=pointer]:
+                    - /url: https://docs.gitlab.com/user/duo_agent_platform/security_threats/
+                  - text: . Stay tuned for further iterations to the Bug Bounty program around AI related vulnerabilites in the near future.
+                - generic [ref=e407]:
+                  - text: Below is a running table of known prompt injection vulnerabilities that are
+                  - strong [ref=e408]: out of scope
+                  - text: for the GitLab bug bounty program. Do not submit reports for these specific known instances.
+                - table [ref=e409]:
+                  - rowgroup [ref=e410]:
+                    - row [ref=e411]:
+                      - columnheader "Vulnerability" [ref=e412]
+                      - columnheader "Link" [ref=e413]
+                  - rowgroup [ref=e414]:
+                    - row [ref=e415]:
+                      - cell "Duo Agentic Chat prompt injection vulnerability" [ref=e416]
+                      - cell [ref=e417]:
+                        - link "#581264" [ref=e418] [cursor=pointer]:
+                          - /url: https://gitlab.com/gitlab-org/gitlab/-/work_items/581264
+                    - row [ref=e419]:
+                      - cell "Filename Injection in TRUSTED_INTERNAL Tools" [ref=e420]
+                      - cell [ref=e421]:
+                        - link "#587934" [ref=e422] [cursor=pointer]:
+                          - /url: https://gitlab.com/gitlab-org/gitlab/-/work_items/587934
+                    - row [ref=e423]:
+                      - cell "Invisible Prompt Injection in Issues/MRs" [ref=e424]
+                      - cell [ref=e425]:
+                        - link "#586481" [ref=e426] [cursor=pointer]:
+                          - /url: https://gitlab.com/gitlab-org/gitlab/-/work_items/586481
+                    - row [ref=e427]:
+                      - cell "Context Boundary Failure in GitLab Duo Agent Tools" [ref=e428]
+                      - cell [ref=e429]:
+                        - link "#582995" [ref=e430] [cursor=pointer]:
+                          - /url: https://gitlab.com/gitlab-org/gitlab/-/work_items/582995
+                    - row [ref=e431]:
+                      - cell "TOCTOU and Prompt Injection in GitLab Duo \"Issue to MR\" Flow" [ref=e432]
+                      - cell [ref=e433]:
+                        - link "#584107" [ref=e434] [cursor=pointer]:
+                          - /url: https://gitlab.com/gitlab-org/gitlab/-/work_items/584107
+                    - row [ref=e435]:
+                      - cell "Hidden Prompt Injection in AI Catalog Agents" [ref=e436]
+                      - cell [ref=e437]:
+                        - link "#579778" [ref=e438] [cursor=pointer]:
+                          - /url: https://gitlab.com/gitlab-org/gitlab/-/work_items/579778
+                    - row [ref=e439]:
+                      - cell "MCP Tool Description Injection" [ref=e440]
+                      - cell [ref=e441]:
+                        - link "#552644" [ref=e442] [cursor=pointer]:
+                          - /url: https://gitlab.com/gitlab-org/gitlab/-/work_items/552644
+                - generic [ref=e443]: AI generated or assisted reports that include static code analysis without providing clear proof of exploitability and demonstrating practical security impact will not be accepted.
+                - generic [ref=e444]: For AI hallucination reports, such as AI suggesting a package that does not exist, we will not be accepting any such report going forward.
+                - heading "Out of scope" [level=2] [ref=e445]
+                - list [ref=e446]:
+                  - listitem [ref=e447]: Automated scanning reports of any kind
+                  - listitem [ref=e448]:
+                    - text: GitLab sites of third party software and services (marketing services, third-party mail services, developer/support installations etc.)
+                    - list [ref=e449]:
+                      - listitem [ref=e450]:
+                        - text: This includes
+                        - code [ref=e451]: gitlab.cn
+                        - text: and the JiHu-specific GitLab distribution which are property of GitLab Information Technology (Hubei) Co., Ltd. (JiHu), security issues in those products should be reported to
+                        - code [ref=e452]: security@gitlab.cn
+                  - listitem [ref=e453]: User content on GitLab.com (for example, a user that is not using proper permissions on their projects containing sensitive information)
+                  - listitem [ref=e454]:
+                    - text: Access tokens that do not provide access to GitLab company projects/groups/infrastructure or GitLab team member accounts (Please contact the owner of the token (you can find their email address by querying the
+                    - code [ref=e455]: /api/v4/user
+                    - text: API). If unable to find the token owner's email address you can disclose leaked tokens by creating a confidential issue assigned to the token owner in the project where the token was leaked)
+                  - listitem [ref=e456]: Our customers' GitLab installs
+                  - listitem [ref=e457]:
+                    - text: Intentionally public information and hosts, for example our marketing issues at
+                    - link "https://gitlab.com/gitlab-com/marketing" [ref=e458] [cursor=pointer]:
+                      - /url: https://gitlab.com/gitlab-com/marketing
+                  - listitem [ref=e459]: "Social engineering, phishing, or other fraud including but not limited to: internationalized domain name (IDN) homograph attacks, Right-to-left (RTL) Ambiguity, RTL Override (RTLO), SPF and DKIM issues, most HTML content injection, Tabnabbing"
+                  - listitem [ref=e460]: HTML or text injection is eligible only when significant impact can be achieved with minimal user interaction
+                  - listitem [ref=e461]: Missing Security Headers (eg. HSTS, CSP) and Missing Secure Flags on Cookies
+                  - listitem [ref=e462]: TLS/SSL or SSH issues (weak ciphers/key-size/BEAST/CRIME)
+                  - listitem [ref=e463]: CSRF without any security impact
+                  - listitem [ref=e464]:
+                    - text: User and project enumeration/path disclosure unless an additional impact can be demonstrated
+                    - list [ref=e465]:
+                      - listitem [ref=e466]:
+                        - text: "Reports where an attacker can validate a guess will not be accepted. Examples include but are not limited to:"
+                        - list [ref=e467]:
+                          - listitem [ref=e468]: An API route returning different status codes depending on if a private path exists or not
+                          - listitem [ref=e469]: An identical response but with significantly different timing depending on if a private path exists or not
+                          - listitem [ref=e470]: A response validating that a specific email address is registered
+                      - listitem [ref=e471]: Reports where an attacker can only disclose the ID of a private element will not be accepted
+                  - listitem [ref=e472]:
+                    - text: Denial of Service (DoS) issues
+                    - list [ref=e473]:
+                      - listitem [ref=e474]:
+                        - strong [ref=e475]: "Note:"
+                        - text: Exceptions may be considered for DoS vulnerabilities that both achieve persistent total service disruption AND can be executed through unauthenticated endpoints. The GitLab security team will determine, at our sole discretion, whether a report falls into this exception
+                      - listitem [ref=e476]: Volumetric attack (network flooding, request flooding, port flooding, etc.) submissions are never eligible
+                      - listitem [ref=e477]: A scenario where service disruption stops as soon as the requests stop does not qualify as persistent total service disruption, regardless of the request rate.
+                  - listitem [ref=e478]:
+                    - text: Lack of, or insufficient, rate limiting. (We are aware of the lack of rate-limiting in many places and our application-wide
+                    - link "application limits" [ref=e479] [cursor=pointer]:
+                      - /url: https://gitlab.com/groups/gitlab-org/-/epics/1737#type-of-limits
+                    - text: initiative aims to improve that)
+                  - listitem [ref=e480]: Reports about CVEs published on mailing lists, groups etc. without demonstrating an impact on GitLab
+                  - listitem [ref=e481]:
+                    - text: GitLab Runner reports that do not demonstrate the ability to impact data of other projects or GitLab infrastructure
+                    - list [ref=e482]:
+                      - listitem [ref=e483]:
+                        - text: Note that it is
+                        - link "documented behavior" [ref=e484] [cursor=pointer]:
+                          - /url: https://docs.gitlab.com/runner/executors/shell.html#security
+                        - text: of the Shell Executor to be able to see other projects on the same server
+                  - listitem [ref=e485]:
+                    - link "Self-managed Runner" [ref=e486] [cursor=pointer]:
+                      - /url: https://docs.gitlab.com/runner/security/
+                    - text: issues
+                  - listitem [ref=e487]:
+                    - text: Scenarios in which only the number of private objects is exposed, unless it can be used to extract any sensitive information contained in those objects
+                    - list [ref=e488]:
+                      - listitem [ref=e489]: For example a report showing that it's possible to see that a certain project has 17 issues even if only 15 are publicly visible would not be accepted
+                      - listitem [ref=e490]: However being able to demonstrate that there are 4 confidential issues with the word "SECRET TOKEN" in them would be a valid report
+                  - listitem [ref=e491]:
+                    - text: Spoofing email and username in git commits that aren't
+                    - link "signed with GPG" [ref=e492] [cursor=pointer]:
+                      - /url: https://docs.gitlab.com/ee/user/project/repository/signed_commits/gpg.html
+                  - listitem [ref=e493]: Clickjacking on pages with no sensitive actions
+                  - listitem [ref=e494]: High privilege users (maintainers, owners) using a bug to sabotage/deface their own projects
+                  - listitem [ref=e495]:
+                    - text: Being able to access attachments directly with a known URL (this is a
+                    - link "documented behavior" [ref=e496] [cursor=pointer]:
+                      - /url: https://gitlab.com/help/security/user_file_uploads.md
+                  - listitem [ref=e497]:
+                    - text: EXIF metadata not being stripped from images
+                    - list [ref=e498]:
+                      - listitem [ref=e499]: We are aware of ways to bypass the EXIF metadata stripping and intend to improve this, but we don't consider this impactful enough to be eligible for bounty
+                  - listitem [ref=e500]: Bypassing or creating fake licenses, or bypasses of feature restrictions where there is no security impact
+                  - listitem [ref=e501]: Name squatting on dependencies without demonstrating automated impact (e.g. namesquatting a rubygem on rubygems.org where GitLab only ever installs a locally vendored gem)
+                  - listitem [ref=e502]: Dangling DNS records on gitlabsandbox.net
+                  - listitem [ref=e503]:
+                    - text: Ability of banned users to behave as if they are unbanned. We have
+                    - link "a confidential epic" [ref=e504] [cursor=pointer]:
+                      - /url: https://gitlab.com/groups/gitlab-org/modelops/anti-abuse/-/epics/14
+                    - text: to improve this feature.
+                  - listitem [ref=e505]: Open redirects - in general these type of issues are informational and we only accept them if chained with other issues in order to create a more severe vulnerability
+                  - listitem [ref=e506]: Team member personal data leaked through YouTube videos - unless our own automation missed it.
+                  - listitem [ref=e507]:
+                    - text: Vulnerabilities in
+                    - link "Debian packages in the Package Registry" [ref=e508] [cursor=pointer]:
+                      - /url: https://docs.gitlab.com/ee/user/packages/debian_repository/
+                  - listitem [ref=e509]: GitLab's ServiceNow platform.
+                  - listitem [ref=e510]:
+                    - code [ref=e511]: "*.runway.gitlab.net"
+                    - text: endpoints
+                  - listitem [ref=e512]:
+                    - text: "Takeover of S3 buckets, domains or subdomains that are used for testing or if the takeover don't have an impact on GitLab infrastructure or to GitLab customers. Domains listed below are not eligible for vulnerability reports (GitLab reserves the right to adjust this list):"
+                    - list [ref=e513]:
+                      - listitem [ref=e514]:
+                        - code [ref=e515]: "*.gitlab-private.org"
+                  - listitem [ref=e516]:
+                    - text: CI/CD Variable Disclosure - as it stands, we currently see
+                    - link "our guidance to use external secret storage" [ref=e517] [cursor=pointer]:
+                      - /url: https://docs.gitlab.com/ee/ci/variables/#cicd-variable-security
+                    - text: as sufficient for addressing reports that rely on disclosing Masked CI/CD variables to prove impact.
+                  - listitem [ref=e518]: Taking over third party domains, such as external sites linked in old blog posts, or claiming unused employee social media accounts.
+                  - listitem [ref=e519]:
+                    - text: Attacks that require having a victim share or leak a privileged access token (e.g. personal access token, OAuth token, project or group access token, deploy token,
+                    - code [ref=e520]: _gitlab_session
+                    - text: token, or runner authentication token). Reports about leaked team member access tokens are still in-scope and eligible for non-CVSS bounties.
+                  - listitem [ref=e521]: Attacks requiring physical access to the victim's computer, including employee computer compromise
+                  - listitem [ref=e522]: Man-in-the-middle attacks
+                  - listitem [ref=e523]:
+                    - text: Metadata disclosure, enumeration, and information gathering issues are out of scope unless the researcher demonstrates a
+                    - strong [ref=e524]: privacy breach that exposes confidential user data or credentials
+                    - text: . GitLab is a collaborative DevOps platform designed for information sharing within projects.
+                    - list [ref=e525]:
+                      - listitem [ref=e526]:
+                        - strong [ref=e527]: "Out of scope examples:"
+                        - list [ref=e528]:
+                          - listitem [ref=e529]: Enumerating project IDs or determining whether a project exists
+                          - listitem [ref=e530]: Accessing branch names, feature flag names, or version information visible to legitimate project members
+                          - listitem [ref=e531]: Discovering template names, default configuration settings, or non-sensitive project metadata (creation dates, public descriptions)
+                          - listitem [ref=e532]: Extracting version history metadata that does not expose confidential commit content
+                      - listitem [ref=e533]:
+                        - strong [ref=e534]: "In scope examples (privacy breaches):"
+                        - list [ref=e535]:
+                          - listitem [ref=e536]: Revealing another user's private email address or credentials
+                          - listitem [ref=e537]: Accessing a different project's environment variables, secrets, or confidential CI/CD configuration you don't have legitimate access to
+                          - listitem [ref=e538]: Enumerating private repository contents without authorization
+                          - listitem [ref=e539]: Extracting confidential data from projects you don't have legitimate access to
+                  - listitem [ref=e540]:
+                    - text: DSN credentials for
+                    - code [ref=e541]: new-sentry.gitlab.net
+                    - text: . As per
+                    - link "sentry document" [ref=e542] [cursor=pointer]:
+                      - /url: https://docs.sentry.io/concepts/key-terms/dsn-explainer/#the-parts-of-the-data-source-name-dsn
+                    - text: ":"
+                    - blockquote [ref=e543]:
+                      - generic [ref=e544]: The secret part of the DSN is optional and effectively deprecated. While clients will still honor it, if supplied, future versions of Sentry will entirely ignore it.
+                  - listitem [ref=e545]:
+                    - text: Vulnerabilities that are only reproducible in our
+                    - link "GitLab Development kit" [ref=e546] [cursor=pointer]:
+                      - /url: https://gitlab.com/gitlab-org/gitlab-development-kit
+                    - text: .
+                - heading "Disclosure" [level=1] [ref=e547]
+                - generic [ref=e548]:
+                  - text: All
+                  - code [ref=e549]: Resolved
+                  - text: reports will be made public via issues on GitLab.com 90 days after releasing a fix. We will redact all information we consider sensitive (such as cookies or tokens), but do not hesitate to let us know if additional content should be hidden. If you also want the report to be disclosed via HackerOne, please
+                  - link "request disclosure" [ref=e550] [cursor=pointer]:
+                    - /url: https://docs.hackerone.com/programs/disclosure.html#requesting-disclosure
+                  - text: .
+                  - code [ref=e551]: Informative
+                  - text: or self-closed reports that are determined to be bugs or new
+                  - link "feature requests" [ref=e552] [cursor=pointer]:
+                    - /url: https://handbook.gitlab.com/handbook/security/product-security/application-security/vulnerability-management/#vulnerability-vs-feature-vs-bug
+                  - text: with no current security impact may be imported as public issues in our issue tracker at
+                  - link "https://gitlab.com/gitlab-org/gitlab/issues" [ref=e553] [cursor=pointer]:
+                    - /url: https://gitlab.com/gitlab-org/gitlab/issues
+                  - text: .
+                - heading "Safe Harbor" [level=1] [ref=e554]
+                - generic [ref=e555]:
+                  - text: The
+                  - link "Gold Standard Safe Harbor" [ref=e556] [cursor=pointer]:
+                    - /url: https://hackerone.com/gitlab/safe_harbor
+                  - text: applies.
+                - generic [ref=e557]:
+                  - text: Practices authorized under this GitLab HackerOne Bug Bounty Program policy are exceptions to GitLab's
+                  - link "Acceptable Use Policy" [ref=e558] [cursor=pointer]:
+                    - /url: https://about.gitlab.com/handbook/legal/acceptable-use-policy/
+                  - text: .
+                - heading "Eligibility for Participation" [level=1] [ref=e559]
+                - generic [ref=e560]: You are responsible for complying with any applicable laws. You are not eligible to participate in this program if you are currently an employee of GitLab, Inc. or any of its subsidiaries. Reports from former employees, immediate family of current employees, or other associates of GitLab.com that may present a conflict of interest of the goals of the program will be more thoroughly reviewed and may not qualify for the stated bounty awards at GitLab's discretion.
+                - heading "Our Process and Additional Information of Interest" [level=1] [ref=e561]
+                - list [ref=e562]:
+                  - listitem [ref=e563]:
+                    - text: For more details on the process the GitLab Security Team follows when working with HackerOne reports, please see
+                    - link "our handbook" [ref=e564] [cursor=pointer]:
+                      - /url: https://handbook.gitlab.com/handbook/security/product-security/application-security/runbooks/hackerone-process/
+                    - text: . This includes further details on our triage and award review process.
+                  - listitem [ref=e565]:
+                    - text: Practice bug hunting with our
+                    - link "Reproducible Vulnerabilities" [ref=e566] [cursor=pointer]:
+                      - /url: https://handbook.gitlab.com/handbook/security/product-security/application-security/reproducible-vulnerabilities/
+                    - text: resource.
+                  - listitem [ref=e567]:
+                    - text: Check out our Ask Me Anything (AMA) series with
+                    - link "@rpadovani" [ref=e568] [cursor=pointer]:
+                      - /url: https://hackerone.com/rpadovani?type=user
+                    - text: ","
+                    - link "@ajxchapman" [ref=e569] [cursor=pointer]:
+                      - /url: https://hackerone.com/ajxchapman?type=user
+                    - text: ","
+                    - link "@vakzz" [ref=e570] [cursor=pointer]:
+                      - /url: https://hackerone.com/vakzz?type=user
+                    - text: ","
+                    - link "@joaxcar" [ref=e571] [cursor=pointer]:
+                      - /url: https://hackerone.com/joaxcar?type=user
+                    - text: ", and"
+                    - link "@0xn3va" [ref=e572] [cursor=pointer]:
+                      - /url: https://hackerone.com/0xn3va?type=user
+                    - text: in our
+                    - link "Live AMA playlist on YouTube" [ref=e573] [cursor=pointer]:
+                      - /url: https://www.youtube.com/playlist?list=PL05JrBw4t0Kqvvpk9PmRO6fZ0xmnKBp_s
+                    - text: .
+                  - listitem [ref=e574]:
+                    - text: Want to see how Bug Bounty Hunters use GitLab to improve their research efforts? Check out
+                    - link "\"How do bug bounty hunters use GitLab to help their hack?\"" [ref=e575] [cursor=pointer]:
+                      - /url: https://about.gitlab.com/blog/2021/06/11/how-i-use-gitlab-to-help-my-hack/
+                    - text: . See all of our
+                    - link "bug bounty related blog posts" [ref=e576] [cursor=pointer]:
+                      - /url: https://about.gitlab.com/blog/tags.html#bug-bounty
+                    - text: .
+                  - listitem [ref=e577]:
+                    - text: See our Ask a Hacker blog series, where we profiled some of our top hackers. See the
+                    - link "blog" [ref=e578] [cursor=pointer]:
+                      - /url: https://about.gitlab.com/blog/2023/10/02/ask-a-hacker/
+                    - text: profiling
+                    - link "@0xn3va" [ref=e579] [cursor=pointer]:
+                      - /url: https://hackerone.com/0xn3va?type=user
+                    - text: ", the"
+                    - link "blog" [ref=e580] [cursor=pointer]:
+                      - /url: https://about.gitlab.com/blog/2020/11/10/rpadovani-ask-a-hacker/
+                    - text: profiling
+                    - link "@rpadovani" [ref=e581] [cursor=pointer]:
+                      - /url: https://hackerone.com/rpadovani?type=user
+                    - text: and this
+                    - link "blog" [ref=e582] [cursor=pointer]:
+                      - /url: https://about.gitlab.com/blog/2021/03/04/ajxchapman-ask-a-hacker/
+                    - text: where we profile
+                    - link "@ajxchapman" [ref=e583] [cursor=pointer]:
+                      - /url: https://hackerone.com/ajxchapman?type=user
+                    - text: ", and"
+                    - link "this blog" [ref=e584] [cursor=pointer]:
+                      - /url: https://about.gitlab.com/blog/2022/07/27/cracking-our-bug-bounty-top-10/
+                    - text: where we chat with
+                    - link "@joaxcar" [ref=e585] [cursor=pointer]:
+                      - /url: https://hackerone.com/joaxcar?type=user
+                  - listitem [ref=e586]:
+                    - text: The
+                    - link "GitLab Red Team" [ref=e587] [cursor=pointer]:
+                      - /url: https://about.gitlab.com/handbook/engineering/security/security-operations/red-team/
+                    - text: hosted a live, public AMA/Ask Me Anything on Jan. 26, 2021. Check out the
+                    - link "replay" [ref=e588] [cursor=pointer]:
+                      - /url: https://youtu.be/FCu7MiRX5Lw
+                    - text: .
+                  - listitem [ref=e589]:
+                    - text: If you have suggestions for improving this program, please open an issue in
+                    - link "our HackerOne Questions GitLab project" [ref=e590] [cursor=pointer]:
+                      - /url: https://gitlab.com/gitlab-com/gl-security/product-security/appsec/hackerone-questions
+                - heading "Work at GitLab" [level=1] [ref=e591]
+                - generic [ref=e592]:
+                  - text: GitLab is regularly looking to hire talented security professionals. Learn more at
+                  - link "our jobs page" [ref=e593] [cursor=pointer]:
+                    - /url: https://about.gitlab.com/jobs/
+                  - text: .
+            - generic [ref=e594]:
+              - generic [ref=e596]:
+                - heading "Top hackers" [level=2] [ref=e597]
+                - link "See all hackers" [ref=e600] [cursor=pointer]:
+                  - /url: /gitlab/thanks
+              - generic [ref=e608]:
+                - generic [ref=e609]:
+                  - generic [ref=e610]: "1"
+                  - generic [ref=e612]:
+                    - img "joaxcar" [ref=e614]
+                    - img [ref=e616]:
+                      - img "Clear-verified badge" [ref=e617]
+                  - generic [ref=e622]:
+                    - link "joaxcar" [ref=e623] [cursor=pointer]:
+                      - /url: /joaxcar?type=user
+                    - generic "6989" [ref=e625]: "Reputation: 6k"
+                - generic [ref=e626]:
+                  - generic [ref=e627]: "2"
+                  - generic [ref=e629]:
+                    - img "ashish_r_padelkar" [ref=e631]
+                    - img [ref=e633]:
+                      - img "Clear-verified badge" [ref=e634]
+                  - generic [ref=e639]:
+                    - link "ashish_r_padelkar" [ref=e640] [cursor=pointer]:
+                      - /url: /ashish_r_padelkar?type=user
+                    - generic "3175" [ref=e642]: "Reputation: 3k"
+                - generic [ref=e643]:
+                  - generic [ref=e644]: "3"
+                  - generic [ref=e646]:
+                    - img "yvvdwf" [ref=e648]
+                    - img [ref=e650]:
+                      - img "ID-verified" [ref=e651]
+                  - generic [ref=e655]:
+                    - link "yvvdwf" [ref=e656] [cursor=pointer]:
+                      - /url: /yvvdwf?type=user
+                    - generic "3123" [ref=e658]: "Reputation: 3k"
+                - generic [ref=e659]:
+                  - generic [ref=e660]: "4"
+                  - img "xanbanx" [ref=e664]
+                  - generic [ref=e665]:
+                    - link "xanbanx" [ref=e666] [cursor=pointer]:
+                      - /url: /xanbanx?type=user
+                    - generic "3015" [ref=e668]: "Reputation: 3k"
+                - generic [ref=e669]:
+                  - generic [ref=e670]: "5"
+                  - generic [ref=e672]:
+                    - img "mateuszek" [ref=e674]
+                    - img [ref=e676]:
+                      - img "ID-verified" [ref=e677]
+                  - generic [ref=e681]:
+                    - link "mateuszek" [ref=e682] [cursor=pointer]:
+                      - /url: /mateuszek?type=user
+                    - generic "2342" [ref=e684]: "Reputation: 2k"
+                - generic [ref=e685]:
+                  - generic [ref=e686]: "6"
+                  - img "ngalog" [ref=e690]
+                  - generic [ref=e691]:
+                    - link "ngalog" [ref=e692] [cursor=pointer]:
+                      - /url: /ngalog?type=user
+                    - generic "1884" [ref=e694]: "Reputation: 1k"
+                - generic [ref=e695]:
+                  - generic [ref=e696]: "7"
+                  - generic [ref=e698]:
+                    - img "0xn3va" [ref=e700]
+                    - img [ref=e702]:
+                      - img "ID-verified" [ref=e703]
+                  - generic [ref=e707]:
+                    - link "0xn3va" [ref=e708] [cursor=pointer]:
+                      - /url: /0xn3va?type=user
+                    - generic "1778" [ref=e710]: "Reputation: 1k"
+                - generic [ref=e711]:
+                  - generic [ref=e712]: "8"
+                  - img "pwnie" [ref=e716]
+                  - generic [ref=e717]:
+                    - link "pwnie" [ref=e718] [cursor=pointer]:
+                      - /url: /pwnie?type=user
+                    - generic "1702" [ref=e720]: "Reputation: 1k"
+                - generic [ref=e721]:
+                  - generic [ref=e722]: "9"
+                  - generic [ref=e724]:
+                    - img "albatraoz" [ref=e726]
+                    - img [ref=e728]:
+                      - img "ID-verified" [ref=e729]
+                  - generic [ref=e733]:
+                    - link "albatraoz" [ref=e734] [cursor=pointer]:
+                      - /url: /albatraoz?type=user
+                    - generic "1303" [ref=e736]: "Reputation: 1k"
+                - generic [ref=e737]:
+                  - generic [ref=e738]: "10"
+                  - img "taraszelyk" [ref=e742]
+                  - generic [ref=e743]:
+                    - link "taraszelyk" [ref=e744] [cursor=pointer]:
+                      - /url: /taraszelyk?type=user
+                    - generic "1197" [ref=e746]: "Reputation: 1k"
+                - generic [ref=e747]:
+                  - generic [ref=e748]: "11"
+                  - generic [ref=e750]:
+                    - img "vakzz" [ref=e752]
+                    - img [ref=e754]:
+                      - img "Clear-verified badge" [ref=e755]
+                  - generic [ref=e760]:
+                    - link "vakzz" [ref=e761] [cursor=pointer]:
+                      - /url: /vakzz?type=user
+                    - generic "1152" [ref=e763]: "Reputation: 1k"
+                - generic [ref=e764]:
+                  - generic [ref=e765]: "12"
+                  - generic [ref=e767]:
+                    - img "anhiu102" [ref=e769]
+                    - img [ref=e771]:
+                      - img "Clear-verified badge" [ref=e772]
+                  - generic [ref=e777]:
+                    - link "anhiu102" [ref=e778] [cursor=pointer]:
+                      - /url: /anhiu102?type=user
+                    - generic "1079" [ref=e780]: "Reputation: 1k"
+          - generic [ref=e782]:
+            - button [ref=e783] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=e784]:
+                - img "Collapse sidebar" [ref=e786]
+            - generic [ref=e791]:
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - img "gitlab" [ref=e797]
+                  - generic [ref=e798]: GitLab
+                - generic [ref=e800]:
+                  - generic [ref=e801]:
+                    - link "https://about.gitlab.com" [ref=e802] [cursor=pointer]:
+                      - /url: https://about.gitlab.com
+                    - link "@gitlab" [ref=e803] [cursor=pointer]:
+                      - /url: https://x.com/gitlab
+                  - generic [ref=e804]: A single application for the entire software development lifecycle.
+                  - generic [ref=e805]:
+                    - text: Bounty
+                    - generic [ref=e806]: launched in Feb 2016
+                - generic [ref=e809]:
+                  - text: "Response efficiency: 71%"
+                  - img "Response efficiency calculation information" [ref=e812] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=e814]
+              - generic [ref=e816]:
+                - link "upload Submit report" [ref=e819] [cursor=pointer]:
+                  - /url: /gitlab/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=e820]:
+                    - img "upload" [ref=e822]
+                  - generic [ref=e824]: Submit report
+                - generic [ref=e826]:
+                  - heading "Rewards" [level=1] [ref=e827]
+                  - table [ref=e830]:
+                    - row [ref=e832]:
+                      - columnheader [ref=e833]:
+                        - paragraph [ref=e837]: Severity
+                      - columnheader [ref=e838]:
+                        - paragraph [ref=e842]: Rewards
+                    - generic [ref=e843]:
+                      - row [ref=e844]:
+                        - cell "Low Avg. bounty $649 27.18% submissions" [ref=e845]:
+                          - generic [ref=e847]:
+                            - generic [ref=e848]: Low
+                            - paragraph [ref=e853]:
+                              - generic [ref=e854]: Avg. bounty $649
+                              - generic [ref=e855]: 27.18% submissions
+                        - cell "$100 – $750" [ref=e856]
+                      - row [ref=e859]:
+                        - cell "Medium Avg. bounty $1,345 46.16% submissions" [ref=e860]:
+                          - generic [ref=e862]:
+                            - generic [ref=e863]: Medium
+                            - paragraph [ref=e868]:
+                              - generic [ref=e869]: Avg. bounty $1,345
+                              - generic [ref=e870]: 46.16% submissions
+                        - cell "$1,000 – $2,500" [ref=e871]
+                      - row [ref=e874]:
+                        - cell "High Avg. bounty $11,153 21.51% submissions" [ref=e875]:
+                          - generic [ref=e877]:
+                            - generic [ref=e878]: High
+                            - paragraph [ref=e883]:
+                              - generic [ref=e884]: Avg. bounty $11,153
+                              - generic [ref=e885]: 21.51% submissions
+                        - cell "$5,000 – $15,000" [ref=e886]
+                      - row [ref=e889]:
+                        - cell "Critical Avg. bounty $17,731 5.15% submissions" [ref=e890]:
+                          - generic [ref=e892]:
+                            - generic [ref=e893]: Critical
+                            - paragraph [ref=e898]:
+                              - generic [ref=e899]: Avg. bounty $17,731
+                              - generic [ref=e900]: 5.15% submissions
+                        - cell "$20,000 – $35,000" [ref=e901]
+                - generic [ref=e904]:
+                  - heading "Stats" [level=1] [ref=e905]
+                  - table [ref=e906]:
+                    - rowgroup [ref=e907]:
+                      - row [ref=e908]:
+                        - cell "Total bounties paid" [ref=e909]
+                        - cell "$7,398,537" [ref=e910]
+                      - row [ref=e913]:
+                        - cell "Average bounty range" [ref=e914]
+                        - cell "$1,000 - $1,370" [ref=e915]:
+                          - generic [ref=e916]:
+                            - generic [ref=e917]: $1,000
+                            - text: "-"
+                            - generic [ref=e919]: $1,370
+                      - row [ref=e921]:
+                        - cell "Top bounty range" [ref=e922]
+                        - cell "$10,000 - $36,500" [ref=e923]:
+                          - generic [ref=e924]:
+                            - generic [ref=e925]: $10,000
+                            - text: "-"
+                            - generic [ref=e927]: $36,500
+                      - row [ref=e929]:
+                        - cell "Bounties paid | 90 days" [ref=e930]
+                        - cell "$503,940" [ref=e931]
+                      - row [ref=e934]:
+                        - cell "Reports received | 90 days" [ref=e935]
+                        - cell "4212" [ref=e936]
+                      - row [ref=e937]:
+                        - cell "Last report resolved" [ref=e938]
+                        - cell "a day ago" [ref=e939]
+                      - row [ref=e940]:
+                        - cell "Reports resolved" [ref=e941]
+                        - cell "2257" [ref=e942]
+                      - row [ref=e943]:
+                        - cell "Hackers thanked" [ref=e944]
+                        - cell "1001" [ref=e945]
+                      - row [ref=e946]:
+                        - cell "Assets In Scope" [ref=e947]
+                        - cell "19" [ref=e948]
+        - generic [ref=e954]:
+          - generic [ref=e955]: © HackerOne
+          - list [ref=e956]:
+            - listitem [ref=e957]:
+              - link "Opportunities" [ref=e958] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=e959]:
+              - link "Security" [ref=e960] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=e961]:
+              - link "Leaderboard" [ref=e962] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=e963]:
+              - link "Blog" [ref=e964] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=e965]:
+              - link "Status" [ref=e966] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=e967]:
+              - link "Docs" [ref=e968] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=e969]:
+              - link "Support" [ref=e970] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=e971]:
+              - link "Disclosure Guidelines" [ref=e972] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=e973]:
+              - link "Press" [ref=e974] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=e975]:
+              - link "Privacy" [ref=e976] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=e977]:
+              - link "Terms" [ref=e978] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=e979]:
+              - link [ref=e980] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=e981]

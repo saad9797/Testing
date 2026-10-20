@@ -1,0 +1,1 @@
+[{"operationName":"AddAddress","variables":{"address":{"country":"PK","firstName":"Test","lastName":"Researcher","address1":"123 Test Street","address2":"","city":"Karachi","postalCode":"75500"}},"query":"mutation AddAddress($address: AddressInput!) {\n  addAddress(address: $address) {\n    success\n    __typename\n  }\n}\n"}]

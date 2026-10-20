@@ -1,0 +1,524 @@
+- generic [ref=f13e4]:
+  - banner [ref=f13e5]:
+    - generic [ref=f13e6]:
+      - link "Skip to main content >" [ref=f13e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f13e9]:
+        - link "Go back to homepage" [ref=f13e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f13e12]
+        - generic [ref=f13e14]:
+          - link [ref=f13e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f13e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f13e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f13e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f13e43]:
+      - link [ref=f13e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f13e50]: Learn more about HackerOne
+      - link "Log in" [ref=f13e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f13e55]:
+    - generic [ref=f13e57]:
+      - tree [ref=f13e127]:
+        - button [ref=f13e129] [cursor=pointer]:
+          - img "collapse menu" [ref=f13e130]:
+            - img "collapse menu" [ref=f13e132]
+        - generic [ref=f13e135]:
+          - treeitem "Security page" [expanded] [ref=f13e136] [cursor=pointer]
+          - group [ref=f13e139]:
+            - treeitem "Program guidelines" [selected] [ref=f13e140] [cursor=pointer]
+            - treeitem "Scope" [ref=f13e142] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f13e144] [cursor=pointer]
+            - treeitem "Thanks" [ref=f13e146] [cursor=pointer]
+            - treeitem "Updates" [ref=f13e148] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f13e150] [cursor=pointer]
+      - generic [ref=f13e58]:
+        - generic [ref=f13e152]:
+          - generic [ref=f13e154]:
+            - generic [ref=f13e155]:
+              - heading "Program highlights" [level=2] [ref=f13e158]
+              - generic [ref=f13e162]:
+                - generic [ref=f13e163]:
+                  - generic [ref=f13e164]:
+                    - generic [ref=f13e165]: Platform Standards
+                    - generic [ref=f13e173]:
+                      - text: Fully compliant with Platform Standards.
+                      - link "Learn more about Platform Standards (opens in a new tab)" [ref=f13e175] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8369826-detailed-platform-standards#h_e01bc643a8
+                  - generic [ref=f13e180]:
+                    - generic [ref=f13e181]: Top Response Efficiency
+                    - generic [ref=f13e189]:
+                      - text: This program's response efficiency is above 90%.
+                      - link "Learn more about Top Response Efficiency (opens in a new tab)" [ref=f13e191] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8490880-response-target-indicators
+                - generic [ref=f13e196]:
+                  - generic [ref=f13e197]: Managed by HackerOne
+                  - generic [ref=f13e202]: Collaboration Enabled
+                  - generic [ref=f13e207]: Includes Retesting
+            - generic [ref=f13e212]:
+              - generic [ref=f13e216]:
+                - generic [ref=f13e222]: 14 hours
+                - generic [ref=f13e223]: Average time to first response
+              - generic [ref=f13e227]:
+                - generic [ref=f13e233]: 13 hours
+                - generic [ref=f13e234]: Average time to triage
+              - generic [ref=f13e238]:
+                - generic [ref=f13e244]: 1 day, 23 hours
+                - generic [ref=f13e245]: Average time to bounty
+              - generic [ref=f13e249]:
+                - generic [ref=f13e255]: 2 days, 12 hours
+                - generic [ref=f13e256]: Average time from submission to bounty
+              - generic [ref=f13e260]:
+                - generic [ref=f13e266]: 2 days, 10 hours
+                - generic [ref=f13e267]: Average time to resolution
+            - generic [ref=f13e268]:
+              - generic [ref=f13e270]:
+                - heading "Rewards summary" [level=2] [ref=f13e271]
+                - generic [ref=f13e273]:
+                  - generic [ref=f13e274]: Last updated on September 15, 2026.
+                  - link "View changes" [ref=f13e275] [cursor=pointer]:
+                    - /url: /arc-bbp/bounty_table_versions
+              - generic [ref=f13e283]:
+                - generic [ref=f13e284]: Each severity lists the 90-day average bounty and the percentage of total resolved reports, if applicable.
+                - table [ref=f13e286]:
+                  - row [ref=f13e288]:
+                    - columnheader [ref=f13e289]:
+                      - heading "Asset" [level=2] [ref=f13e293]
+                    - columnheader "Low Avg. bounty n/a 0% submissions" [ref=f13e294]:
+                      - generic [ref=f13e298]:
+                        - generic [ref=f13e299]: Low
+                        - paragraph [ref=f13e304]:
+                          - generic [ref=f13e305]: Avg. bounty n/a
+                          - generic [ref=f13e306]: 0% submissions
+                    - columnheader "Medium Avg. bounty $500 100% submissions" [ref=f13e307]:
+                      - generic [ref=f13e311]:
+                        - generic [ref=f13e312]: Medium
+                        - paragraph [ref=f13e317]:
+                          - generic [ref=f13e318]: Avg. bounty $500
+                          - generic [ref=f13e319]: 100% submissions
+                    - columnheader "High Avg. bounty n/a 0% submissions" [ref=f13e320]:
+                      - generic [ref=f13e324]:
+                        - generic [ref=f13e325]: High
+                        - paragraph [ref=f13e330]:
+                          - generic [ref=f13e331]: Avg. bounty n/a
+                          - generic [ref=f13e332]: 0% submissions
+                    - columnheader "Critical Avg. bounty n/a 0% submissions" [ref=f13e333]:
+                      - generic [ref=f13e337]:
+                        - generic [ref=f13e338]: Critical
+                        - paragraph [ref=f13e343]:
+                          - generic [ref=f13e344]: Avg. bounty n/a
+                          - generic [ref=f13e345]: 0% submissions
+                  - generic [ref=f13e346]:
+                    - row [ref=f13e347]:
+                      - cell "*.arc.io" [ref=f13e348]
+                      - cell "$50 – $400" [ref=f13e353]
+                      - cell "$400 – $800" [ref=f13e356]
+                      - cell "$800 – $3,000" [ref=f13e359]
+                      - cell "$3,000 – $10,000" [ref=f13e362]
+                    - row [ref=f13e365]:
+                      - cell "All assets" [ref=f13e366]
+                      - cell "$50 – $5,000" [ref=f13e371]
+                      - cell "$5,000 – $10,000" [ref=f13e374]
+                      - cell "$10,000 – $20,000" [ref=f13e377]
+                      - cell "$20,000 – $200,000" [ref=f13e380]
+                - generic [ref=f13e383]:
+                  - heading "Arc Mainnet Chain/Protocol (Tier A)" [level=2] [ref=f13e384]
+                  - table [ref=f13e385]:
+                    - rowgroup [ref=f13e386]:
+                      - row [ref=f13e387]:
+                        - columnheader "Criticality" [ref=f13e388]
+                        - columnheader "Reward" [ref=f13e389]
+                        - columnheader "Examples" [ref=f13e390]
+                    - rowgroup [ref=f13e391]:
+                      - row [ref=f13e392]:
+                        - cell "Extreme" [ref=f13e393]
+                        - cell "Up to $1,000,000" [ref=f13e394]
+                        - cell "Unlimited minting, Private key compromise, Consensus safety failure / validator-set takeover, Chain halt under clear criteria" [ref=f13e395]
+                      - row [ref=f13e396]:
+                        - cell "Critical" [ref=f13e397]
+                        - cell "$20,000-200,000" [ref=f13e398]
+                        - cell "Critical chain / system-contract flaws with direct fund losses" [ref=f13e399]
+                      - row [ref=f13e400]:
+                        - cell "High" [ref=f13e401]
+                        - cell "$10,000-20,000" [ref=f13e402]
+                        - cell "Significant privilege / operational impact with constrained preconditions" [ref=f13e403]
+                      - row [ref=f13e404]:
+                        - cell "Medium" [ref=f13e405]
+                        - cell "$5000-10,000" [ref=f13e406]
+                        - cell "Bounded impact with compensating controls" [ref=f13e407]
+                      - row [ref=f13e408]:
+                        - cell "Low" [ref=f13e409]
+                        - cell "Up to $5000" [ref=f13e410]
+                        - cell "Limited security consequence" [ref=f13e411]
+                  - heading "Arc Product / Web 2 (Tier B)" [level=2] [ref=f13e412]
+                  - table [ref=f13e413]:
+                    - rowgroup [ref=f13e414]:
+                      - row [ref=f13e415]:
+                        - columnheader "Criticality" [ref=f13e416]
+                        - columnheader "Reward" [ref=f13e417]
+                        - columnheader "Examples" [ref=f13e418]
+                    - rowgroup [ref=f13e419]:
+                      - row [ref=f13e420]:
+                        - cell "Critical" [ref=f13e421]
+                        - cell "$3,000-10,000" [ref=f13e422]
+                        - cell "Unauthenticated account takeover, Remote Code Execution (RCE), Unrestricted admin on Portal/Arc product backends" [ref=f13e423]
+                      - row [ref=f13e424]:
+                        - cell "High" [ref=f13e425]
+                        - cell "$800-3,000" [ref=f13e426]
+                        - cell "Account takeover requiring realistic user interaction, Authorization bypass into privileged Portal workflows" [ref=f13e427]
+                      - row [ref=f13e428]:
+                        - cell "Medium" [ref=f13e429]
+                        - cell "$400-800" [ref=f13e430]
+                        - cell "Stored XSS, IDOR with limited-scope data, Meaningful SSRF with constrained reach" [ref=f13e431]
+                      - row [ref=f13e432]:
+                        - cell "Low" [ref=f13e433]
+                        - cell "Up to $400" [ref=f13e434]
+                        - cell "Verbose errors, Clickjacking on low-sensitivity pages, Low-risk reflected XSS" [ref=f13e435]
+            - generic [ref=f13e436]:
+              - heading "Scope exclusions" [level=2] [ref=f13e439]
+              - generic [ref=f13e444]:
+                - text: Core Ineligible Findings are out of scope.
+                - link "Learn more" [ref=f13e445] [cursor=pointer]:
+                  - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+            - generic [ref=f13e451]:
+              - generic [ref=f13e453]:
+                - heading "Overview" [level=2] [ref=f13e454]
+                - generic [ref=f13e456]:
+                  - generic [ref=f13e457]: Last updated on September 16, 2026.
+                  - link "View changes" [ref=f13e458] [cursor=pointer]:
+                    - /url: /arc-bbp/policy_versions
+              - generic [ref=f13e466]:
+                - generic [ref=f13e467]:
+                  - text: At Circle, our
+                  - link "mission" [ref=f13e468] [cursor=pointer]:
+                    - /url: https://www.circle.com/blog/circle-mission-and-values#:~:text=Our%20mission%20is%20to%20raise,efficient%20and%20integrated%20world%20economy.
+                  - text: is to raise global economic prosperity through programmable internet commerce. In support of our mission, keeping our customers’ information safe is a top priority. We recognize and appreciate the work of those in the security community who identify security vulnerabilities in our products and encourage responsible disclosure of potential security vulnerabilities as part of our Bug Bounty Program (the “Program”).
+                - generic [ref=f13e469]:
+                  - strong [ref=f13e470]: Before submitting a report to Circle, please carefully review the Program Terms and Conditions set forth below.
+                  - text: Your participation in our Program is voluntary and subject to the below terms and conditions.
+                - heading "Terms and Conditions" [level=1] [ref=f13e471]
+                - heading "By submitting a security bug or vulnerability to Circle, you acknowledge that you have read and agreed to the Program Terms and Conditions set forth below. By making any submission under the Program, you agree that you may not publicly disclose your findings or the contents of your submission to any third parties without Circle’s prior written consent." [level=3] [ref=f13e472]
+                - heading "Response Targets" [level=1] [ref=f13e473]
+                - generic [ref=f13e474]: "Circle Internet Contract Services, LLC will endeavor to meet the following response targets for ethical hackers participating in our Program:"
+                - table [ref=f13e475]:
+                  - rowgroup [ref=f13e476]:
+                    - row [ref=f13e477]:
+                      - columnheader "Type of Response" [ref=f13e478]
+                      - columnheader "SLA in business days" [ref=f13e479]
+                  - rowgroup [ref=f13e480]:
+                    - row [ref=f13e481]:
+                      - cell "Time to first response (from report submit)" [ref=f13e482]
+                      - cell "5 days" [ref=f13e483]
+                    - row [ref=f13e484]:
+                      - cell "Time to triage (from report submit)" [ref=f13e485]
+                      - cell "10 days" [ref=f13e486]
+                    - row [ref=f13e487]:
+                      - cell "Time to bounty (from triage)" [ref=f13e488]
+                      - cell "10 days" [ref=f13e489]
+                    - row [ref=f13e490]:
+                      - cell "Time to Resolution" [ref=f13e491]
+                      - cell "depends on severity and complexity" [ref=f13e492]
+                - generic [ref=f13e493]: If our team determines the report is valid and within the scope of our guidelines, we will make efforts to keep you informed as we work toward mitigation.
+                - heading "Disclosure Policy" [level=1] [ref=f13e494]
+                - list [ref=f13e495]:
+                  - listitem [ref=f13e496]: Do not discuss any vulnerabilities (even resolved ones) outside of the Program without express written consent from the organization.
+                  - listitem [ref=f13e497]:
+                    - text: Follow HackerOne's
+                    - link "disclosure guidelines" [ref=f13e498] [cursor=pointer]:
+                      - /url: https://www.hackerone.com/disclosure-guidelines
+                    - text: .
+                - heading "Program Rules" [level=1] [ref=f13e499]
+                - list [ref=f13e500]:
+                  - listitem [ref=f13e501]:
+                    - text: Testing should be done on
+                    - link "Arc testnet" [ref=f13e502] [cursor=pointer]:
+                      - /url: https://docs.arc.io/integrate/connect-to-arc
+                  - listitem [ref=f13e503]: Please provide detailed reports and replicable steps. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
+                  - listitem [ref=f13e504]: Submit one vulnerability per report, unless you need to chain vulnerabilities to provide impact.
+                  - listitem [ref=f13e505]: When duplicates occur, we only award the first report that was received (provided that it can be fully reproduced).
+                  - listitem [ref=f13e506]: Multiple vulnerabilities caused by one underlying issue will be awarded one bounty.
+                  - listitem [ref=f13e507]: Social engineering (e.g. phishing, vishing, smishing) is strictly prohibited.
+                  - listitem [ref=f13e508]: Make a reasonable, good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of our service. Only interact with accounts or wallets you own or with the explicit permission of the account or wallet holder.
+                  - listitem [ref=f13e509]: "You need to show that you could exploit a vulnerability, but you must not actually exploit it. You must not: access, modify, copy, download, delete, compromise or otherwise misuse others’ data; access non-public information without authorization; degrade, interrupt or deny services to our users; and/or incur loss of funds that are not your own."
+                  - listitem [ref=f13e510]: You must be at least 18 years old.
+                  - listitem [ref=f13e511]: If you are performing research, please use your own accounts and do not interact with others’ accounts or data.
+                  - listitem [ref=f13e512]: Your participation in this Program must not violate any applicable laws or regulations.
+                  - listitem [ref=f13e513]: You must not leverage the existence of a vulnerability or access to sensitive or confidential data to make threats, extortionate demands, or ransom requests.
+                  - listitem [ref=f13e514]: You will be responsible for any tax implications related to any payment you receive under the Program, as determined by the laws of your jurisdiction.
+                  - listitem [ref=f13e515]: You must not be (i) employed by Circle or any of its affiliates or (ii) an immediate family member of someone employed by Circle or any of its affiliates.
+                  - listitem [ref=f13e516]: By reporting a bug, you grant Circle and its affiliates a perpetual, irrevocable, worldwide, royalty-free license to use, copy, adapt, develop, create derivative work from, or share your submission for any purpose.
+                  - listitem [ref=f13e517]: By reporting a bug, you agree to allow HackerOne to share with Circle the personal information that you provide to HackerOne relating to your tax forms so Circle can perform compliance checks.
+                  - listitem [ref=f13e518]: Whether Circle provides any payment for, and the amount of any such payment, is solely at Circle’s discretion.
+                  - listitem [ref=f13e519]: You are prohibited from participating in the Program if you are a resident of any U.S. embargoed jurisdiction, including but not limited to Iran, North Korea, Cuba, the Crimea region, and Syria; or if you are on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Department of Commerce Denied Persons List or Entity List. By participating in the Program, you represent and warrant that you are not located in any such country or on any such list.
+                  - listitem [ref=f13e520]: We are only able to accept reports written in English.
+                - heading "Test Plan" [level=1] [ref=f13e521]
+                - list [ref=f13e522]:
+                  - listitem [ref=f13e523]:
+                    - text: Review Arc Docs on
+                    - link "arc.io" [ref=f13e524] [cursor=pointer]:
+                      - /url: https://arc.io
+                  - listitem [ref=f13e525]:
+                    - text: Perform your testing on either a local dev.net or
+                    - link "Arc testnet" [ref=f13e526] [cursor=pointer]:
+                      - /url: https://docs.arc.io/integrate/connect-to-arc
+                - strong [ref=f13e528]: Please refrain from testing on the mainnet environment.
+                - heading "Documents" [level=2] [ref=f13e529]
+                - list [ref=f13e530]:
+                  - listitem [ref=f13e531]:
+                    - text: Arc Docs on
+                    - link "arc.io" [ref=f13e532] [cursor=pointer]:
+                      - /url: https://arc.io
+                  - listitem [ref=f13e533]:
+                    - text: Connect to Arc
+                    - link "Arc testnet" [ref=f13e534] [cursor=pointer]:
+                      - /url: https://docs.arc.io/integrate/connect-to-arc
+                - heading "Out of scope vulnerabilities" [level=1] [ref=f13e535]
+                - heading "When reporting vulnerabilities, please consider (1) attack scenario / exploitability, and (2) security impact of the bug. The following issues are considered out of scope:" [level=3] [ref=f13e536]
+                - list [ref=f13e537]:
+                  - listitem [ref=f13e538]: Vulnerabilities that require source manipulation to perform
+                  - listitem [ref=f13e539]: Vulnerabilities in unit tests
+                  - listitem [ref=f13e540]: Clickjacking on pages with no sensitive actions
+                  - listitem [ref=f13e541]: Cross-Site Request Forgery (CSRF) on unauthenticated forms or forms with no sensitive actions
+                  - listitem [ref=f13e542]: Attacks requiring MITM or physical access to a user's device.
+                  - listitem [ref=f13e543]: Previously known vulnerable libraries without a working Proof of Concept.
+                  - listitem [ref=f13e544]: Comma Separated Values (CSV) injection without demonstrating a vulnerability.
+                  - listitem [ref=f13e545]: Missing best practices in SSL/TLS configuration.
+                  - listitem [ref=f13e546]: Any activity that could lead to the disruption of our service (DoS).
+                  - listitem [ref=f13e547]: Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS
+                  - listitem [ref=f13e548]: Rate limiting or bruteforce issues on non-authentication endpoints
+                  - listitem [ref=f13e549]: Missing best practices in Content Security Policy.
+                  - listitem [ref=f13e550]: Missing HttpOnly or Secure flags on cookies
+                  - listitem [ref=f13e551]: Missing email best practices (Invalid, incomplete or missing SPF/DKIM/DMARC records, etc.)
+                  - listitem [ref=f13e552]: Vulnerabilities only affecting users of outdated or unpatched browsers [Less than 2 stable versions behind the latest released stable version]
+                  - listitem [ref=f13e553]: Vulnerabilities only affecting outdated versions of mobile applications [any version that is not the current stable version] or mobile applications not directly downloaded from the Apple or Google Play App Store.
+                  - listitem [ref=f13e554]: Software version disclosure / Banner identification issues / Descriptive error messages or headers (e.g. stack traces, application or server errors).
+                  - listitem [ref=f13e555]: Public Zero-day vulnerabilities that have had an official patch for less than 1 month will be awarded on a case by case basis.
+                  - listitem [ref=f13e556]: Tabnabbing
+                  - listitem [ref=f13e557]: Open redirect - unless an additional security impact can be demonstrated
+                  - listitem [ref=f13e558]: Issues that require unlikely user interaction
+                - heading "Safe Harbor" [level=1] [ref=f13e559]
+                - generic [ref=f13e560]: Any activities conducted in a manner consistent with these Terms and Conditions will be considered authorized conduct and we will not initiate legal action against you. If legal action is initiated by a third party against you in connection with activities conducted under these Terms and Conditions, we will take steps to make it known that your actions were conducted in compliance with these Terms and Conditions.
+                - generic [ref=f13e561]: We may modify these Terms and Conditions or end the Program at any time without notice.
+                - generic [ref=f13e562]: Thank you for helping keep Circle and our community safe!
+            - generic [ref=f13e563]:
+              - generic [ref=f13e565]:
+                - heading "Top hackers" [level=2] [ref=f13e566]
+                - link "See all hackers" [ref=f13e569] [cursor=pointer]:
+                  - /url: /arc-bbp/thanks
+              - generic [ref=f13e577]:
+                - generic [ref=f13e578]:
+                  - generic [ref=f13e579]: "1"
+                  - generic [ref=f13e581]:
+                    - img "spell1" [ref=f13e583]
+                    - img [ref=f13e585]:
+                      - img "Clear-verified badge" [ref=f13e586]
+                  - generic [ref=f13e591]:
+                    - link "spell1" [ref=f13e592] [cursor=pointer]:
+                      - /url: /spell1?type=user
+                    - generic "17" [ref=f13e594]: "Reputation: 17"
+                - generic [ref=f13e595]:
+                  - generic [ref=f13e596]: "2"
+                  - generic [ref=f13e598]:
+                    - img "cyberkurt" [ref=f13e600]
+                    - img [ref=f13e602]:
+                      - img "ID-verified" [ref=f13e603]
+                  - generic [ref=f13e607]:
+                    - link "cyberkurt" [ref=f13e608] [cursor=pointer]:
+                      - /url: /cyberkurt?type=user
+                    - generic "17" [ref=f13e610]: "Reputation: 17"
+                - generic [ref=f13e611]:
+                  - generic [ref=f13e612]: "3"
+                  - generic [ref=f13e614]:
+                    - img "lioper" [ref=f13e616]
+                    - img [ref=f13e618]:
+                      - img "ID-verified" [ref=f13e619]
+                  - generic [ref=f13e623]:
+                    - link "lioper" [ref=f13e624] [cursor=pointer]:
+                      - /url: /lioper?type=user
+                    - generic "2" [ref=f13e626]: "Reputation: 2"
+                - generic [ref=f13e627]:
+                  - generic [ref=f13e628]: "4"
+                  - generic [ref=f13e630]:
+                    - img "zuma045" [ref=f13e632]
+                    - img [ref=f13e634]:
+                      - img "ID-verified" [ref=f13e635]
+                  - generic [ref=f13e639]:
+                    - link "zuma045" [ref=f13e640] [cursor=pointer]:
+                      - /url: /zuma045?type=user
+                    - generic "2" [ref=f13e642]: "Reputation: 2"
+                - generic [ref=f13e643]:
+                  - generic [ref=f13e644]: "5"
+                  - generic [ref=f13e646]:
+                    - img "binbtjp" [ref=f13e648]
+                    - img [ref=f13e650]:
+                      - img "ID-verified" [ref=f13e651]
+                  - generic [ref=f13e655]:
+                    - link "binbtjp" [ref=f13e656] [cursor=pointer]:
+                      - /url: /binbtjp?type=user
+                    - generic "2" [ref=f13e658]: "Reputation: 2"
+                - generic [ref=f13e659]:
+                  - generic [ref=f13e660]: "6"
+                  - generic [ref=f13e662]:
+                    - img "ferox0101" [ref=f13e664]
+                    - img [ref=f13e666]:
+                      - img "Clear-verified badge" [ref=f13e667]
+                  - generic [ref=f13e672]:
+                    - link "ferox0101" [ref=f13e673] [cursor=pointer]:
+                      - /url: /ferox0101?type=user
+                    - generic "2" [ref=f13e675]: "Reputation: 2"
+                - generic [ref=f13e676]:
+                  - generic [ref=f13e677]: "7"
+                  - generic [ref=f13e679]:
+                    - img "yoyodavelion" [ref=f13e681]
+                    - img [ref=f13e683]:
+                      - img "ID-verified" [ref=f13e684]
+                  - generic [ref=f13e688]:
+                    - link "yoyodavelion" [ref=f13e689] [cursor=pointer]:
+                      - /url: /yoyodavelion?type=user
+                    - generic "2" [ref=f13e691]: "Reputation: 2"
+          - generic [ref=f13e693]:
+            - button [ref=f13e694] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f13e695]:
+                - img "Collapse sidebar" [ref=f13e697]
+            - generic [ref=f13e702]:
+              - generic [ref=f13e703]:
+                - generic [ref=f13e704]:
+                  - img "arc-bbp" [ref=f13e708]
+                  - generic [ref=f13e709]: Arc
+                - generic [ref=f13e711]:
+                  - generic [ref=f13e712]:
+                    - link "https://www.arc.io" [ref=f13e713] [cursor=pointer]:
+                      - /url: https://www.arc.io
+                    - link "@arc" [ref=f13e714] [cursor=pointer]:
+                      - /url: https://x.com/arc
+                  - generic [ref=f13e715]: Arc is an open internet platform for the world’s financial markets, real-time value movement, and agentic economic activity.
+                  - generic [ref=f13e716]:
+                    - text: Bounty
+                    - generic [ref=f13e717]: launched in Sep 2026
+                - generic [ref=f13e720]:
+                  - text: "Response efficiency: 99%"
+                  - img "Response efficiency calculation information" [ref=f13e723] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=f13e725]
+              - generic [ref=f13e727]:
+                - link "upload Submit without Report Assistant" [ref=f13e730] [cursor=pointer]:
+                  - /url: /arc-bbp/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=f13e731]:
+                    - img "upload" [ref=f13e733]
+                  - generic [ref=f13e735]: Submit without Report Assistant
+                - generic [ref=f13e737]:
+                  - heading "Rewards" [level=1] [ref=f13e738]
+                  - table [ref=f13e741]:
+                    - row [ref=f13e743]:
+                      - columnheader [ref=f13e744]:
+                        - paragraph [ref=f13e748]: Severity
+                      - columnheader [ref=f13e749]:
+                        - paragraph [ref=f13e753]: Rewards
+                    - generic [ref=f13e754]:
+                      - row [ref=f13e755]:
+                        - cell "Low Avg. bounty n/a 0% submissions" [ref=f13e756]:
+                          - generic [ref=f13e758]:
+                            - generic [ref=f13e759]: Low
+                            - paragraph [ref=f13e764]:
+                              - generic [ref=f13e765]: Avg. bounty n/a
+                              - generic [ref=f13e766]: 0% submissions
+                        - cell "$50 – $5,000" [ref=f13e767]
+                      - row [ref=f13e770]:
+                        - cell "Medium Avg. bounty $500 100% submissions" [ref=f13e771]:
+                          - generic [ref=f13e773]:
+                            - generic [ref=f13e774]: Medium
+                            - paragraph [ref=f13e779]:
+                              - generic [ref=f13e780]: Avg. bounty $500
+                              - generic [ref=f13e781]: 100% submissions
+                        - cell "$400 – $10,000" [ref=f13e782]
+                      - row [ref=f13e785]:
+                        - cell "High Avg. bounty n/a 0% submissions" [ref=f13e786]:
+                          - generic [ref=f13e788]:
+                            - generic [ref=f13e789]: High
+                            - paragraph [ref=f13e794]:
+                              - generic [ref=f13e795]: Avg. bounty n/a
+                              - generic [ref=f13e796]: 0% submissions
+                        - cell "$800 – $20,000" [ref=f13e797]
+                      - row [ref=f13e800]:
+                        - cell "Critical Avg. bounty n/a 0% submissions" [ref=f13e801]:
+                          - generic [ref=f13e803]:
+                            - generic [ref=f13e804]: Critical
+                            - paragraph [ref=f13e809]:
+                              - generic [ref=f13e810]: Avg. bounty n/a
+                              - generic [ref=f13e811]: 0% submissions
+                        - cell "$3,000 – $200,000" [ref=f13e812]
+                - generic [ref=f13e815]:
+                  - heading "Stats" [level=1] [ref=f13e816]
+                  - table [ref=f13e817]:
+                    - rowgroup [ref=f13e818]:
+                      - row [ref=f13e819]:
+                        - cell "Total bounties paid" [ref=f13e820]
+                        - cell "$1,050" [ref=f13e821]
+                      - row [ref=f13e824]:
+                        - cell "Average bounty" [ref=f13e825]
+                        - cell "$500" [ref=f13e826]
+                      - row [ref=f13e829]:
+                        - cell "Top bounty" [ref=f13e830]
+                        - cell "$500" [ref=f13e831]
+                      - row [ref=f13e834]:
+                        - cell "Bounties paid | 90 days" [ref=f13e835]
+                        - cell "$1,050" [ref=f13e836]
+                      - row [ref=f13e839]:
+                        - cell "Reports received | 90 days" [ref=f13e840]
+                        - cell "2677" [ref=f13e841]
+                      - row [ref=f13e842]:
+                        - cell "Last report resolved" [ref=f13e843]
+                        - cell "9 days ago" [ref=f13e844]
+                      - row [ref=f13e845]:
+                        - cell "Reports resolved" [ref=f13e846]
+                        - cell "2" [ref=f13e847]
+                      - row [ref=f13e848]:
+                        - cell "Hackers thanked" [ref=f13e849]
+                        - cell "7" [ref=f13e850]
+                      - row [ref=f13e851]:
+                        - cell "Assets In Scope" [ref=f13e852]
+                        - cell "6" [ref=f13e853]
+        - generic [ref=f13e98]:
+          - generic [ref=f13e99]: © HackerOne
+          - list [ref=f13e100]:
+            - listitem [ref=f13e101]:
+              - link "Opportunities" [ref=f13e102] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f13e103]:
+              - link "Security" [ref=f13e104] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f13e105]:
+              - link "Leaderboard" [ref=f13e106] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f13e107]:
+              - link "Blog" [ref=f13e108] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f13e109]:
+              - link "Status" [ref=f13e110] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f13e111]:
+              - link "Docs" [ref=f13e112] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f13e113]:
+              - link "Support" [ref=f13e114] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f13e115]:
+              - link "Disclosure Guidelines" [ref=f13e116] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f13e117]:
+              - link "Press" [ref=f13e118] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f13e119]:
+              - link "Privacy" [ref=f13e120] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f13e121]:
+              - link "Terms" [ref=f13e122] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f13e123]:
+              - link [ref=f13e124] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f13e125]

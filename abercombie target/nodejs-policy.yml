@@ -1,0 +1,265 @@
+- generic [ref=f37e4]:
+  - banner [ref=f37e5]:
+    - generic [ref=f37e6]:
+      - link "Skip to main content >" [ref=f37e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f37e9]:
+        - link "Go back to homepage" [ref=f37e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f37e12]
+        - generic [ref=f37e14]:
+          - link [ref=f37e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f37e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f37e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f37e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f37e43]:
+      - link [ref=f37e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f37e50]: Learn more about HackerOne
+      - link "Log in" [ref=f37e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f37e55]:
+    - generic [ref=f37e73]:
+      - tree [ref=f37e75]:
+        - button [ref=f37e77] [cursor=pointer]:
+          - img "collapse menu" [ref=f37e78]:
+            - img "collapse menu" [ref=f37e80]
+        - generic [ref=f37e83]:
+          - treeitem "Security page" [expanded] [ref=f37e84] [cursor=pointer]
+          - group [ref=f37e87]:
+            - treeitem "Program guidelines" [selected] [ref=f37e88] [cursor=pointer]
+            - treeitem "Scope" [ref=f37e90] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f37e92] [cursor=pointer]
+            - treeitem "Thanks" [ref=f37e94] [cursor=pointer]
+            - treeitem "Updates" [ref=f37e96] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f37e98] [cursor=pointer]
+      - generic [ref=f37e100]:
+        - generic [ref=f37e115]:
+          - strong [ref=f37e116]: Node.js third-party modules
+          - text: is not accepting submissions at this time.
+        - generic [ref=f37e117]:
+          - generic [ref=f37e119]:
+            - generic [ref=f37e120]:
+              - generic [ref=f37e124]:
+                - generic [ref=f37e130]: N/A
+                - generic [ref=f37e131]: Average time to bounty
+              - generic [ref=f37e135]:
+                - generic [ref=f37e141]: N/A
+                - generic [ref=f37e142]: Average time from submission to bounty
+            - generic [ref=f37e143]:
+              - heading "Scope exclusions" [level=2] [ref=f37e146]
+              - generic [ref=f37e151]:
+                - text: Core Ineligible Findings are out of scope.
+                - link "Learn more" [ref=f37e152] [cursor=pointer]:
+                  - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+            - generic [ref=f37e158]:
+              - generic [ref=f37e160]:
+                - heading "Overview" [level=2] [ref=f37e161]
+                - generic [ref=f37e163]:
+                  - generic [ref=f37e164]: Last updated on October 22, 2021.
+                  - link "View changes" [ref=f37e165] [cursor=pointer]:
+                    - /url: /nodejs-ecosystem/policy_versions
+              - generic [ref=f37e173]:
+                - heading "The Node.js Ecosystem program is no longer accepting reports." [level=1] [ref=f37e174]
+                - generic [ref=f37e175]: Please report any potential vulnerabilities to the respective Node.js Ecosystem disclosure channel.
+                - heading "This page will remain public as a thank you to the community for your contributions!" [level=2] [ref=f37e176]
+            - generic [ref=f37e177]:
+              - generic [ref=f37e179]:
+                - heading "Top hackers" [level=2] [ref=f37e180]
+                - link "See all hackers" [ref=f37e183] [cursor=pointer]:
+                  - /url: /nodejs-ecosystem/thanks
+              - generic [ref=f37e191]:
+                - generic [ref=f37e192]:
+                  - generic [ref=f37e193]: "1"
+                  - img "chalker" [ref=f37e197]
+                  - generic [ref=f37e198]:
+                    - link "chalker" [ref=f37e199] [cursor=pointer]:
+                      - /url: /chalker?type=user
+                    - generic "281" [ref=f37e201]: "Reputation: 281"
+                - generic [ref=f37e202]:
+                  - generic [ref=f37e203]: "2"
+                  - generic [ref=f37e205]:
+                    - img "bl4de" [ref=f37e207]
+                    - img [ref=f37e209]:
+                      - img "ID-verified" [ref=f37e210]
+                  - generic [ref=f37e214]:
+                    - link "bl4de" [ref=f37e215] [cursor=pointer]:
+                      - /url: /bl4de?type=user
+                    - generic "245" [ref=f37e217]: "Reputation: 245"
+                - generic [ref=f37e218]:
+                  - generic [ref=f37e219]: "3"
+                  - img "d3lla" [ref=f37e223]
+                  - generic [ref=f37e224]:
+                    - link "d3lla" [ref=f37e225] [cursor=pointer]:
+                      - /url: /d3lla?type=user
+                    - generic "130" [ref=f37e227]: "Reputation: 130"
+                - generic [ref=f37e228]:
+                  - generic [ref=f37e229]: "4"
+                  - img "mik317" [ref=f37e233]
+                  - generic [ref=f37e234]:
+                    - link "mik317" [ref=f37e235] [cursor=pointer]:
+                      - /url: /mik317?type=user
+                    - generic "112" [ref=f37e237]: "Reputation: 112"
+                - generic [ref=f37e238]:
+                  - generic [ref=f37e239]: "5"
+                  - img "holyvier" [ref=f37e243]
+                  - generic [ref=f37e244]:
+                    - link "holyvier" [ref=f37e245] [cursor=pointer]:
+                      - /url: /holyvier?type=user
+                    - generic "91" [ref=f37e247]: "Reputation: 91"
+                - generic [ref=f37e248]:
+                  - generic [ref=f37e249]: "6"
+                  - img "asgerf" [ref=f37e253]
+                  - generic [ref=f37e254]:
+                    - link "asgerf" [ref=f37e255] [cursor=pointer]:
+                      - /url: /asgerf?type=user
+                    - generic "71" [ref=f37e257]: "Reputation: 71"
+                - generic [ref=f37e258]:
+                  - generic [ref=f37e259]: "7"
+                  - img "skyn3t" [ref=f37e263]
+                  - generic [ref=f37e264]:
+                    - link "skyn3t" [ref=f37e265] [cursor=pointer]:
+                      - /url: /skyn3t?type=user
+                    - generic "70" [ref=f37e267]: "Reputation: 70"
+                - generic [ref=f37e268]:
+                  - generic [ref=f37e269]: "8"
+                  - generic [ref=f37e271]:
+                    - img "tungpun" [ref=f37e273]
+                    - img [ref=f37e275]:
+                      - img "ID-verified" [ref=f37e276]
+                  - generic [ref=f37e280]:
+                    - link "tungpun" [ref=f37e281] [cursor=pointer]:
+                      - /url: /tungpun?type=user
+                    - generic "70" [ref=f37e283]: "Reputation: 70"
+                - generic [ref=f37e284]:
+                  - generic [ref=f37e285]: "9"
+                  - img "ermilov" [ref=f37e289]
+                  - generic [ref=f37e290]:
+                    - link "ermilov" [ref=f37e291] [cursor=pointer]:
+                      - /url: /ermilov?type=user
+                    - generic "63" [ref=f37e293]: "Reputation: 63"
+                - generic [ref=f37e294]:
+                  - generic [ref=f37e295]: "10"
+                  - img "cris_semmle" [ref=f37e299]
+                  - generic [ref=f37e300]:
+                    - link "cris_semmle" [ref=f37e301] [cursor=pointer]:
+                      - /url: /cris_semmle?type=user
+                    - generic "51" [ref=f37e303]: "Reputation: 51"
+                - generic [ref=f37e304]:
+                  - generic [ref=f37e305]: "11"
+                  - generic [ref=f37e307]:
+                    - img "lightangel1412" [ref=f37e309]
+                    - img [ref=f37e311]:
+                      - img "ID-verified" [ref=f37e312]
+                  - generic [ref=f37e316]:
+                    - link "lightangel1412" [ref=f37e317] [cursor=pointer]:
+                      - /url: /lightangel1412?type=user
+                    - generic "42" [ref=f37e319]: "Reputation: 42"
+                - generic [ref=f37e320]:
+                  - generic [ref=f37e321]: "12"
+                  - img "johnssimon007" [ref=f37e325]
+                  - generic [ref=f37e326]:
+                    - link "johnssimon007" [ref=f37e327] [cursor=pointer]:
+                      - /url: /johnssimon007?type=user
+                    - generic "42" [ref=f37e329]: "Reputation: 42"
+          - generic [ref=f37e331]:
+            - button [ref=f37e332] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f37e333]:
+                - img "Collapse sidebar" [ref=f37e335]
+            - generic [ref=f37e340]:
+              - generic [ref=f37e341]:
+                - generic [ref=f37e342]:
+                  - img "nodejs-ecosystem" [ref=f37e346]
+                  - generic [ref=f37e347]: Node.js third-party modules
+                - generic [ref=f37e349]:
+                  - link "https://nodejs.org/en/security/" [ref=f37e351] [cursor=pointer]:
+                    - /url: https://nodejs.org/en/security/
+                  - generic [ref=f37e352]: This program was used to handle vulnerabilities in the Node.js ecosystem.
+                  - generic [ref=f37e353]:
+                    - text: Bounty
+                    - generic [ref=f37e354]: launched in Oct 2021
+              - generic [ref=f37e355]:
+                - generic [ref=f37e357]:
+                  - button "upload Submit without Report Assistant" [disabled]:
+                    - img "upload":
+                      - generic:
+                        - img "upload"
+                    - generic: Submit without Report Assistant
+                - generic [ref=f37e358]:
+                  - heading "Stats" [level=1] [ref=f37e359]
+                  - table [ref=f37e360]:
+                    - rowgroup [ref=f37e361]:
+                      - row [ref=f37e362]:
+                        - cell "Minimum bounty" [ref=f37e363]
+                        - cell "$100" [ref=f37e364]
+                      - row [ref=f37e367]:
+                        - cell "Total bounties paid" [ref=f37e368]
+                        - cell "$1,700" [ref=f37e369]
+                      - row [ref=f37e372]:
+                        - cell "Average bounty" [ref=f37e373]
+                        - cell "$250" [ref=f37e374]
+                      - row [ref=f37e377]:
+                        - cell "Top bounty" [ref=f37e378]
+                        - cell "$500" [ref=f37e379]
+                      - row [ref=f37e382]:
+                        - cell "Bounties paid | 90 days" [ref=f37e383]
+                        - cell "-" [ref=f37e384]
+                      - row [ref=f37e386]:
+                        - cell "Reports received | 90 days" [ref=f37e387]
+                        - cell "0" [ref=f37e388]
+                      - row [ref=f37e389]:
+                        - cell "Last report resolved" [ref=f37e390]
+                        - cell "6 years ago" [ref=f37e391]
+                      - row [ref=f37e392]:
+                        - cell "Reports resolved" [ref=f37e393]
+                        - cell "306" [ref=f37e394]
+                      - row [ref=f37e395]:
+                        - cell "Hackers thanked" [ref=f37e396]
+                        - cell "122" [ref=f37e397]
+                      - row [ref=f37e398]:
+                        - cell "Assets In Scope" [ref=f37e399]
+                        - cell "181" [ref=f37e400]
+        - generic [ref=f37e406]:
+          - generic [ref=f37e407]: © HackerOne
+          - list [ref=f37e408]:
+            - listitem [ref=f37e409]:
+              - link "Opportunities" [ref=f37e410] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f37e411]:
+              - link "Security" [ref=f37e412] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f37e413]:
+              - link "Leaderboard" [ref=f37e414] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f37e415]:
+              - link "Blog" [ref=f37e416] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f37e417]:
+              - link "Status" [ref=f37e418] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f37e419]:
+              - link "Docs" [ref=f37e420] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f37e421]:
+              - link "Support" [ref=f37e422] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f37e423]:
+              - link "Disclosure Guidelines" [ref=f37e424] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f37e425]:
+              - link "Press" [ref=f37e426] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f37e427]:
+              - link "Privacy" [ref=f37e428] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f37e429]:
+              - link "Terms" [ref=f37e430] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f37e431]:
+              - link [ref=f37e432] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f37e433]

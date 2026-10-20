@@ -1,0 +1,246 @@
+- generic [ref=f29e5]:
+  - banner [ref=f29e6]:
+    - generic [ref=f29e7]:
+      - link "Skip to main content >" [ref=f29e9] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f29e10]:
+        - link "Go back to homepage" [ref=f29e12] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f29e13]
+        - generic [ref=f29e15]:
+          - link [ref=f29e18] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f29e25] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f29e32] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f29e39] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f29e44]:
+      - link [ref=f29e45] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f29e51]: Learn more about HackerOne
+      - link "Log in" [ref=f29e53] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f29e56]:
+    - generic [ref=f29e57]:
+      - generic [ref=f29e62]:
+        - generic [ref=f29e63]:
+          - heading "Directory" [level=2] [ref=f29e64]
+          - generic [ref=f29e65]: Find new hackable targets or contact information to report vulnerabilities you’ve already found.
+        - searchbox "Search Directory" [ref=f29e76]
+      - generic [ref=f29e78]:
+        - generic [ref=f29e80]:
+          - heading "Program features" [level=5] [ref=f29e81]
+          - generic [ref=f29e82]:
+            - checkbox "IBB" [ref=f29e83] [cursor=pointer]
+            - text: IBB
+            - generic [ref=f29e84] [cursor=pointer]
+          - generic [ref=f29e92]:
+            - checkbox "Offers bounties" [ref=f29e93] [cursor=pointer]
+            - text: Offers bounties
+            - generic [ref=f29e94] [cursor=pointer]
+          - generic [ref=f29e102]:
+            - checkbox "High response efficiency" [ref=f29e103] [cursor=pointer]
+            - text: High response efficiency
+            - generic [ref=f29e104] [cursor=pointer]
+          - generic [ref=f29e112]:
+            - checkbox "Managed by HackerOne" [ref=f29e113] [cursor=pointer]
+            - text: Managed by HackerOne
+            - generic [ref=f29e114] [cursor=pointer]
+          - generic [ref=f29e122]:
+            - checkbox "Offers retesting" [ref=f29e123] [cursor=pointer]
+            - text: Offers retesting
+            - generic [ref=f29e124] [cursor=pointer]
+          - generic [ref=f29e132]:
+            - checkbox "Active program" [checked] [ref=f29e133] [cursor=pointer]
+            - text: Active program
+            - generic [ref=f29e134] [cursor=pointer]
+          - generic [ref=f29e142]:
+            - checkbox "Collaboration" [ref=f29e143] [cursor=pointer]
+            - text: Collaboration
+            - generic [ref=f29e144] [cursor=pointer]
+          - separator [ref=f29e152]
+          - heading "Asset type" [level=5] [ref=f29e153]
+          - generic [ref=f29e154]:
+            - radio "Any" [checked] [ref=f29e155] [cursor=pointer]
+            - text: Any
+          - generic [ref=f29e156]:
+            - radio "CIDR" [ref=f29e157] [cursor=pointer]
+            - text: CIDR
+          - generic [ref=f29e158]:
+            - radio "Domain" [ref=f29e159] [cursor=pointer]
+            - text: Domain
+          - generic [ref=f29e160]:
+            - 'radio "iOS: App Store" [ref=f29e161] [cursor=pointer]'
+            - text: "iOS: App Store"
+          - generic [ref=f29e162]:
+            - 'radio "iOS: TestFlight" [ref=f29e163] [cursor=pointer]'
+            - text: "iOS: TestFlight"
+          - generic [ref=f29e164]:
+            - 'radio "iOS: .ipa" [ref=f29e165] [cursor=pointer]'
+            - text: "iOS: .ipa"
+          - generic [ref=f29e166]:
+            - 'radio "Android: Play Store" [ref=f29e167] [cursor=pointer]'
+            - text: "Android: Play Store"
+          - generic [ref=f29e168]:
+            - 'radio "Android: .apk" [ref=f29e169] [cursor=pointer]'
+            - text: "Android: .apk"
+          - generic [ref=f29e170]:
+            - 'radio "Windows: Microsoft Store" [ref=f29e171] [cursor=pointer]'
+            - text: "Windows: Microsoft Store"
+          - generic [ref=f29e172]:
+            - radio "Source Code" [ref=f29e173] [cursor=pointer]
+            - text: Source Code
+          - generic [ref=f29e174]:
+            - radio "Executable" [ref=f29e175] [cursor=pointer]
+            - text: Executable
+          - generic [ref=f29e176]:
+            - radio "Smart Contract" [ref=f29e177] [cursor=pointer]
+            - text: Smart Contract
+          - generic [ref=f29e178]:
+            - radio "Wildcard" [ref=f29e179] [cursor=pointer]
+            - text: Wildcard
+          - generic [ref=f29e180]:
+            - radio "IP Address" [ref=f29e181] [cursor=pointer]
+            - text: IP Address
+          - generic [ref=f29e182]:
+            - radio "Hardware" [ref=f29e183] [cursor=pointer]
+            - text: Hardware
+          - generic [ref=f29e184]:
+            - radio "Other Asset" [ref=f29e185] [cursor=pointer]
+            - text: Other Asset
+          - generic [ref=f29e186]:
+            - radio "AI Model" [ref=f29e187] [cursor=pointer]
+            - text: AI Model
+          - generic [ref=f29e188]:
+            - radio "API" [ref=f29e189] [cursor=pointer]
+            - text: API
+          - generic [ref=f29e190]:
+            - radio "AWS Account" [ref=f29e191] [cursor=pointer]
+            - text: AWS Account
+          - generic [ref=f29e192]:
+            - radio "Azure Account" [ref=f29e193] [cursor=pointer]
+            - text: Azure Account
+        - generic [ref=f29e194]:
+          - heading "4 results found for \"Ghost\"." [level=3] [ref=f29e196]
+          - generic [ref=f29e197]:
+            - table [ref=f29e201]:
+              - rowgroup [ref=f29e202]:
+                - row [ref=f29e203]:
+                  - columnheader [ref=f29e204]:
+                    - strong [ref=f29e205]: Program
+                  - columnheader [ref=f29e206] [cursor=pointer]:
+                    - strong [ref=f29e207]: Launchdate
+                  - columnheader [ref=f29e214] [cursor=pointer]:
+                    - strong [ref=f29e215]: Reportsresolved
+                  - columnheader [ref=f29e222] [cursor=pointer]:
+                    - strong [ref=f29e223]: Bountiesminimum
+                  - columnheader [ref=f29e230] [cursor=pointer]:
+                    - strong [ref=f29e231]: Bountiesaverage
+              - rowgroup [ref=f29e238]:
+                - row [ref=f29e239]:
+                  - cell "solve360 Solve360 External" [ref=f29e240]:
+                    - generic [ref=f29e241]:
+                      - img "solve360" [ref=f29e245]
+                      - generic [ref=f29e246]:
+                        - strong [ref=f29e250] [cursor=pointer]:
+                          - link "Solve360" [ref=f29e252]:
+                            - /url: /solve360?type=team
+                        - generic [ref=f29e253]: External
+                  - cell "-" [ref=f29e259]
+                  - cell "-" [ref=f29e260]
+                  - cell "-" [ref=f29e261]
+                  - cell "-" [ref=f29e262]
+                - row [ref=f29e263]:
+                  - cell "ghostscript Ghostscript External" [ref=f29e264]:
+                    - generic [ref=f29e265]:
+                      - img "ghostscript" [ref=f29e269]
+                      - generic [ref=f29e270]:
+                        - strong [ref=f29e274] [cursor=pointer]:
+                          - link "Ghostscript" [ref=f29e276]:
+                            - /url: /ghostscript?type=team
+                        - generic [ref=f29e277]: External
+                  - cell "-" [ref=f29e283]
+                  - cell "-" [ref=f29e284]
+                  - cell "-" [ref=f29e285]
+                  - cell "-" [ref=f29e286]
+                - row [ref=f29e287]:
+                  - cell "ghostmail GhostMail External" [ref=f29e288]:
+                    - generic [ref=f29e289]:
+                      - img "ghostmail" [ref=f29e293]
+                      - generic [ref=f29e294]:
+                        - strong [ref=f29e298] [cursor=pointer]:
+                          - link "GhostMail" [ref=f29e300]:
+                            - /url: /ghostmail?type=team
+                        - generic [ref=f29e301]: External
+                  - cell "-" [ref=f29e307]
+                  - cell "-" [ref=f29e308]
+                  - cell "-" [ref=f29e309]
+                  - cell "-" [ref=f29e310]
+                - row [ref=f29e311]:
+                  - cell "ghost_org Ghost External" [ref=f29e312]:
+                    - generic [ref=f29e313]:
+                      - img "ghost_org" [ref=f29e317]
+                      - generic [ref=f29e318]:
+                        - strong [ref=f29e322] [cursor=pointer]:
+                          - link "Ghost" [ref=f29e324]:
+                            - /url: /ghost_org?type=team
+                        - generic [ref=f29e325]: External
+                  - cell "-" [ref=f29e331]
+                  - cell "-" [ref=f29e332]
+                  - cell "-" [ref=f29e333]
+                  - cell "-" [ref=f29e334]
+            - generic [ref=f29e337]:
+              - heading "Didn't find what you were looking for?" [level=3] [ref=f29e338]
+              - paragraph [ref=f29e339]: "Note: We have numerous private programs running that will not show up on the Directory"
+              - paragraph [ref=f29e340]:
+                - text: If you know of an organization's security contact information or a vulnerability disclosure policy,
+                - link "let us know" [ref=f29e341] [cursor=pointer]:
+                  - /url: https://support.hackerone.com
+                - text: .
+              - generic [ref=f29e342]:
+                - text: If you are aware of a vulnerability you can
+                - link "request disclosure assistance" [ref=f29e343] [cursor=pointer]:
+                  - /url: /disclosure-assistance/disclosure_assistance_requests/new
+                - text: .
+      - generic [ref=f29e348]:
+        - generic [ref=f29e349]: © HackerOne
+        - list [ref=f29e350]:
+          - listitem [ref=f29e351]:
+            - link "Opportunities" [ref=f29e352] [cursor=pointer]:
+              - /url: /opportunities/all
+          - listitem [ref=f29e353]:
+            - link "Security" [ref=f29e354] [cursor=pointer]:
+              - /url: /security
+          - listitem [ref=f29e355]:
+            - link "Leaderboard" [ref=f29e356] [cursor=pointer]:
+              - /url: /leaderboard
+          - listitem [ref=f29e357]:
+            - link "Blog" [ref=f29e358] [cursor=pointer]:
+              - /url: https://www.hackerone.com/blog
+          - listitem [ref=f29e359]:
+            - link "Status" [ref=f29e360] [cursor=pointer]:
+              - /url: https://www.hackeronestatus.com/
+          - listitem [ref=f29e361]:
+            - link "Docs" [ref=f29e362] [cursor=pointer]:
+              - /url: https://docs.hackerone.com
+          - listitem [ref=f29e363]:
+            - link "Support" [ref=f29e364] [cursor=pointer]:
+              - /url: /auth/freshdesk_sso
+          - listitem [ref=f29e365]:
+            - link "Disclosure Guidelines" [ref=f29e366] [cursor=pointer]:
+              - /url: https://www.hackerone.com/disclosure-guidelines
+          - listitem [ref=f29e367]:
+            - link "Press" [ref=f29e368] [cursor=pointer]:
+              - /url: https://www.hackerone.com/press
+          - listitem [ref=f29e369]:
+            - link "Privacy" [ref=f29e370] [cursor=pointer]:
+              - /url: https://www.hackerone.com/privacy
+          - listitem [ref=f29e371]:
+            - link "Terms" [ref=f29e372] [cursor=pointer]:
+              - /url: https://www.hackerone.com/terms
+          - listitem [ref=f29e373]:
+            - link [ref=f29e374] [cursor=pointer]:
+              - /url: https://x.com/hacker0x01
+              - img "X" [ref=f29e375]

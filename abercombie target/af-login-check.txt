@@ -1,0 +1,11 @@
+98. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&brand=anf&store=a-wd&country=US&aemContentAuthoring=0&responseFormat=raw => [200] 
+99. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&brand=anf&store=a-wd&country=US&aemContentAuthoring=0&responseFormat=raw => [200] 
+101. [POST] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=US&langId=-1&store=a-wd&storeId=11203 => [200] 
+102. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&brand=anf&store=a-wd&country=US&responseFormat=raw => [200] 
+108. [POST] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=US&langId=-1&store=a-wd&storeId=11203 => [200] 
+109. [GET] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=US&langId=-1&store=a-wd&storeId=11203&operationName=CREATE_USER_OTP_DIALOG_QUERY&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f3e17065b89656f68eaf994d1730f9c2efc03be6cbecccccd23d67f05f76a3d9%22%7D%7D => [200] 
+110. [GET] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=US&langId=-1&store=a-wd&storeId=11203&operationName=SIGN_IN_TOASTER_QUERY&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22ed26e36bab3f7d049f14a66baa7ca1bc4b5b067b5d2c0a5ad87374251414a0bb%22%7D%7D => [200] 
+111. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&brand=anf&store=a-wd&country=US&aemContentAuthoring=0&responseFormat=raw => [200] 
+121. [POST] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=US&langId=-1&store=a-wd&storeId=11203 => [200] 
+
+Note: 123 static requests not shown, run with "static" option to see them.

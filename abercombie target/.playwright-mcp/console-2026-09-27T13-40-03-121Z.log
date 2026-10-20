@@ -1,0 +1,24 @@
+[     555ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.abercrombie.com/shop/wd/help/trackorder:22
+[    1341ms] [WARNING] AT: Adobe Target content delivery is disabled. Update your DOCTYPE to support Standards mode. @ https://www.abercrombie.com/anf/91e6adba/js/lib/adobe/at.js:7
+[    1341ms] [WARNING] AT: Adobe Target content delivery is disabled in targetGlobalSettings. @ https://www.abercrombie.com/anf/91e6adba/js/lib/adobe/at.js:7
+[    1434ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[    1666ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[    1666ms] [WARNING] JQMIGRATE: jQuery is not compatible with Quirks Mode @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19223
+[    2094ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=e1b529bc9d1dc8fbb9fec57549aec95a&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd%252Fhelp%252Ftrackorder:6
+[    2309ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    2322ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    2599ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[    3089ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd/help/trackorder:0
+[    3089ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd/help/trackorder:0
+[    4536ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://consent-api.onetrust.com/v2/preferences:0
+[    4537ms] [LOG] OT - Error in fetch URL : https://consent-api.onetrust.com/v2/preferences Exception : {"message":"Error Loading Data","statusCode":401} @ https://cdn.cookielaw.org/consent/d2fc6750-42e2-43de-a0bf-19c48ecdc38c/otSDKStub.js:37
+[    4557ms] [ERROR] rcs.recommendations::lock:broker-not-engaged {enabled: false, mutualExclusion: false, mfe: recommendations, timestamp: 2026-09-27T13:40:07.676Z, environment: prod} @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1
+[    5581ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[    5655ms] [LOG] utag.view fired with: {global.account.geo_country: PK, global.account.geo_state: US, global.account.keep_me_logged_in_flag: false, loyalty_points: 0, loyalty_to_next_reward: 0} @ https://tags.abercrombie.com/main/prod/utag.js:12
+[    6507ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd/help/trackorder:0

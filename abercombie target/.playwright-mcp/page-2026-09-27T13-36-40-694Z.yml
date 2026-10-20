@@ -1,0 +1,279 @@
+- generic [ref=f103e1]:
+  - banner [ref=f103e3]:
+    - link "Skip to Content" [ref=f103e4] [cursor=pointer]:
+      - /url: "#main-content-start"
+    - generic [ref=f103e9]:
+      - generic [ref=f103e10]:
+        - button "Free Standard Shipping & Handling on All Orders Over US$99!^ •" [ref=f103e11] [cursor=pointer]:
+          - generic [ref=f103e12]: Free Standard Shipping & Handling on All Orders Over US$99!^
+          - generic [ref=f103e13]: •
+        - button [aria-hidden] [ref=f103e14] [cursor=pointer]:
+          - generic [ref=f103e15]: Free Standard Shipping & Handling on All Orders Over US$99!^
+          - generic [ref=f103e16]: •
+          - generic [ref=f103e17]: Free Standard Shipping & Handling on All Orders Over US$99!^
+          - generic [ref=f103e18]: •
+      - button [aria-hidden] [ref=f103e19] [cursor=pointer]:
+        - generic [ref=f103e20]: Free Standard Shipping & Handling on All Orders Over US$99!^
+        - generic [ref=f103e21]: •
+        - generic [ref=f103e22]: Free Standard Shipping & Handling on All Orders Over US$99!^
+        - generic [ref=f103e23]: •
+        - generic [ref=f103e24]: Free Standard Shipping & Handling on All Orders Over US$99!^
+        - generic [ref=f103e25]: •
+    - generic [ref=f103e27]:
+      - generic [ref=f103e28]:
+        - link "hollister" [ref=f103e29] [cursor=pointer]:
+          - /url: /shop/wd?pagefm=navigation-logo
+        - navigation "Main menu" [ref=f103e31]:
+          - list [ref=f103e32]:
+            - listitem [ref=f103e33]:
+              - heading [level=2] [ref=f103e34]:
+                - link "New" [ref=f103e35] [cursor=pointer]:
+                  - /url: /shop/wd/new-641669241
+              - button "Open Menu" [ref=f103e36]
+            - listitem [ref=f103e39]:
+              - heading [level=2] [ref=f103e40]:
+                - link "Women's" [ref=f103e41] [cursor=pointer]:
+                  - /url: /shop/wd/womens
+              - button "Open Menu" [ref=f103e42]
+            - listitem [ref=f103e45]:
+              - heading [level=2] [ref=f103e46]:
+                - link "Men's" [ref=f103e47] [cursor=pointer]:
+                  - /url: /shop/wd/mens
+              - button "Open Menu" [ref=f103e48]
+            - listitem [ref=f103e51]:
+              - heading [level=2] [ref=f103e52]:
+                - link "Jeans" [ref=f103e53] [cursor=pointer]:
+                  - /url: /shop/wd/jeans
+              - button "Open Menu" [ref=f103e54]
+      - generic [ref=f103e57]:
+        - button [ref=f103e59] [cursor=pointer]:
+          - img "Search" [ref=f103e60]
+          - generic: Search
+        - button "PK" [ref=f103e62] [cursor=pointer]:
+          - generic:
+            - img "PK"
+        - link "View My List" [ref=f103e64] [cursor=pointer]:
+          - /url: /shop/MySavesView?URL=MySavesView&storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-my+saves
+        - button "MiniBag Shopping Bag" [ref=f103e71] [cursor=pointer]:
+          - img "MiniBag" [ref=f103e72]
+          - generic [ref=f103e73]: Shopping Bag
+        - button "Sign In or Create Account" [ref=f103e78] [cursor=pointer]
+    - status [ref=f103e80]
+  - main [ref=f103e83]:
+    - generic [ref=f103e88]:
+      - generic [ref=f103e97]:
+        - img "soccer club classics" [ref=f103e100]
+        - generic [ref=f103e101]: Officially-licensed graphics and wardrobe classics just teamed up.
+        - link "Shop Men's" [ref=f103e105] [cursor=pointer]:
+          - /url: /shop/wd/mens-tops?icmp=ICT:FALL26:M-H:HP:H:TOP:CAM:X:SepWk2:HP:SCC:DCM
+      - generic [ref=f103e114]:
+        - img "autumn diaries" [ref=f103e117]
+        - generic [ref=f103e118]: Document the best outfit season of the year in striped and v-neck sweaters.
+        - link "Women's Sweaters" [ref=f103e122] [cursor=pointer]:
+          - /url: "/shop/wd/womens-tops?icmp=ICT:FALL26:F-H:HP:H:TOP:CAM:X:SepWk2:HP:DIARY:DCF:"
+      - generic [ref=f103e151]:
+        - generic [ref=f103e155]:
+          - generic [ref=f103e156]: Tops
+          - generic [ref=f103e159]:
+            - link "Shop Women's" [ref=f103e160] [cursor=pointer]:
+              - /url: /shop/wd/womens-tops?kicIds=KIC_339-26005-00281-528?icmp=ICT:FALL26:F-H:HP:H:SWT:CAM:X:AugWk3:HP:FS
+            - link "Shop Men's" [ref=f103e161] [cursor=pointer]:
+              - /url: "/shop/wd/mens-tops?kicIds=KIC_324-26007-00032-120?icmp=ICT:FALL26:M-H:HP:T5:SWM:CAM:X:JunWk4:"
+        - generic [ref=f103e165]:
+          - generic [ref=f103e166]: Sweatshirts & Sweatpants
+          - generic [ref=f103e169]:
+            - link "Shop Women's" [ref=f103e170] [cursor=pointer]:
+              - /url: /shop/wd/womens-sweatshirts-and-sweatpants?kicIds=KIC_352-6192-00176-440,KIC_347-6175-00535-442?icmp=ICT:FALL26:M-H:HP:H:SWT:CAM:X:AugWk3:HP:MS
+            - link "Shop Men's" [ref=f103e171] [cursor=pointer]:
+              - /url: "/shop/wd/mens-sweatshirts-and-sweatpants?kicIds=KIC_322-6377-00167-293,KIC_334-6126-00346-901?icmp=ICT:SUM26:M-H:HP:T5:SHO:CAM:X:MayWk2:"
+        - generic [ref=f103e175]:
+          - generic [ref=f103e176]: Women’s Jeans
+          - link "Shop Now" [ref=f103e180] [cursor=pointer]:
+            - /url: /shop/wd/womens-jeans-bottoms?kicIds=KIC_355-6665-01033-276?icmp=ICT:FALL26:F-H:HP:H:BTM:CAM:X:AugWk3:HP:MB
+        - generic [ref=f103e184]:
+          - generic [ref=f103e185]: Men’s Jeans
+          - link "Shop Now" [ref=f103e189] [cursor=pointer]:
+            - /url: /shop/wd/mens-jeans-bottoms?kicIds=KIC_331-6282-00691-977?icmp=ICT:FALL26:F-H:HP:H:TOP:CAM:X:AugWk3:HP:MT
+      - generic [ref=f103e196]:
+        - generic [ref=f103e201]:
+          - generic [ref=f103e203]:
+            - strong [ref=f103e204]: Trend
+            - text: Drop
+          - generic [ref=f103e205]: Fresh for Fall
+          - generic [ref=f103e207]: Layer on comfy cardigans and cute tops paired with mini shorts, baggy jeans or denim skirts.
+          - link "Women's New Arrivals" [ref=f103e211] [cursor=pointer]:
+            - /url: /shop/wd/womens-new-arrivals?icmp=ICT:FALL26:F-H:HP:T5:NAS:CAM:X:SepWk4:TDROP:LL
+        - generic [ref=f103e216]:
+          - generic [ref=f103e218]:
+            - strong [ref=f103e219]: New
+            - text: Arrivals
+          - generic [ref=f103e220]: Layering Season
+          - generic [ref=f103e222]: Unlock classic fall fits with comfortable sweaters and soft thermal shirts.
+          - link "Men’s New Arrivals" [ref=f103e226] [cursor=pointer]:
+            - /url: /shop/wd/mens-new-arrivals?icmp=ICT:FALL26:M-H:HP:T5:NAS:CAM:X:SepWk4:TDROP:TST
+  - contentinfo [ref=f103e228]:
+    - generic [ref=f103e230]:
+      - generic [ref=f103e231]: ^Offer valid online only. Free standard shipping and handling applied to subtotal after all discounts and before tax and shipping/handling at checkout. To qualify, orders must be shipped via Standard Ground service.
+      - link "See All Offer Details" [ref=f103e241] [cursor=pointer]:
+        - /url: /shop/wd/br/PromotionInfo?icmp=ICT:EVERGREEN:D:HP:FT:LEGAL:O:x:Legal
+    - generic [ref=f103e242]:
+      - generic [ref=f103e243]:
+        - img "hollister co." [ref=f103e246]: 
+        - generic [ref=f103e247]:
+          - separator [ref=f103e248]
+          - heading "Our Brands" [level=2] [ref=f103e249]
+          - list [ref=f103e250]:
+            - listitem [ref=f103e251]:
+              - link [ref=f103e252] [cursor=pointer]:
+                - /url: https://www.hollisterco.com
+                - img "hollister co." [ref=f103e254]: 
+            - listitem [ref=f103e255]:
+              - link [ref=f103e256] [cursor=pointer]:
+                - /url: https://www.abercrombie.com
+                - img "abercrombie and fitch" [ref=f103e258]: 
+            - listitem [ref=f103e259]:
+              - link [ref=f103e260] [cursor=pointer]:
+                - /url: https://www.abercrombie.com/shop/wd/kids
+                - img "abercrombie kids" [ref=f103e262]: 
+      - generic [ref=f103e263]:
+        - heading "About Us" [level=2] [ref=f103e264]
+        - list [ref=f103e265]:
+          - listitem [ref=f103e266]:
+            - link "Brand Protection" [ref=f103e267] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=brand-protection&textKey=LEGAL_BRAND_PROTECTION&storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f103e268]:
+            - link "Careers" [ref=f103e269] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/careers
+          - listitem [ref=f103e270]:
+            - link "A&F Gives Back" [ref=f103e271] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-impact
+          - listitem [ref=f103e272]:
+            - link "Accessibility" [ref=f103e273] [cursor=pointer]:
+              - /url: /shop/wd/help/Accessibility?pagefm=navigation-footer
+          - listitem [ref=f103e274]:
+            - link "Inclusion & Diversity" [ref=f103e275] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-commitment
+          - listitem [ref=f103e276]:
+            - link "Press Room" [ref=f103e277] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/news/media-gallery
+          - listitem [ref=f103e278]:
+            - link "Sustainability" [ref=f103e279] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/sustainability
+      - generic [ref=f103e280]:
+        - heading "Help" [level=2] [ref=f103e281]
+        - list [ref=f103e282]:
+          - listitem [ref=f103e283]:
+            - link "Customer Help" [ref=f103e284] [cursor=pointer]:
+              - /url: /shop/wd/help
+          - listitem [ref=f103e285]:
+            - link "Order Help" [ref=f103e286] [cursor=pointer]:
+              - /url: /shop/wd/help/lookup-order
+          - listitem [ref=f103e287]:
+            - link "Shipping & Handling" [ref=f103e288] [cursor=pointer]:
+              - /url: /shop/wd/help/shipping-handling
+          - listitem [ref=f103e289]:
+            - link "Online Returns" [ref=f103e290] [cursor=pointer]:
+              - /url: /shop/wd/help/online-return-exchange-policy
+          - listitem [ref=f103e291]:
+            - link "Track My Order" [ref=f103e292] [cursor=pointer]:
+              - /url: /shop/wd/help/trackorder
+          - listitem [ref=f103e293]:
+            - link "Cards & E-Cards" [ref=f103e294] [cursor=pointer]:
+              - /url: /shop/wd/help/giftcard-balance-check
+          - listitem [ref=f103e295]:
+            - link "Currency" [ref=f103e296] [cursor=pointer]:
+              - /url: /shop/wd/help/currency?storeId=11205&catalogId=10201&langId=-1
+      - generic [ref=f103e297]:
+        - list [ref=f103e298]:
+          - listitem [ref=f103e299]:
+            - link "Find a Store" [ref=f103e300] [cursor=pointer]:
+              - /url: /shop/StoreLocator?storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-footer
+              - generic [aria-hidden] [ref=f103e301]: 
+          - listitem [ref=f103e303]:
+            - generic [ref=f103e305]:
+              - img "PK" [ref=f103e307]
+              - button "Pakistan" [ref=f103e308] [cursor=pointer]
+        - generic [ref=f103e310]:
+          - switch "High Contrast" [ref=f103e311]
+          - generic [ref=f103e312] [cursor=pointer]: High Contrast
+      - generic [ref=f103e318]:
+        - generic [ref=f103e324]:
+          - heading "Subscribe" [level=2] [ref=f103e326]
+          - generic [ref=f103e329]:
+            - textbox "Email Address" [ref=f103e330]
+            - generic: Email Address
+            - button "Join" [ref=f103e331] [cursor=pointer]
+        - list [ref=f103e333]:
+          - listitem [ref=f103e334]:
+            - link "TikTok" [ref=f103e335] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@hollister
+              - generic [aria-hidden] [ref=f103e336]: 
+          - listitem [ref=f103e337]:
+            - link "Instagram" [ref=f103e338] [cursor=pointer]:
+              - /url: https://www.instagram.com/hollister
+              - generic [aria-hidden] [ref=f103e339]: 
+          - listitem [ref=f103e340]:
+            - link "Facebook" [ref=f103e341] [cursor=pointer]:
+              - /url: https://www.facebook.com/hollister
+              - generic [aria-hidden] [ref=f103e342]: 
+          - listitem [ref=f103e343]:
+            - link "pinterest" [ref=f103e344] [cursor=pointer]:
+              - /url: https://www.pinterest.com/hollister
+              - generic [aria-hidden] [ref=f103e345]: 
+          - listitem [ref=f103e346]:
+            - link "Youtube" [ref=f103e347] [cursor=pointer]:
+              - /url: https://www.youtube.com/hollisterco
+              - generic [aria-hidden] [ref=f103e348]: 
+    - generic [ref=f103e350]:
+      - separator [ref=f103e351]
+      - list [ref=f103e353]:
+        - listitem [ref=f103e354]:
+          - link "Privacy" [ref=f103e355] [cursor=pointer]:
+            - /url: /shop/CustomerService?pageName=privacy&textKey=LEGAL_PRIVACY_POLICY&storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-footer
+        - listitem [ref=f103e356]:
+          - text: "|"
+          - link "Sale Terms" [ref=f103e357] [cursor=pointer]:
+            - /url: /shop/CustomerService?pageName=sale-terms&textKey=LEGAL_SALES_TERMS&storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-footer
+        - listitem [ref=f103e358]:
+          - text: "|"
+          - link "Website Terms of Use" [ref=f103e359] [cursor=pointer]:
+            - /url: /shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-footer
+        - listitem [ref=f103e360]:
+          - text: "|"
+          - link "Endorsements Social Media Engagement" [ref=f103e361] [cursor=pointer]:
+            - /url: /shop/CustomerService?pageName=social-media&textKey=LEGAL_SOCIAL_MEDIA_POLICY&storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-footer
+        - listitem [ref=f103e362]:
+          - text: "|"
+          - link "Site Map" [ref=f103e363] [cursor=pointer]:
+            - /url: /shop/SiteMapView?storeId=11205&catalogId=10201&langId=-1&pagefm=navigation-footer
+        - listitem [ref=f103e364]:
+          - text: "|"
+          - button "Manage My Preferences" [ref=f103e365]
+        - listitem [ref=f103e366]:
+          - text: "|"
+          - link "Responsible Disclosure" [ref=f103e367] [cursor=pointer]:
+            - /url: https://corporate.abercrombie.com/our-company/contact-us/vulnerability-disclosure/
+  - generic: 
+  - generic:  
+  - generic: 
+  - generic: 
+  - generic:        
+  - generic: 
+  - generic:       
+  - region "Cookie Banner" [active] [ref=f103e369]:
+    - dialog "Privacy" [ref=f103e370]:
+      - generic [ref=f103e371]:
+        - generic [ref=f103e373]:
+          - paragraph [ref=f103e374]:
+            - strong [ref=f103e375]: "We use cookies for several purposes, like:"
+          - list [ref=f103e376]: Enhancing your overall shopping experience Improving functionality and security
+          - paragraph [ref=f103e384]:
+            - strong [ref=f103e385]: "If you choose to \"Accept All,\" we'll also use cookies for things like:"
+          - list [ref=f103e386]:
+            - text: Providing personalised product recommendations Tailoring content based on your preferences Gathering insights to better understand you as a customer
+            - link "More information about your privacy, opens in a new tab" [ref=f103e398] [cursor=pointer]:
+              - /url: https://www.hollisterco.com/shop/CustomerService?storeId=19659&catalogId=11558&langId=-1005&textKey=LEGAL_COOKIES_POLICY&pageName=about-cookies
+              - text: Cookie Notice
+        - generic [ref=f103e400]:
+          - button "Accept All" [ref=f103e402] [cursor=pointer]
+          - button "Confirm My Preferences, Opens the preference center dialog" [ref=f103e403] [cursor=pointer]: Confirm My Preferences

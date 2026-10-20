@@ -1,0 +1,126 @@
+/**
+ * Shared login utilities used by login_sso.js and login_vo_sso.js.
+ * Must be loaded before either of those files.
+ */
+
+// Callers should define TENANT_CHECK_CACHE_TTL_MS before loading this file.
+// This default (8 h) prevents a broken TTL if a future caller forgets.
+var TENANT_CHECK_CACHE_TTL_MS = typeof TENANT_CHECK_CACHE_TTL_MS !== 'undefined'
+    ? TENANT_CHECK_CACHE_TTL_MS
+    : 8 * 60 * 60 * 1000;
+
+/**
+ * Validates that a redirect URL is safe to use (same-origin or relative).
+ * Prevents open redirect attacks via tampered IndexedDB cache entries or
+ * unexpected server responses.
+ *
+ * @param {String} url
+ * @return {Boolean}
+ */
+function isSafeLoginRedirectURL(url) {
+    if (!url || url.length === 0) { return false; }
+    if (url.startsWith('/') && !url.startsWith('//')) { return true; }
+    try {
+        return new URL(url).origin === window.location.origin;
+    } catch (e) {
+        console.warn('[VCC] Could not parse redirect URL:', url, e);
+        return false;
+    }
+}
+
+/**
+ * Parses the XML text response from gen_check_tenant.php.
+ * Returns a plain cacheable data object on success.
+ * Throws 'ldap_down' when LDAP is unreachable so fallbackStore can serve cached data.
+ * Throws 'auth_error' for non-cacheable outcomes (errors already handled as side effects).
+ *
+ * The sfdc_sso_fail_error pre-check is a no-op in non-SFDC contexts where the key is absent.
+ *
+ * @param {String} xmlText
+ * @return {{ redirectURL: string, tenant: string, algorithm: string }}
+ */
+function checkTenantXmlResponse(xmlText) {
+    // SFDC SSO errors are set server-side in LOGIN_SSO_RES before the tenant check completes.
+    // This check is a no-op in non-SFDC login contexts where sfdc_sso_fail_error is not set.
+    if (window.LOGIN_SSO_RES && window.LOGIN_SSO_RES.sfdc_sso_fail_error) {
+        if (window.LOGIN_SSO_RES.sfdc_sso_fail_error === 'unknown_error') {
+            vccLogger.error(ErrorDomain.LOGIN_ERROR, 'Server-side SSO login failure', {
+                file: "AGUI/js/login_shared.js",
+                function: "checkTenantXmlResponse",
+            });
+        }
+        displayError(window.LOGIN_SSO_RES.sfdc_sso_fail_error);
+        throw new Error('auth_error');
+    }
+
+    var parser = new DOMParser();
+    var xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+    var authorized = getNodeValue(xmlDoc, 'authorized');
+
+    if (authorized !== 'TRUE') {
+        var reason = getNodeValue(xmlDoc, 'reason');
+        if (reason === '2') { throw new Error('ldap_down'); }
+        if (reason === '1') { displayError('login_not_allowed'); }
+        else if (reason === '4') { displayError('tenant_in_maintenance'); }
+        else { 
+            displayError('unknown_error');
+            vccLogger.error(ErrorDomain.LOGIN_ERROR, 'Tenant check returned an unrecognised reason', {
+                file: "AGUI/js/login_shared.js",
+                function: "checkTenantXmlResponse",
+                reason: reason || 'missing'
+            });
+        }
+        throw new Error('auth_error');
+    }
+
+    return {
+        redirectURL: getNodeValue(xmlDoc, 'redirectURL') || '',
+        tenant:      getNodeValue(xmlDoc, 'tenant') || '',
+        algorithm:   getNodeValue(xmlDoc, 'algorithm') || ''
+    };
+}
+
+function requestCheckTenant(url) {
+    return fetch(url)
+        .then(function(r) {
+            if (r.ok) { return r.text(); }
+            throw new Error('Service unavailable');
+        })
+        .then(checkTenantXmlResponse);
+}
+
+/**
+ * Requests the tenant check, wrapped in fallbackStore so that:
+ *   - Successful responses are cached automatically.
+ *   - When LDAP is down (ldap_down error), the last cached response is served.
+ *
+ * Callers may define TENANT_CHECK_CACHE_TTL_MS before loading this file to override the default TTL.
+ *
+ * @param {String} tenant
+ * @return {Promise<{ redirectURL: string, tenant: string, algorithm: string }>}
+ */
+function checkTenant(tenant) {
+    var url = '../GEN/gen_check_tenant.php?type=ns_sso_login&tenant=' + encodeURIComponent(tenant);
+    if (typeof appShellPromise === 'undefined') {
+        return requestCheckTenant(url);
+    }
+    return appShellPromise.then(function(shellApp) {
+        if (typeof shellApp.fallbackStore === 'undefined') {
+            return requestCheckTenant(url);
+        }
+        return shellApp.fallbackStore('tenant-check')
+            .then(function(cache) {
+                return cache(
+                    ['tenant-' + tenant, TENANT_CHECK_CACHE_TTL_MS],
+                    requestCheckTenant(url)
+                );
+            });
+    }).catch(function(err) {
+        // Preserve known semantic outcomes — the caller handles them.
+        if (err && (err.message === 'auth_error' || err.message === 'ldap_down' || err.message === 'vovcc_redirect')) {
+            throw err;
+        }
+        // Shell load failure or cache API error — degrade to direct uncached request.
+        return requestCheckTenant(url);
+    });
+}

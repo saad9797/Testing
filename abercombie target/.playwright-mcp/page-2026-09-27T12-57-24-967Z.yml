@@ -1,0 +1,176 @@
+- generic [ref=f25e4]:
+  - banner [ref=f25e5]:
+    - generic [ref=f25e6]:
+      - link "Skip to main content >" [ref=f25e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f25e9]:
+        - link "Go back to homepage" [ref=f25e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f25e12]
+        - generic [ref=f25e14]:
+          - link [ref=f25e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f25e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f25e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f25e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f25e43]:
+      - link [ref=f25e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f25e50]: Learn more about HackerOne
+      - link "Log in" [ref=f25e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f25e55]:
+    - generic [ref=f25e57]:
+      - generic [ref=f25e62]:
+        - generic [ref=f25e63]:
+          - heading "Directory" [level=2] [ref=f25e64]
+          - generic [ref=f25e65]: Find new hackable targets or contact information to report vulnerabilities you’ve already found.
+        - searchbox "Search Directory" [active] [ref=f25e76]: GhostGhostGhost
+      - generic [ref=f25e78]:
+        - generic [ref=f25e80]:
+          - heading "Program features" [level=5] [ref=f25e81]
+          - generic [ref=f25e82]:
+            - checkbox "IBB" [ref=f25e83] [cursor=pointer]
+            - text: IBB
+            - generic [ref=f25e84] [cursor=pointer]
+          - generic [ref=f25e92]:
+            - checkbox "Offers bounties" [ref=f25e93] [cursor=pointer]
+            - text: Offers bounties
+            - generic [ref=f25e94] [cursor=pointer]
+          - generic [ref=f25e102]:
+            - checkbox "High response efficiency" [ref=f25e103] [cursor=pointer]
+            - text: High response efficiency
+            - generic [ref=f25e104] [cursor=pointer]
+          - generic [ref=f25e112]:
+            - checkbox "Managed by HackerOne" [ref=f25e113] [cursor=pointer]
+            - text: Managed by HackerOne
+            - generic [ref=f25e114] [cursor=pointer]
+          - generic [ref=f25e122]:
+            - checkbox "Offers retesting" [ref=f25e123] [cursor=pointer]
+            - text: Offers retesting
+            - generic [ref=f25e124] [cursor=pointer]
+          - generic [ref=f25e132]:
+            - checkbox "Active program" [checked] [ref=f25e133] [cursor=pointer]
+            - text: Active program
+            - generic [ref=f25e134] [cursor=pointer]
+          - generic [ref=f25e142]:
+            - checkbox "Collaboration" [ref=f25e143] [cursor=pointer]
+            - text: Collaboration
+            - generic [ref=f25e144] [cursor=pointer]
+          - separator [ref=f25e152]
+          - heading "Asset type" [level=5] [ref=f25e153]
+          - generic [ref=f25e154]:
+            - radio "Any" [checked] [ref=f25e155] [cursor=pointer]
+            - text: Any
+          - generic [ref=f25e156]:
+            - radio "CIDR" [ref=f25e157] [cursor=pointer]
+            - text: CIDR
+          - generic [ref=f25e158]:
+            - radio "Domain" [ref=f25e159] [cursor=pointer]
+            - text: Domain
+          - generic [ref=f25e160]:
+            - 'radio "iOS: App Store" [ref=f25e161] [cursor=pointer]'
+            - text: "iOS: App Store"
+          - generic [ref=f25e162]:
+            - 'radio "iOS: TestFlight" [ref=f25e163] [cursor=pointer]'
+            - text: "iOS: TestFlight"
+          - generic [ref=f25e164]:
+            - 'radio "iOS: .ipa" [ref=f25e165] [cursor=pointer]'
+            - text: "iOS: .ipa"
+          - generic [ref=f25e166]:
+            - 'radio "Android: Play Store" [ref=f25e167] [cursor=pointer]'
+            - text: "Android: Play Store"
+          - generic [ref=f25e168]:
+            - 'radio "Android: .apk" [ref=f25e169] [cursor=pointer]'
+            - text: "Android: .apk"
+          - generic [ref=f25e170]:
+            - 'radio "Windows: Microsoft Store" [ref=f25e171] [cursor=pointer]'
+            - text: "Windows: Microsoft Store"
+          - generic [ref=f25e172]:
+            - radio "Source Code" [ref=f25e173] [cursor=pointer]
+            - text: Source Code
+          - generic [ref=f25e174]:
+            - radio "Executable" [ref=f25e175] [cursor=pointer]
+            - text: Executable
+          - generic [ref=f25e176]:
+            - radio "Smart Contract" [ref=f25e177] [cursor=pointer]
+            - text: Smart Contract
+          - generic [ref=f25e178]:
+            - radio "Wildcard" [ref=f25e179] [cursor=pointer]
+            - text: Wildcard
+          - generic [ref=f25e180]:
+            - radio "IP Address" [ref=f25e181] [cursor=pointer]
+            - text: IP Address
+          - generic [ref=f25e182]:
+            - radio "Hardware" [ref=f25e183] [cursor=pointer]
+            - text: Hardware
+          - generic [ref=f25e184]:
+            - radio "Other Asset" [ref=f25e185] [cursor=pointer]
+            - text: Other Asset
+          - generic [ref=f25e186]:
+            - radio "AI Model" [ref=f25e187] [cursor=pointer]
+            - text: AI Model
+          - generic [ref=f25e188]:
+            - radio "API" [ref=f25e189] [cursor=pointer]
+            - text: API
+          - generic [ref=f25e190]:
+            - radio "AWS Account" [ref=f25e191] [cursor=pointer]
+            - text: AWS Account
+          - generic [ref=f25e192]:
+            - radio "Azure Account" [ref=f25e193] [cursor=pointer]
+            - text: Azure Account
+        - generic [ref=f25e194]:
+          - heading "0 results found for \"GhostGhostGhost\"." [level=3] [ref=f25e1075]
+          - generic [ref=f25e1077]:
+            - generic "Uh-oh, we came up empty!" [ref=f25e1079]:
+              - img "Uh-oh, we came up empty!" [ref=f25e1081]
+            - generic [ref=f25e1095]: Uh-oh, we came up empty!
+            - paragraph [ref=f25e1097]: "Note: if you know of an organization's security contact information or a vulnerability disclosure policy, let us know. If you are aware of a vulnerability you can request disclosure assistance."
+            - generic [ref=f25e1098]:
+              - link "Let us know" [ref=f25e1099] [cursor=pointer]:
+                - /url: https://support.hackerone.com
+              - link "Request disclosure assistance" [ref=f25e1105] [cursor=pointer]:
+                - /url: /disclosure-assistance/disclosure_assistance_requests/new
+      - generic [ref=f25e918]:
+        - generic [ref=f25e919]: © HackerOne
+        - list [ref=f25e920]:
+          - listitem [ref=f25e921]:
+            - link "Opportunities" [ref=f25e922] [cursor=pointer]:
+              - /url: /opportunities/all
+          - listitem [ref=f25e923]:
+            - link "Security" [ref=f25e924] [cursor=pointer]:
+              - /url: /security
+          - listitem [ref=f25e925]:
+            - link "Leaderboard" [ref=f25e926] [cursor=pointer]:
+              - /url: /leaderboard
+          - listitem [ref=f25e927]:
+            - link "Blog" [ref=f25e928] [cursor=pointer]:
+              - /url: https://www.hackerone.com/blog
+          - listitem [ref=f25e929]:
+            - link "Status" [ref=f25e930] [cursor=pointer]:
+              - /url: https://www.hackeronestatus.com/
+          - listitem [ref=f25e931]:
+            - link "Docs" [ref=f25e932] [cursor=pointer]:
+              - /url: https://docs.hackerone.com
+          - listitem [ref=f25e933]:
+            - link "Support" [ref=f25e934] [cursor=pointer]:
+              - /url: /auth/freshdesk_sso
+          - listitem [ref=f25e935]:
+            - link "Disclosure Guidelines" [ref=f25e936] [cursor=pointer]:
+              - /url: https://www.hackerone.com/disclosure-guidelines
+          - listitem [ref=f25e937]:
+            - link "Press" [ref=f25e938] [cursor=pointer]:
+              - /url: https://www.hackerone.com/press
+          - listitem [ref=f25e939]:
+            - link "Privacy" [ref=f25e940] [cursor=pointer]:
+              - /url: https://www.hackerone.com/privacy
+          - listitem [ref=f25e941]:
+            - link "Terms" [ref=f25e942] [cursor=pointer]:
+              - /url: https://www.hackerone.com/terms
+          - listitem [ref=f25e943]:
+            - link [ref=f25e944] [cursor=pointer]:
+              - /url: https://x.com/hacker0x01
+              - img "X" [ref=f25e945]

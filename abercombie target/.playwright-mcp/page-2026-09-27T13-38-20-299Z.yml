@@ -1,0 +1,252 @@
+- generic [active] [ref=f115e1]:
+  - banner [ref=f115e3]:
+    - link "Skip to Content" [ref=f115e4] [cursor=pointer]:
+      - /url: "#main-content-start"
+    - generic [ref=f115e6]:
+      - list [ref=f115e7]:
+        - listitem [ref=f115e8]:
+          - link [ref=f115e9] [cursor=pointer]:
+            - /url: /shop/wd?pagefm=navigation-top+nav
+            - img "Top category for ANF adult categories" [ref=f115e10]
+        - listitem [ref=f115e11]:
+          - link [ref=f115e12] [cursor=pointer]:
+            - /url: /shop/wd/kids?pagefm=navigation-top+nav
+            - img "Top category for ANF Kids categories" [ref=f115e13]
+      - generic [ref=f115e16]:
+        - generic [ref=f115e17]:
+          - button "Free Standard Shipping on Orders Over US$150^ •" [ref=f115e18] [cursor=pointer]:
+            - generic [ref=f115e19]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=f115e20]: •
+          - button [aria-hidden] [ref=f115e21] [cursor=pointer]:
+            - generic [ref=f115e22]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=f115e23]: •
+            - generic [ref=f115e24]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=f115e25]: •
+        - button [aria-hidden] [ref=f115e26] [cursor=pointer]:
+          - generic [ref=f115e27]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=f115e28]: •
+          - generic [ref=f115e29]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=f115e30]: •
+          - generic [ref=f115e31]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=f115e32]: •
+    - generic [ref=f115e34]:
+      - generic [ref=f115e35]:
+        - link "abercrombie and fitch" [ref=f115e36] [cursor=pointer]:
+          - /url: /shop/wd?pagefm=navigation-logo
+        - navigation "Main menu" [ref=f115e38]:
+          - list [ref=f115e39]:
+            - listitem [ref=f115e40]:
+              - heading [level=2] [ref=f115e41]:
+                - link "New" [ref=f115e42] [cursor=pointer]:
+                  - /url: /shop/wd/new
+              - button "Open Menu" [ref=f115e43]
+            - listitem [ref=f115e46]:
+              - heading [level=2] [ref=f115e47]:
+                - link "Women's" [ref=f115e48] [cursor=pointer]:
+                  - /url: /shop/wd/womens
+              - button "Open Menu" [ref=f115e49]
+            - listitem [ref=f115e52]:
+              - heading [level=2] [ref=f115e53]:
+                - link "Men's" [ref=f115e54] [cursor=pointer]:
+                  - /url: /shop/wd/mens
+              - button "Open Menu" [ref=f115e55]
+            - listitem [ref=f115e58]:
+              - heading [level=2] [ref=f115e59]:
+                - link "NFL" [ref=f115e60] [cursor=pointer]:
+                  - /url: /shop/wd/nfl
+              - button "Open Menu" [ref=f115e61]
+            - listitem [ref=f115e64]:
+              - heading [level=2] [ref=f115e65]:
+                - link "Jeans" [ref=f115e66] [cursor=pointer]:
+                  - /url: /shop/wd/jeans
+              - button "Open Menu" [ref=f115e67]
+      - generic [ref=f115e70]:
+        - button [ref=f115e72] [cursor=pointer]:
+          - img "Search" [ref=f115e73]
+          - generic: Search
+        - button "PK" [ref=f115e75] [cursor=pointer]:
+          - generic:
+            - img "PK"
+        - link "View My List" [ref=f115e77] [cursor=pointer]:
+          - /url: /shop/MySavesView?URL=MySavesView&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-my+saves
+        - button "MiniBag Shopping Bag" [ref=f115e84] [cursor=pointer]:
+          - img "MiniBag" [ref=f115e85]
+          - generic [ref=f115e86]: Shopping Bag
+        - button "Hi, saad,myAbercrombie logo,," [ref=f115e92] [cursor=pointer]:
+          - generic: Hi, saad
+    - status [ref=f115e93]
+  - generic [ref=f115e105]:
+    - strong [ref=f115e108]: Uh Oh!
+    - generic [ref=f115e109]: This page doesn't exist. Hit refresh or continue shopping below.
+    - generic [ref=f115e112]:
+      - link "SHOP WOMEN'S" [ref=f115e113] [cursor=pointer]:
+        - /url: /shop/wd/womens
+      - link "SHOP MEN'S" [ref=f115e114] [cursor=pointer]:
+        - /url: /shop/wd/mens
+      - link "shop girls" [ref=f115e115] [cursor=pointer]:
+        - /url: /shop/wd/girls
+      - link "shop boys" [ref=f115e116] [cursor=pointer]:
+        - /url: /shop/wd/boys
+  - contentinfo [ref=f115e118]:
+    - generic [ref=f115e120]:
+      - generic [ref=f115e121]: ^Offer valid online only. Free standard shipping and handling applied to subtotal after all discounts and before tax and shipping/handling at checkout. To qualify, orders must be shipped via Standard Ground service.
+      - link "See All Offer Details" [ref=f115e130] [cursor=pointer]:
+        - /url: /shop/wd/br/PromotionInfo?icmp=ICT:EVGRN:D:HP:FT:LLP:PRM:LegalDisclaimers:EVGRN
+    - generic [ref=f115e132]:
+      - generic [ref=f115e133]:
+        - img "abercrombie and fitch" [ref=f115e136]: 
+        - generic [ref=f115e137]:
+          - separator [ref=f115e138]
+          - heading "Our Brands" [level=2] [ref=f115e139]
+          - list [ref=f115e140]:
+            - listitem [ref=f115e141]:
+              - link [ref=f115e142] [cursor=pointer]:
+                - /url: https://www.abercrombie.com
+                - img "abercrombie and fitch" [ref=f115e144]: 
+            - listitem [ref=f115e145]:
+              - link [ref=f115e146] [cursor=pointer]:
+                - /url: https://www.abercrombie.com/shop/wd/kids
+                - img "abercrombie kids" [ref=f115e148]: 
+            - listitem [ref=f115e149]:
+              - link [ref=f115e150] [cursor=pointer]:
+                - /url: https://www.hollisterco.com
+                - img "hollister co." [ref=f115e152]: 
+      - generic [ref=f115e153]:
+        - heading "About Us" [level=2] [ref=f115e154]
+        - list [ref=f115e155]:
+          - listitem [ref=f115e156]:
+            - link "Brand Protection" [ref=f115e157] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=brand-protection&textKey=LEGAL_BRAND_PROTECTION&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f115e158]:
+            - link "Careers" [ref=f115e159] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/careers
+          - listitem [ref=f115e160]:
+            - link "A&F Gives Back" [ref=f115e161] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-impact
+          - listitem [ref=f115e162]:
+            - link "Accessibility" [ref=f115e163] [cursor=pointer]:
+              - /url: /shop/wd/help/Accessibility?pagefm=navigation-footer
+          - listitem [ref=f115e164]:
+            - link "Inclusion & Diversity" [ref=f115e165] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-commitment
+          - listitem [ref=f115e166]:
+            - link "Investors" [ref=f115e167] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/investors
+          - listitem [ref=f115e168]:
+            - link "Press Room" [ref=f115e169] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/news/media-gallery
+          - listitem [ref=f115e170]:
+            - link "Sustainability" [ref=f115e171] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/sustainability
+      - generic [ref=f115e172]:
+        - heading "Help" [level=2] [ref=f115e173]
+        - list [ref=f115e174]:
+          - listitem [ref=f115e175]:
+            - link "Customer Help" [ref=f115e176] [cursor=pointer]:
+              - /url: /shop/wd/help
+          - listitem [ref=f115e177]:
+            - link "Order Help" [ref=f115e178] [cursor=pointer]:
+              - /url: /shop/wd/help/lookup-order
+          - listitem [ref=f115e179]:
+            - link "Shipping & Handling" [ref=f115e180] [cursor=pointer]:
+              - /url: /shop/wd/help/shipping-handling
+          - listitem [ref=f115e181]:
+            - link "Online Returns" [ref=f115e182] [cursor=pointer]:
+              - /url: /shop/wd/help/online-return-exchange-policy
+          - listitem [ref=f115e183]:
+            - link "Track My Order" [ref=f115e184] [cursor=pointer]:
+              - /url: /shop/wd/help/trackorder
+          - listitem [ref=f115e185]:
+            - link "Gift Cards & E-Cards Balance" [ref=f115e186] [cursor=pointer]:
+              - /url: /shop/wd/help/giftcard-balance-check
+          - listitem [ref=f115e187]:
+            - link "My Account" [ref=f115e188] [cursor=pointer]:
+              - /url: /shop/UserAccountView?storeId=11203&catalogId=10901&langId=-1
+          - listitem [ref=f115e189]:
+            - link "Currency" [ref=f115e190] [cursor=pointer]:
+              - /url: /shop/wd/help/currency?storeId=11203&catalogId=10901&langId=-1
+      - generic [ref=f115e191]:
+        - list [ref=f115e192]:
+          - listitem [ref=f115e193]:
+            - link "Find a Store" [ref=f115e194] [cursor=pointer]:
+              - /url: /shop/StoreLocator?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+              - generic [aria-hidden] [ref=f115e195]: 
+          - listitem [ref=f115e197]:
+            - generic [ref=f115e199]:
+              - img "PK" [ref=f115e201]
+              - button "Pakistan" [ref=f115e202] [cursor=pointer]
+        - generic [ref=f115e204]:
+          - switch "High Contrast" [ref=f115e205]
+          - generic [ref=f115e206] [cursor=pointer]: High Contrast
+      - generic [ref=f115e212]:
+        - generic [ref=f115e218]:
+          - heading "Subscribe" [level=2] [ref=f115e220]
+          - generic [ref=f115e223]:
+            - textbox "Email Address" [ref=f115e224]
+            - generic: Email Address
+            - button "Join" [ref=f115e225] [cursor=pointer]
+        - list [ref=f115e227]:
+          - listitem [ref=f115e228]:
+            - link "TikTok" [ref=f115e229] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@abercrombie
+              - generic [aria-hidden] [ref=f115e230]: 
+          - listitem [ref=f115e231]:
+            - link "Instagram" [ref=f115e232] [cursor=pointer]:
+              - /url: http://instagram.com/abercrombie
+              - generic [aria-hidden] [ref=f115e233]: 
+          - listitem [ref=f115e234]:
+            - link "Facebook" [ref=f115e235] [cursor=pointer]:
+              - /url: https://www.facebook.com/Abercrombie
+              - generic [aria-hidden] [ref=f115e236]: 
+          - listitem [ref=f115e237]:
+            - link "pinterest" [ref=f115e238] [cursor=pointer]:
+              - /url: http://www.pinterest.com/abercrombie1892/
+              - generic [aria-hidden] [ref=f115e239]: 
+          - listitem [ref=f115e240]:
+            - link "Youtube" [ref=f115e241] [cursor=pointer]:
+              - /url: https://www.youtube.com/abercrombie
+              - generic [aria-hidden] [ref=f115e242]: 
+    - generic [ref=f115e244]:
+      - separator [ref=f115e245]
+      - generic [ref=f115e246]:
+        - generic [aria-hidden] [ref=f115e248]: 
+        - list [ref=f115e249]:
+          - listitem [ref=f115e250]:
+            - link "Privacy" [ref=f115e251] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=privacy&textKey=LEGAL_PRIVACY_POLICY&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f115e252]:
+            - text: "|"
+            - link "Sale Terms" [ref=f115e253] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=sale-terms&textKey=LEGAL_SALES_TERMS&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f115e254]:
+            - text: "|"
+            - link "Website Terms of Use" [ref=f115e255] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f115e256]:
+            - text: "|"
+            - link "Endorsements Social Media Engagement" [ref=f115e257] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=social-media&textKey=LEGAL_SOCIAL_MEDIA_POLICY&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f115e258]:
+            - text: "|"
+            - link "Site Map" [ref=f115e259] [cursor=pointer]:
+              - /url: /shop/SiteMapView?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f115e260]:
+            - text: "|"
+            - button "Manage My Preferences" [ref=f115e261]
+          - listitem [ref=f115e262]:
+            - text: "|"
+            - link "Responsible Disclosure" [ref=f115e263] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-company/contact-us/vulnerability-disclosure/
+    - text: 
+  - generic: 
+  - generic:  
+  - generic: 
+  - generic: 
+  - generic:        
+  - generic: 
+  - generic:       
+  - generic:  
+  - generic: 
+  - region "Live chat" [ref=f115e264]:
+    - button "Live chat" [ref=f115e266] [cursor=pointer]:
+      - img "Live chat" [ref=f115e267]

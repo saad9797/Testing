@@ -1,0 +1,50 @@
+#79 [POST] https://www.abercrombie.com/api/bff/customer?currency=USD&storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd&urlRoot=%2Fshop%2Fwd&storePreview=a-wd&categoryId=10000&pageType=account%3Aspa&pageDescription=account+settings&pageName=my+account%3Aprofile%3Amy+info&pageKind=my+account
+
+  General
+    status:    [200] 
+    duration:  442ms
+    type:      fetch
+    mimeType:  application/json
+
+  Request headers
+    sec-ch-ua-platform: "Windows"
+    x-operation-name: GLADLY_CHAT_ID_QUERY,GLADLY_USER_QUERY
+    referer: https://www.abercrombie.com/shop/account/settings?storeId=11203&catalogId=10901&langId=-1
+    x-dtpc: 23$116350167_739h11vUMORMMWUHRHQFAUMLLOWVFPGERAMLROH-0e0
+    sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+    sec-ch-ua-mobile: ?0
+    apollo-require-preflight: true
+    traceparent: 00-edd6d54af07f04e12dfcda0d3d5e41ee-c0b348afd156ca3d-01
+    user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+    accept: */*
+    content-type: application/json
+    tracestate: e094cc82-e67c5af3@dtr=2;c0b348afd156ca3d;1;59fcf8f3ef580f1f;1790515072890RU9H6CT9HEC33CAC5162AOC75QSFKO8C;UMORMMWUHRHQFAUMLLOWVFPGERAMLROH-0;1
+
+  Response headers
+    x-digest-hash: 6205AEF5CC69B042FD22557B809989C35870E08654749CAFCBEE302FEA8D8309
+    access-control-max-age: 86400
+    etag: W/"22d-ow2VdUTJ3EZ5qaRlLiqjjNnEzcw:dtagent1034526081017033023X5"
+    edgescape-to-origin: georegion=-,country_code=PK,region_code=SD,city=karachi,dma=-1,pmsa=-,areacode=0,county=-,fips=-,lat=24.860,long=66.990,timezone=500,zip=75520,continent=AS,throughput=broadband,asnum=9541
+    access-control-allow-methods: HEAD, GET, POST, PUT, DELETE
+    server-timing: dtTrId;desc="edd6d54af07f04e12dfcda0d3d5e41ee", dtSInfo;desc="0", dtRpid;desc="-1129634585"
+    x-cache: MISS, MISS, MISS
+    edge-control: max-age=0
+    date: Sun, 27 Sep 2026 13:39:14 GMT
+    content-type: application/json; charset=utf-8
+    bff-api-response: user-profile-get-200
+    x-cache-hits: 0, 0, 0
+    vary: Accept-Encoding, User-Agent, User-Agent
+    access-control-allow-headers: Content-Type, X-Requested-With
+    strict-transport-security: max-age=31536000
+    edge-cache-tag: www-wd,www-wd-anf,anf,/api/bff/customer,customer,
+    cache-control: max-age=0, no-store
+    timing-allow-origin: *
+    access-control-allow-credentials: true
+    x-cache-key: (null)&ABERFITCH_CONTAINER=/8785/
+    accept-ranges: bytes
+    access-control-allow-origin: https://www.abercrombie.com
+    content-length: 557
+    x-powered-by: Express
+
+Call browser_network_request with part="request-body" to read the request body.
+Call browser_network_request with part="response-body" to read the response body.

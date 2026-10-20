@@ -1,0 +1,31 @@
+HTTP/2 200 OK
+Timing-Allow-Origin: *
+Bff-Api-Response: address-set-default-200
+Server-Timing: dtTrId;desc="06b1dbd4c291f5d30e920cb281a9d96b", dtSInfo;desc="0"
+Server-Timing: dtRpid;desc="-1721711489"
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Etag: W/"50-o91vNYGPcaQh9UWGahpKmdJ60I8:dtagent1034526081017033023X5"
+Set-Cookie: WC_USERACTIVITY_21796683622=21796683622%2C11203%2C0%2Cnull%2C1790553567377%2C1790557346897%2Cnull%2Cnull%2Cnull%2Cnull%2C567950501%2Cver_1790553565784%2Cxm8Gskw%2BQX3ZtVxUKV%2BpC45DGbfl0RLLwXB1d%2Fh7NyqVMoD08eIjejakryqmSYWCBP0E2V%2FRrRQR%2FsgsK6OxWe1aIY0CKpgmkvMP7T2wuee6YUUiXdaohb5BkpUs7QSSMC%2BUl6qwCCZwXQtKbl9gKxJon2w8yazAUPzmGNV1f2nbMTJQcmV%2Fm6ybIMC5JuZEbxwhbkHCfi%2FtzhlWb9mLtOHC%2BWYlnjf%2B4fXEodRIOz%2BCif2%2Flo1vYOpPrSp%2BvX7YsvY%2FPzz5iC8ie2BxpVh5SIE8H2Djrs1%2FqWV9VDz8Ki8%3D; Path=/; Secure
+Set-Cookie: WC_USERACTIVITY_21796683622=21796683622%2C11203%2C0%2Cnull%2C1790553567377%2C1790557346934%2Cnull%2Cnull%2Cnull%2Cnull%2C567950501%2Cver_1790553565784%2CklCrEFTuh24J0AKnGbE6iDCk3pOSttdp%2F6SMSvcx9kCq2jg5SPmJtm8gRWBlVCqgY0A8oJSbPtkwyMQZ9yS4WPx5Vw5rG1DRIzLC0LOQeIsk05jaaByeHEcK%2FZ6mOHrPeegqnx%2F%2F6V4eMlA%2Baz8YVtoLjDZQ%2BV64Memr%2Bsi5QkMmD2fsiZDywKWXCdm1%2BUiPFhQFp7KGd0%2BKfPmkb2%2Bn46MKjeMj%2FWLb8UAbkGki8ekty1dDysKsB3kOmYBs6fyFjpRzRr9Alu0q%2BX8Kb3NrOh4rlE5N05SWnm9zSj%2FIenU%3D; Path=/; Secure
+Edge-Cache-Tag: www-wd,www-wd-anf,anf,/api/bff/customer,customer,
+Accept-Ranges: bytes
+Edge-Control: max-age=0
+Cache-Control: max-age=0, no-store
+Date: Mon, 28 Sep 2026 00:02:27 GMT
+X-Cache: MISS, MISS, MISS
+X-Cache-Hits: 0, 0, 0
+Vary: Accept-Encoding, User-Agent, User-Agent
+Strict-Transport-Security: max-age=31536000
+Access-Control-Allow-Methods: HEAD, GET, POST, PUT, DELETE
+Access-Control-Allow-Headers: Content-Type, X-Requested-With
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Origin: https://www.abercrombie.com
+X-Digest-Hash: A2F1DD8AEFD025A42DC5AE51E0376DB874439CF459B044C5510A58E618DA705C
+Edgescape-To-Origin: georegion=-,country_code=PK,region_code=SD,city=karachi,dma=-1,pmsa=-,areacode=0,county=-,fips=-,lat=24.860,long=66.990,timezone=500,zip=75520,continent=AS,throughput=broadband,asnum=9541
+X-Cache-Key: (null)&ABERFITCH_CONTAINER=/8785/
+Content-Length: 80
+
+[{"data":{"setDefaultAddress":{"success":true,"__typename":"ItemIDResponse"}}}
+]

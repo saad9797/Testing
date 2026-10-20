@@ -1,0 +1,1 @@
+[{"operationName":"DATABRIDGE_SESSION_QUERY","variables":{},"query":"query DATABRIDGE_SESSION_QUERY {\n  userState {\n    isLoggedIn\n    __typename\n  }\n}\n"}]

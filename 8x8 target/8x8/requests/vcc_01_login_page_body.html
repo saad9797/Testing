@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+    <title>ADMINISTRATOR LOGIN</title>
+    <script src="../GEN/js/handleDataViewReference.js"></script>
+
+    <script src="../GEN/js/gen_check_mobile.js"></script>
+    <script>
+        redirectIfMobile("login.php?mobile=true");
+    </script>
+
+    <script src="../GEN/js/jquerywallboard/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        var $j = jQuery.noConflict();
+        var img_path = '/./OEM/vcc/common/images';
+        var branding_img_path = '/./OEM/vcc/en_US/branding/images';
+        var localized_img_path = '/./OEM/vcc/en_US/images';
+    </script>
+    <script src="../GEN/js/browser_tricorder.js"></script>
+    <script type="text/javascript" src="../GEN/js/common.js"></script>
+    <script src="../GEN/js/bootstrap/js/bootstrap.js"></script>
+    <script src="../CM/js/login.js"></script>
+
+    <link href="../GEN/js/bootstrap/css/bootstrap_dark_blue.css" media="all" rel="Stylesheet" type="text/css"  />
+    <link href="/./OEM/vcc/en_US/css/skin_dark_blue/cm_login.css" media="all" rel="Stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" href="/./OEM/vcc/en_US/branding/images/favicon.ico" />
+
+    <script>
+        // Check whether the client has logged out or if there is any login error so we remove
+        // the token from the local storage.
+        if (login.isLogout() || false) {
+            login.removeToken();
+        }
+    </script>
+</head>
+
+<!-- Hide the login page while we are checking if there is a remember me token to be used to login -->
+<body style="display: none;" onLoad="window.status='Configuration Manager (c) 2010 8x8.';">
+    <div id="wrapper">
+        <div id="content_wrapper">
+            <div class="top-bar login-header">
+                <div class="navbar-container">
+                    <div class="logo-container">
+                        <img class="top-logo" src="/./OEM/vcc/en_US/branding/images/logo_top_8x8_black.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="alert-wrapper" class="alert-wrapper">
+                <div id="login-failed" style="display: none;">Invalid username or password.</div>
+                <div id="unknown-error" style="display: none;">The system is unavailable. Please try again later.</div>
+                <div id="login-error" style="display: none;"></div>
+                <div id="tenant-in-maintenance" style="display: none;">Your account is currently in maintenance. Please try again later.</div>
+                <div id="relogin" style="display:none">  has logged in from another browser</div>
+                <div id="timeout" style="display:none">Your session has been invalidated due to idle timeout. Please login again.</div>
+            </div>
+
+            <div class="container">
+
+                <form class="form-signin" name="loginform" method="post" onsubmit="return false;">
+                    <div class="header">
+                        <h2 class="form-signin-heading">Login</h2>
+                    </div>
+
+                    <input type="hidden" name="form_submitted" value="true" />
+                    <input type="hidden" name="tenant" id="tenant" value="" />
+                    <input type="hidden" name="query_string" id="query_string" value="" />
+                    <input type="hidden" name="hash_algorithm" id="hash_algorithm" value="" />
+                    <input type="hidden" name="functionality" id="functionality" />
+                    <input type="hidden" name="remember_me_token" id="remember_me_token" />
+
+                    <input name="username" id="user" type="text" class="input-block-level" placeholder="login" onkeypress="login.hideErrors();" value="" style="outline:none" autocomplete="off">
+                    <input name="password" id="pass" type="password" class="input-block-level" placeholder="password" onkeypress="login.hideErrors();" value="" style="outline:none" autocomplete="off">
+
+                    <label class="checkbox remember-me">
+                      <input type="checkbox" name="remember_me" > Remember me
+                    </label>
+
+                    <div class="text-center forgot-password">
+                        <a href="#" onclick="login.forgetPassword();">Forgot Password?</a>
+                    </div>
+
+                    <div class="text-center btn-login">
+                        <button id="action-login" class="btn btn-primary" type="submit" onclick="login.submit(); return false;">Login</button>
+                    </div>
+
+                    <div class="message-center">
+                        <div class="text-center message-center-content">
+                            Version: 12.0.0.0.20260914180030604                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="copyright text-center">
+                &copy; 2026 8x8, Inc.
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer_wrapper">
+        <div class="bottom-bar">
+            <div class="bottom-bar-background">
+                <div class="version">
+                    Release: e20aa7e                </div>
+            </div>
+        </div>
+        <div class="powered-by-logo">
+            <span>Powered by</span>
+            <img src="/./OEM/vcc/en_US/branding/images/powered_by_logo.png">
+        </div>
+    </div>
+
+    <div id="unsupported-browser" class="modal_cm">
+        <div class="content">
+            <a href="#" class="close_cm" onclick="return login.hideUnsupportedBrowserWarning();">&times;</a>
+            <h1>Sorry, your browser version is not supported</h1>
+            <p id="unsupported-browser-message">You are using ##browserName##, which is not supported by VCC. User experience and performance will be impacted negatively. Please upgrade your browser.</p>
+            <p>You can download newer versions of supported browsers using the following links:</p>
+            <ul class="browser-list">
+                <li>
+                    <a href="http://www.google.com/chrome">
+                        <img src="/./OEM/vcc/common/images/browsers/chrome.png" class="browser-logo" alt="Google Chrome" />
+                        <h2>Google Chrome</h2>
+                        <span class="browser-version">Latest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.firefox.com/">
+                        <img src="/./OEM/vcc/common/images/browsers/firefox.png" class="browser-logo" alt="Mozilla Firefox" />
+                        <h2>Mozilla Firefox</h2>
+                        <span class="browser-version">Latest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://windows.microsoft.com/ie">
+                        <img src="/./OEM/vcc/common/images/browsers/ie.png" class="browser-logo" alt="Internet Explorer" />
+                        <h2>Internet Explorer</h2>
+                        <span class="browser-version">9.0 and above</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        $j(document).ready(function() {
+            // CWE ID 798 - can be mitigated, values came from LDAP, this is just a placeholder
+            login.usernameParam = "loginId";
+            login.tenantNameParam = "tenantId";
+            login.redirectedParam = "redirected";
+            login.redirect8x8SSO = ''.length ? JSON.parse('') : false;
+            login.ssoUsernameParam = 'username';
+            login.ssoMsgParam = 'msg';
+            login.ssoMsgValue = 'vcc.messages.cm_login_redirect';
+            if (window.location.hash) {
+                history.replaceState("", document.title, window.location.pathname + window.location.search);
+                window.location.reload();
+            }
+
+            login.init();
+        });
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,546 @@
+- generic [ref=f4e4]:
+  - banner [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - link "Skip to main content >" [ref=f4e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f4e9]:
+        - link "Go back to homepage" [ref=f4e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f4e12]
+        - generic [ref=f4e14]:
+          - link [ref=f4e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f4e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f4e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f4e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f4e43]:
+      - link [ref=f4e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f4e50]: Learn more about HackerOne
+      - link "Log in" [ref=f4e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f4e55]:
+    - generic [ref=f4e57]:
+      - generic [ref=f4e62]:
+        - generic [ref=f4e63]:
+          - heading "Directory" [level=2] [ref=f4e64]
+          - generic [ref=f4e65]: Find new hackable targets or contact information to report vulnerabilities you’ve already found.
+        - searchbox "Search Directory" [ref=f4e76]
+      - generic [ref=f4e78]:
+        - generic [ref=f4e80]:
+          - heading "Program features" [level=5] [ref=f4e81]
+          - generic [ref=f4e82]:
+            - checkbox "IBB" [ref=f4e83] [cursor=pointer]
+            - text: IBB
+            - generic [ref=f4e84] [cursor=pointer]
+          - generic [ref=f4e92]:
+            - checkbox "Offers bounties" [ref=f4e93] [cursor=pointer]
+            - text: Offers bounties
+            - generic [ref=f4e94] [cursor=pointer]
+          - generic [ref=f4e102]:
+            - checkbox "High response efficiency" [ref=f4e103] [cursor=pointer]
+            - text: High response efficiency
+            - generic [ref=f4e104] [cursor=pointer]
+          - generic [ref=f4e112]:
+            - checkbox "Managed by HackerOne" [ref=f4e113] [cursor=pointer]
+            - text: Managed by HackerOne
+            - generic [ref=f4e114] [cursor=pointer]
+          - generic [ref=f4e122]:
+            - checkbox "Offers retesting" [ref=f4e123] [cursor=pointer]
+            - text: Offers retesting
+            - generic [ref=f4e124] [cursor=pointer]
+          - generic [ref=f4e132]:
+            - checkbox "Active program" [checked] [ref=f4e133] [cursor=pointer]
+            - text: Active program
+            - generic [ref=f4e134] [cursor=pointer]
+          - generic [ref=f4e142]:
+            - checkbox "Collaboration" [ref=f4e143] [cursor=pointer]
+            - text: Collaboration
+            - generic [ref=f4e144] [cursor=pointer]
+          - separator [ref=f4e152]
+          - heading "Asset type" [level=5] [ref=f4e153]
+          - generic [ref=f4e154]:
+            - radio "Any" [checked] [ref=f4e155] [cursor=pointer]
+            - text: Any
+          - generic [ref=f4e156]:
+            - radio "CIDR" [ref=f4e157] [cursor=pointer]
+            - text: CIDR
+          - generic [ref=f4e158]:
+            - radio "Domain" [ref=f4e159] [cursor=pointer]
+            - text: Domain
+          - generic [ref=f4e160]:
+            - 'radio "iOS: App Store" [ref=f4e161] [cursor=pointer]'
+            - text: "iOS: App Store"
+          - generic [ref=f4e162]:
+            - 'radio "iOS: TestFlight" [ref=f4e163] [cursor=pointer]'
+            - text: "iOS: TestFlight"
+          - generic [ref=f4e164]:
+            - 'radio "iOS: .ipa" [ref=f4e165] [cursor=pointer]'
+            - text: "iOS: .ipa"
+          - generic [ref=f4e166]:
+            - 'radio "Android: Play Store" [ref=f4e167] [cursor=pointer]'
+            - text: "Android: Play Store"
+          - generic [ref=f4e168]:
+            - 'radio "Android: .apk" [ref=f4e169] [cursor=pointer]'
+            - text: "Android: .apk"
+          - generic [ref=f4e170]:
+            - 'radio "Windows: Microsoft Store" [ref=f4e171] [cursor=pointer]'
+            - text: "Windows: Microsoft Store"
+          - generic [ref=f4e172]:
+            - radio "Source Code" [ref=f4e173] [cursor=pointer]
+            - text: Source Code
+          - generic [ref=f4e174]:
+            - radio "Executable" [ref=f4e175] [cursor=pointer]
+            - text: Executable
+          - generic [ref=f4e176]:
+            - radio "Smart Contract" [ref=f4e177] [cursor=pointer]
+            - text: Smart Contract
+          - generic [ref=f4e178]:
+            - radio "Wildcard" [ref=f4e179] [cursor=pointer]
+            - text: Wildcard
+          - generic [ref=f4e180]:
+            - radio "IP Address" [ref=f4e181] [cursor=pointer]
+            - text: IP Address
+          - generic [ref=f4e182]:
+            - radio "Hardware" [ref=f4e183] [cursor=pointer]
+            - text: Hardware
+          - generic [ref=f4e184]:
+            - radio "Other Asset" [ref=f4e185] [cursor=pointer]
+            - text: Other Asset
+          - generic [ref=f4e186]:
+            - radio "AI Model" [ref=f4e187] [cursor=pointer]
+            - text: AI Model
+          - generic [ref=f4e188]:
+            - radio "API" [ref=f4e189] [cursor=pointer]
+            - text: API
+          - generic [ref=f4e190]:
+            - radio "AWS Account" [ref=f4e191] [cursor=pointer]
+            - text: AWS Account
+          - generic [ref=f4e192]:
+            - radio "Azure Account" [ref=f4e193] [cursor=pointer]
+            - text: Azure Account
+        - generic [ref=f4e198]:
+          - table [ref=f4e199]:
+            - rowgroup [ref=f4e200]:
+              - row [ref=f4e201]:
+                - columnheader [ref=f4e202]:
+                  - strong [ref=f4e203]: Program
+                - columnheader [ref=f4e204] [cursor=pointer]:
+                  - strong [ref=f4e205]: Launchdate
+                - columnheader [ref=f4e212] [cursor=pointer]:
+                  - strong [ref=f4e213]: Reportsresolved
+                - columnheader [ref=f4e220] [cursor=pointer]:
+                  - strong [ref=f4e221]: Bountiesminimum
+                - columnheader [ref=f4e228] [cursor=pointer]:
+                  - strong [ref=f4e229]: Bountiesaverage
+            - rowgroup [ref=f4e236]:
+              - row [ref=f4e237]:
+                - cell "live_nation Live Nation Managed Retesting Collaboration" [ref=f4e238]:
+                  - generic [ref=f4e239]:
+                    - img "live_nation" [ref=f4e243]
+                    - generic [ref=f4e244]:
+                      - strong [ref=f4e248] [cursor=pointer]:
+                        - link "Live Nation" [ref=f4e250]:
+                          - /url: /live_nation?type=team
+                      - generic [ref=f4e251]:
+                        - generic [ref=f4e252]: Managed
+                        - generic [ref=f4e256]: Retesting
+                        - generic [ref=f4e259]: Collaboration
+                - cell "09 / 2026" [ref=f4e262]
+                - cell "52" [ref=f4e263]
+                - cell "$50" [ref=f4e264]
+                - cell "$500-$2k" [ref=f4e268]:
+                  - generic [ref=f4e269]:
+                    - generic [ref=f4e270]: $500
+                    - text: "-"
+                    - generic [ref=f4e272]: $2k
+              - row [ref=f4e274]:
+                - cell [ref=f4e275]:
+                  - generic [ref=f4e276]:
+                    - img "coindcx_vdp" [ref=f4e280]
+                    - strong [ref=f4e285] [cursor=pointer]:
+                      - link "CoinDCX Vulnerability Disclosure" [ref=f4e287]:
+                        - /url: /coindcx_vdp?type=team
+                - cell "09 / 2026" [ref=f4e288]
+                - cell "213" [ref=f4e289]
+                - cell "-" [ref=f4e290]
+                - cell "-" [ref=f4e291]
+              - row [ref=f4e292]:
+                - cell "nebius_ai_vdp Nebius AI Vulnerability Disclosure Managed" [ref=f4e293]:
+                  - generic [ref=f4e294]:
+                    - img "nebius_ai_vdp" [ref=f4e298]
+                    - generic [ref=f4e299]:
+                      - strong [ref=f4e303] [cursor=pointer]:
+                        - link "Nebius AI Vulnerability Disclosure" [ref=f4e305]:
+                          - /url: /nebius_ai_vdp?type=team
+                      - generic [ref=f4e306]: Managed
+                - cell "09 / 2026" [ref=f4e311]
+                - cell "0" [ref=f4e312]
+                - cell "-" [ref=f4e313]
+                - cell "-" [ref=f4e314]
+              - row [ref=f4e315]:
+                - cell "vercel Vercel Managed Retesting Collaboration" [ref=f4e316]:
+                  - generic [ref=f4e317]:
+                    - img "vercel" [ref=f4e321]
+                    - generic [ref=f4e322]:
+                      - strong [ref=f4e326] [cursor=pointer]:
+                        - link "Vercel" [ref=f4e328]:
+                          - /url: /vercel?type=team
+                      - generic [ref=f4e329]:
+                        - generic [ref=f4e330]: Managed
+                        - generic [ref=f4e334]: Retesting
+                        - generic [ref=f4e337]: Collaboration
+                - cell "09 / 2026" [ref=f4e340]
+                - cell "317" [ref=f4e341]
+                - cell "$50" [ref=f4e342]
+                - cell "$1k-$1k" [ref=f4e346]:
+                  - generic [ref=f4e347]:
+                    - generic [ref=f4e348]: $1k
+                    - text: "-"
+                    - generic [ref=f4e350]: $1k
+              - row [ref=f4e352]:
+                - cell "common_codes d-you App & German EUDI Wallet Ecosystem Managed Retesting Collaboration" [ref=f4e353]:
+                  - generic [ref=f4e354]:
+                    - img "common_codes" [ref=f4e358]
+                    - generic [ref=f4e359]:
+                      - strong [ref=f4e363] [cursor=pointer]:
+                        - link "d-you App & German EUDI Wallet Ecosystem" [ref=f4e365]:
+                          - /url: /common_codes?type=team
+                      - generic [ref=f4e366]:
+                        - generic [ref=f4e367]: Managed
+                        - generic [ref=f4e371]: Retesting
+                        - generic [ref=f4e374]: Collaboration
+                - cell "09 / 2026" [ref=f4e377]
+                - cell "0" [ref=f4e378]
+                - cell "$100" [ref=f4e379]
+                - cell "-" [ref=f4e383]
+              - row [ref=f4e384]:
+                - cell "arc-bbp Arc Managed Retesting Collaboration" [ref=f4e385]:
+                  - generic [ref=f4e386]:
+                    - img "arc-bbp" [ref=f4e390]
+                    - generic [ref=f4e391]:
+                      - strong [ref=f4e395] [cursor=pointer]:
+                        - link "Arc" [ref=f4e397]:
+                          - /url: /arc-bbp?type=team
+                      - generic [ref=f4e398]:
+                        - generic [ref=f4e399]: Managed
+                        - generic [ref=f4e403]: Retesting
+                        - generic [ref=f4e406]: Collaboration
+                - cell "09 / 2026" [ref=f4e409]
+                - cell "2" [ref=f4e410]
+                - cell "$100" [ref=f4e411]
+                - cell "$500" [ref=f4e415]
+              - row [ref=f4e418]:
+                - cell "semtech Semtech Managed" [ref=f4e419]:
+                  - generic [ref=f4e420]:
+                    - img "semtech" [ref=f4e424]
+                    - generic [ref=f4e425]:
+                      - strong [ref=f4e429] [cursor=pointer]:
+                        - link "Semtech" [ref=f4e431]:
+                          - /url: /semtech?type=team
+                      - generic [ref=f4e432]: Managed
+                - cell "09 / 2026" [ref=f4e437]
+                - cell "97" [ref=f4e438]
+                - cell "-" [ref=f4e439]
+                - cell "-" [ref=f4e440]
+              - row [ref=f4e441]:
+                - cell "vanguard Vanguard Managed" [ref=f4e442]:
+                  - generic [ref=f4e443]:
+                    - img "vanguard" [ref=f4e447]
+                    - generic [ref=f4e448]:
+                      - strong [ref=f4e452] [cursor=pointer]:
+                        - link "Vanguard" [ref=f4e454]:
+                          - /url: /vanguard?type=team
+                      - generic [ref=f4e455]: Managed
+                - cell "08 / 2026" [ref=f4e460]
+                - cell "4" [ref=f4e461]
+                - cell "-" [ref=f4e462]
+                - cell "-" [ref=f4e463]
+              - row [ref=f4e464]:
+                - cell [ref=f4e465]:
+                  - generic [ref=f4e466]:
+                    - img "essity" [ref=f4e470]
+                    - strong [ref=f4e475] [cursor=pointer]:
+                      - link "Essity" [ref=f4e477]:
+                        - /url: /essity?type=team
+                - cell "08 / 2026" [ref=f4e478]
+                - cell "79" [ref=f4e479]
+                - cell "-" [ref=f4e480]
+                - cell "-" [ref=f4e481]
+              - row [ref=f4e482]:
+                - cell "prism_vdp PRISM Managed" [ref=f4e483]:
+                  - generic [ref=f4e484]:
+                    - img "prism_vdp" [ref=f4e488]
+                    - generic [ref=f4e489]:
+                      - strong [ref=f4e493] [cursor=pointer]:
+                        - link "PRISM" [ref=f4e495]:
+                          - /url: /prism_vdp?type=team
+                      - generic [ref=f4e496]: Managed
+                - cell "08 / 2026" [ref=f4e501]
+                - cell "194" [ref=f4e502]
+                - cell "-" [ref=f4e503]
+                - cell "-" [ref=f4e504]
+              - row [ref=f4e505]:
+                - cell "box_private Box BB Managed Retesting Collaboration" [ref=f4e506]:
+                  - generic [ref=f4e507]:
+                    - img "box_private" [ref=f4e511]
+                    - generic [ref=f4e512]:
+                      - strong [ref=f4e516] [cursor=pointer]:
+                        - link "Box BB" [ref=f4e518]:
+                          - /url: /box_private?type=team
+                      - generic [ref=f4e519]:
+                        - generic [ref=f4e520]: Managed
+                        - generic [ref=f4e524]: Retesting
+                        - generic [ref=f4e527]: Collaboration
+                - cell "08 / 2026" [ref=f4e530]
+                - cell "229" [ref=f4e531]
+                - cell "$150" [ref=f4e532]
+                - cell "$500" [ref=f4e536]
+              - row [ref=f4e539]:
+                - cell "assa_abloy_americas Assa Abloy Americas Managed" [ref=f4e540]:
+                  - generic [ref=f4e541]:
+                    - img "assa_abloy_americas" [ref=f4e545]
+                    - generic [ref=f4e546]:
+                      - strong [ref=f4e550] [cursor=pointer]:
+                        - link "Assa Abloy Americas" [ref=f4e552]:
+                          - /url: /assa_abloy_americas?type=team
+                      - generic [ref=f4e553]: Managed
+                - cell "07 / 2026" [ref=f4e558]
+                - cell "171" [ref=f4e559]
+                - cell "-" [ref=f4e560]
+                - cell "-" [ref=f4e561]
+              - row [ref=f4e562]:
+                - cell "omnicell Omnicell Managed" [ref=f4e563]:
+                  - generic [ref=f4e564]:
+                    - img "omnicell" [ref=f4e568]
+                    - generic [ref=f4e569]:
+                      - strong [ref=f4e573] [cursor=pointer]:
+                        - link "Omnicell" [ref=f4e575]:
+                          - /url: /omnicell?type=team
+                      - generic [ref=f4e576]: Managed
+                - cell "07 / 2026" [ref=f4e581]
+                - cell "19" [ref=f4e582]
+                - cell "-" [ref=f4e583]
+                - cell "-" [ref=f4e584]
+              - row [ref=f4e585]:
+                - cell "wolt Wolt Managed Retesting Collaboration" [ref=f4e586]:
+                  - generic [ref=f4e587]:
+                    - img "wolt" [ref=f4e591]
+                    - generic [ref=f4e592]:
+                      - strong [ref=f4e596] [cursor=pointer]:
+                        - link "Wolt" [ref=f4e598]:
+                          - /url: /wolt?type=team
+                      - generic [ref=f4e599]:
+                        - generic [ref=f4e600]: Managed
+                        - generic [ref=f4e604]: Retesting
+                        - generic [ref=f4e607]: Collaboration
+                - cell "07 / 2026" [ref=f4e610]
+                - cell "0" [ref=f4e611]
+                - cell "$100" [ref=f4e612]
+                - cell "$0" [ref=f4e616]
+              - row [ref=f4e619]:
+                - cell "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty Managed Retesting Collaboration" [ref=f4e620]:
+                  - generic [ref=f4e621]:
+                    - img "abercrombie_fitch_bbp" [ref=f4e625]
+                    - generic [ref=f4e626]:
+                      - strong [ref=f4e630] [cursor=pointer]:
+                        - link "Abercrombie & Fitch Bug Bounty" [ref=f4e632]:
+                          - /url: /abercrombie_fitch_bbp?type=team
+                      - generic [ref=f4e633]:
+                        - generic [ref=f4e634]: Managed
+                        - generic [ref=f4e638]: Retesting
+                        - generic [ref=f4e641]: Collaboration
+                - cell "07 / 2026" [ref=f4e644]
+                - cell "64" [ref=f4e645]
+                - cell "$50" [ref=f4e646]
+                - cell "$750" [ref=f4e650]
+              - row [ref=f4e653]:
+                - cell "discover-vdp Discover VDP Managed" [ref=f4e654]:
+                  - generic [ref=f4e655]:
+                    - img "discover-vdp" [ref=f4e659]
+                    - generic [ref=f4e660]:
+                      - strong [ref=f4e664] [cursor=pointer]:
+                        - link "Discover VDP" [ref=f4e666]:
+                          - /url: /discover-vdp?type=team
+                      - generic [ref=f4e667]: Managed
+                - cell "07 / 2026" [ref=f4e672]
+                - cell "2" [ref=f4e673]
+                - cell "-" [ref=f4e674]
+                - cell "-" [ref=f4e675]
+              - row [ref=f4e676]:
+                - cell "anthropic-cyber-jailbreak Anthropic Cyber Jailbreak Managed" [ref=f4e677]:
+                  - generic [ref=f4e678]:
+                    - img "anthropic-cyber-jailbreak" [ref=f4e682]
+                    - generic [ref=f4e683]:
+                      - strong [ref=f4e687] [cursor=pointer]:
+                        - link "Anthropic Cyber Jailbreak" [ref=f4e689]:
+                          - /url: /anthropic-cyber-jailbreak?type=team
+                      - generic [ref=f4e690]: Managed
+                - cell "07 / 2026" [ref=f4e695]
+                - cell "-" [ref=f4e696]
+                - cell "-" [ref=f4e697]
+                - cell "-" [ref=f4e698]
+              - row [ref=f4e699]:
+                - cell "agoda-public Agoda Public Managed Retesting Collaboration" [ref=f4e700]:
+                  - generic [ref=f4e701]:
+                    - img "agoda-public" [ref=f4e705]
+                    - generic [ref=f4e706]:
+                      - strong [ref=f4e710] [cursor=pointer]:
+                        - link "Agoda Public" [ref=f4e712]:
+                          - /url: /agoda-public?type=team
+                      - generic [ref=f4e713]:
+                        - generic [ref=f4e714]: Managed
+                        - generic [ref=f4e718]: Retesting
+                        - generic [ref=f4e721]: Collaboration
+                - cell "06 / 2026" [ref=f4e724]
+                - cell "0" [ref=f4e725]
+                - cell "$50" [ref=f4e726]
+                - cell "$576-$2k" [ref=f4e730]:
+                  - generic [ref=f4e731]:
+                    - generic [ref=f4e732]: $576
+                    - text: "-"
+                    - generic [ref=f4e734]: $2k
+              - row [ref=f4e736]:
+                - cell "epicgames-vdp Epic Games VDP Managed" [ref=f4e737]:
+                  - generic [ref=f4e738]:
+                    - img "epicgames-vdp" [ref=f4e742]
+                    - generic [ref=f4e743]:
+                      - strong [ref=f4e747] [cursor=pointer]:
+                        - link "Epic Games VDP" [ref=f4e749]:
+                          - /url: /epicgames-vdp?type=team
+                      - generic [ref=f4e750]: Managed
+                - cell "06 / 2026" [ref=f4e755]
+                - cell "0" [ref=f4e756]
+                - cell "-" [ref=f4e757]
+                - cell "-" [ref=f4e758]
+              - row [ref=f4e759]:
+                - cell [ref=f4e760]:
+                  - generic [ref=f4e761]:
+                    - img "phonepe_vdp" [ref=f4e765]
+                    - strong [ref=f4e770] [cursor=pointer]:
+                      - link "PhonePe" [ref=f4e772]:
+                        - /url: /phonepe_vdp?type=team
+                - cell "06 / 2026" [ref=f4e773]
+                - cell "1" [ref=f4e774]
+                - cell "-" [ref=f4e775]
+                - cell "-" [ref=f4e776]
+              - row [ref=f4e777]:
+                - cell [ref=f4e778]:
+                  - generic [ref=f4e779]:
+                    - img "gogo_vdp" [ref=f4e783]
+                    - strong [ref=f4e788] [cursor=pointer]:
+                      - link "Gogo VDP" [ref=f4e790]:
+                        - /url: /gogo_vdp?type=team
+                - cell "05 / 2026" [ref=f4e791]
+                - cell "99" [ref=f4e792]
+                - cell "-" [ref=f4e793]
+                - cell "-" [ref=f4e794]
+              - row [ref=f4e795]:
+                - cell "cognition Cognition Managed" [ref=f4e796]:
+                  - generic [ref=f4e797]:
+                    - img "cognition" [ref=f4e801]
+                    - generic [ref=f4e802]:
+                      - strong [ref=f4e806] [cursor=pointer]:
+                        - link "Cognition" [ref=f4e808]:
+                          - /url: /cognition?type=team
+                      - generic [ref=f4e809]: Managed
+                - cell "05 / 2026" [ref=f4e814]
+                - cell "1" [ref=f4e815]
+                - cell "-" [ref=f4e816]
+                - cell "-" [ref=f4e817]
+              - row [ref=f4e818]:
+                - cell "mcgrawhill McGraw Hill Managed" [ref=f4e819]:
+                  - generic [ref=f4e820]:
+                    - img "mcgrawhill" [ref=f4e824]
+                    - generic [ref=f4e825]:
+                      - strong [ref=f4e829] [cursor=pointer]:
+                        - link "McGraw Hill" [ref=f4e831]:
+                          - /url: /mcgrawhill?type=team
+                      - generic [ref=f4e832]: Managed
+                - cell "05 / 2026" [ref=f4e837]
+                - cell "90" [ref=f4e838]
+                - cell "-" [ref=f4e839]
+                - cell "-" [ref=f4e840]
+              - row [ref=f4e841]:
+                - cell "anthropic Anthropic Retesting Collaboration" [ref=f4e842]:
+                  - generic [ref=f4e843]:
+                    - img "anthropic" [ref=f4e847]
+                    - generic [ref=f4e848]:
+                      - strong [ref=f4e852] [cursor=pointer]:
+                        - link "Anthropic" [ref=f4e854]:
+                          - /url: /anthropic?type=team
+                      - generic [ref=f4e855]:
+                        - generic [ref=f4e856]: Retesting
+                        - generic [ref=f4e859]: Collaboration
+                - cell "05 / 2026" [ref=f4e862]
+                - cell "466" [ref=f4e863]
+                - cell "$50" [ref=f4e864]
+                - cell "$750-$1k" [ref=f4e868]:
+                  - generic [ref=f4e869]:
+                    - generic [ref=f4e870]: $750
+                    - text: "-"
+                    - generic [ref=f4e872]: $1k
+              - row [ref=f4e874]:
+                - cell "coupang_tw Coupang Taiwan Managed Retesting Collaboration" [ref=f4e875]:
+                  - generic [ref=f4e876]:
+                    - img "coupang_tw" [ref=f4e880]
+                    - generic [ref=f4e881]:
+                      - strong [ref=f4e885] [cursor=pointer]:
+                        - link "Coupang Taiwan" [ref=f4e887]:
+                          - /url: /coupang_tw?type=team
+                      - generic [ref=f4e888]:
+                        - generic [ref=f4e889]: Managed
+                        - generic [ref=f4e893]: Retesting
+                        - generic [ref=f4e896]: Collaboration
+                - cell "05 / 2026" [ref=f4e899]
+                - cell "20" [ref=f4e900]
+                - cell "$50" [ref=f4e901]
+                - cell "$421-$448" [ref=f4e905]:
+                  - generic [ref=f4e906]:
+                    - generic [ref=f4e907]: $421
+                    - text: "-"
+                    - generic [ref=f4e909]: $448
+          - status [ref=f4e913]
+      - generic [ref=f4e918]:
+        - generic [ref=f4e919]: © HackerOne
+        - list [ref=f4e920]:
+          - listitem [ref=f4e921]:
+            - link "Opportunities" [ref=f4e922] [cursor=pointer]:
+              - /url: /opportunities/all
+          - listitem [ref=f4e923]:
+            - link "Security" [ref=f4e924] [cursor=pointer]:
+              - /url: /security
+          - listitem [ref=f4e925]:
+            - link "Leaderboard" [ref=f4e926] [cursor=pointer]:
+              - /url: /leaderboard
+          - listitem [ref=f4e927]:
+            - link "Blog" [ref=f4e928] [cursor=pointer]:
+              - /url: https://www.hackerone.com/blog
+          - listitem [ref=f4e929]:
+            - link "Status" [ref=f4e930] [cursor=pointer]:
+              - /url: https://www.hackeronestatus.com/
+          - listitem [ref=f4e931]:
+            - link "Docs" [ref=f4e932] [cursor=pointer]:
+              - /url: https://docs.hackerone.com
+          - listitem [ref=f4e933]:
+            - link "Support" [ref=f4e934] [cursor=pointer]:
+              - /url: /auth/freshdesk_sso
+          - listitem [ref=f4e935]:
+            - link "Disclosure Guidelines" [ref=f4e936] [cursor=pointer]:
+              - /url: https://www.hackerone.com/disclosure-guidelines
+          - listitem [ref=f4e937]:
+            - link "Press" [ref=f4e938] [cursor=pointer]:
+              - /url: https://www.hackerone.com/press
+          - listitem [ref=f4e939]:
+            - link "Privacy" [ref=f4e940] [cursor=pointer]:
+              - /url: https://www.hackerone.com/privacy
+          - listitem [ref=f4e941]:
+            - link "Terms" [ref=f4e942] [cursor=pointer]:
+              - /url: https://www.hackerone.com/terms
+          - listitem [ref=f4e943]:
+            - link [ref=f4e944] [cursor=pointer]:
+              - /url: https://x.com/hacker0x01
+              - img "X" [ref=f4e945]

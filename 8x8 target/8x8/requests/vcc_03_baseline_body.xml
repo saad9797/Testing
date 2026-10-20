@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<checkResult>
+<authorized>FALSE</authorized>
+<redirectURL></redirectURL>
+<tenant>testbar</tenant>
+<tenantType>VCC</tenantType>
+<vovccUsername></vovccUsername>
+<loginId></loginId>
+<tenantId></tenantId>
+<redirected></redirected>
+<username></username>
+<msg></msg>
+<reason>1</reason>
+<agentIP>103.31.107.151</agentIP>
+<algorithm></algorithm>
+</checkResult>

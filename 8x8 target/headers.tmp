@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 24 Sep 2026 13:08:17 GMT
+Content-Type: text/html
+Content-Length: 601
+Last-Modified: Mon, 14 Sep 2026 18:00:11 GMT
+Connection: keep-alive
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=157680000; includeSubDomains
+Content-Security-Policy: frame-ancestors 'self' *.8x8.com;
+

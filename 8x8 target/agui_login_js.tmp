@@ -1,0 +1,496 @@
+// placed in global scope to allow logger access to connection
+var rtapi = null;
+var username = null;
+var matches;
+var hashAlgorithm = "";
+
+// Standard agent login caches for 8 hours; SSO logins (login_sso.js, login_vo_sso.js) use 1 hour
+// because SSO sessions have shorter token lifetimes.
+var TENANT_CHECK_CACHE_TTL_MS = 8 * 60 * 60 * 1000; // 8 hours
+function displayError(error) {
+  $(error).show();
+  $('user').select();
+  $('pass').value = '';
+  enableLoginButton();
+
+  window.onLoginFailure(document.URL, error);
+}
+
+function hideErrors() {
+  $('login-not-allowed', 'login-failed', 'no-tenant-name', 'unknown-error', 'relogin', 'ext-error', 'exceed_max_login', 'agent-permanent-locked', 'agent-temporary-locked').invoke('hide');
+}
+
+function disableLoginButton() {
+    $j("#login_b").removeClass("enabled").addClass("disabled");
+}
+
+function enableLoginButton() {
+    $j("#login_b").removeClass("disabled").addClass("enabled");
+}
+
+/**
+ * If we detect sso redirect, send this event to mapanel;
+ * they will redirect the user to the sso authorization flow that will redirect back to the application
+ **/
+function sendRedirectEvent(tenantId) {
+  var targetOrigin = null;
+
+  // Check if we're in an iframe
+  if (window.parent === window) {
+    return;
+  }
+
+  // Get parent origin from referrer (contains parent URL when loaded in iframe)
+  if (document.referrer) {
+    try {
+      var referrerUrl = new URL(document.referrer);
+      var hostname = referrerUrl.hostname;
+
+      // Validate it's an 8x8.com domain (matches cloud8.8x8.com, cloud8-staging.8x8.com, etc.)
+      if (/^([a-z0-9-]+\.)*8x8\.com$/i.test(hostname)) {
+        targetOrigin = referrerUrl.origin;
+      } else {
+        console.warn('VCC: Parent origin not an 8x8.com domain:', hostname);
+      }
+    } catch (e) {
+      console.error('VCC: Failed to parse referrer URL for postMessage origin validation:', e);
+    }
+  } else {
+    console.warn('VCC: No referrer available to determine parent origin');
+  }
+
+  // Only send message if we have a validated 8x8.com origin
+  if (!targetOrigin) {
+    console.error('VCC: Cannot send postMessage - unable to validate parent origin');
+    return;
+  }
+
+  window.parent.postMessage({
+    action: 'xSeriesMigration.redirectSSO',
+    message: {
+      tenant: tenantId,
+      platform: voVccConsumerKey,
+    }
+  }, targetOrigin);
+}
+
+function initLogin() {
+    if (!$j.isEmptyObject(redirect8x8SSO)) {
+        var paramsMap = {};
+        paramsMap[tenantNameParam]   = redirect8x8SSO.tenantId;
+        paramsMap[redirectedParam] = redirect8x8SSO.redirected;
+        paramsMap[ssoUsernameParam] = redirect8x8SSO.username;
+        paramsMap[ssoMsgParam] = ssoMsgValue;
+
+        sendRedirectEvent(redirect8x8SSO.tenantId);
+
+        common.redirectTo8x8SSO(redirect8x8SSO.URL, paramsMap);
+    }
+
+    if ($F('auto_login') == 'true') {
+        //get aget login info
+        initLogin2(true);
+    } else {
+        var isSupported = checkBrowserVersion();
+        initLogin2(false, !isSupported);
+    }
+}
+
+var forgetPasswordWin;
+
+function forgetPassword(){
+  forgetPasswordWin = window.open('agui_forgot_password.php?'+$F('query_string') , 'ResetPassword', 'width=800, height=583 ,top=100, left=100,scrollbars=1');
+    forgetPasswordWin.focus();
+}
+
+/**
+ * Toggle the unsupported browser warning visibility
+ *
+ * @param show Whether to show or hide the warning
+ *
+ * @return false
+ */
+function toggleUnsupportedBrowserWarning(show) {
+    var displayValue = show ? "block" : "none";
+    var $modal = document.getElementById("unsupported-browser");
+    var $message = document.getElementById("unsupported-browser-message");
+
+    $message.innerHTML = $message.innerHTML.replace("##browserName##", browserTricorder.getBrowserFullName());
+    $modal.style.display = displayValue;
+
+    return false;
+}
+
+/**
+ * Show the "unsupported browser" warning
+ *
+ * @return false
+ */
+function showUnsupportedBrowserWarning() {
+    return toggleUnsupportedBrowserWarning(true);
+}
+
+/**
+ * Hide the "unsupported browser" warning
+ *
+ * @return false
+ */
+function hideUnsupportedBrowserWarning() {
+    return toggleUnsupportedBrowserWarning(false);
+}
+
+/**
+ * Check if the running browser is supported, and show a warning if not
+ *
+ * @return true if the browser is supported, false otherwise
+ */
+function checkBrowserVersion() {
+    var isSupported = browserTricorder.isSupported();
+
+    if (!isSupported) {
+        showUnsupportedBrowserWarning();
+    }
+
+    return isSupported;
+}
+
+function initLogin2(autoLogin, dontFocus) {
+    if (window.keepCookies !== "keep") {
+        // Remove javascript set cookies
+        Cookie.erase(COOKIE_NAME);
+        Cookie.erase('dri_info');
+
+        // Remove backend set cookies
+        var request = new XMLHttpRequest();
+        request.open("GET", "removeCookie.php?cookie=wpj_agui");
+        request.onload = request.onerror = function() {
+            if (!dontFocus) {
+                $('user').focus();
+                $('user').select();
+            }
+            if (autoLogin == true) {
+                login();
+            }
+        };
+        request.send();
+    } else {
+        if (!dontFocus) {
+            $('user').focus();
+            $('user').select();
+        }
+        if (autoLogin == true) {
+            login();
+        }
+    }
+}
+
+function getBrowserInfo(agentIP) {
+ try {
+  var x = "appCodeName=" + navigator["appCodeName"] + ", "
+        + "appName=" + navigator["appName"] + ", "
+        + "appMinorVersion=" + navigator["appMinorVersion"] + ", "
+        + "cpuClass=" + navigator["cpuClass"] + ", "
+        + "platform=" + navigator["platform"] + ", "
+        + "language=" + navigator["language"] + ", "
+        + "userAgent=" + navigator["userAgent"] + ", "
+        + "cookieEnabled=" + navigator["cookieEnabled"] + ", "
+        + "appVersion=" + navigator["appVersion"] + ", "
+        + "oscpu=" + navigator["oscpu"] + ", "
+        + "ipAddress=" + agentIP;
+
+   return x;
+ }
+ catch(e) {
+   return "";
+ }
+}
+
+function login() {
+    if (!$j("#login_b").hasClass("disabled")) {
+            Cookie.erase(COOKIE_NAME);
+            Cookie.erase('dri_info');
+            // Remove backend set cookies
+            var request = new XMLHttpRequest();
+            request.open("GET", "removeCookie.php?cookie=wpj_agui");
+            request.onload = request.onerror = function() {
+                hideErrors();
+                disableLoginButton();
+
+                // strip trailing slashes from username & password fields
+                $('user').value = $F('user').replace(/\s*$/, "");
+                $('pass').value = $F('pass').replace(/\s*$/, "");
+
+                //strip leading space
+                username = $F('user').replace(/^\s*/, "");
+                if (!username.match("@")) {
+                  // lets see if the tenant name was passed in the URL
+                  if ($F('tenant')) {
+                    username += "@" + $F('tenant');
+                  }
+                  else {
+                    displayError('no-tenant-name');
+                    return;
+                  }
+                }
+
+                matches = /^([A-Za-z0-9_]+)\@([a-zA-Z0-9\-\.]+)$/.exec(username);
+
+                // make sure the user name was well-formed
+                if (!matches || matches.length < 3) {
+                  displayError('no-tenant-name');
+                }
+                else {
+                  checkTenant(matches[2], matches[1], getURLParameter("loginmode"))
+                    .then(function(data) { redirectUser(data); })
+                    .catch(function(err) {
+                      if (err && (err.message === 'auth_error' || err.message === 'vovcc_redirect')) {
+                        return;
+                      }
+                      displayError('unknown-error');
+                      vccLogger.error(ErrorDomain.LOGIN_ERROR, err || new Error('Tenant check failed'), {
+                        file: "AGUI/js/login.js",
+                        function: "login.checkTenant.catch",
+                      });
+                    });
+
+                  window.onLoginStart(username);
+                }
+            };
+            request.send();
+    }
+}
+
+// Parses the XML text response from gen_check_tenant_agent.php.
+// Returns a plain serializable data object on success (cacheable).
+// Throws 'ldap_down' when LDAP is unreachable so the fallback store can serve cached data.
+// Throws 'auth_error' or 'vovcc_redirect' for non-cacheable outcomes (errors/SSO redirects already handled as side-effects).
+function checkTenantResponse(xmlText) {
+  var parser = new DOMParser();
+  var xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+  var authorized = getNodeValue(xmlDoc, 'authorized');
+  var uidsMatch = getNodeValue(xmlDoc, 'uidsmatch') === 'true';
+
+  if (authorized !== 'TRUE') {
+    var reason = getNodeValue(xmlDoc, 'reason');
+    if (reason === '2') {
+      throw new Error('ldap_down');
+    }
+    if (reason === '1') {
+      displayError(uidsMatch ? 'login-not-allowed' : 'login-failed');
+    } else if (reason === '4') {
+      displayError('tenant-in-maintenance');
+    } else {
+      displayError('unknown-error');
+      vccLogger.error(ErrorDomain.LOGIN_ERROR, 'Tenant check returned an unrecognised reason', {
+        file: "AGUI/js/login.js",
+        function: "checkTenantResponse",
+        reason: reason || 'missing',
+      });
+    }
+    throw new Error('auth_error');
+  }
+
+  var redirectURL = getNodeValue(xmlDoc, 'redirectURL') || '';
+  var tenantType = getNodeValue(xmlDoc, 'tenantType');
+
+  if (tenantType === 'VOVCC' && redirectURL) {
+    var paramsMap = {};
+    paramsMap[usernameParam]   = getNodeValue(xmlDoc, usernameParam);
+    paramsMap[tenantNameParam] = getNodeValue(xmlDoc, tenantNameParam);
+    paramsMap[redirectedParam] = getNodeValue(xmlDoc, redirectedParam);
+    paramsMap[ssoUsernameParam] = getNodeValue(xmlDoc, ssoUsernameParam);
+    paramsMap[ssoMsgParam] = ssoMsgValue;
+    var tenant = getNodeValue(xmlDoc, 'tenant');
+    sendRedirectEvent(tenant);
+    common.redirectTo8x8SSO(redirectURL, paramsMap);
+    throw new Error('vovcc_redirect');
+  }
+
+  return {
+    algorithm:   getNodeValue(xmlDoc, 'algorithm'),
+    agentIP:     getNodeValue(xmlDoc, 'agentIP'),
+    redirectURL: redirectURL,
+    tenant:      getNodeValue(xmlDoc, 'tenant') || ''
+  };
+}
+
+function requestCheckTenant(url) {
+  return fetch(url)
+    .then(function(r) {
+      if (r.ok) { return r.text(); }
+      throw new Error('Service unavailable');
+    })
+    .then(checkTenantResponse);
+}
+
+function checkTenant(tenant, agent, loginMode) {
+  var url = '../GEN/gen_check_tenant_agent.php?type=agui_login&tenant=' + encodeURIComponent(tenant) + '&agent=' + encodeURIComponent(agent) + '&loginmode=' + loginMode;
+  if (typeof appShellPromise === 'undefined') {
+    return requestCheckTenant(url);
+  }
+  return appShellPromise.then(function(shellApp) {
+    if (typeof shellApp.fallbackStore === 'undefined') {
+      return requestCheckTenant(url);
+    }
+    return shellApp.fallbackStore('tenant-check')
+      .then(function(cache) {
+        return cache(
+          ['tenant-' + tenant + '-' + agent, TENANT_CHECK_CACHE_TTL_MS],
+          requestCheckTenant(url)
+        );
+      });
+  }).catch(function(err) {
+    // Preserve known semantic outcomes — the caller handles them.
+    if (err && (err.message === 'auth_error' || err.message === 'ldap_down' || err.message === 'vovcc_redirect')) {
+      throw err;
+    }
+    // Shell load failure or cache API error — degrade to direct uncached request.
+    return requestCheckTenant(url);
+  });
+}
+
+function redirectUser(data) {
+  algorithm = data.algorithm;
+  if (data.redirectURL && data.redirectURL.length > 0) {
+    if (!isSafeLoginRedirectURL(data.redirectURL)) {
+      // Cached URL failed same-origin check — fall back to rtapi login.
+      rtapiLogin(data.agentIP);
+      return;
+    }
+    $('pwd').value = $F('pass');
+    $('login1').value = matches[1];
+    if (username.match('@')) { $('post_tenant').value = data.tenant; }
+    var queryString = $F('query_string') || '';
+    if (queryString.length > 0) {
+      queryString = (data.redirectURL.includes('?') ? '&' : '?') + queryString;
+    }
+    document.loginform.action = data.redirectURL + queryString;
+    document.loginform.method = 'post';
+    document.loginform.submit();
+  } else {
+    rtapiLogin(data.agentIP);
+  }
+}
+
+function checkLockStatus(xml)
+{
+    var lockInfo = xml.getElementsByTagName('lock')[0];
+    var sendEmail = lockInfo.getAttribute('sendEmail');
+    var lockType = lockInfo.getAttribute('type');
+
+    if(lockType == "permanent")
+    {
+        displayError('agent-permanent-locked');
+    }
+    else
+    {
+        displayError('agent-temporary-locked');
+        var lockoutTime = lockInfo.getAttribute('lockRemainingTime');
+          try {
+              if(eval(lockoutTime) > 0){
+                setTimeout("enableLoginButton();hideErrors();", eval(lockoutTime));
+              }
+          } catch(ex) {}
+    }
+    disableLoginButton();
+
+    if(sendEmail == "true")
+    {
+        sendLockMailToAdmin();
+    }
+}
+
+function sendLockMailToAdmin()
+{
+    var url = '../GEN/gen_send_lock_mail.php?agent=' + encodeURIComponent(matches[1]) +'&tenant=' + encodeURIComponent(matches[2]);
+
+      new Ajax.Request(url, {
+        onSuccess: checkEmailSendResponse,
+        onFailure: function(response) {
+          displayError('unknown-error');
+          vccLogger.error(ErrorDomain.LOGIN_ERROR, 'Send Lock notification email to admin request failed', {
+            file: "AGUI/js/login.js",
+            function: "sendLockMailToAdmin",
+            status: String(response && response.status),
+            statusText: (response && response.statusText) || ''
+          });
+        }
+      });
+}
+
+function checkEmailSendResponse(request)
+{
+      var xmlDoc = null;
+
+      // get xml doc
+      if (window.DOMParser) {
+        // moz, safari
+        var parser = new DOMParser();
+        xmlDoc = parser.parseFromString(request.responseText, "text/xml");
+      }
+      else if (window.ActiveXObject) {
+        // ie
+        xmlDoc = XmlDocument.create();
+        xmlDoc.loadXML(request.responseText);
+      }
+      //TODO
+}
+
+function rtapiLogin(agentIP) {
+  // remove password from logout URL. this is based on rules from GEN/include/validation/gen_val_is_agent_password.inc
+  var logout_url = location.href.replace(/pass=[a-zA-Z0-9_\-]{1,}/, "");
+  var jabbind = 'jabbind3.php';
+  // start an rtapi login
+  rtapi = new AgentRtapi("../AGUI/" + jabbind, username);
+  rtapi.addEventHandler(EVENT_UNKNOWN_ERROR, function () { 
+    displayError('unknown-error');
+    vccLogger.error(ErrorDomain.LOGIN_ERROR, 'RTAPI reported an unknown error during login', {
+      file: "AGUI/js/login.js",
+      function: "rtapiLogin",
+    });
+  });
+  rtapi.addEventHandler(EVENT_INVALID_LOGIN, function () { displayError('login-failed'); });
+  rtapi.addEventHandler(EVENT_AGENT_LOCKED, function (xml) {checkLockStatus(xml); });
+  rtapi.addEventHandler(EVENT_EXCEED_MAX_LOGIN_COUNT, function () { displayError('exceed_max_login'); });
+  var passhash = $F('pass');
+  if (algorithm == 'SHA1') {
+    passhash = SHA1(passhash);
+  }
+  var browserInfo = getBrowserInfo(agentIP),
+      nextURL = isCtiMode() ? "agui.php?loginmode=cti" : "agui.php";
+  rtapi.login(username, $F('pass'), nextURL, logout_url, passhash, browserInfo, agentIP);
+}
+
+/**
+ * Gets a parameter from the browser URL determined by the passed name.
+ *
+ * @param {String} paramName
+ *
+ * @returns {String} parameter value || null
+ */
+function getURLParameter(paramName) {
+    return decodeURIComponent((new RegExp("[?|&]" + paramName + "=" + "([^&;]+?)(&|#|;|$)").exec(location.search) || [,""])[1].replace(/\+/g, '%20')) || null;
+}
+
+/**
+ * Determines whether or not the login mode is CTI
+ *
+ * @returns {Boolean}
+ */
+function isCtiMode() {
+    return getURLParameter("loginmode") === "cti";
+}
+
+/**
+ * Opens a 'mailto' link on the top frame.
+ *
+ * @param {String} url
+ *
+ */
+function contactUsPopup(url) {
+    try {
+        window.top.location = "mailto:" + url;
+    } catch (e) {
+        // Nothing in this catch block. Just to supress the error message, since we are opening an 'insecure' link, under https.
+    }
+}

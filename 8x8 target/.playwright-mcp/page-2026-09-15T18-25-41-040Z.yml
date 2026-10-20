@@ -1,0 +1,244 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - generic [ref=f1e4]:
+      - link [ref=f1e5] [cursor=pointer]:
+        - /url: https://vercel.com/?utm_medium=third_party&utm_source=grep&utm_campaign=PGR
+        - img "Vercel Logo" [ref=f1e6]
+      - link [ref=f1e10] [cursor=pointer]:
+        - /url: /
+    - generic [ref=f1e16]:
+      - textbox "Search" [active] [ref=f1e17]: 8x8cloud.net
+      - generic [ref=f1e18]:
+        - button "Match case" [ref=f1e19] [cursor=pointer]
+        - button "Match whole words" [ref=f1e20] [cursor=pointer]
+        - button "Use regular expression" [ref=f1e21] [cursor=pointer]
+    - button "Feedback" [ref=f1e23] [cursor=pointer]
+  - generic [ref=f1e25]:
+    - generic [ref=f1e27]:
+      - generic [ref=f1e29]:
+        - heading [level=3] [ref=f1e30]:
+          - button [expanded] [ref=f1e31] [cursor=pointer]:
+            - heading "Repository" [level=2] [ref=f1e35]
+        - region "Repository" [ref=f1e36]:
+          - generic [ref=f1e37]:
+            - textbox "Filter repositories..." [ref=f1e40]
+            - list [ref=f1e43]:
+              - listitem [ref=f1e44]:
+                - button "149851683 avatar phims403/lazyhunter 2" [ref=f1e45] [cursor=pointer]:
+                  - generic [ref=f1e46]:
+                    - img "149851683 avatar" [ref=f1e47]
+                    - generic [ref=f1e48]: phims403/lazyhunter
+                  - generic [ref=f1e49]: "2"
+              - listitem [ref=f1e50]:
+                - button "50994705 avatar projectdiscovery/public-bugbounty-programs 2" [ref=f1e51] [cursor=pointer]:
+                  - generic [ref=f1e52]:
+                    - img "50994705 avatar" [ref=f1e53]
+                    - generic [ref=f1e54]: projectdiscovery/public-bugbounty-programs
+                  - generic [ref=f1e55]: "2"
+              - listitem [ref=f1e56]:
+                - button "1862727 avatar lissy93/bug-bounties 1" [ref=f1e57] [cursor=pointer]:
+                  - generic [ref=f1e58]:
+                    - img "1862727 avatar" [ref=f1e59]
+                    - generic [ref=f1e60]: lissy93/bug-bounties
+                  - generic [ref=f1e61]: "1"
+              - listitem [ref=f1e62]:
+                - button "5662731 avatar kac89/vulnrepo 1" [ref=f1e63] [cursor=pointer]:
+                  - generic [ref=f1e64]:
+                    - img "5662731 avatar" [ref=f1e65]
+                    - generic [ref=f1e66]: kac89/vulnrepo
+                  - generic [ref=f1e67]: "1"
+      - generic [ref=f1e69]:
+        - heading [level=3] [ref=f1e70]:
+          - button [expanded] [ref=f1e71] [cursor=pointer]:
+            - heading "Path" [level=2] [ref=f1e75]
+        - region "Path" [ref=f1e76]:
+          - generic [ref=f1e77]:
+            - textbox "Filter paths..." [ref=f1e80]
+            - list [ref=f1e83]:
+              - listitem [ref=f1e84]:
+                - button "public-bug-bounty-program/ 2" [ref=f1e85] [cursor=pointer]:
+                  - generic [ref=f1e86]: public-bug-bounty-program/
+                  - generic [ref=f1e87]: "2"
+              - listitem [ref=f1e88]:
+                - button "src/ 2" [ref=f1e89] [cursor=pointer]:
+                  - generic [ref=f1e90]: src/
+                  - generic [ref=f1e91]: "2"
+              - listitem [ref=f1e92]:
+                - button "dist/ 1" [ref=f1e93] [cursor=pointer]:
+                  - generic [ref=f1e94]: dist/
+                  - generic [ref=f1e95]: "1"
+      - generic [ref=f1e97]:
+        - heading [level=3] [ref=f1e98]:
+          - button [expanded] [ref=f1e99] [cursor=pointer]:
+            - heading "Language" [level=2] [ref=f1e103]
+        - region "Language" [ref=f1e104]:
+          - generic [ref=f1e105]:
+            - textbox "Filter languages..." [ref=f1e108]
+            - list [ref=f1e111]:
+              - listitem [ref=f1e112]:
+                - generic [ref=f1e113] [cursor=pointer]:
+                  - generic [ref=f1e114]:
+                    - checkbox "JSON 3" [ref=f1e115]
+                    - generic [ref=f1e116]: JSON
+                  - generic [ref=f1e117]: "3"
+              - listitem [ref=f1e118]:
+                - generic [ref=f1e119] [cursor=pointer]:
+                  - generic [ref=f1e120]:
+                    - checkbox "YAML 2" [ref=f1e121]
+                    - generic [ref=f1e122]: YAML
+                  - generic [ref=f1e123]: "2"
+              - listitem [ref=f1e124]:
+                - generic [ref=f1e125] [cursor=pointer]:
+                  - generic [ref=f1e126]:
+                    - checkbox "Text 1" [ref=f1e127]
+                    - generic [ref=f1e128]: Text
+                  - generic [ref=f1e129]: "1"
+    - generic [ref=f1e130]:
+      - generic [ref=f1e131]:
+        - generic [ref=f1e132]: 6 results found
+        - combobox [ref=f1e135] [cursor=pointer]:
+          - generic: Compact
+      - generic [ref=f1e138]:
+        - generic [ref=f1e139]:
+          - generic [ref=f1e140]:
+            - generic [ref=f1e141]:
+              - generic [ref=f1e142]:
+                - img "50994705 avatar" [ref=f1e143]
+                - link "projectdiscovery/public-bugbounty-programs" [ref=f1e144] [cursor=pointer]:
+                  - /url: https://github.com/projectdiscovery/public-bugbounty-programs
+              - link "src/data.yaml" [ref=f1e145] [cursor=pointer]:
+                - /url: https://github.com/projectdiscovery/public-bugbounty-programs/blob/main/src/data.yaml
+            - generic [ref=f1e146]: 1 matches
+          - table [ref=f1e148] [cursor=pointer]:
+            - rowgroup [ref=f1e149]:
+              - row [ref=f1e150]:
+                - cell "37" [ref=f1e151]
+                - cell "- sameroom.io" [ref=f1e153]
+              - row [ref=f1e156]:
+                - cell "38" [ref=f1e157]
+                - cell [ref=f1e159]:
+                  - generic [ref=f1e161]:
+                    - text: "-"
+                    - mark [ref=f1e163]: 8x8cloud.net
+              - row [ref=f1e164]:
+                - cell "39" [ref=f1e165]
+                - cell "- p8t.us" [ref=f1e167]
+        - generic [ref=f1e170]:
+          - generic [ref=f1e171]:
+            - generic [ref=f1e172]:
+              - generic [ref=f1e173]:
+                - img "149851683 avatar" [ref=f1e174]
+                - link "phims403/lazyhunter" [ref=f1e175] [cursor=pointer]:
+                  - /url: https://github.com/phims403/lazyhunter
+              - link "public-bug-bounty-program/hackerone_swag_vdp.txt" [ref=f1e176] [cursor=pointer]:
+                - /url: https://github.com/phims403/lazyhunter/blob/main/public-bug-bounty-program/hackerone_swag_vdp.txt
+            - generic [ref=f1e177]: 1 matches
+          - table [ref=f1e179] [cursor=pointer]:
+            - rowgroup [ref=f1e180]:
+              - row [ref=f1e181]:
+                - cell "4" [ref=f1e182]
+                - cell "8x8.vc" [ref=f1e184]
+              - row [ref=f1e187]:
+                - cell "5" [ref=f1e188]
+                - cell [ref=f1e190]:
+                  - mark [ref=f1e193]: 8x8cloud.net
+              - row [ref=f1e194]:
+                - cell "6" [ref=f1e195]
+                - cell "8x8pilot.com" [ref=f1e197]
+        - generic [ref=f1e200]:
+          - generic [ref=f1e201]:
+            - generic [ref=f1e202]:
+              - generic [ref=f1e203]:
+                - img "1862727 avatar" [ref=f1e204]
+                - link "lissy93/bug-bounties" [ref=f1e205] [cursor=pointer]:
+                  - /url: https://github.com/lissy93/bug-bounties
+              - link "platform-programs.yml" [ref=f1e206] [cursor=pointer]:
+                - /url: https://github.com/lissy93/bug-bounties/blob/main/platform-programs.yml
+            - generic [ref=f1e207]: 1 matches
+          - table [ref=f1e209] [cursor=pointer]:
+            - rowgroup [ref=f1e210]:
+              - row [ref=f1e211]:
+                - cell "203" [ref=f1e212]
+                - cell "- 8x8.vc" [ref=f1e214]
+              - row [ref=f1e217]:
+                - cell "204" [ref=f1e218]
+                - cell [ref=f1e220]:
+                  - generic [ref=f1e222]:
+                    - text: "-"
+                    - mark [ref=f1e224]: 8x8cloud.net
+              - row [ref=f1e225]:
+                - cell "205" [ref=f1e226]
+                - cell "- 8x8e2e.com" [ref=f1e228]
+        - generic [ref=f1e231]:
+          - generic [ref=f1e232]:
+            - generic [ref=f1e233]:
+              - generic [ref=f1e234]:
+                - img "149851683 avatar" [ref=f1e235]
+                - link "phims403/lazyhunter" [ref=f1e236] [cursor=pointer]:
+                  - /url: https://github.com/phims403/lazyhunter
+              - link "public-bug-bounty-program/chaos-bugbounty-list.json" [ref=f1e237] [cursor=pointer]:
+                - /url: https://github.com/phims403/lazyhunter/blob/main/public-bug-bounty-program/chaos-bugbounty-list.json
+            - generic [ref=f1e238]: 1 matches
+          - table [ref=f1e240] [cursor=pointer]:
+            - rowgroup [ref=f1e241]:
+              - row [ref=f1e242]:
+                - cell "47" [ref=f1e243]
+                - cell "\"sameroom.io\"," [ref=f1e245]
+              - row [ref=f1e248]:
+                - cell "48" [ref=f1e249]
+                - cell [ref=f1e251]:
+                  - generic [ref=f1e253]:
+                    - generic [ref=f1e254]:
+                      - text: "\""
+                      - mark [ref=f1e255]: 8x8cloud.net
+                      - text: "\""
+                    - text: ","
+              - row [ref=f1e256]:
+                - cell "49" [ref=f1e257]
+                - cell "\"p8t.us\"," [ref=f1e259]
+        - generic [ref=f1e262]:
+          - generic [ref=f1e263]:
+            - generic [ref=f1e264]:
+              - generic [ref=f1e265]:
+                - img "5662731 avatar" [ref=f1e266]
+                - link "kac89/vulnrepo" [ref=f1e267] [cursor=pointer]:
+                  - /url: https://github.com/kac89/vulnrepo
+              - link "src/assets/chaos-bugbounty-list.json" [ref=f1e268] [cursor=pointer]:
+                - /url: https://github.com/kac89/vulnrepo/blob/master/src/assets/chaos-bugbounty-list.json
+            - generic [ref=f1e269]: 1 matches
+          - table [ref=f1e271] [cursor=pointer]:
+            - rowgroup [ref=f1e272]:
+              - row [ref=f1e273]:
+                - cell "1" [ref=f1e274]
+                - cell [ref=f1e276]:
+                  - generic [ref=f1e278]:
+                    - text: …it.si","wavecell.com","ucverse.com","mycontactual.com","jitsi.org","packet8.net","get8x8.com","8x8.vc","easycontactnow.com","8x8.spot","sameroom.io",
+                    - generic [ref=f1e279]:
+                      - text: "\""
+                      - mark [ref=f1e280]: 8x8cloud.net
+                      - text: "\""
+                    - text: ",\"p8t.us\",\"8x8pilot.com\",\"8x8staging.com\",\"jitsi.net\"]},{\"name\":\"Abercrombie & Fitch Management Co.\",\"url\":\"https://hackerone.com/abercrombie_fitch\",…"
+        - generic [ref=f1e281]:
+          - generic [ref=f1e282]:
+            - generic [ref=f1e283]:
+              - generic [ref=f1e284]:
+                - img "50994705 avatar" [ref=f1e285]
+                - link "projectdiscovery/public-bugbounty-programs" [ref=f1e286] [cursor=pointer]:
+                  - /url: https://github.com/projectdiscovery/public-bugbounty-programs
+              - link "dist/data.json" [ref=f1e287] [cursor=pointer]:
+                - /url: https://github.com/projectdiscovery/public-bugbounty-programs/blob/main/dist/data.json
+            - generic [ref=f1e288]: 1 matches
+          - table [ref=f1e290] [cursor=pointer]:
+            - rowgroup [ref=f1e291]:
+              - row [ref=f1e292]:
+                - cell "1" [ref=f1e293]
+                - cell [ref=f1e295]:
+                  - generic [ref=f1e297]:
+                    - text: …it.si","wavecell.com","ucverse.com","mycontactual.com","jitsi.org","packet8.net","get8x8.com","8x8.vc","easycontactnow.com","8x8.spot","sameroom.io",
+                    - generic [ref=f1e298]:
+                      - text: "\""
+                      - mark [ref=f1e299]: 8x8cloud.net
+                      - text: "\""
+                    - text: ",\"p8t.us\",\"8x8pilot.com\",\"8x8staging.com\",\"jitsi.net\"]},{\"name\":\"Abercrombie & Fitch Management Co.\",\"url\":\"https://hackerone.com/abercrombie_fitch\",…"
+  - region "Notifications alt+T"
+  - alert [ref=f1e300]

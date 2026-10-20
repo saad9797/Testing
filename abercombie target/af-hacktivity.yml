@@ -1,0 +1,745 @@
+- generic [ref=f74e5]:
+  - banner [ref=f74e6]:
+    - generic [ref=f74e7]:
+      - link "Skip to main content >" [ref=f74e9] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f74e10]:
+        - link "Go back to homepage" [ref=f74e12] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f74e13]
+        - generic [ref=f74e15]:
+          - link [ref=f74e18] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f74e25] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f74e32] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f74e39] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f74e44]:
+      - link [ref=f74e45] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f74e51]: Learn more about HackerOne
+      - link "Log in" [ref=f74e53] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f74e56]:
+    - generic [ref=f74e58]:
+      - tree [ref=f74e60]:
+        - button [ref=f74e62] [cursor=pointer]:
+          - img "collapse menu" [ref=f74e63]:
+            - img "collapse menu" [ref=f74e65]
+        - generic [ref=f74e68]:
+          - treeitem "Security page" [expanded] [ref=f74e69] [cursor=pointer]
+          - group [ref=f74e72]:
+            - treeitem "Program guidelines" [ref=f74e73] [cursor=pointer]
+            - treeitem "Scope" [ref=f74e75] [cursor=pointer]
+            - treeitem "Hacktivity" [selected] [ref=f74e77] [cursor=pointer]
+            - treeitem "Thanks" [ref=f74e79] [cursor=pointer]
+            - treeitem "Updates" [ref=f74e81] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f74e83] [cursor=pointer]
+      - generic [ref=f74e85]:
+        - generic [ref=f74e86]:
+          - generic [ref=f74e88]:
+            - generic [ref=f74e90]:
+              - generic [ref=f74e91]: Hacktivity
+              - generic [ref=f74e93]:
+                - button "Filter" [ref=f74e95] [cursor=pointer]
+                - button "Sort" [ref=f74e101] [cursor=pointer]
+            - generic [ref=f74e109]:
+              - generic [ref=f74e110]:
+                - generic [ref=f74e113]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e115] [cursor=pointer]':
+                    - generic [ref=f74e121]: "3"
+                  - generic [ref=f74e122]:
+                    - generic [ref=f74e123]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e127] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e131]
+                        - generic [ref=f74e132]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e135]:
+                        - generic [ref=f74e136]: $3,000
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e141]:
+                      - generic [ref=f74e142]: Bug reported by
+                      - strong [ref=f74e147] [cursor=pointer]:
+                        - link "bashexplode" [ref=f74e148]:
+                          - /url: /bashexplode?type=user
+                      - generic [ref=f74e149]: was resolved
+                      - generic "September 22, 2026 19:40:55 PKT" [ref=f74e152]: 5 days ago
+                - generic [ref=f74e155]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e157] [cursor=pointer]':
+                    - generic [ref=f74e163]: "0"
+                  - generic [ref=f74e164]:
+                    - generic [ref=f74e165]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e169] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e173]
+                        - generic [ref=f74e174]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e175]:
+                      - generic [ref=f74e176]:
+                        - generic [ref=f74e177]: Bug reported by
+                        - strong [ref=f74e182] [cursor=pointer]:
+                          - link "twistedmock" [ref=f74e183]:
+                            - /url: /twistedmock?type=user
+                        - generic [ref=f74e184]:
+                          - generic [ref=f74e185]: and
+                          - strong [ref=f74e189] [cursor=pointer]:
+                            - link "refat0g" [ref=f74e190]:
+                              - /url: /refat0g?type=user
+                        - generic [ref=f74e191]: was resolved
+                        - generic "September 18, 2026 20:18:51 PKT" [ref=f74e194]: 9 days ago
+                      - generic [ref=f74e195]: Collaboration
+                - generic [ref=f74e203]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e205] [cursor=pointer]':
+                    - generic [ref=f74e211]: "2"
+                  - generic [ref=f74e212]:
+                    - generic [ref=f74e213]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e217] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e221]
+                        - generic [ref=f74e222]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e225]:
+                        - generic [ref=f74e226]: $750
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e231]:
+                      - generic [ref=f74e232]: Bug reported by
+                      - strong [ref=f74e237] [cursor=pointer]:
+                        - link "mountainliion" [ref=f74e238]:
+                          - /url: /mountainliion?type=user
+                      - generic [ref=f74e239]: was resolved
+                      - generic "September 15, 2026 20:55:51 PKT" [ref=f74e242]: 12 days ago
+                - generic [ref=f74e245]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e247] [cursor=pointer]':
+                    - generic [ref=f74e253]: "5"
+                  - generic [ref=f74e254]:
+                    - generic [ref=f74e255]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e259] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e263]
+                        - generic [ref=f74e264]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e267]:
+                        - generic [ref=f74e268]: $4,000
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e273]:
+                      - generic [ref=f74e274]: Bug reported by
+                      - strong [ref=f74e279] [cursor=pointer]:
+                        - link "n4vt3j" [ref=f74e280]:
+                          - /url: /n4vt3j?type=user
+                      - generic [ref=f74e281]: was resolved
+                      - generic "September 15, 2026 19:50:10 PKT" [ref=f74e284]: 12 days ago
+                - generic [ref=f74e287]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e289] [cursor=pointer]':
+                    - generic [ref=f74e295]: "6"
+                  - generic [ref=f74e296]:
+                    - generic [ref=f74e297]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e301] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e305]
+                        - generic [ref=f74e306]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e309]:
+                        - generic [ref=f74e310]: $2,500
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e315]:
+                      - generic [ref=f74e316]: Bug reported by
+                      - strong [ref=f74e321] [cursor=pointer]:
+                        - link "shahmeeramir" [ref=f74e322]:
+                          - /url: /shahmeeramir?type=user
+                      - generic [ref=f74e323]: was resolved
+                      - generic "September 10, 2026 18:35:46 PKT" [ref=f74e326]: 17 days ago
+                - generic [ref=f74e329]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e331] [cursor=pointer]':
+                    - generic [ref=f74e337]: "2"
+                  - generic [ref=f74e338]:
+                    - generic [ref=f74e339]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e343] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e347]
+                        - generic [ref=f74e348]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e350]:
+                      - generic [ref=f74e351]: Bug reported by
+                      - strong [ref=f74e356] [cursor=pointer]:
+                        - link "0x7ain_h1" [ref=f74e357]:
+                          - /url: /0x7ain_h1?type=user
+                      - generic [ref=f74e358]: was resolved
+                      - generic "August 27, 2026 00:22:05 PKT" [ref=f74e361]: about 1 month ago
+                - generic [ref=f74e364]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e366] [cursor=pointer]':
+                    - generic [ref=f74e372]: "2"
+                  - generic [ref=f74e373]:
+                    - generic [ref=f74e374]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e378] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e382]
+                        - generic [ref=f74e383]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e386]:
+                        - generic [ref=f74e387]: $250
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e392]:
+                      - generic [ref=f74e393]: Bug reported by
+                      - strong [ref=f74e398] [cursor=pointer]:
+                        - link "mikey233" [ref=f74e399]:
+                          - /url: /mikey233?type=user
+                      - generic [ref=f74e400]: was awarded a bounty
+                      - generic "August 12, 2026 00:01:49 PKT" [ref=f74e403]: 2 months ago
+                - generic [ref=f74e406]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e408] [cursor=pointer]':
+                    - generic [ref=f74e414]: "0"
+                  - generic [ref=f74e415]:
+                    - generic [ref=f74e416]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e420] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e424]
+                        - generic [ref=f74e425]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e428]:
+                        - generic [ref=f74e429]: $250
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e434]:
+                      - generic [ref=f74e435]: Bug reported by
+                      - strong [ref=f74e440] [cursor=pointer]:
+                        - link "rohit799" [ref=f74e441]:
+                          - /url: /rohit799?type=user
+                      - generic [ref=f74e442]: was awarded a bounty
+                      - generic "August 11, 2026 23:06:12 PKT" [ref=f74e445]: 2 months ago
+                - generic [ref=f74e448]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e450] [cursor=pointer]':
+                    - generic [ref=f74e456]: "4"
+                  - generic [ref=f74e457]:
+                    - generic [ref=f74e458]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e462] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e466]
+                        - generic [ref=f74e467]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e470]:
+                        - generic [ref=f74e471]: $750
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e476]:
+                      - generic [ref=f74e477]: Bug reported by
+                      - strong [ref=f74e482] [cursor=pointer]:
+                        - link "apoc4lypt0" [ref=f74e483]:
+                          - /url: /apoc4lypt0?type=user
+                      - generic [ref=f74e484]: was resolved
+                      - generic "August 5, 2026 18:32:22 PKT" [ref=f74e487]: 2 months ago
+                - generic [ref=f74e490]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e492] [cursor=pointer]':
+                    - generic [ref=f74e498]: "0"
+                  - generic [ref=f74e499]:
+                    - generic [ref=f74e500]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e504] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e508]
+                        - generic [ref=f74e509]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e511]:
+                      - generic [ref=f74e512]: Bug reported by
+                      - strong [ref=f74e517] [cursor=pointer]:
+                        - link "d0xing" [ref=f74e518]:
+                          - /url: /d0xing?type=user
+                      - generic [ref=f74e519]: was resolved
+                      - generic "August 5, 2026 17:58:21 PKT" [ref=f74e522]: 2 months ago
+                - generic [ref=f74e525]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e527] [cursor=pointer]':
+                    - generic [ref=f74e533]: "4"
+                  - generic [ref=f74e534]:
+                    - generic [ref=f74e535]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e539] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e543]
+                        - generic [ref=f74e544]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e547]:
+                        - generic [ref=f74e548]: $250
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e553]:
+                      - generic [ref=f74e554]: Bug reported by
+                      - strong [ref=f74e559] [cursor=pointer]:
+                        - link "qualw1n" [ref=f74e560]:
+                          - /url: /qualw1n?type=user
+                      - generic [ref=f74e561]: was awarded a bounty
+                      - generic "July 28, 2026 23:04:10 PKT" [ref=f74e564]: 2 months ago
+                - generic [ref=f74e567]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e569] [cursor=pointer]':
+                    - generic [ref=f74e575]: "2"
+                  - generic [ref=f74e576]:
+                    - generic [ref=f74e577]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e581] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e585]
+                        - generic [ref=f74e586]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e588]:
+                      - generic [ref=f74e589]: Bug reported by
+                      - strong [ref=f74e594] [cursor=pointer]:
+                        - link "0x7ain_h1" [ref=f74e595]:
+                          - /url: /0x7ain_h1?type=user
+                      - generic [ref=f74e596]: was awarded a bounty
+                      - generic "July 28, 2026 22:47:54 PKT" [ref=f74e599]: 2 months ago
+                - generic [ref=f74e602]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e604] [cursor=pointer]':
+                    - generic [ref=f74e610]: "0"
+                  - generic [ref=f74e611]:
+                    - generic [ref=f74e612]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e616] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e620]
+                        - generic [ref=f74e621]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e623]:
+                      - generic [ref=f74e624]: Bug reported by
+                      - strong [ref=f74e629] [cursor=pointer]:
+                        - link "d0xing" [ref=f74e630]:
+                          - /url: /d0xing?type=user
+                      - generic [ref=f74e631]: was resolved
+                      - generic "July 28, 2026 19:15:04 PKT" [ref=f74e634]: 2 months ago
+                - generic [ref=f74e637]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e639] [cursor=pointer]':
+                    - generic [ref=f74e645]: "4"
+                  - generic [ref=f74e646]:
+                    - generic [ref=f74e647]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e651] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e655]
+                        - generic [ref=f74e656]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e658]:
+                      - generic [ref=f74e659]: Bug reported by
+                      - strong [ref=f74e664] [cursor=pointer]:
+                        - link "xzemit42" [ref=f74e665]:
+                          - /url: /xzemit42?type=user
+                      - generic [ref=f74e666]: was resolved
+                      - generic "July 23, 2026 19:27:35 PKT" [ref=f74e669]: 2 months ago
+                - generic [ref=f74e672]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e674] [cursor=pointer]':
+                    - generic [ref=f74e680]: "16"
+                  - generic [ref=f74e681]:
+                    - generic [ref=f74e682]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e686] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e690]
+                        - generic [ref=f74e691]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e694]:
+                        - generic [ref=f74e695]: $4,000
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e700]:
+                      - generic [ref=f74e701]: Bug reported by
+                      - strong [ref=f74e706] [cursor=pointer]:
+                        - link "damian89" [ref=f74e707]:
+                          - /url: /damian89?type=user
+                      - generic [ref=f74e708]: was resolved
+                      - generic "July 14, 2026 22:30:07 PKT" [ref=f74e711]: 2 months ago
+                - generic [ref=f74e714]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e716] [cursor=pointer]':
+                    - generic [ref=f74e722]: "4"
+                  - generic [ref=f74e723]:
+                    - generic [ref=f74e724]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e728] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e732]
+                        - generic [ref=f74e733]: Abercrombie & Fitch Bug Bounty
+                      - generic [ref=f74e736]:
+                        - generic [ref=f74e737]: $4,000
+                        - generic:
+                          - generic:
+                            - separator
+                    - generic [ref=f74e742]:
+                      - generic [ref=f74e743]: Bug reported by
+                      - strong [ref=f74e748] [cursor=pointer]:
+                        - link "damian89" [ref=f74e749]:
+                          - /url: /damian89?type=user
+                      - generic [ref=f74e750]: was resolved
+                      - generic "July 14, 2026 22:27:13 PKT" [ref=f74e753]: 2 months ago
+                - generic [ref=f74e756]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e758] [cursor=pointer]':
+                    - generic [ref=f74e764]: "0"
+                  - generic [ref=f74e765]:
+                    - generic [ref=f74e766]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e770] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e774]
+                        - generic [ref=f74e775]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e777]:
+                      - generic [ref=f74e778]: Bug reported by
+                      - strong [ref=f74e783] [cursor=pointer]:
+                        - link "serdar_uzunay" [ref=f74e784]:
+                          - /url: /serdar_uzunay?type=user
+                      - generic [ref=f74e785]: was resolved
+                      - generic "July 8, 2026 17:50:10 PKT" [ref=f74e788]: 3 months ago
+                - generic [ref=f74e791]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e793] [cursor=pointer]':
+                    - generic [ref=f74e799]: "0"
+                  - generic [ref=f74e800]:
+                    - generic [ref=f74e801]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e805] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e809]
+                        - generic [ref=f74e810]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e812]:
+                      - generic [ref=f74e813]: Bug reported by
+                      - strong [ref=f74e818] [cursor=pointer]:
+                        - link "m0chan" [ref=f74e819]:
+                          - /url: /m0chan?type=user
+                      - generic [ref=f74e820]: was resolved
+                      - generic "July 7, 2026 22:11:26 PKT" [ref=f74e823]: 3 months ago
+                - generic [ref=f74e826]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e828] [cursor=pointer]':
+                    - generic [ref=f74e834]: "1"
+                  - generic [ref=f74e835]:
+                    - generic [ref=f74e836]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e840] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e844]
+                        - generic [ref=f74e845]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e847]:
+                      - generic [ref=f74e848]: Bug reported by
+                      - strong [ref=f74e853] [cursor=pointer]:
+                        - link "jayesh25" [ref=f74e854]:
+                          - /url: /jayesh25?type=user
+                      - generic [ref=f74e855]: was resolved
+                      - generic "July 1, 2026 00:36:07 PKT" [ref=f74e858]: 3 months ago
+                - generic [ref=f74e861]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e863] [cursor=pointer]':
+                    - generic [ref=f74e869]: "0"
+                  - generic [ref=f74e870]:
+                    - generic [ref=f74e871]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e875] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e879]
+                        - generic [ref=f74e880]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e882]:
+                      - generic [ref=f74e883]: Bug reported by
+                      - strong [ref=f74e888] [cursor=pointer]:
+                        - link "x0abcd_" [ref=f74e889]:
+                          - /url: /x0abcd_?type=user
+                      - generic [ref=f74e890]: was resolved
+                      - generic "June 30, 2026 21:08:17 PKT" [ref=f74e893]: 3 months ago
+                - generic [ref=f74e896]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e898] [cursor=pointer]':
+                    - generic [ref=f74e904]: "0"
+                  - generic [ref=f74e905]:
+                    - generic [ref=f74e906]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e910] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e914]
+                        - generic [ref=f74e915]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e917]:
+                      - generic [ref=f74e918]: Bug reported by
+                      - strong [ref=f74e923] [cursor=pointer]:
+                        - link "zy9ard3" [ref=f74e924]:
+                          - /url: /zy9ard3?type=user
+                      - generic [ref=f74e925]: was resolved
+                      - generic "June 12, 2026 18:52:23 PKT" [ref=f74e928]: 4 months ago
+                - generic [ref=f74e931]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e933] [cursor=pointer]':
+                    - generic [ref=f74e939]: "0"
+                  - generic [ref=f74e940]:
+                    - generic [ref=f74e941]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e945] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e949]
+                        - generic [ref=f74e950]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e952]:
+                      - generic [ref=f74e953]: Bug reported by
+                      - strong [ref=f74e958] [cursor=pointer]:
+                        - link "d0xing" [ref=f74e959]:
+                          - /url: /d0xing?type=user
+                      - generic [ref=f74e960]: was resolved
+                      - generic "May 1, 2026 18:14:38 PKT" [ref=f74e963]: 5 months ago
+                - generic [ref=f74e966]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e968] [cursor=pointer]':
+                    - generic [ref=f74e974]: "0"
+                  - generic [ref=f74e975]:
+                    - generic [ref=f74e976]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e980] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e984]
+                        - generic [ref=f74e985]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e987]:
+                      - generic [ref=f74e988]: Bug reported by
+                      - strong [ref=f74e993] [cursor=pointer]:
+                        - link "d0xing" [ref=f74e994]:
+                          - /url: /d0xing?type=user
+                      - generic [ref=f74e995]: was resolved
+                      - generic "May 1, 2026 01:09:24 PKT" [ref=f74e998]: 5 months ago
+                - generic [ref=f74e1001]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e1003] [cursor=pointer]':
+                    - generic [ref=f74e1009]: "0"
+                  - generic [ref=f74e1010]:
+                    - generic [ref=f74e1011]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e1015] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e1019]
+                        - generic [ref=f74e1020]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e1022]:
+                      - generic [ref=f74e1023]: Bug reported by
+                      - strong [ref=f74e1028] [cursor=pointer]:
+                        - link "m0chan" [ref=f74e1029]:
+                          - /url: /m0chan?type=user
+                      - generic [ref=f74e1030]: was awarded a bounty
+                      - generic "February 20, 2026 21:24:22 PKT" [ref=f74e1033]: 7 months ago
+                - generic [ref=f74e1036]:
+                  - 'button "upvote the report titled: \"\"" [ref=f74e1038] [cursor=pointer]':
+                    - generic [ref=f74e1044]: "0"
+                  - generic [ref=f74e1045]:
+                    - generic [ref=f74e1046]:
+                      - link "abercrombie_fitch_bbp Abercrombie & Fitch Bug Bounty" [ref=f74e1050] [cursor=pointer]:
+                        - /url: https://hackerone.com/abercrombie_fitch_bbp
+                        - img "abercrombie_fitch_bbp" [ref=f74e1054]
+                        - generic [ref=f74e1055]: Abercrombie & Fitch Bug Bounty
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - separator
+                    - generic [ref=f74e1056]:
+                      - generic [ref=f74e1057]:
+                        - generic [ref=f74e1058]: Bug reported by
+                        - strong [ref=f74e1063] [cursor=pointer]:
+                          - link "m0chan" [ref=f74e1064]:
+                            - /url: /m0chan?type=user
+                        - generic [ref=f74e1065]:
+                          - generic [ref=f74e1066]: and
+                          - strong [ref=f74e1070] [cursor=pointer]:
+                            - link "d0xing" [ref=f74e1071]:
+                              - /url: /d0xing?type=user
+                        - generic [ref=f74e1072]: was resolved
+                        - generic "February 20, 2026 21:23:51 PKT" [ref=f74e1075]: 7 months ago
+                      - generic [ref=f74e1076]: Collaboration
+              - status [ref=f74e1084]
+          - generic [ref=f74e1086]:
+            - button [ref=f74e1087] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f74e1088]:
+                - img "Collapse sidebar" [ref=f74e1090]
+            - generic [ref=f74e1095]:
+              - generic [ref=f74e1096]:
+                - generic [ref=f74e1097]:
+                  - img "abercrombie_fitch_bbp" [ref=f74e1101]
+                  - generic [ref=f74e1102]: Abercrombie & Fitch Bug Bounty
+                - generic [ref=f74e1104]:
+                  - generic [ref=f74e1105]:
+                    - link "http://abercrombie.com" [ref=f74e1106] [cursor=pointer]:
+                      - /url: http://abercrombie.com
+                    - link "@abercrombie" [ref=f74e1107] [cursor=pointer]:
+                      - /url: https://x.com/abercrombie
+                  - generic [ref=f74e1108]: Abercrombie & Fitch is an American lifestyle retailer that focuses on casual wear.
+                  - generic [ref=f74e1109]:
+                    - text: Bounty
+                    - generic [ref=f74e1110]: launched in Jul 2026
+                - generic [ref=f74e1113]:
+                  - text: "Response efficiency: 86%"
+                  - img "Response efficiency calculation information" [ref=f74e1116] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=f74e1118]
+              - generic [ref=f74e1120]:
+                - link "upload Submit without Report Assistant" [ref=f74e1123] [cursor=pointer]:
+                  - /url: /abercrombie_fitch_bbp/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=f74e1124]:
+                    - img "upload" [ref=f74e1126]
+                  - generic [ref=f74e1128]: Submit without Report Assistant
+                - generic [ref=f74e1130]:
+                  - heading "Rewards" [level=1] [ref=f74e1131]
+                  - table [ref=f74e1134]:
+                    - row [ref=f74e1136]:
+                      - columnheader [ref=f74e1137]:
+                        - paragraph [ref=f74e1141]: Severity
+                      - columnheader [ref=f74e1142]:
+                        - paragraph [ref=f74e1146]: Rewards
+                    - generic [ref=f74e1147]:
+                      - row [ref=f74e1148]:
+                        - cell "Low Avg. bounty $250 25% submissions" [ref=f74e1149]:
+                          - generic [ref=f74e1151]:
+                            - generic [ref=f74e1152]: Low
+                            - paragraph [ref=f74e1157]:
+                              - generic [ref=f74e1158]: Avg. bounty $250
+                              - generic [ref=f74e1159]: 25% submissions
+                        - cell "$250" [ref=f74e1160]
+                      - row [ref=f74e1163]:
+                        - cell "Medium Avg. bounty $750 35.94% submissions" [ref=f74e1164]:
+                          - generic [ref=f74e1166]:
+                            - generic [ref=f74e1167]: Medium
+                            - paragraph [ref=f74e1172]:
+                              - generic [ref=f74e1173]: Avg. bounty $750
+                              - generic [ref=f74e1174]: 35.94% submissions
+                        - cell "$750" [ref=f74e1175]
+                      - row [ref=f74e1178]:
+                        - cell "High Avg. bounty $2,600 17.19% submissions" [ref=f74e1179]:
+                          - generic [ref=f74e1181]:
+                            - generic [ref=f74e1182]: High
+                            - paragraph [ref=f74e1187]:
+                              - generic [ref=f74e1188]: Avg. bounty $2,600
+                              - generic [ref=f74e1189]: 17.19% submissions
+                        - cell "$2,500" [ref=f74e1190]
+                      - row [ref=f74e1193]:
+                        - cell "Critical Avg. bounty $2,250 21.88% submissions" [ref=f74e1194]:
+                          - generic [ref=f74e1196]:
+                            - generic [ref=f74e1197]: Critical
+                            - paragraph [ref=f74e1202]:
+                              - generic [ref=f74e1203]: Avg. bounty $2,250
+                              - generic [ref=f74e1204]: 21.88% submissions
+                        - cell "$4,000" [ref=f74e1205]
+                - generic [ref=f74e1208]:
+                  - heading "Stats" [level=1] [ref=f74e1209]
+                  - table [ref=f74e1210]:
+                    - rowgroup [ref=f74e1211]:
+                      - row [ref=f74e1212]:
+                        - cell "Total bounties paid" [ref=f74e1213]
+                        - cell "$112,700" [ref=f74e1214]
+                      - row [ref=f74e1217]:
+                        - cell "Average bounty" [ref=f74e1218]
+                        - cell "$750" [ref=f74e1219]
+                      - row [ref=f74e1222]:
+                        - cell "Top bounty" [ref=f74e1223]
+                        - cell "$4,000" [ref=f74e1224]
+                      - row [ref=f74e1227]:
+                        - cell "Bounties paid | 90 days" [ref=f74e1228]
+                        - cell "$22,750" [ref=f74e1229]
+                      - row [ref=f74e1232]:
+                        - cell "Reports received | 90 days" [ref=f74e1233]
+                        - cell "1502" [ref=f74e1234]
+                      - row [ref=f74e1235]:
+                        - cell "Last report resolved" [ref=f74e1236]
+                        - cell "5 days ago" [ref=f74e1237]
+                      - row [ref=f74e1238]:
+                        - cell "Reports resolved" [ref=f74e1239]
+                        - cell "64" [ref=f74e1240]
+                      - row [ref=f74e1241]:
+                        - cell "Hackers thanked" [ref=f74e1242]
+                        - cell "83" [ref=f74e1243]
+                      - row [ref=f74e1244]:
+                        - cell "Assets In Scope" [ref=f74e1245]
+                        - cell "8" [ref=f74e1246]
+        - generic [ref=f74e1252]:
+          - generic [ref=f74e1253]: © HackerOne
+          - list [ref=f74e1254]:
+            - listitem [ref=f74e1255]:
+              - link "Opportunities" [ref=f74e1256] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f74e1257]:
+              - link "Security" [ref=f74e1258] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f74e1259]:
+              - link "Leaderboard" [ref=f74e1260] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f74e1261]:
+              - link "Blog" [ref=f74e1262] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f74e1263]:
+              - link "Status" [ref=f74e1264] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f74e1265]:
+              - link "Docs" [ref=f74e1266] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f74e1267]:
+              - link "Support" [ref=f74e1268] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f74e1269]:
+              - link "Disclosure Guidelines" [ref=f74e1270] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f74e1271]:
+              - link "Press" [ref=f74e1272] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f74e1273]:
+              - link "Privacy" [ref=f74e1274] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f74e1275]:
+              - link "Terms" [ref=f74e1276] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f74e1277]:
+              - link [ref=f74e1278] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f74e1279]

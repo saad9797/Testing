@@ -1,0 +1,482 @@
+- generic [ref=f17e5]:
+  - banner [ref=f17e6]:
+    - generic [ref=f17e7]:
+      - link "Skip to main content >" [ref=f17e9] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f17e10]:
+        - link "Go back to homepage" [ref=f17e12] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f17e13]
+        - generic [ref=f17e15]:
+          - link [ref=f17e18] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f17e25] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f17e32] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f17e39] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f17e44]:
+      - link [ref=f17e45] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f17e51]: Learn more about HackerOne
+      - link "Log in" [ref=f17e53] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f17e56]:
+    - generic [ref=f17e58]:
+      - tree [ref=f17e60]:
+        - button [ref=f17e62] [cursor=pointer]:
+          - img "collapse menu" [ref=f17e63]:
+            - img "collapse menu" [ref=f17e65]
+        - generic [ref=f17e68]:
+          - treeitem "Security page" [expanded] [ref=f17e69] [cursor=pointer]
+          - group [ref=f17e72]:
+            - treeitem "Program guidelines" [selected] [ref=f17e73] [cursor=pointer]
+            - treeitem "Scope" [ref=f17e75] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f17e77] [cursor=pointer]
+            - treeitem "Thanks" [ref=f17e79] [cursor=pointer]
+            - treeitem "Updates" [ref=f17e81] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f17e83] [cursor=pointer]
+      - generic [ref=f17e85]:
+        - generic [ref=f17e86]:
+          - generic [ref=f17e88]:
+            - generic [ref=f17e89]:
+              - heading "Program highlights" [level=2] [ref=f17e92]
+              - generic [ref=f17e96]:
+                - generic [ref=f17e97]:
+                  - generic [ref=f17e98]:
+                    - generic [ref=f17e99]: Closed Scope
+                    - generic [ref=f17e107]:
+                      - text: Only accepts reports based on the listed scope.
+                      - link "Learn more about Closed Scope (opens in a new tab)" [ref=f17e109] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8490833-security-page#h_46a5b35ded
+                  - generic [ref=f17e114]:
+                    - generic [ref=f17e115]: Platform Standards
+                    - generic [ref=f17e123]:
+                      - text: Fully compliant with Platform Standards.
+                      - link "Learn more about Platform Standards (opens in a new tab)" [ref=f17e125] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8369826-detailed-platform-standards#h_e01bc643a8
+                - generic [ref=f17e130]:
+                  - generic [ref=f17e131]: Managed by HackerOne
+                  - generic [ref=f17e136]: Collaboration Enabled
+                  - generic [ref=f17e141]: Includes Retesting
+            - generic [ref=f17e146]:
+              - generic [ref=f17e150]:
+                - generic [ref=f17e156]: 2 days, 1 hour
+                - generic [ref=f17e157]: Average time to first response
+              - generic [ref=f17e161]:
+                - generic [ref=f17e167]: 3 days, 9 hours
+                - generic [ref=f17e168]: Average time to triage
+              - generic [ref=f17e172]:
+                - generic [ref=f17e178]: 2 days, 13 hours
+                - generic [ref=f17e179]: Average time to bounty
+              - generic [ref=f17e183]:
+                - generic [ref=f17e189]: 5 days, 22 hours
+                - generic [ref=f17e190]: Average time from submission to bounty
+              - generic [ref=f17e194]:
+                - generic [ref=f17e200]: 2 months, 1 week
+                - generic [ref=f17e201]: Average time to resolution
+            - generic [ref=f17e202]:
+              - generic [ref=f17e204]:
+                - heading "Rewards summary" [level=2] [ref=f17e205]
+                - generic [ref=f17e207]:
+                  - generic [ref=f17e208]: Last updated on July 18, 2023.
+                  - link "View changes" [ref=f17e209] [cursor=pointer]:
+                    - /url: /abercrombie_fitch_bbp/bounty_table_versions
+              - generic [ref=f17e217]:
+                - generic [ref=f17e218]: Each severity lists the 90-day average bounty and the percentage of total resolved reports, if applicable.
+                - table [ref=f17e220]:
+                  - row [ref=f17e222]:
+                    - columnheader "Low Avg. bounty $250 25% submissions" [ref=f17e223]:
+                      - generic [ref=f17e227]:
+                        - generic [ref=f17e228]: Low
+                        - paragraph [ref=f17e233]:
+                          - generic [ref=f17e234]: Avg. bounty $250
+                          - generic [ref=f17e235]: 25% submissions
+                    - columnheader "Medium Avg. bounty $750 35.94% submissions" [ref=f17e236]:
+                      - generic [ref=f17e240]:
+                        - generic [ref=f17e241]: Medium
+                        - paragraph [ref=f17e246]:
+                          - generic [ref=f17e247]: Avg. bounty $750
+                          - generic [ref=f17e248]: 35.94% submissions
+                    - columnheader "High Avg. bounty $2,600 17.19% submissions" [ref=f17e249]:
+                      - generic [ref=f17e253]:
+                        - generic [ref=f17e254]: High
+                        - paragraph [ref=f17e259]:
+                          - generic [ref=f17e260]: Avg. bounty $2,600
+                          - generic [ref=f17e261]: 17.19% submissions
+                    - columnheader "Critical Avg. bounty $2,250 21.88% submissions" [ref=f17e262]:
+                      - generic [ref=f17e266]:
+                        - generic [ref=f17e267]: Critical
+                        - paragraph [ref=f17e272]:
+                          - generic [ref=f17e273]: Avg. bounty $2,250
+                          - generic [ref=f17e274]: 21.88% submissions
+                  - row [ref=f17e276]:
+                    - cell "$250" [ref=f17e277]
+                    - cell "$750" [ref=f17e280]
+                    - cell "$2,500" [ref=f17e283]
+                    - cell "$4,000" [ref=f17e286]
+                - generic [ref=f17e289]:
+                  - heading "Rewards" [level=1] [ref=f17e290]
+                  - generic [ref=f17e291]: Our rewards are based on severity per CVSS (the Common Vulnerability Scoring Standard). Please note these are general guidelines, and reward decisions are up to the discretion of Abercrombie & Fitch Management Co.
+            - generic [ref=f17e292]:
+              - heading "Scope exclusions" [level=2] [ref=f17e295]
+              - generic [ref=f17e300]:
+                - text: Core Ineligible Findings are out of scope.
+                - link "Learn more" [ref=f17e301] [cursor=pointer]:
+                  - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+            - generic [ref=f17e307]:
+              - generic [ref=f17e309]:
+                - heading "Overview" [level=2] [ref=f17e310]
+                - generic [ref=f17e312]:
+                  - generic [ref=f17e313]: Last updated on September 3, 2026.
+                  - link "View changes" [ref=f17e314] [cursor=pointer]:
+                    - /url: /abercrombie_fitch_bbp/policy_versions
+              - generic [ref=f17e322]:
+                - generic [ref=f17e323]: Abercrombie & Fitch Management Co. (ANF) looks forward to working with the security community to find vulnerabilities in order to keep our businesses and customers safe.
+                - heading "Safe Harbor" [level=1] [ref=f17e324]
+                - generic [ref=f17e325]: Any activities conducted in a manner consistent with this policy will be considered authorized conduct and we will not initiate legal action against you. If legal action is initiated by a third party against you in connection with activities conducted consistently with this policy, we will take steps to make it known that your actions were authorized.
+                - heading "Disclosure Policy" [level=1] [ref=f17e326]
+                - list [ref=f17e327]:
+                  - listitem [ref=f17e328]: Please do not discuss this program or any vulnerabilities (even resolved ones) outside of the program without express written consent from Abercrombie & Fitch Management Co.
+                  - listitem [ref=f17e329]:
+                    - text: Follow HackerOne's
+                    - link "disclosure guidelines" [ref=f17e330] [cursor=pointer]:
+                      - /url: https://www.hackerone.com/disclosure-guidelines
+                    - text: .
+                - heading "Program Rules" [level=1] [ref=f17e331]
+                - generic [ref=f17e332]: Please provide detailed reports with reproducible steps. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
+                - list [ref=f17e333]:
+                  - listitem [ref=f17e334]: We are continuously scanning our applications for vulnerabilities. Abercrombie & Fitch will operate in good faith to pay out net new vulnerabilities disclosed through this program. Findings related to newly released CVEs will be evaluated against Abercrombie & Fitch’s existing vulnerability management processes. Cases in which the vulnerability has already been triaged and slated for remediation within SLAs will be treated as a duplicate findings.
+                  - listitem [ref=f17e335]: Submit one vulnerability per report, unless you need to chain vulnerabilities to provide impact. Multiple vulnerabilities caused by one underlying issue will be awarded one bounty.
+                  - listitem [ref=f17e336]: When duplicates occur, we only award the first report that was received (provided that it can be fully reproduced).
+                  - listitem [ref=f17e337]: If using a publicly available POC / exploit, please provide the source. This helps ANF understand risk, impact and remediate. Leveraging public POCs will not result in reduced bounty. Providing sources of lesser-known successful exploits may result in a bonus reward.
+                  - listitem [ref=f17e338]: Exfiltration and/or exposure of personally identifiable information is expressly prohibited. If you believe a vulnerability exists where PII may be exposed, please ensure you are using your own test accounts for POC.
+                  - listitem [ref=f17e339]: If submitting a ticket regarding found system credentials, researchers must provide the source. Credentials must not be used to access underlying systems. Tickets will be evaluated and assigned a value at ANF's discretion based on the class of identity and its level of access.
+                  - listitem [ref=f17e340]: Social engineering (e.g. phishing, vishing, smishing) including interactions with customer service or chat agents is prohibited.
+                  - listitem [ref=f17e341]: Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of our service. Only interact with accounts you own.
+                  - listitem [ref=f17e342]: A&F corporate employees, contractors (past and current), and connected entities are not eligible for participation in this program.
+                  - listitem [ref=f17e343]: Abercrombie’s and Hollister Co.’s underlying architecture is the same. The same rule can be applied to exposed non-prod environments if found. Refrain from submitting a duplicate report for the other domain or environment.
+                - heading "Test Plan" [level=1] [ref=f17e344]
+                - list [ref=f17e345]:
+                  - listitem [ref=f17e346]:
+                    - text: "We strongly recommend the use of a modified a user agent in your HTTP(S) requests, and for non-HTTP requests we strongly recommend you add an identification to artifacts in POCs, and, or payloads so our teams can identify you as a verified researcher and not a malicious attacker: (e.g. h1:"
+                    - code [ref=f17e347]: <bbp-hackeroneusername>
+                    - text: ).
+                  - listitem [ref=f17e348]:
+                    - text: No credentials are required or provided for this program. If you self-register for any accounts, please register with your
+                    - link "@wearehackerone" [ref=f17e349] [cursor=pointer]:
+                      - /url: https://hackerone.com/wearehackerone
+                    - text: .com email address. You may not use exposed credentials to continue testing without explicit written approval of Abercrombie & Fitch Management Co.
+                - heading "Out of scope vulnerabilities" [level=1] [ref=f17e350]
+                - heading "When reporting vulnerabilities, please consider (1) attack scenario / exploitability, and (2) security impact of the bug. The following issues are considered out of scope:" [level=3] [ref=f17e351]
+                - list [ref=f17e352]:
+                  - listitem [ref=f17e353]: Clickjacking on pages with no sensitive actions
+                  - listitem [ref=f17e354]: Cross-Site Request Forgery (CSRF) on unauthenticated forms or forms with no sensitive actions
+                  - listitem [ref=f17e355]: Attacks requiring MITM or physical access to a user's device.
+                  - listitem [ref=f17e356]: Previously known vulnerable libraries without a working Proof of Concept.
+                  - listitem [ref=f17e357]: Comma Separated Values (CSV) injection without demonstrating a vulnerability.
+                  - listitem [ref=f17e358]: Missing best practices in SSL/TLS configuration.
+                  - listitem [ref=f17e359]: Any activity that could lead to the disruption of our service (DoS).
+                  - listitem [ref=f17e360]: Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS
+                  - listitem [ref=f17e361]: Rate limiting, bruteforce or enumeration issues on non-authentication endpoints
+                  - listitem [ref=f17e362]: Missing best practices in Content Security Policy.
+                  - listitem [ref=f17e363]: Missing email best practices (Invalid, incomplete or missing SPF/DKIM/DMARC records, etc.)
+                  - listitem [ref=f17e364]: Vulnerabilities only affecting users of outdated or unpatched browsers [Less than 2 stable versions behind the latest released stable version]
+                  - listitem [ref=f17e365]: Software version disclosure / Banner identification issues / Descriptive error messages or headers (e.g. stack traces, application or server errors) without PoC are considered informational.
+                  - listitem [ref=f17e366]: Public Zero-day vulnerabilities that have had an official patch for less than 1 month will be awarded on a case by case basis.
+                  - listitem [ref=f17e367]: Tabnabbing and typosquatting
+                  - listitem [ref=f17e368]: Open redirect - unless an additional security impact can be demonstrated
+                  - listitem [ref=f17e369]: Issues that require unlikely user interaction, including but not limited to phishing.
+                  - listitem [ref=f17e370]: Promotional code abuse
+                  - listitem [ref=f17e371]: Social Engineering of customer service agents via voice or chat
+                - heading "Response Targets" [level=1] [ref=f17e372]
+                - generic [ref=f17e373]: "Abercrombie & Fitch Management Co. will make a best effort to meet the following SLAs for hackers participating in our program:"
+                - strong [ref=f17e375]: SLA in business days
+                - table [ref=f17e376]:
+                  - rowgroup [ref=f17e377]:
+                    - row [ref=f17e378]:
+                      - columnheader "Type of Response" [ref=f17e379]
+                      - columnheader "SLA in business days" [ref=f17e380]
+                  - rowgroup [ref=f17e381]:
+                    - row [ref=f17e382]:
+                      - cell "First Response" [ref=f17e383]
+                      - cell "2 days" [ref=f17e384]
+                    - row [ref=f17e385]:
+                      - cell "Time to Triage" [ref=f17e386]
+                      - cell "2 days" [ref=f17e387]
+                    - row [ref=f17e388]:
+                      - cell "Time to Bounty" [ref=f17e389]
+                      - cell "14 days" [ref=f17e390]
+                    - row [ref=f17e391]:
+                      - cell "Time to Resolution" [ref=f17e392]
+                      - cell "depends on severity and complexity" [ref=f17e393]
+                - generic [ref=f17e394]: We’ll try to keep you informed about our progress throughout the process.
+                - generic [ref=f17e395]: Thank you for helping keep Abercrombie & Fitch Management Co. and our users safe!
+            - generic [ref=f17e396]:
+              - generic [ref=f17e398]:
+                - heading "Top hackers" [level=2] [ref=f17e399]
+                - link "See all hackers" [ref=f17e402] [cursor=pointer]:
+                  - /url: /abercrombie_fitch_bbp/thanks
+              - generic [ref=f17e410]:
+                - generic [ref=f17e411]:
+                  - generic [ref=f17e412]: "1"
+                  - generic [ref=f17e414]:
+                    - img "damian89" [ref=f17e416]
+                    - img [ref=f17e418]:
+                      - img "ID-verified" [ref=f17e419]
+                  - generic [ref=f17e423]:
+                    - link "damian89" [ref=f17e424] [cursor=pointer]:
+                      - /url: /damian89?type=user
+                    - generic "402" [ref=f17e426]: "Reputation: 402"
+                - generic [ref=f17e427]:
+                  - generic [ref=f17e428]: "2"
+                  - generic [ref=f17e430]:
+                    - img "d0xing" [ref=f17e432]
+                    - img [ref=f17e434]:
+                      - img "ID-verified" [ref=f17e435]
+                  - generic [ref=f17e439]:
+                    - link "d0xing" [ref=f17e440] [cursor=pointer]:
+                      - /url: /d0xing?type=user
+                    - generic "250" [ref=f17e442]: "Reputation: 250"
+                - generic [ref=f17e443]:
+                  - generic [ref=f17e444]: "3"
+                  - generic [ref=f17e446]:
+                    - img "zhero_" [ref=f17e448]
+                    - img [ref=f17e450]:
+                      - img "ID-verified" [ref=f17e451]
+                  - generic [ref=f17e455]:
+                    - link "zhero_" [ref=f17e456] [cursor=pointer]:
+                      - /url: /zhero_?type=user
+                    - generic "166" [ref=f17e458]: "Reputation: 166"
+                - generic [ref=f17e459]:
+                  - generic [ref=f17e460]: "4"
+                  - generic [ref=f17e462]:
+                    - img "godiego" [ref=f17e464]
+                    - img [ref=f17e466]:
+                      - img "Clear-verified badge" [ref=f17e467]
+                  - generic [ref=f17e472]:
+                    - link "godiego" [ref=f17e473] [cursor=pointer]:
+                      - /url: /godiego?type=user
+                    - generic "109" [ref=f17e475]: "Reputation: 109"
+                - generic [ref=f17e476]:
+                  - generic [ref=f17e477]: "5"
+                  - generic [ref=f17e479]:
+                    - img "kaiksi" [ref=f17e481]
+                    - img [ref=f17e483]:
+                      - img "Clear-verified badge" [ref=f17e484]
+                  - generic [ref=f17e489]:
+                    - link "kaiksi" [ref=f17e490] [cursor=pointer]:
+                      - /url: /kaiksi?type=user
+                    - generic "103" [ref=f17e492]: "Reputation: 103"
+                - generic [ref=f17e493]:
+                  - generic [ref=f17e494]: "6"
+                  - generic [ref=f17e496]:
+                    - img "m0chan" [ref=f17e498]
+                    - img [ref=f17e500]:
+                      - img "Clear-verified badge" [ref=f17e501]
+                  - generic [ref=f17e506]:
+                    - link "m0chan" [ref=f17e507] [cursor=pointer]:
+                      - /url: /m0chan?type=user
+                    - generic "93" [ref=f17e509]: "Reputation: 93"
+                - generic [ref=f17e510]:
+                  - generic [ref=f17e511]: "7"
+                  - generic [ref=f17e513]:
+                    - img "thaivu" [ref=f17e515]
+                    - img [ref=f17e517]:
+                      - img "Clear-verified badge" [ref=f17e518]
+                  - generic [ref=f17e523]:
+                    - link "thaivu" [ref=f17e524] [cursor=pointer]:
+                      - /url: /thaivu?type=user
+                    - generic "91" [ref=f17e526]: "Reputation: 91"
+                - generic [ref=f17e527]:
+                  - generic [ref=f17e528]: "8"
+                  - generic [ref=f17e530]:
+                    - img "exploitmsf" [ref=f17e532]
+                    - img [ref=f17e534]:
+                      - img "Clear-verified badge" [ref=f17e535]
+                  - generic [ref=f17e540]:
+                    - link "exploitmsf" [ref=f17e541] [cursor=pointer]:
+                      - /url: /exploitmsf?type=user
+                    - generic "79" [ref=f17e543]: "Reputation: 79"
+                - generic [ref=f17e544]:
+                  - generic [ref=f17e545]: "9"
+                  - generic [ref=f17e547]:
+                    - img "geekysherlock" [ref=f17e549]
+                    - img [ref=f17e551]:
+                      - img "ID-verified" [ref=f17e552]
+                  - generic [ref=f17e556]:
+                    - link "geekysherlock" [ref=f17e557] [cursor=pointer]:
+                      - /url: /geekysherlock?type=user
+                    - generic "59" [ref=f17e559]: "Reputation: 59"
+                - generic [ref=f17e560]:
+                  - generic [ref=f17e561]: "10"
+                  - generic [ref=f17e563]:
+                    - img "val_brux" [ref=f17e565]
+                    - img [ref=f17e567]:
+                      - img "Clear-verified badge" [ref=f17e568]
+                  - generic [ref=f17e573]:
+                    - link "val_brux" [ref=f17e574] [cursor=pointer]:
+                      - /url: /val_brux?type=user
+                    - generic "59" [ref=f17e576]: "Reputation: 59"
+                - generic [ref=f17e577]:
+                  - generic [ref=f17e578]: "11"
+                  - generic [ref=f17e580]:
+                    - img "proabiral" [ref=f17e582]
+                    - img [ref=f17e584]:
+                      - img "Clear-verified badge" [ref=f17e585]
+                  - generic [ref=f17e590]:
+                    - link "proabiral" [ref=f17e591] [cursor=pointer]:
+                      - /url: /proabiral?type=user
+                    - generic "57" [ref=f17e593]: "Reputation: 57"
+                - generic [ref=f17e594]:
+                  - generic [ref=f17e595]: "12"
+                  - generic [ref=f17e597]:
+                    - img "securityreapers" [ref=f17e599]
+                    - img [ref=f17e601]:
+                      - img "Clear-verified badge" [ref=f17e602]
+                  - generic [ref=f17e607]:
+                    - link "securityreapers" [ref=f17e608] [cursor=pointer]:
+                      - /url: /securityreapers?type=user
+                    - generic "57" [ref=f17e610]: "Reputation: 57"
+          - generic [ref=f17e612]:
+            - button [ref=f17e613] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f17e614]:
+                - img "Collapse sidebar" [ref=f17e616]
+            - generic [ref=f17e621]:
+              - generic [ref=f17e622]:
+                - generic [ref=f17e623]:
+                  - img "abercrombie_fitch_bbp" [ref=f17e627]
+                  - generic [ref=f17e628]: Abercrombie & Fitch Bug Bounty
+                - generic [ref=f17e630]:
+                  - generic [ref=f17e631]:
+                    - link "http://abercrombie.com" [ref=f17e632] [cursor=pointer]:
+                      - /url: http://abercrombie.com
+                    - link "@abercrombie" [ref=f17e633] [cursor=pointer]:
+                      - /url: https://x.com/abercrombie
+                  - generic [ref=f17e634]: Abercrombie & Fitch is an American lifestyle retailer that focuses on casual wear.
+                  - generic [ref=f17e635]:
+                    - text: Bounty
+                    - generic [ref=f17e636]: launched in Jul 2026
+                - generic [ref=f17e639]:
+                  - text: "Response efficiency: 86%"
+                  - img "Response efficiency calculation information" [ref=f17e642] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=f17e644]
+              - generic [ref=f17e646]:
+                - link "upload Submit without Report Assistant" [ref=f17e649] [cursor=pointer]:
+                  - /url: /abercrombie_fitch_bbp/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=f17e650]:
+                    - img "upload" [ref=f17e652]
+                  - generic [ref=f17e654]: Submit without Report Assistant
+                - generic [ref=f17e656]:
+                  - heading "Rewards" [level=1] [ref=f17e657]
+                  - table [ref=f17e660]:
+                    - row [ref=f17e662]:
+                      - columnheader [ref=f17e663]:
+                        - paragraph [ref=f17e667]: Severity
+                      - columnheader [ref=f17e668]:
+                        - paragraph [ref=f17e672]: Rewards
+                    - generic [ref=f17e673]:
+                      - row [ref=f17e674]:
+                        - cell "Low Avg. bounty $250 25% submissions" [ref=f17e675]:
+                          - generic [ref=f17e677]:
+                            - generic [ref=f17e678]: Low
+                            - paragraph [ref=f17e683]:
+                              - generic [ref=f17e684]: Avg. bounty $250
+                              - generic [ref=f17e685]: 25% submissions
+                        - cell "$250" [ref=f17e686]
+                      - row [ref=f17e689]:
+                        - cell "Medium Avg. bounty $750 35.94% submissions" [ref=f17e690]:
+                          - generic [ref=f17e692]:
+                            - generic [ref=f17e693]: Medium
+                            - paragraph [ref=f17e698]:
+                              - generic [ref=f17e699]: Avg. bounty $750
+                              - generic [ref=f17e700]: 35.94% submissions
+                        - cell "$750" [ref=f17e701]
+                      - row [ref=f17e704]:
+                        - cell "High Avg. bounty $2,600 17.19% submissions" [ref=f17e705]:
+                          - generic [ref=f17e707]:
+                            - generic [ref=f17e708]: High
+                            - paragraph [ref=f17e713]:
+                              - generic [ref=f17e714]: Avg. bounty $2,600
+                              - generic [ref=f17e715]: 17.19% submissions
+                        - cell "$2,500" [ref=f17e716]
+                      - row [ref=f17e719]:
+                        - cell "Critical Avg. bounty $2,250 21.88% submissions" [ref=f17e720]:
+                          - generic [ref=f17e722]:
+                            - generic [ref=f17e723]: Critical
+                            - paragraph [ref=f17e728]:
+                              - generic [ref=f17e729]: Avg. bounty $2,250
+                              - generic [ref=f17e730]: 21.88% submissions
+                        - cell "$4,000" [ref=f17e731]
+                - generic [ref=f17e734]:
+                  - heading "Stats" [level=1] [ref=f17e735]
+                  - table [ref=f17e736]:
+                    - rowgroup [ref=f17e737]:
+                      - row [ref=f17e738]:
+                        - cell "Total bounties paid" [ref=f17e739]
+                        - cell "$112,700" [ref=f17e740]
+                      - row [ref=f17e743]:
+                        - cell "Average bounty" [ref=f17e744]
+                        - cell "$750" [ref=f17e745]
+                      - row [ref=f17e748]:
+                        - cell "Top bounty" [ref=f17e749]
+                        - cell "$4,000" [ref=f17e750]
+                      - row [ref=f17e753]:
+                        - cell "Bounties paid | 90 days" [ref=f17e754]
+                        - cell "$22,750" [ref=f17e755]
+                      - row [ref=f17e758]:
+                        - cell "Reports received | 90 days" [ref=f17e759]
+                        - cell "1502" [ref=f17e760]
+                      - row [ref=f17e761]:
+                        - cell "Last report resolved" [ref=f17e762]
+                        - cell "5 days ago" [ref=f17e763]
+                      - row [ref=f17e764]:
+                        - cell "Reports resolved" [ref=f17e765]
+                        - cell "64" [ref=f17e766]
+                      - row [ref=f17e767]:
+                        - cell "Hackers thanked" [ref=f17e768]
+                        - cell "83" [ref=f17e769]
+                      - row [ref=f17e770]:
+                        - cell "Assets In Scope" [ref=f17e771]
+                        - cell "8" [ref=f17e772]
+        - generic [ref=f17e778]:
+          - generic [ref=f17e779]: © HackerOne
+          - list [ref=f17e780]:
+            - listitem [ref=f17e781]:
+              - link "Opportunities" [ref=f17e782] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f17e783]:
+              - link "Security" [ref=f17e784] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f17e785]:
+              - link "Leaderboard" [ref=f17e786] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f17e787]:
+              - link "Blog" [ref=f17e788] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f17e789]:
+              - link "Status" [ref=f17e790] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f17e791]:
+              - link "Docs" [ref=f17e792] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f17e793]:
+              - link "Support" [ref=f17e794] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f17e795]:
+              - link "Disclosure Guidelines" [ref=f17e796] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f17e797]:
+              - link "Press" [ref=f17e798] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f17e799]:
+              - link "Privacy" [ref=f17e800] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f17e801]:
+              - link "Terms" [ref=f17e802] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f17e803]:
+              - link [ref=f17e804] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f17e805]

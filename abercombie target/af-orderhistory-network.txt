@@ -1,0 +1,17 @@
+75. [POST] https://www.abercrombie.com/api/bff/customer?currency=USD&storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd&urlRoot=%2Fshop%2Fwd&storePreview=a-wd&categoryId=10000&pageType=account%3Aspa&pageDescription=purchase+history&pageName=my+account%3Ahistory%3Aorder+history&pageKind=my+account => [200] 
+76. [POST] https://www.abercrombie.com/api/bff/customer?currency=USD&storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd&urlRoot=%2Fshop%2Fwd&storePreview=a-wd&categoryId=10000&pageType=account%3Aspa&pageDescription=purchase+history&pageName=my+account%3Ahistory%3Aorder+history&pageKind=my+account => [200] 
+77. [GET] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd&operationName=CREATE_USER_OTP_DIALOG_QUERY&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f3e17065b89656f68eaf994d1730f9c2efc03be6cbecccccd23d67f05f76a3d9%22%7D%7D => [200] 
+78. [POST] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=PK&langId=-1&store=a-wd&storeId=11203 => [200] 
+79. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd => [200] 
+80. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd => [200] 
+85. [POST] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=PK&langId=-1&store=a-wd&storeId=11203 => [200] 
+86. [GET] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=PK&langId=-1&store=a-wd&storeId=11203&operationName=CREATE_USER_OTP_DIALOG_QUERY&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f3e17065b89656f68eaf994d1730f9c2efc03be6cbecccccd23d67f05f76a3d9%22%7D%7D => [200] 
+87. [GET] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=PK&langId=-1&store=a-wd&storeId=11203&operationName=SIGN_IN_TOASTER_QUERY&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22ed26e36bab3f7d049f14a66baa7ca1bc4b5b067b5d2c0a5ad87374251414a0bb%22%7D%7D => [200] 
+88. [POST] https://www.abercrombie.com/api/bff/customer?currency=USD&storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd&urlRoot=%2Fshop%2Fwd&storePreview=a-wd&categoryId=10000&pageType=account%3Aspa&pageDescription=purchase+history&pageName=my+account%3Ahistory%3Aorder+history&pageKind=my+account => [200] 
+89. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd => [200] 
+91. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd => [200] 
+93. [POST] https://www.abercrombie.com/api/bff/customer?brand=anf&catalogId=10901&country=PK&langId=-1&store=a-wd&storeId=11203 => [200] 
+97. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd => [200] 
+103. [POST] https://www.abercrombie.com/api/bff/customer?storeId=11203&catalogId=10901&langId=-1&country=PK&brand=anf&store=a-wd => [200] 
+
+Note: 96 static requests not shown, run with "static" option to see them.

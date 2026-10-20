@@ -1,0 +1,11 @@
+[     959ms] [LOG]  _    _            _              ____             
+| |  | |          | |            / __ \            
+| |__| | __ _  ___| | _____ _ __| |  | |_ __   ___ 
+|  __  |/ _` |/ __| |/ / _ \ '__| |  | | '_ \ / _ \
+| |  | | (_| | (__|   <  __/ |  | |__| | | | |  __/
+|_|  |_|\__,_|\___|_|\_\___|_|   \____/|_| |_|\___|
+
+Security issues? https://hackerone.com/security
+Something broken? https://support.hackerone.com/
+You want to fix it yourself? https://www.hackerone.com/careers @ https://hackerone.com/assets/static/vendor-B-L3h_oR.js:11
+[    1844ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://hackerone.com/square-open-source:0

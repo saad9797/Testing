@@ -1,0 +1,66 @@
+[    2256ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.abercrombie.com/shop/wd:7
+[    7048ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[    7313ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    7332ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    8107ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[    8193ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[    8748ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[    8750ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[   15205ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[   15244ms] [LOG] Wandz extraction failed TypeError: Cannot read properties of null (reading 'wdlObject')
+    at u.extend (https://tags.abercrombie.com/main/prod/utag.js:405:215)
+    at processAnalytics (https://tags.abercrombie.com/main/prod/utag.js:514:107)
+    at https://tags.abercrombie.com/main/prod/utag.js:508:654
+    at Object.getInstance (https://tags.abercrombie.com/main/prod/utag.js:399:8)
+    at u.send (https://tags.abercrombie.com/main/prod/utag.js:506:50)
+    at sendTag (https://tags.abercrombie.com/main/prod/utag.js:98:175)
+    at Object.trigger [as trigger_old] (https://tags.abercrombie.com/main/prod/utag.js:99:340)
+    at queueEventAndFireImplicitServices (https://tags.abercrombie.com/main/prod/utag.js:338:71)
+    at Object.newUtagHandlerTrigger [as trigger] (https://tags.abercrombie.com/main/prod/utag.js:301:32)
+    at Object.track (https://tags.abercrombie.com/main/prod/utag.js:89:52) @ https://tags.abercrombie.com/main/prod/utag.js:405
+[   15331ms] [LOG] utag.view fired with: {isCrsAnalyticsReady: true, global.account.user_state: guest, user_state: guest, user_wcs_id: undefined, user_device_id: f3444275be2c415f61fed3b7c7f7917d} @ https://tags.abercrombie.com/main/prod/utag.js:12
+[   17111ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=f3444275be2c415f61fed3b7c7f7917d&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd:6
+[   20681ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[   20707ms] [LOG] Wandz extraction failed TypeError: Cannot read properties of null (reading 'wdlObject')
+    at u.extend (https://tags.abercrombie.com/main/prod/utag.js:405:215)
+    at processAnalytics (https://tags.abercrombie.com/main/prod/utag.js:514:107)
+    at https://tags.abercrombie.com/main/prod/utag.js:508:654
+    at Object.getInstance (https://tags.abercrombie.com/main/prod/utag.js:399:8)
+    at u.send (https://tags.abercrombie.com/main/prod/utag.js:506:50)
+    at sendTag (https://tags.abercrombie.com/main/prod/utag.js:98:175)
+    at Object.trigger [as trigger_old] (https://tags.abercrombie.com/main/prod/utag.js:99:340)
+    at queueEventAndFireImplicitServices (https://tags.abercrombie.com/main/prod/utag.js:338:71)
+    at Object.newUtagHandlerTrigger [as trigger] (https://tags.abercrombie.com/main/prod/utag.js:301:32)
+    at Object.track (https://tags.abercrombie.com/main/prod/utag.js:89:52) @ https://tags.abercrombie.com/main/prod/utag.js:405
+[   20733ms] [LOG] utag.link fired with: {isCrsAnalyticsReady: true, global.account.user_state: guest, user_state: guest, user_wcs_id: undefined, user_device_id: f3444275be2c415f61fed3b7c7f7917d} @ https://tags.abercrombie.com/main/prod/utag.js:13
+[   23230ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[   38753ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://cdn.branch.io/branch-latest.min.js:0
+[  292745ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.abercrombie.com/shop/wd:7
+[  294513ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[  294617ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[  294985ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[  295002ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[  295534ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[  296168ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[  296170ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[  296581ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[  296639ms] [LOG] utag.link fired with: {global.account.user_device_id: f3444275be2c415f61fed3b7c7f7917d, user_state: bad data, user_wcs_id: undefined, user_device_id: f3444275be2c415f61fed3b7c7f7917d, user_hashed_email: } @ https://tags.abercrombie.com/main/prod/utag.js:13
+[  298187ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=f3444275be2c415f61fed3b7c7f7917d&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd:6
+[  302158ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[  302234ms] [LOG] utag.view fired with: {global.account.user_state: guest, user_state: guest, user_wcs_id: undefined, user_device_id: f3444275be2c415f61fed3b7c7f7917d, user_hashed_email: } @ https://edge.fullstory.com/s/fs.js:1
+[  305171ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[  326082ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://cdn.branch.io/branch-latest.min.js:0
+[  407374ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[  407427ms] [LOG] utag.link fired with: {global.account.user_state: guest, user_state: guest, user_wcs_id: undefined, user_device_id: f3444275be2c415f61fed3b7c7f7917d, user_hashed_email: } @ https://edge.fullstory.com/s/fs.js:1

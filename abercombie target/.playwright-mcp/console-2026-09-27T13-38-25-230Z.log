@@ -1,0 +1,23 @@
+[     617ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.abercrombie.com/shop/wd:7
+[    1110ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[    1874ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[    1987ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    1995ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    2273ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[    2481ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[    2481ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[    2971ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[    2975ms] [LOG] utag.link fired with: {isCrsAnalyticsReady: true, user_state: null, user_wcs_id: -1002, user_device_id: f3444275be2c415f61fed3b7c7f7917d, user_hashed_email: } @ https://tags.abercrombie.com/main/prod/utag.js:13
+[    3474ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=f3444275be2c415f61fed3b7c7f7917d&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd:6
+[    4041ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://consent-api.onetrust.com/v2/preferences:0
+[    4042ms] [LOG] OT - Error in fetch URL : https://consent-api.onetrust.com/v2/preferences Exception : {"message":"Error Loading Data","statusCode":401} @ https://cdn.cookielaw.org/consent/d2fc6750-42e2-43de-a0bf-19c48ecdc38c/otSDKStub.js:37
+[    8495ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[    8580ms] [LOG] utag.view fired with: {isCrsAnalyticsReady: true, user_state: authenticated, user_wcs_id: 21796361028, user_device_id: f3444275be2c415f61fed3b7c7f7917d, user_hashed_email: 7151ed8a6a30eaacd42a3f0d48d8e67686ddd5964e9b2e70eccf68570c3195c4} @ https://edge.fullstory.com/s/fs.js:1
+[   11231ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[   19964ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://cdn.branch.io/branch-latest.min.js:0

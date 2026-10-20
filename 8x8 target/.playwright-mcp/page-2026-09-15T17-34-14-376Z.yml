@@ -1,0 +1,67 @@
+- generic [ref=f8e4]:
+  - banner [ref=f8e5]:
+    - generic [ref=f8e6]:
+      - link "Skip to main content >" [ref=f8e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f8e9]:
+        - link "Go back to homepage" [ref=f8e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f8e12]
+        - generic [ref=f8e14]:
+          - link [ref=f8e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f8e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f8e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f8e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f8e43]:
+      - link [ref=f8e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f8e50]: Learn more about HackerOne
+      - link "Log in" [ref=f8e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f8e55]:
+    - generic [ref=f8e58]:
+      - status [ref=f8e59]
+      - generic [ref=f8e66]:
+        - generic [ref=f8e67]: © HackerOne
+        - list [ref=f8e68]:
+          - listitem [ref=f8e69]:
+            - link "Opportunities" [ref=f8e70] [cursor=pointer]:
+              - /url: /opportunities/all
+          - listitem [ref=f8e71]:
+            - link "Security" [ref=f8e72] [cursor=pointer]:
+              - /url: /security
+          - listitem [ref=f8e73]:
+            - link "Leaderboard" [ref=f8e74] [cursor=pointer]:
+              - /url: /leaderboard
+          - listitem [ref=f8e75]:
+            - link "Blog" [ref=f8e76] [cursor=pointer]:
+              - /url: https://www.hackerone.com/blog
+          - listitem [ref=f8e77]:
+            - link "Status" [ref=f8e78] [cursor=pointer]:
+              - /url: https://www.hackeronestatus.com/
+          - listitem [ref=f8e79]:
+            - link "Docs" [ref=f8e80] [cursor=pointer]:
+              - /url: https://docs.hackerone.com
+          - listitem [ref=f8e81]:
+            - link "Support" [ref=f8e82] [cursor=pointer]:
+              - /url: /auth/freshdesk_sso
+          - listitem [ref=f8e83]:
+            - link "Disclosure Guidelines" [ref=f8e84] [cursor=pointer]:
+              - /url: https://www.hackerone.com/disclosure-guidelines
+          - listitem [ref=f8e85]:
+            - link "Press" [ref=f8e86] [cursor=pointer]:
+              - /url: https://www.hackerone.com/press
+          - listitem [ref=f8e87]:
+            - link "Privacy" [ref=f8e88] [cursor=pointer]:
+              - /url: https://www.hackerone.com/privacy
+          - listitem [ref=f8e89]:
+            - link "Terms" [ref=f8e90] [cursor=pointer]:
+              - /url: https://www.hackerone.com/terms
+          - listitem [ref=f8e91]:
+            - link [ref=f8e92] [cursor=pointer]:
+              - /url: https://x.com/hacker0x01
+              - img "X" [ref=f8e93]

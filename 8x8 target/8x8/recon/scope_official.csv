@@ -1,0 +1,423 @@
+identifier,asset_type,instruction,eligible_for_bounty,eligible_for_submission,availability_requirement,confidentiality_requirement,integrity_requirement,max_severity,system_tags,created_at,updated_at
+*.8x8.vc,WILDCARD,Professional Meetings and Jitsi as a Service. At this time 8x8  does not provide credentials and researchers are responsible for any fees occurred if signing up for the service.,false,true,high,medium,high,critical,"C++, Amazon Web Services, React, Oracle Cloud, Objective-C, Kotlin, JavaScript, Java",2020-07-10 17:41:46 UTC,2026-07-10 17:02:30 UTC
+*.jit.si,WILDCARD,"Jitsi is a set of open-source projects that allows you to easily build and deploy secure videoconferencing solutions. We are best known for our Jitsi Meet video conferencing platform, [meet.jit.si](https://meet.jit.si/) where we host a Jitsi Meet instance that the community can use for totally free video conferences , and the Jitsi Videobridge that powers all of our multi-party video capabilities.
+
+**Out of Scope:**
+⚠️ Application logic bugs or non-production features in [beta.meet.jit.si](https://beta.meet.jit.si/)",false,true,high,medium,high,critical,"React, Objective-C, Kotlin, Oracle Cloud, JavaScript, Java, C++, Amazon Web Services",2020-07-10 17:44:50 UTC,2026-07-02 15:16:34 UTC
+https://github.com/jitsi,SOURCE_CODE,"Open source repositories that support [Jitsi](https://github.com/jitsi/).
+Jitsi Meet offers free, secure and open-source video conferencing.
+⚠️ Good faith review of source that a reporter must have no association with the existence of the vulnerability in question.
+
+**Proof of Concept Requirements:**
+⚠️ Vulnerability submissions must include practical exploitation demonstrations on one of the following environments
+▶︎ The public Jitsi Meet instance ([meet.jit.si](https://meet.jit.si/))
+▶︎ 8x8 Video Meetings platform ([8x8.vc](https://8x8.vc/))
+▶︎ A self-hosted Jitsi deployment
+
+⚠️ For E2EE submissions please consult the [Jitsi End-to-End Encryption Whitepaper](https://jitsi.org/e2ee-whitepaper/) to better understand the implemented Threat Model.
+
+**Code Review Reports:**
+⚠️ Code-only vulnerabilities without proof of exploitation in production environments will typically be assessed at a lower severity level
+⚠️ Vulnerabilities requiring local access to exploit will be assessed at a lower severity level (unless exceptional circumstances exist)
+⚠️ Vulnerabilities exploitable only with development configurations (e.g., `BYPASS_AUTHORIZATION=1`) will be assessed at a lower severity level
+
+**Out of Scope:**
+▶︎ Not actively maintained or archived repositories
+▶︎ Experimental repositories
+▶︎ Reports for repositories that are forked should be submitted upstream, unless the report also affects one of our in-scope repos
+▶︎ [github.com/jitsi/jitsi-call-analytics](https://github.com/jitsi/jitsi-call-analytics)
+▶︎ [github.com/jitsi/jitsi](https://github.com/jitsi/jitsi/)
+[Jitsi Desktop](https://github.com/jitsi/jitsi/) is the heritage of [Jitsi Meet](https://github.com/jitsi/jitsi-meet). While some components are still used in e.g.  Jigasi, the project is not actively developed anymore. Improvements, bugfixes and builds are entirely based on community contributions
+▶︎ [.github](https://github.com/jitsi/.github)
+▶︎ [cla-enforcer](https://github.com/jitsi/cla-enforcer)
+▶︎ [eslint-config-jitsi](https://github.com/jitsi/eslint-config-jitsi)
+▶︎ [excalidraw](https://github.com/jitsi/excalidraw)
+▶︎ [excalidraw-backend](https://github.com/jitsi/excalidraw-backend)
+▶︎ [felix](https://github.com/jitsi/felix)
+▶︎ [fmj](https://github.com/jitsi/fmj)
+▶︎ [go-offline-maven-plugin](https://github.com/jitsi/go-offline-maven-plugin)
+▶︎ [growl4j](https://github.com/jitsi/growl4j)
+▶︎ [gsoc-ideas](https://github.com/jitsi/gsoc-ideas)
+▶︎ [irc-api](https://github.com/jitsi/irc-api)
+▶︎ [jebml](https://github.com/jitsi/jebml)
+▶︎ [jitsi-desktop-site](https://github.com/jitsi/jitsi-desktop-site)
+▶︎ [jitsi-maven-repository](https://github.com/jitsi/jitsi-maven-repository)
+▶︎ [jitsi-meet-file-sharing-service](https://github.com/jitsi/jitsi-meet-file-sharing-service)
+▶︎ [jitsi-meet-load-test](https://github.com/jitsi/jitsi-meet-load-test)
+▶︎ [jitsi-meet-logger](https://github.com/jitsi/jitsi-meet-logger)
+▶︎ [jitsi-meet-react-sdk](https://github.com/jitsi/jitsi-meet-react-sdk)
+▶︎ [jitsi-meet-release-notes](https://github.com/jitsi/jitsi-meet-release-notes)
+▶︎ [jitsi-meet-torture](https://github.com/jitsi/jitsi-meet-torture)
+▶︎ [jitsi-pseudotcp](https://github.com/jitsi/jitsi-pseudotcp)
+▶︎ [jitsi-test-lab](https://github.com/jitsi/jitsi-test-lab)
+▶︎ [jitsi-videobridge-openfire-plugin](https://github.com/jitsi/jitsi-videobridge-openfire-plugin)
+▶︎ [jiwer](https://github.com/jitsi/jiwer)
+▶︎ [jsocks](https://github.com/jitsi/jsocks)
+▶︎ [jvb-dashboard](https://github.com/jitsi/jvb-dashboard)
+▶︎ [jxs](https://github.com/jitsi/jxs)
+▶︎ [otr4j](https://github.com/jitsi/otr4j)
+▶︎ [portaudio](https://github.com/jitsi/portaudio)
+▶︎ [security-advisories](https://github.com/jitsi/security-advisories)
+▶︎ [Smack](https://github.com/jitsi/Smack)
+▶︎ [testrtc](https://github.com/jitsi/testrtc)
+▶︎ [winrt-libs](https://github.com/jitsi/winrt-libs)
+▶︎ [zrtp4j](https://github.com/jitsi/zrtp4j)",false,true,none,medium,medium,low,"Kotlin, Objective-C, English, C++, Java, JavaScript",2020-07-10 17:50:26 UTC,2026-07-21 15:10:04 UTC
+*.jitsi.net,WILDCARD,"Jitsi is a set of open-source projects that allows you to easily build and deploy secure videoconferencing solutions. We are best known for our Jitsi Meet video conferencing platform.
+
+**Out of Scope:**
+⚠️ Application logic bugs or non-production features in [alpha.jitsi.net](https://alpha.jitsi.net/) or [moderated-pilot.jitsi.net](https://moderated-pilot.jitsi.net/)",false,true,,,,critical,"Amazon Web Services, Oracle Cloud",2020-09-24 19:57:21 UTC,2026-07-02 15:16:26 UTC
+com.spot8x8.spot,GOOGLE_PLAY_APP_ID,8x8 Spaces - https://play.google.com/store/apps/details?id=com.spot8x8.spot,false,false,none,medium,medium,critical,,2020-10-22 20:19:18 UTC,2023-04-18 21:58:01 UTC
+http://*.callstats.io,WILDCARD,Sold to Spearline. No longer owned by 8x8.,false,false,medium,medium,medium,critical,Amazon Web Services,2021-02-08 18:29:33 UTC,2023-04-18 21:48:09 UTC
+connect.8x8.com,URL,"⚠️ **Temporary Scope Exclusion**: campaign.wavecell.com, contacts.8x8.com (and equivalents in other regions)
+---
+⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID)
+⚠️ out of scope: IDORs based on `AccountId` and `subAccountId`
+⚠️ when testing support functionality please add ""HackerOne"" in your subject line and limit the number of requests to an absolute minimum
+",false,true,medium,medium,medium,critical,"Amazon CloudFront, Amazon Web Services, Amazon S3, HSTS",2021-02-08 18:34:02 UTC,2026-07-14 02:56:10 UTC
+org.jitsi.meet,GOOGLE_PLAY_APP_ID,"https://play.google.com/store/apps/details?id=org.jitsi.meet
+
+While some components are still used in e.g. Jigasi, the project is not actively developed anymore. Improvements, bugfixes and builds are entirely based on community contributions.",false,false,medium,medium,medium,critical,,2022-04-11 15:30:20 UTC,2023-05-12 09:02:34 UTC
+platform.8x8pilot.com,URL,"",true,true,medium,medium,medium,critical,"HTTP/3, Cloudflare",2022-10-31 15:57:44 UTC,2023-01-09 04:23:04 UTC
+uc.8x8pilot.com,URL,"",true,true,medium,medium,medium,critical,,2022-10-31 15:58:15 UTC,2023-01-09 04:23:04 UTC
+sso.8x8pilot.com,URL,"8x8 Single Sign-On (SSO) is a session and user authentication service that permits a user to use one set of login credentials, such as name and password, to access multiple 8x8 applications.
+⚠️ MFA-bypasses requiring prior knowledge of credentials will be treated with `MEDIUM` severity.",true,true,medium,medium,medium,critical,"HSTS, Zipkin, HTTP/3, Cloudflare, Bootstrap:8d398c47ea5957efd8bd86687bc98459, Basic",2022-10-31 16:00:41 UTC,2024-07-17 00:19:07 UTC
+work-staging.8x8.com,URL,"",true,true,medium,medium,medium,critical,,2022-10-31 16:08:14 UTC,2023-01-09 04:23:04 UTC
+user-profile-staging.8x8.com,URL,"",true,true,medium,medium,high,critical,,2022-10-31 16:10:48 UTC,2023-01-09 04:23:04 UTC
+*.8x8staging.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2022-10-31 21:54:00 UTC,2026-08-31 11:29:07 UTC
+sso.8x8.com,URL,"8x8 Single Sign-On (SSO) is a session and user authentication service that permits a user to use one set of login credentials, such as name and password, to access multiple 8x8 applications.
+⚠️ MFA-bypasses requiring prior knowledge of credentials will be treated with `MEDIUM` severity.",true,true,high,high,high,critical,,2022-11-07 19:20:03 UTC,2024-07-17 00:18:56 UTC
+platform.8x8.com,URL,"",true,true,high,high,high,critical,,2022-11-07 19:27:52 UTC,2023-01-09 04:23:04 UTC
+support.8x8.com,URL,"",false,false,low,low,low,medium,"HSTS, Envoy, Cloudflare Bot Management, Cloudflare",2022-11-07 19:28:33 UTC,2023-07-13 09:19:31 UTC
+www.8x8.com,URL,"",false,false,low,low,medium,high,Vercel,2022-11-07 19:28:50 UTC,2023-07-13 09:19:31 UTC
+*.chalet.8x8.com,WILDCARD,"8x8 Chat provides comprehensive team messaging capabilities including 1:1 instant messaging, public and private chat rooms, file sharing, and seamless integration with voice and video calling - all designed to streamline team communications and collaboration within organizations.
+
+**Out of Scope**:
+⚠️ Third-party websites implementing 8x8 chat solutions (outside of `*.8x8.com` domains)",true,true,high,high,high,critical,,2022-11-07 19:54:27 UTC,2025-07-12 23:34:06 UTC
+work.8x8.com,URL,"8x8 Work for Web, the browser-based counterpart of 8x8 Work for Desktop, enables you to collaborate efficiently with your colleagues and business contacts.
+
+⚠️ 8x8 does not provide test credentials.",true,true,medium,medium,medium,critical,,2022-11-07 19:58:43 UTC,2025-07-24 08:27:11 UTC
+express.8x8.com,URL,"",false,false,medium,medium,medium,critical,"Cloudflare DDOS, Cloudflare WAF",2022-12-12 23:54:50 UTC,2023-04-18 20:32:22 UTC
+user-profile.8x8.com,URL,"",true,true,medium,high,medium,critical,,2022-12-13 19:08:39 UTC,2023-01-09 04:23:04 UTC
+vcc-*.8x8.com,WILDCARD,"► Contact Center Agent Workspace:
+`./AGUI/login.php`
+► Configuration Manager:
+`./CM/login.php`
+
+⚠️ Latest version of software usually available on https://vcc-na30.8x8.com/
+⚠️ shareable Wallboard links are out of scope
+⚠️ Third-party websites implementing 8x8 chat solutions (outside of `*.8x8.com` domains) are out of scope",true,true,high,high,high,critical,"English, MySQL, PHP, Oracle Cloud, Java, Amazon Web Services",2023-02-06 19:57:26 UTC,2025-07-12 23:33:28 UTC
+org.vom8x8.sipua,GOOGLE_PLAY_APP_ID,8x8 Work - https://play.google.com/store/apps/details?id=org.vom8x8.sipua,false,true,medium,medium,medium,critical,JavaScript,2023-02-23 00:27:33 UTC,2026-05-16 04:16:17 UTC
+voapi.8x8.com,URL,"VOAPI is a backend application responsible to process phone calls (like InboundCall, OutboundCall, Click2Dial, CallTransfer, CallMerge, Start/Stop CallRecording).
+
+▶︎ AU Region: voapi-au.8x8.com
+▶︎ UK Region: voapi-uk.8x8.com",false,true,medium,medium,medium,critical,"F5 BIG-IP ASM, Cloudflare DDOS, Cloudflare WAF, Spring, Java",2023-03-06 19:22:15 UTC,2026-07-14 02:55:33 UTC
+https://8x8.vc/xmpp-websocket,URL,,false,true,medium,high,high,critical,,2023-04-18 20:23:33 UTC,2026-07-10 17:02:33 UTC
+https://*.chalet.8x8.com/ws/v1,WILDCARD,"8x8 Chat provides comprehensive team messaging capabilities including 1:1 instant messaging, public and private chat rooms, file sharing, and seamless integration with voice and video calling - all designed to streamline team communications and collaboration within organizations.
+
+**Out of Scope**:
+⚠️ Third-party websites implementing 8x8 chat solutions (outside of `*.8x8.com` domains)",true,true,medium,high,high,critical,,2023-04-18 20:23:54 UTC,2025-07-12 23:33:59 UTC
+https://webrtc.8x8.com/,URL,,true,true,medium,high,high,critical,,2023-04-18 20:23:54 UTC,2023-07-13 09:23:16 UTC
+accountmanager.8x8.com,URL,,false,false,low,high,high,critical,"Java, English",2023-04-18 20:24:28 UTC,2023-07-13 09:23:16 UTC
+get8x8.com,URL,,false,false,low,low,low,medium,Vercel,2023-04-18 20:27:35 UTC,2023-07-13 09:23:16 UTC
+investors.8x8.com,URL,,false,false,,,,critical,"Akamai, YouTube, PHP, HSTS, Drupal:10, Cloudinary",2023-04-18 20:31:03 UTC,2023-07-13 09:23:17 UTC
+http://*.contactnow.8x8.com,WILDCARD,,false,false,low,medium,medium,critical,"English, PHP, JavaScript",2023-04-18 20:32:22 UTC,2023-07-13 09:23:17 UTC
+http://*.sameroom.io,WILDCARD,,false,false,low,medium,low,high,,2023-04-18 20:57:47 UTC,2023-07-13 09:23:17 UTC
+Virtual Office Desktop,DOWNLOADABLE_EXECUTABLES,Download 8x8 Work for Desktop: https://support-portal.8x8.com/helpcenter/viewArticle.html?d=8bff4970-6fbf-4daf-842d-8ae9b533153d,false,true,none,medium,medium,critical,"English, JavaScript",2023-04-18 20:58:35 UTC,2026-07-14 02:55:24 UTC
+com.atlassian.JitsiMeet.ios,APPLE_STORE_APP_ID,"https://apps.apple.com/us/app/jitsi-meet/id1165103905
+
+While some components are still used in e.g. Jigasi, the project is not actively developed anymore. Improvements, bugfixes and builds are entirely based on community contributions.",false,false,medium,medium,medium,critical,,2023-04-18 21:11:49 UTC,2023-07-13 09:23:17 UTC
+8x8-meeting-rooms,APPLE_STORE_APP_ID,"8x8 Spaces - 
+https://apps.apple.com/us/app/8x8-meeting-rooms/id1468264023
+
+While some components are still used in e.g. Jigasi, the project is not actively developed anymore. Improvements, bugfixes and builds are entirely based on community contributions",false,false,none,medium,medium,critical,,2023-04-18 21:27:33 UTC,2023-07-13 09:23:18 UTC
+8x8-work,APPLE_STORE_APP_ID,"https://apps.apple.com/us/app/8x8-work/id348177448
+
+The 8x8 Work app for iPhone puts your business communications in your pocket—secure voice calls, HD video meetings, and team chat, all in one beautifully streamlined app. Whether in back-to-back meetings or between coffee breaks, 8x8 Work keeps you seamlessly connected.",false,true,none,medium,medium,critical,,2023-04-18 21:32:40 UTC,2026-05-16 04:27:11 UTC
+http://*.jitsi.org,WILDCARD,,false,false,low,low,medium,high,,2023-04-18 21:38:29 UTC,2023-07-13 09:23:18 UTC
+Jitsi Meet Desktop,DOWNLOADABLE_EXECUTABLES,"https://desktop.jitsi.org/Main/Download.html
+
+Jitsi Desktop is the heritage of Jitsi Meet. While some components are still used in e.g. Jigasi, the project is not actively developed anymore. Improvements, bugfixes and builds are entirely based on community contributions.",false,false,none,medium,medium,critical,,2023-04-18 21:46:07 UTC,2023-07-13 09:23:18 UTC
+http://*.packet8.net,WILDCARD,,true,true,medium,high,high,critical,Amazon Web Services,2023-04-18 22:15:45 UTC,2023-07-13 09:23:18 UTC
+cloud8.8x8.com,URL,,false,true,medium,medium,medium,critical,"HTTP/3, Bootstrap:8d398c47ea5957efd8bd86687bc98459, HSTS, Cloudflare, Zipkin",2023-05-24 20:55:03 UTC,2026-07-01 00:52:17 UTC
+*.8x8.id,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2023-07-03 19:29:00 UTC,2024-09-02 03:46:19 UTC
+*.8x8cloud.net,WILDCARD,,true,true,high,medium,medium,critical,,2023-07-03 19:29:31 UTC,2023-07-13 09:26:54 UTC
+Intellectual Property on Public Domains,OTHER,"Leaks identified in public domains are in scope, provided they contain sensitive or proprietary information that could impact our organization’s confidentiality, integrity, or availability.",true,true,none,high,none,critical,,2023-07-03 19:29:52 UTC,2026-08-26 04:06:24 UTC
+*.p8t.us,WILDCARD,,true,true,medium,medium,medium,critical,,2023-07-03 19:30:58 UTC,2023-07-13 09:26:54 UTC
+*.wavecell.com,WILDCARD,,true,true,medium,medium,medium,critical,,2023-07-03 19:31:54 UTC,2023-07-13 09:26:54 UTC
+pay.8x8.com,URL,,true,true,medium,high,high,critical,"Zipkin, Cloudflare, HTTP/3",2023-07-19 23:36:14 UTC,2023-07-19 23:36:14 UTC
+admin.8x8.com,URL,Administration portal for managing your 8x8 service including users and telephony features,true,true,high,high,high,critical,"Cloudflare, HTTP/3, Zipkin, HSTS, Bootstrap:8d398c47ea5957efd8bd86687bc98459",2023-09-26 21:04:12 UTC,2025-07-23 07:37:32 UTC
+feedback.wavecell.com,URL,Powered by [Canny](https://canny.io/security).,false,false,none,none,none,none,"Linkedin Ads, HSTS, Canny",2023-10-09 07:05:39 UTC,2023-11-22 06:36:01 UTC
+vm.8x8.com,URL,,false,false,low,medium,medium,critical,,2023-10-26 17:12:18 UTC,2023-10-26 17:12:18 UTC
+qm-*.8x8.com,WILDCARD,Quality Management & Speech Analytics,false,true,low,medium,medium,critical,,2023-10-26 17:36:55 UTC,2024-07-11 01:46:53 UTC
+8x8.wavecell.com,URL,"(webmail.wavecell.com)
+Powered by [Hubspot](https://bugcrowd.com/hubspot).",false,false,none,none,none,none,"Cloudflare Bot Management, HSTS, HubSpot, HubSpot CMS Hub, Linkedin Ads, HTTP/3, Cloudflare",2023-11-22 16:03:13 UTC,2024-08-27 03:51:39 UTC
+www.fuzemeeting.com,URL,"The Fuze Platform was retired on December 31, 2025.
+
+▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,low,,2024-01-17 20:21:49 UTC,2026-01-02 23:49:05 UTC
+www.wavecell.com,URL,,false,false,low,low,low,high,"Flywheel:5.1.0, WordPress:7.1, WPML:4.9.4, PHP, MySQL, Google Tag Manager, HTTP/3, Cloudflare",2024-04-02 17:24:44 UTC,2024-04-02 17:24:44 UTC
+fuze.me,URL,"The Fuze Platform was retired on December 31, 2025.
+
+▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,low,,2024-04-18 15:28:24 UTC,2026-01-02 23:53:24 UTC
+*.fuze.site,WILDCARD,"The Fuze Platform was retired on December 31, 2025.
+
+▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,low,,2024-04-18 15:28:41 UTC,2026-01-02 23:48:35 UTC
+*.fuze.com,WILDCARD,"The Fuze Platform was retired on December 31, 2025.
+
+▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,low,,2024-04-18 15:28:54 UTC,2026-01-02 23:53:35 UTC
+*.thinkingphones.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2024-04-18 15:31:12 UTC,2024-09-02 03:55:51 UTC
+*.thinkingphones.net,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2024-04-18 15:31:41 UTC,2024-09-02 03:55:51 UTC
+support-portal.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something",false,true,none,medium,low,medium,,2024-04-21 22:25:39 UTC,2026-01-09 21:39:13 UTC
+analytics-*.8x8.com,WILDCARD,"Analytics for Contact Center
+⚠️ shareable Wallboard links are out of scope",false,true,high,high,high,critical,,2024-06-30 08:16:00 UTC,2024-07-11 01:46:22 UTC
+8x8 Partner Portal,OTHER,"▶︎ https://partnerxchange.8x8.com/
+▶︎ https://8x8.my.site.com/partnerxchange/
+▶︎ https://8x8.force.com/partnerxchange/
+⚠️ out of scope: Disclosure of non-sensitive information, such as `Name`, `City`, etc.
+⚠️ out of scope: `ContentDocument` if considered non-sensitive (e.g. marketing collateral)
+⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID)",false,true,medium,medium,medium,high,Salesforce,2024-07-01 06:52:45 UTC,2025-08-01 12:09:47 UTC
+api.8x8.com,URL,,false,true,medium,medium,medium,critical,"Cloudflare, HTTP/3",2024-07-01 07:34:44 UTC,2024-07-01 07:34:44 UTC
+supersite.8x8.com,URL,,false,false,low,high,medium,critical,,2024-07-01 07:39:24 UTC,2024-07-01 07:39:24 UTC
+dashboard.qa.ai.8x8.com,URL,Analytics for 8x8 Work,false,true,high,high,high,critical,"Jetty:9.4.44, Java",2024-07-02 06:19:36 UTC,2024-07-11 01:46:13 UTC
+8x8.my.site.com,URL,"Portal for management of your 8x8 account, billing, orders, and support cases
+⚠️ when testing support functionality please add ""HackerOne"" in your subject line and limit the number of requests to an absolute minimum
+⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID)",false,true,medium,medium,medium,high,Salesforce,2024-07-14 02:02:03 UTC,2024-07-22 14:08:11 UTC
+vcc-ce.8x8.com,URL,"Customer Experience and Post-Call Survey Analytics
+front-end, e.g.: https://vcc-ce.8x8.com/analytix/rt-dashboard.htm",false,true,high,high,high,critical,,2024-07-19 14:54:45 UTC,2024-07-19 14:54:45 UTC
+*.8x8.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,low,medium,medium,critical,,2024-09-02 03:40:37 UTC,2024-09-02 03:46:57 UTC
+*.8x8pilot.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,low,medium,medium,,2024-09-02 03:43:12 UTC,2024-09-02 03:43:52 UTC
+*.8x8.co.uk,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2024-09-02 03:44:51 UTC,2024-09-02 03:47:32 UTC
+*.8x8.uk,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2024-09-02 03:48:50 UTC,2024-09-02 03:49:03 UTC
+*.8x8e2e.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,low,medium,critical,,2024-09-02 03:49:40 UTC,2024-09-02 03:50:01 UTC
+*.ucverse.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,high,high,critical,,2024-09-02 03:53:27 UTC,2025-12-17 16:00:14 UTC
+Third Party Application,OTHER,"▶︎ RDP: If You See Something, Say Something
+⚠️ Evaluation on case-by-case basis",false,true,none,low,none,high,,2024-09-16 21:35:02 UTC,2024-09-18 15:37:40 UTC
+Discovered Leaked Credentials,OTHER,"▶︎ RDP: If You See Something, Say Something
+🚨 Testing of customer/consumer credentials is strictly prohibited
+⚠️ Researchers should submit the leaked credentials to us  and must NOT test their validity beyond authenticating and then immediately deauthenticating - without exercising any functionality
+⚠️  Researchers must always include the source of where they found a leak
+⚠️  Researchers must not purchase credentials from a source that obtained them illegally
+",false,true,high,high,high,high,,2024-09-20 01:07:12 UTC,2024-09-20 01:17:56 UTC
+8x8 Communication APIs,API,"Transform customer interactions with our seamless SMS, messaging, video, and voice solutions.
+⚠️ Self Sign-up is available: https://connect.8x8.com/
+⚠️  [8x8 CPaaS developer portal](https://developer.8x8.com/connect)
+⚠️ All APIs listed under ""8x8 Connect"" are in-scope.
+⚠️  In-Scope examples:
+  * sms.8x8.com
+  * chatapps.8x8.com
+  * {product}.8x8.uk
+  * {product}.8x8.id
+  * {product}.us.8x8.com
+  * {product}.{region}.cpaas-net.8x8.com",false,true,medium,medium,medium,critical,"Amazon Web Services, Google Cloud Platform",2024-09-30 17:14:39 UTC,2026-07-14 02:56:19 UTC
+mobileidentity.8x8.com,URL,"also api.mobileidentity.8x8.com
+(more info to come soon)",false,false,high,high,high,critical,,2024-10-05 16:11:39 UTC,2024-10-05 16:11:39 UTC
+*.cceng.8x8.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,medium,,2024-11-20 00:17:20 UTC,2024-11-20 00:17:20 UTC
+debug.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,medium,,2025-01-28 06:38:29 UTC,2025-01-28 06:38:29 UTC
+https://www.npmjs.com/package/@8x8/pui-partner-comm,OTHER,"▶︎ RDP: If You See Something, Say Something
+
+8x8 platform-ui package for partner integration",false,true,medium,medium,medium,high,,2025-02-12 15:24:28 UTC,2025-02-12 15:24:28 UTC
+*.staging.cloud.8x8.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,medium,,2025-02-17 02:31:44 UTC,2025-02-17 02:31:44 UTC
+*.acceptance.cloud.8x8.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,high,,2025-02-17 02:34:50 UTC,2025-02-17 02:34:50 UTC
+*.prod.cloud.8x8.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,high,medium,critical,,2025-02-17 02:41:37 UTC,2025-02-17 02:41:37 UTC
+*.ociadmin.cloud.8x8.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,high,,2025-02-17 15:58:51 UTC,2025-02-17 15:59:52 UTC
+*.in2tel.ie,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2025-02-27 01:24:51 UTC,2025-02-27 01:24:51 UTC
+community.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+Powered by [Higher Logic](https://support.higherlogic.com/hc/en-us/articles/12907719279380-Security-related-Support).",false,true,medium,low,low,high,"Microsoft ASP.NET, jQuery, HSTS, Bootstrap:3.4.1, Amazon Web Services, Amazon S3, Amazon ALB, Slick",2025-03-04 07:43:58 UTC,2025-03-04 07:43:58 UTC
+*.8x8testa.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,medium,,2025-03-10 16:22:36 UTC,2025-03-10 16:22:36 UTC
+*.8x8testb.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,medium,,2025-03-10 16:23:21 UTC,2025-03-10 16:23:21 UTC
+*.packet8-pilot.net,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,medium,,2025-03-10 16:24:27 UTC,2025-03-10 16:24:27 UTC
+Cloud Misconfigurations,OTHER,"▶︎ RDP: If You See Something, Say Something
+
+Any Cloud asset & configuration owned by 8x8 is in-scope, across various Cloud providers.",false,true,medium,high,high,critical,,2025-03-26 05:18:45 UTC,2025-03-26 05:18:45 UTC
+*.8x8hosts.internal,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,medium,,2025-05-05 06:17:51 UTC,2025-05-05 06:20:54 UTC
+*.8x8hosts.pilot,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,low,medium,medium,,2025-05-05 06:19:32 UTC,2025-05-05 06:19:32 UTC
+*.call-control.ie,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2025-05-30 16:35:00 UTC,2025-05-30 16:35:00 UTC
+ASN: AS32308,OTHER,"**8X8-AS, US**
+▶︎ RDP: If You See Something, Say Something
+
+* 192.84.17.0/24
+* 216.59.140.0/24
+* 8.28.3.0/24
+* 8.28.0.0/24
+* 63.209.12.0/24
+* 8.28.2.0/24
+* 216.59.142.0/24
+* 216.59.141.0/24
+* 8.28.1.0/24
+* 162.221.239.0/24
+* 8.21.164.0/24
+* 216.59.136.0/24
+* 216.59.137.0/24
+* 192.84.18.0/24
+* 216.59.143.0/24
+* 8.25.198.0/24
+* 162.221.236.0/23
+* 192.84.16.0/24
+* 162.221.236.0/24
+* 162.221.238.0/24
+* 216.59.136.0/21
+* 192.84.16.0/22",false,true,medium,medium,medium,critical,,2025-06-03 01:36:32 UTC,2025-06-03 03:54:16 UTC
+ASN: AS44965,OTHER,"**CONTACTUAL, US**
+▶︎ RDP: If You See Something, Say Something
+
+* 109.70.61.0/24
+* 217.163.57.0/24
+* 66.81.220.0/24",false,true,medium,medium,medium,critical,,2025-06-03 01:38:56 UTC,2025-06-03 03:53:01 UTC
+ASN: AS46680,OTHER,"**CONTACTUAL, US**
+▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2025-06-03 02:11:51 UTC,2025-06-03 02:12:52 UTC
+ASN: AS49856,OTHER,"**EIGHT-AS, GB**
+▶︎ RDP: If You See Something, Say Something
+",false,true,medium,medium,medium,critical,,2025-06-03 02:13:10 UTC,2025-06-03 02:13:10 UTC
+ASN: AS62306,OTHER,"**RO-8X8-AS, RO**
+▶︎ RDP: If You See Something, Say Something
+
+* 185.221.220.0/24",false,true,medium,medium,medium,critical,,2025-06-03 02:15:11 UTC,2025-06-03 03:52:34 UTC
+ASN: AS62876,OTHER,"**8X8-AS-CORP, US**
+▶︎ RDP: If You See Something, Say Something
+
+* 209.94.72.0/24",false,true,medium,medium,medium,critical,,2025-06-03 02:15:57 UTC,2025-06-03 03:52:18 UTC
+ASN: AS133144,OTHER,"**M8X8INC-AS-AP 8x8, Inc., US**
+▶︎ RDP: If You See Something, Say Something
+
+* 103.252.162.0/24
+* 103.239.164.0/24
+* 66.81.216.0/24
+* 66.81.217.0/24",false,true,medium,medium,medium,critical,,2025-06-03 02:32:50 UTC,2025-06-03 03:51:59 UTC
+ASN: AS198554,OTHER,"**DXI-AS, GB**
+▶︎ RDP: If You See Something, Say Something
+
+* 109.70.59.0/24
+* 185.173.49.0/24
+* 185.173.48.0/22
+* 109.70.58.0/24
+* 185.173.48.0/24",false,true,medium,medium,medium,critical,,2025-06-03 02:33:53 UTC,2025-06-03 03:51:34 UTC
+ASN: AS395362,OTHER,"**8X8-AS-1, US**
+▶︎ RDP: If You See Something, Say Something
+
+* 8.25.218.0/24
+* 38.99.96.0/24",false,true,medium,medium,medium,critical,,2025-06-03 02:34:26 UTC,2025-06-03 03:51:01 UTC
+ASN: AS398067,OTHER,"**8X8-AS-SJC01, US**
+▶︎ RDP: If You See Something, Say Something
+",false,true,medium,medium,medium,critical,,2025-06-03 02:35:01 UTC,2025-06-03 02:35:01 UTC
+ASN: AS14294,OTHER,"**8X8-FUZE, US**
+The Fuze Platform was retired on December 31, 2025.
+
+▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,low,,2025-06-03 03:55:54 UTC,2026-01-02 23:52:46 UTC
+ASN: AS13896,OTHER,"**8X8-FUZE, US**
+The Fuze Platform was retired on December 31, 2025.
+
+▶︎ RDP: If You See Something, Say Something
+
+* 170.76.190.0/23
+* 206.81.181.0/24
+* 103.197.98.0/23
+* 206.81.184.0/24
+* 206.81.176.0/24
+* 162.223.99.0/24
+* 170.76.188.0/23
+* 206.81.185.0/24
+* 185.155.144.0/23
+* 45.252.184.0/23
+* 185.155.146.0/23
+* 206.81.177.0/24
+* 206.81.180.0/24
+* 103.197.96.0/23
+* 162.223.97.0/24
+* 206.81.182.0/24
+* 206.81.191.0/24
+* 45.252.186.0/23
+* 162.223.96.0/24
+* 162.223.98.0/24",false,true,low,low,low,low,,2025-06-03 03:56:47 UTC,2026-01-02 23:52:02 UTC
+ASN: AS10976,OTHER,"**8X8-FUZE, US**
+The Fuze Platform was retired on December 31, 2025.
+
+▶︎ RDP: If You See Something, Say Something",false,true,low,low,low,low,,2025-06-03 03:58:24 UTC,2026-01-02 23:51:21 UTC
+ASN: AS199687,OTHER,"**IN2TEL-DB3, IE**
+▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2025-06-03 04:02:29 UTC,2025-06-03 04:02:29 UTC
+ASN: AS206422,OTHER,"**IN2TEL-BT, IE**
+▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2025-06-03 04:03:06 UTC,2025-06-03 04:03:06 UTC
+*-vpn.8x8.com,WILDCARD,"**VPN Infrastructure (Palo Alto GlobalProtect)**
+▶︎ RDP: If You See Something, Say Something
+
+Testing Guidelines:
+⚠️ No attempts to exploit vulnerabilities to access internal 8x8 networks
+⚠️ No brute force or DoS testing against authentication mechanisms
+⚠️  Identical vulnerabilities affecting multiple VPN portals will be treated as a single issue. Please report once and include all affected instances.
+
+This asset includes (but is not limited to):
+* sgc01-vpn.8x8.com
+* hk-vpn.8x8.com
+* *-vpn-contractors.8x8.com",false,true,medium,medium,medium,high,,2025-06-15 15:20:47 UTC,2025-06-16 03:27:21 UTC
+apps.8x8.com,URL,8x8 Application Panel,true,true,high,high,high,critical,"HTTP/3, Zipkin, Bootstrap:8d398c47ea5957efd8bd86687bc98459, Cloudflare, HSTS",2025-07-23 07:49:09 UTC,2025-07-23 07:49:09 UTC
+video-agent.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+8x8 Video Interaction revolutionizes customer engagement by enabling one-to-one video calls with our easy-to-use solution. Launch live video chats instantly—no sign-ups or downloads needed.",false,true,medium,high,high,high,,2025-07-24 08:29:10 UTC,2026-05-29 11:10:19 UTC
+converse.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+8x8 Converse. Simplify your customer service stream by unifying every messaging app conversation into a single interface.",false,true,medium,high,high,medium,,2025-07-24 08:31:35 UTC,2026-05-29 11:09:52 UTC
+*.bell.ca,WILDCARD,"All Bell Canada domains are explicitly out of scope for testing.
+This restriction applies to all partner and customer domains.",false,false,not_defined,not_defined,not_defined,none,,2025-08-04 02:38:45 UTC,2025-08-04 02:40:48 UTC
+vap.8x8.com,URL,"(CPaaS) Admin Back Office Application for managing voice services.
+▶︎ RDP: If You See Something, Say Something",false,true,low,high,high,critical,,2025-08-19 15:52:53 UTC,2025-08-19 15:52:53 UTC
+*.msteams.8x8.com,WILDCARD,8x8 partnership with Microsoft. All assets are owned and operated by Microsoft as part of 8x8 integration into MS Teams.,false,false,high,medium,medium,high,,2025-10-30 01:19:10 UTC,2026-03-04 15:48:31 UTC
+developer.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+Powered by GitHub Pages.",false,true,medium,none,high,high,"React, Docusaurus:3.9.1, Fastly, GitHub Pages, Webpack, Varnish",2025-10-31 03:38:51 UTC,2025-10-31 03:39:03 UTC
+*.unreal-agents.jitsi.net,WILDCARD,"▶︎ RDP: If You See Something, Say Something
+
+UnrealAgents (Development Environment)",false,true,low,low,low,medium,,2025-10-31 07:38:49 UTC,2025-10-31 07:38:49 UTC
+unreal-agents.8x8pilot.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+UnrealAgents (Staging Environment)
+(*incl. `unreal-agents-tools.8x8pilot.com` & `unreal-agents-sys.8x8pilot.com`*)",false,true,low,low,low,medium,"Cloudflare, HTTP/3",2025-10-31 07:41:59 UTC,2025-10-31 07:41:59 UTC
+*.unreal-agents.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something
+
+UnrealAgents",false,true,low,low,low,medium,,2025-10-31 07:44:50 UTC,2025-10-31 07:44:50 UTC
+*.mavenlab.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,not_defined,not_defined,not_defined,none,,2026-01-05 13:47:53 UTC,2026-08-30 15:08:22 UTC
+*.moobidesk.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something
+
+aka: moobidesk-main.vercel.app",false,true,not_defined,not_defined,not_defined,none,,2026-01-05 13:49:31 UTC,2026-08-30 15:08:22 UTC
+*.moobicast.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,not_defined,not_defined,not_defined,none,,2026-01-05 13:51:09 UTC,2026-08-30 15:08:22 UTC
+callroute.com,URL,,false,true,,,,critical,"Cloudflare, Yoast SEO:28.3, WordPress, WP Rocket, Litespeed Cache, HTTP/3, HSTS, Google Tag Manager",2026-02-25 20:12:34 UTC,2026-02-25 20:12:34 UTC
+callroute.io,URL,,false,true,,,,critical,"Amazon Web Services, HSTS, Amazon CloudFront",2026-02-25 20:14:22 UTC,2026-02-25 20:14:22 UTC
+sipsynergy.co.uk,URL,,false,true,,,,critical,"WordPress:6.4.10, Google PageSpeed:0, MySQL, Slider Revolution:5.3.1.5, Yoast SEO:7.0.3, Apache HTTP Server, YouTube, PHP:7.3.14",2026-02-25 20:23:21 UTC,2026-02-25 20:23:21 UTC
+*.ai.8x8.vc,WILDCARD,"▶︎ RDP: If You See Something, Say Something
+
+AI Studio: Build Voice & Text AI Agents",false,true,medium,medium,medium,medium,,2026-04-28 14:36:18 UTC,2026-04-28 14:36:18 UTC
+*.preview.8x8.vc,WILDCARD,"▶︎ RDP: If You See Something, Say Something
+
+AI Studio: Build Voice & Text AI Agents",false,true,medium,medium,medium,medium,,2026-04-28 17:43:07 UTC,2026-04-28 17:43:07 UTC
+resolve.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+8x8 Resolve, a mobile-first critical communications and incident management solution purpose-built to reach deskless and distributed workers.",false,true,high,high,high,high,,2026-05-29 11:16:52 UTC,2026-05-29 11:16:52 UTC
+admin-resolve.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+8x8 Resolve, a mobile-first critical communications and incident management solution purpose-built to reach deskless and distributed workers.",false,true,low,high,high,high,,2026-05-29 11:18:19 UTC,2026-05-29 11:19:30 UTC
+pubtools.private.8x8cloud.net,URL,"▶︎ RDP: If You See Something, Say Something
+
+Global Technical Support Enablement",false,true,none,high,medium,high,"Amazon Web Services, Amazon ALB, Bootstrap, HSTS, Nginx:1.18.0, Ubuntu",2026-06-14 04:59:26 UTC,2026-06-14 04:59:26 UTC
+*.8x8.studio,WILDCARD,"▶︎ RDP: If You See Something, Say Something
+
+AI Studio: Build Voice & Text AI Agents",false,true,medium,medium,medium,medium,,2026-06-14 15:23:21 UTC,2026-06-14 15:23:21 UTC
+mcp.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+8x8's MCP Catalog",false,true,medium,high,medium,critical,,2026-07-01 00:54:52 UTC,2026-07-01 00:56:08 UTC
+*.labs.8x8.com,WILDCARD,"▶︎ RDP: If You See Something, Say Something
+
+8x8's Vibe Platform",false,true,low,high,high,high,,2026-07-01 00:59:04 UTC,2026-07-01 00:59:04 UTC
+maestro.8x8.cloud,URL,"▶︎ RDP: If You See Something, Say Something
+
+A CTI (Computer Telephony Integration) bridge via the Maestro SDK.",false,true,medium,medium,medium,critical,"HTTP/3, Cloudflare",2026-07-27 06:28:00 UTC,2026-07-27 06:48:01 UTC
+map.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+(CPaaS) Admin Back Office Application.
+
+Staging: map.8x8staging.com
+Development: map.8x8pilot.com",false,true,low,high,high,critical,,2026-08-25 07:17:10 UTC,2026-08-30 15:06:15 UTC
+*.8x8.cloud,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2026-08-30 15:10:57 UTC,2026-08-30 15:11:34 UTC
+*.8x8.engineering,WILDCARD,"▶︎ RDP: If You See Something, Say Something",false,true,medium,medium,medium,critical,,2026-08-30 15:13:59 UTC,2026-08-30 15:13:59 UTC
+bridge.8x8.com,URL,"▶︎ RDP: If You See Something, Say Something
+
+8x8 Community Feature Hub
+
+Production: bridge.8x8.com
+Staging: bridge.8x8staging.com",false,true,medium,medium,medium,critical,"Cloudflare, HSTS, HTTP/3",2026-08-30 15:42:20 UTC,2026-08-30 15:43:01 UTC

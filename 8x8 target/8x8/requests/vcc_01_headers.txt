@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private, must-revalidate
+Date: Thu, 24 Sep 2026 15:33:09 GMT
+Access-Control-Allow-Origin: https://vcc-na30.8x8.com
+Content-Security-Policy: frame-ancestors 'self' vcc-na30.8x8.com vcc-na30-vip.8x8.com vcc-na30b.8x8.com vcc-na30b-vip.8x8.com;
+X-Frame-Options: SAMEORIGIN
+Expires: Sat, 1 Jan 2000 00:00:00 GMT
+Last-Modified: Thu, 24 Sep 2026 15:33:09 GMT
+Set-Cookie: vcc-web-apps=deleted; expires=Thu, 24-Sep-2026 15:33:09 GMT; Max-Age=0; path=/
+Set-Cookie: WPJ_CM=37a4d82f5015ac5bc9f432a1c71f7216e9145966cf6360a3d1931ce8db14497eb1d1e487c291e3f52f06be24416a3622d00503641b1f61ceb60e77ed0a1d6f334f18709d7f8c2fc64069e918bd7094c90348a482a747349091ca6571cd004c1d704d69633a49d23e0a2916e6b69ca51ccfab06eb7d30d149073aabb6c7580f3dc70aa7f535e65f18274da60d7dacb5cf8f03b96b104cfe081a1c79b626b7fd16; expires=Fri, 25-Sep-2026 15:33:09 GMT; Max-Age=86400; path=/; domain=8x8.com; secure; httponly
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=157680000; includeSubDomains
+

@@ -1,0 +1,19 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e4]:
+      - link [ref=f2e5] [cursor=pointer]:
+        - /url: https://vercel.com/?utm_medium=third_party&utm_source=grep&utm_campaign=PGR
+        - img "Vercel Logo" [ref=f2e6]
+      - link [ref=f2e10] [cursor=pointer]:
+        - /url: /
+    - generic [ref=f2e16]:
+      - textbox "Search" [ref=f2e17]
+      - generic [ref=f2e18]:
+        - button "Match case" [ref=f2e19] [cursor=pointer]
+        - button "Match whole words" [ref=f2e20] [cursor=pointer]
+        - button "Use regular expression" [ref=f2e21] [cursor=pointer]
+  - generic [ref=f2e27]:
+    - generic [ref=f2e31]: No results found
+    - generic [ref=f2e32]: Try entering a different search term.
+  - region "Notifications alt+T"
+  - alert [ref=f2e34]

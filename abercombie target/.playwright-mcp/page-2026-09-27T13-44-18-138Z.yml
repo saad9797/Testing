@@ -1,0 +1,20 @@
+- generic [active] [ref=f169e1]:
+  - heading "Log In" [level=1] [ref=f169e2]
+  - generic [ref=f169e3]:
+    - link "Powered by WordPress" [ref=f169e4] [cursor=pointer]:
+      - /url: https://wordpress.org/
+    - generic [ref=f169e5]:
+      - generic [ref=f169e6]:
+        - generic [ref=f169e7] [cursor=pointer]: Login with AnFPingFederate
+        - generic [ref=f169e9]: OR
+      - text: 
+      - paragraph [ref=f169e10]:
+        - button "Developer Login" [ref=f169e11] [cursor=pointer]
+      - text:  
+      - paragraph
+    - paragraph [ref=f169e12]:
+      - link "Lost your password?" [ref=f169e13] [cursor=pointer]:
+        - /url: https://anfidentity.anfcorp.com/sspr/public/forgottenpassword
+    - paragraph [ref=f169e14]:
+      - link "← Go to Anfcorp" [ref=f169e15] [cursor=pointer]:
+        - /url: https://vendorportal.anfcorp.com/

@@ -1,0 +1,443 @@
+- generic [active] [ref=f35e1]:
+  - banner [ref=f35e4]:
+    - link "Skip to Content" [ref=f35e5] [cursor=pointer]:
+      - /url: "#main-content-start"
+    - generic [ref=f35e7]:
+      - list [ref=f35e8]:
+        - listitem [ref=f35e9]:
+          - link [ref=f35e10] [cursor=pointer]:
+            - /url: /shop/wd?pagefm=navigation-top+nav
+            - img "Top category for ANF adult categories" [ref=f35e11]
+        - listitem [ref=f35e12]:
+          - link [ref=f35e13] [cursor=pointer]:
+            - /url: /shop/wd/kids?pagefm=navigation-top+nav
+            - img "Top category for ANF Kids categories" [ref=f35e14]
+      - generic [ref=f35e17]:
+        - generic [ref=f35e18]:
+          - button "Free Standard Shipping on Orders Over US$150^ •" [ref=f35e19] [cursor=pointer]:
+            - generic [ref=f35e20]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=f35e21]: •
+          - button [aria-hidden] [ref=f35e22] [cursor=pointer]:
+            - generic [ref=f35e23]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=f35e24]: •
+            - generic [ref=f35e25]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=f35e26]: •
+            - generic [ref=f35e514]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=f35e515]: •
+        - button [aria-hidden] [ref=f35e27] [cursor=pointer]:
+          - generic [ref=f35e28]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=f35e29]: •
+          - generic [ref=f35e30]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=f35e31]: •
+          - generic [ref=f35e32]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=f35e33]: •
+          - generic [ref=f35e516]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=f35e517]: •
+    - generic [ref=f35e35]:
+      - generic [ref=f35e36]:
+        - link "abercrombie and fitch" [ref=f35e37] [cursor=pointer]:
+          - /url: /shop/wd?pagefm=navigation-logo
+        - navigation "Main menu" [ref=f35e39]:
+          - list [ref=f35e40]:
+            - listitem [ref=f35e41]:
+              - heading [level=2] [ref=f35e42]:
+                - link "New" [ref=f35e43] [cursor=pointer]:
+                  - /url: /shop/wd/new
+              - button "Open Menu" [ref=f35e44]
+            - listitem [ref=f35e47]:
+              - heading [level=2] [ref=f35e48]:
+                - link "Women's" [ref=f35e49] [cursor=pointer]:
+                  - /url: /shop/wd/womens
+              - button "Open Menu" [ref=f35e50]
+            - listitem [ref=f35e53]:
+              - heading [level=2] [ref=f35e54]:
+                - link "Men's" [ref=f35e55] [cursor=pointer]:
+                  - /url: /shop/wd/mens
+              - button "Open Menu" [ref=f35e56]
+            - listitem [ref=f35e59]:
+              - heading [level=2] [ref=f35e60]:
+                - link "NFL" [ref=f35e61] [cursor=pointer]:
+                  - /url: /shop/wd/nfl
+              - button "Open Menu" [ref=f35e62]
+            - listitem [ref=f35e65]:
+              - heading [level=2] [ref=f35e66]:
+                - link "Jeans" [ref=f35e67] [cursor=pointer]:
+                  - /url: /shop/wd/jeans
+              - button "Open Menu" [ref=f35e68]
+      - generic [ref=f35e71]:
+        - button [ref=f35e73] [cursor=pointer]:
+          - img "Search" [ref=f35e74]
+          - generic: Search
+        - button "PK" [ref=f35e76] [cursor=pointer]:
+          - generic:
+            - img "PK"
+        - link "View My List" [ref=f35e78] [cursor=pointer]:
+          - /url: /shop/MySavesView?URL=MySavesView&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-my+saves
+        - button "MiniBag Shopping Bag" [ref=f35e85] [cursor=pointer]:
+          - img "MiniBag" [ref=f35e86]
+          - generic [ref=f35e87]: Shopping Bag
+        - button "Hi, saad,myAbercrombie logo,," [ref=f35e441] [cursor=pointer]:
+          - generic: Hi, saad
+    - status [ref=f35e110]
+  - main [ref=f35e113]:
+    - generic [ref=f35e115]:
+      - heading "My Account" [level=1] [ref=f35e116]
+      - generic [ref=f35e117]:
+        - complementary [ref=f35e118]:
+          - complementary "myAbercrombie logo Hi, saad" [ref=f35e442]:
+            - generic [ref=f35e445]:
+              - generic:
+                - img "myAbercrombie logo"
+              - generic [ref=f35e446]: Hi, saad
+            - navigation [ref=f35e448]:
+              - generic [ref=f35e449]:
+                - link "Purchase History" [ref=f35e453] [cursor=pointer]:
+                  - /url: /shop/account/order/history?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-account+left+nav
+                - link "Customer Service" [ref=f35e457] [cursor=pointer]:
+                  - /url: /shop/wd/help?pagefm=navigation-account+left+nav
+                - link "Account Settings" [ref=f35e461] [cursor=pointer]:
+                  - /url: /shop/account/settings?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-account+left+nav
+        - generic [ref=f35e153]:
+          - generic [ref=f35e154]:
+            - generic [ref=f35e156]:
+              - generic [ref=f35e159]:
+                - generic [ref=f35e161]:
+                  - heading "My Profile" [level=2] [ref=f35e162]
+                  - generic [ref=f35e163]: 6/6 Completed
+                - paragraph [ref=f35e165]:
+                  - generic [ref=f35e166]: Complete your profile to get the most out of your membership plus earn an extra +40 Points.
+              - generic [ref=f35e170]:
+                - generic [ref=f35e173]:
+                  - paragraph [ref=f35e175]:
+                    - generic [ref=f35e176]: First & Last Name
+                  - group "First & Last Name" [ref=f35e177]:
+                    - generic [ref=f35e179]:
+                      - textbox "First Name" [ref=f35e180]: saad
+                      - generic: First Name
+                    - generic [ref=f35e181]:
+                      - textbox "Last Name" [ref=f35e182]: waqar
+                      - generic: Last Name
+                - generic [ref=f35e185]:
+                  - paragraph [ref=f35e187]:
+                    - generic [ref=f35e188]: Shopping Preference
+                  - group "Shopping Preference" [ref=f35e189]:
+                    - generic [ref=f35e191]:
+                      - combobox "Shopping Preference" [ref=f35e192] [cursor=pointer]:
+                        - option "Male" [selected]
+                        - option "Female"
+                        - option "I'd Rather Not Say"
+                      - generic: Shopping Preference
+                      - generic: Shopping Preference
+                      - text: 
+                - generic [ref=f35e195]:
+                  - paragraph [ref=f35e197]:
+                    - generic [ref=f35e198]: Email & Password
+                  - group "Email & Password" [ref=f35e199]:
+                    - generic [ref=f35e201]:
+                      - textbox "Email Address" [disabled] [ref=f35e202]: saad101@wearehackerone.com
+                      - generic: Email Address
+                      - button "Edit" [ref=f35e203] [cursor=pointer]
+                    - generic [ref=f35e204]:
+                      - textbox "Current Password" [disabled] [ref=f35e205]: E1MvdAGh
+                      - generic: Current Password
+                      - button "Edit" [ref=f35e206] [cursor=pointer]
+                  - generic [ref=f35e207]: (Password must be 8-25 characters and contain numbers and letters.)
+                - generic [ref=f35e210]:
+                  - paragraph [ref=f35e212]:
+                    - generic [ref=f35e213]: Phone Number
+                  - group "Phone Number" [ref=f35e214]:
+                    - generic [ref=f35e216]:
+                      - textbox "Phone Number" [disabled] [ref=f35e217]: "923378327895"
+                      - generic: Phone Number
+                      - button "Edit" [ref=f35e218] [cursor=pointer]
+                - generic [ref=f35e221]:
+                  - generic [aria-hidden] [ref=f35e222]:
+                    - paragraph [ref=f35e223]:
+                      - generic [ref=f35e224]: My Address
+                    - paragraph [ref=f35e225]: Save your address for a faster checkout.
+                  - generic [ref=f35e227]:
+                    - paragraph [ref=f35e229]: Address
+                    - generic [ref=f35e230]:
+                      - paragraph [ref=f35e232]: No default address saved
+                      - link "Add Address" [ref=f35e234] [cursor=pointer]:
+                        - /url: /shop/account/settings/address?storeId=11203&catalogId=10901&langId=-1
+                - generic [ref=f35e238]:
+                  - generic [aria-hidden] [ref=f35e239]:
+                    - paragraph [ref=f35e240]:
+                      - generic [aria-hidden] [ref=f35e242]: 
+                      - generic [ref=f35e243]: My Birthday
+                    - paragraph [ref=f35e244]: Earn 2x Points during your birthday month and receive a special reward. Plus earn +20 points just for completing.
+                  - group "My Birthday undefined" [ref=f35e245]:
+                    - generic [ref=f35e247]:
+                      - combobox "Month" [ref=f35e248] [cursor=pointer]:
+                        - option "January"
+                        - option "February"
+                        - option "March"
+                        - option "April"
+                        - option "May"
+                        - option "June"
+                        - option "July"
+                        - option "August"
+                        - option "September"
+                        - option "October"
+                        - option "November" [selected]
+                        - option "December"
+                      - generic: Month
+                      - generic: Month
+                      - text: 
+                    - generic [ref=f35e249]:
+                      - combobox "Day" [ref=f35e250] [cursor=pointer]:
+                        - option "1"
+                        - option "2"
+                        - option "3"
+                        - option "4"
+                        - option "5"
+                        - option "6"
+                        - option "7"
+                        - option "8"
+                        - option "9" [selected]
+                        - option "10"
+                        - option "11"
+                        - option "12"
+                        - option "13"
+                        - option "14"
+                        - option "15"
+                        - option "16"
+                        - option "17"
+                        - option "18"
+                        - option "19"
+                        - option "20"
+                        - option "21"
+                        - option "22"
+                        - option "23"
+                        - option "24"
+                        - option "25"
+                        - option "26"
+                        - option "27"
+                        - option "28"
+                        - option "29"
+                        - option "30"
+                        - option "31"
+                      - generic: Day
+                      - generic: Day
+                      - text: 
+                    - generic [ref=f35e251]:
+                      - textbox "Year" [ref=f35e252]: "2004"
+                      - generic: Year
+                - button "Update" [disabled] [ref=f35e256]
+                - generic [ref=f35e263]:
+                  - button "Website Terms of Use" [ref=f35e264] [cursor=pointer]
+                  - button "Privacy Policy" [ref=f35e265] [cursor=pointer]
+            - generic [ref=f35e269]:
+              - generic [aria-hidden] [ref=f35e270]:
+                - paragraph [ref=f35e271]:
+                  - generic [ref=f35e272]: Payment Info
+                - paragraph [ref=f35e273]: Save your payment for a faster checkout.
+              - generic [ref=f35e275]:
+                - paragraph [ref=f35e277]: Payment Method
+                - generic [ref=f35e278]:
+                  - paragraph [ref=f35e280]: No default payment saved
+                  - button "Add Payment" [ref=f35e282] [cursor=pointer]
+          - generic [ref=f35e283]:
+            - generic [ref=f35e286]:
+              - heading "Email preferences" [level=2] [ref=f35e288]
+              - paragraph [ref=f35e289]: Choose Abercrombie & Fitch email subscriptions
+            - generic [ref=f35e465]:
+              - group "Choose Abercrombie & Fitch email subscriptions" [ref=f35e467]:
+                - generic [ref=f35e469]:
+                  - checkbox "Abercrombie & Fitch Stay in the know on promotions, new product drops and more." [ref=f35e470] [cursor=pointer]
+                  - generic [ref=f35e473] [cursor=pointer]:
+                    - generic [ref=f35e474]: Abercrombie & Fitch
+                    - generic [ref=f35e475]: Stay in the know on promotions, new product drops and more.
+                - generic [ref=f35e476]:
+                  - checkbox "abercrombie kids Get reminded about promotions, new outfits and everything else on your checklist." [ref=f35e477] [cursor=pointer]
+                  - generic [ref=f35e480] [cursor=pointer]:
+                    - generic [ref=f35e481]: abercrombie kids
+                    - generic [ref=f35e482]: Get reminded about promotions, new outfits and everything else on your checklist.
+                - separator [ref=f35e483]
+              - group "Hear from our other brands" [ref=f35e485]:
+                - generic [ref=f35e488]:
+                  - checkbox "Hollister Be the first to access promotions, new arrivals and more." [ref=f35e489] [cursor=pointer]
+                  - generic [ref=f35e492] [cursor=pointer]:
+                    - generic [ref=f35e493]: Hollister
+                    - generic [ref=f35e494]: Be the first to access promotions, new arrivals and more.
+                - separator [ref=f35e495]
+              - text: Get emails about exclusive offers & hottest new looks from Abercrombie & Fitch - You can unsubscribe any time!
+              - generic [ref=f35e500]:
+                - button "Website Terms of Use" [ref=f35e501] [cursor=pointer]
+                - button "Privacy Policy" [ref=f35e502] [cursor=pointer]
+              - generic [ref=f35e504]:
+                - button "Save" [disabled] [ref=f35e505]
+                - button "Cancel" [disabled] [ref=f35e506]
+  - contentinfo [ref=f35e293]:
+    - generic [ref=f35e295]:
+      - generic [ref=f35e296]: ^Offer valid online only. Free standard shipping and handling applied to subtotal after all discounts and before tax and shipping/handling at checkout. To qualify, orders must be shipped via Standard Ground service.
+      - link "See All Offer Details" [ref=f35e305] [cursor=pointer]:
+        - /url: /shop/wd/br/PromotionInfo?icmp=ICT:EVGRN:D:HP:FT:LLP:PRM:LegalDisclaimers:EVGRN
+    - generic [ref=f35e307]:
+      - generic [ref=f35e308]:
+        - img "abercrombie and fitch" [ref=f35e311]: 
+        - generic [ref=f35e312]:
+          - separator [ref=f35e313]
+          - heading "Our Brands" [level=2] [ref=f35e314]
+          - list [ref=f35e315]:
+            - listitem [ref=f35e316]:
+              - link [ref=f35e317] [cursor=pointer]:
+                - /url: https://www.abercrombie.com
+                - img "abercrombie and fitch" [ref=f35e319]: 
+            - listitem [ref=f35e320]:
+              - link [ref=f35e321] [cursor=pointer]:
+                - /url: https://www.abercrombie.com/shop/wd/kids
+                - img "abercrombie kids" [ref=f35e323]: 
+            - listitem [ref=f35e324]:
+              - link [ref=f35e325] [cursor=pointer]:
+                - /url: https://www.hollisterco.com
+                - img "hollister co." [ref=f35e327]: 
+      - generic [ref=f35e328]:
+        - heading "About Us" [level=2] [ref=f35e329]
+        - list [ref=f35e330]:
+          - listitem [ref=f35e331]:
+            - link "Brand Protection" [ref=f35e332] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=brand-protection&textKey=LEGAL_BRAND_PROTECTION&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f35e333]:
+            - link "Careers" [ref=f35e334] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/careers
+          - listitem [ref=f35e335]:
+            - link "A&F Gives Back" [ref=f35e336] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-impact
+          - listitem [ref=f35e337]:
+            - link "Accessibility" [ref=f35e338] [cursor=pointer]:
+              - /url: /shop/wd/help/Accessibility?pagefm=navigation-footer
+          - listitem [ref=f35e339]:
+            - link "Inclusion & Diversity" [ref=f35e340] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-commitment
+          - listitem [ref=f35e341]:
+            - link "Investors" [ref=f35e342] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/investors
+          - listitem [ref=f35e343]:
+            - link "Press Room" [ref=f35e344] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/news/media-gallery
+          - listitem [ref=f35e345]:
+            - link "Sustainability" [ref=f35e346] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/sustainability
+      - generic [ref=f35e347]:
+        - heading "Help" [level=2] [ref=f35e348]
+        - list [ref=f35e349]:
+          - listitem [ref=f35e350]:
+            - link "Customer Help" [ref=f35e351] [cursor=pointer]:
+              - /url: /shop/wd/help
+          - listitem [ref=f35e352]:
+            - link "Order Help" [ref=f35e353] [cursor=pointer]:
+              - /url: /shop/wd/help/lookup-order
+          - listitem [ref=f35e354]:
+            - link "Shipping & Handling" [ref=f35e355] [cursor=pointer]:
+              - /url: /shop/wd/help/shipping-handling
+          - listitem [ref=f35e356]:
+            - link "Online Returns" [ref=f35e357] [cursor=pointer]:
+              - /url: /shop/wd/help/online-return-exchange-policy
+          - listitem [ref=f35e358]:
+            - link "Track My Order" [ref=f35e359] [cursor=pointer]:
+              - /url: /shop/wd/help/trackorder
+          - listitem [ref=f35e360]:
+            - link "Gift Cards & E-Cards Balance" [ref=f35e361] [cursor=pointer]:
+              - /url: /shop/wd/help/giftcard-balance-check
+          - listitem [ref=f35e362]:
+            - link "My Account" [ref=f35e363] [cursor=pointer]:
+              - /url: /shop/UserAccountView?storeId=11203&catalogId=10901&langId=-1
+          - listitem [ref=f35e364]:
+            - link "Currency" [ref=f35e365] [cursor=pointer]:
+              - /url: /shop/wd/help/currency?storeId=11203&catalogId=10901&langId=-1
+      - generic [ref=f35e366]:
+        - list [ref=f35e367]:
+          - listitem [ref=f35e368]:
+            - link "Find a Store" [ref=f35e369] [cursor=pointer]:
+              - /url: /shop/StoreLocator?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+              - generic [aria-hidden] [ref=f35e370]: 
+          - listitem [ref=f35e372]:
+            - generic [ref=f35e374]:
+              - img "PK" [ref=f35e376]
+              - button "Pakistan" [ref=f35e377] [cursor=pointer]
+        - generic [ref=f35e379]:
+          - switch "High Contrast" [ref=f35e380]
+          - generic [ref=f35e381] [cursor=pointer]: High Contrast
+      - generic [ref=f35e387]:
+        - generic [ref=f35e393]:
+          - heading "Subscribe" [level=2] [ref=f35e395]
+          - generic [ref=f35e398]:
+            - textbox "Email Address" [ref=f35e399]
+            - generic: Email Address
+            - button "Join" [ref=f35e400] [cursor=pointer]
+        - list [ref=f35e402]:
+          - listitem [ref=f35e403]:
+            - link "TikTok" [ref=f35e404] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@abercrombie
+              - generic [aria-hidden] [ref=f35e405]: 
+          - listitem [ref=f35e406]:
+            - link "Instagram" [ref=f35e407] [cursor=pointer]:
+              - /url: http://instagram.com/abercrombie
+              - generic [aria-hidden] [ref=f35e408]: 
+          - listitem [ref=f35e409]:
+            - link "Facebook" [ref=f35e410] [cursor=pointer]:
+              - /url: https://www.facebook.com/Abercrombie
+              - generic [aria-hidden] [ref=f35e411]: 
+          - listitem [ref=f35e412]:
+            - link "pinterest" [ref=f35e413] [cursor=pointer]:
+              - /url: http://www.pinterest.com/abercrombie1892/
+              - generic [aria-hidden] [ref=f35e414]: 
+          - listitem [ref=f35e415]:
+            - link "Youtube" [ref=f35e416] [cursor=pointer]:
+              - /url: https://www.youtube.com/abercrombie
+              - generic [aria-hidden] [ref=f35e417]: 
+    - generic [ref=f35e419]:
+      - separator [ref=f35e420]
+      - generic [ref=f35e421]:
+        - generic [aria-hidden] [ref=f35e423]: 
+        - list [ref=f35e424]:
+          - listitem [ref=f35e425]:
+            - link "Privacy" [ref=f35e426] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=privacy&textKey=LEGAL_PRIVACY_POLICY&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f35e427]:
+            - text: "|"
+            - link "Sale Terms" [ref=f35e428] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=sale-terms&textKey=LEGAL_SALES_TERMS&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f35e429]:
+            - text: "|"
+            - link "Website Terms of Use" [ref=f35e430] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f35e431]:
+            - text: "|"
+            - link "Endorsements Social Media Engagement" [ref=f35e432] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=social-media&textKey=LEGAL_SOCIAL_MEDIA_POLICY&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f35e433]:
+            - text: "|"
+            - link "Site Map" [ref=f35e434] [cursor=pointer]:
+              - /url: /shop/SiteMapView?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=f35e435]:
+            - text: "|"
+            - button "Manage My Preferences" [ref=f35e436]
+          - listitem [ref=f35e437]:
+            - text: "|"
+            - link "Responsible Disclosure" [ref=f35e438] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-company/contact-us/vulnerability-disclosure/
+    - text: 
+  - alert [ref=f35e439]
+  - region "Live chat" [ref=f35e507]:
+    - button "Live chat" [ref=f35e509] [cursor=pointer]:
+      - img "Live chat" [ref=f35e510]
+  - generic [ref=f35e519] [cursor=pointer]:
+    - button [aria-hidden]
+    - dialog [ref=f35e520]:
+      - generic [ref=f35e521]:
+        - button "Close Associate Discount Modal" [ref=f35e522]
+        - generic [ref=f35e529]:
+          - generic [ref=f35e531]:
+            - generic [ref=f35e532]:
+              - generic [aria-hidden] [ref=f35e534]: 
+              - generic [ref=f35e535]: Check Your Email
+            - paragraph [ref=f35e537]: Enter the code we sent to saad101@wearehackerone.com to complete your account change
+          - generic [ref=f35e539]:
+            - spinbutton "Code" [ref=f35e540]: "842543"
+            - generic: Code
+          - button "Processing" [disabled] [ref=f35e547]
+          - button "Send Me a New Code" [ref=f35e546]
+    - button [aria-hidden]

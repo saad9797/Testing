@@ -1,0 +1,174 @@
+- generic [ref=f114e2]:
+  - link "Skip to content" [ref=f114e3] [cursor=pointer]:
+    - /url: "#content"
+  - banner "Site Header" [ref=f114e4]:
+    - generic [ref=f114e6]:
+      - button "Mobile Menu" [ref=f114e8] [cursor=pointer]
+      - link [ref=f114e15] [cursor=pointer]:
+        - /url: https://corporate.abercrombie.com/
+        - img "Abercrombie & Fitch Co. Site Logo" [ref=f114e16]
+    - button "Search" [ref=f114e17] [cursor=pointer]:
+      - img "Search" [ref=f114e18]
+  - main [ref=f114e23]:
+    - generic [ref=f114e25]:
+      - region "Anfco Hero Slider" [ref=f114e27]:
+        - generic [ref=f114e28]: Click on arrow buttons to change slide
+        - generic:
+          - button "Go to last slide" [ref=f114e29] [cursor=pointer]
+          - button "Next slide" [ref=f114e30] [cursor=pointer]
+        - generic [ref=f114e31]:
+          - tabpanel "1 of 4" [ref=f114e32]:
+            - generic [ref=f114e35]:
+              - heading "It’s a journey." [level=2] [ref=f114e36]
+              - paragraph [ref=f114e37]: We are here for you on the journey to being and becoming who you are.
+          - tabpanel [aria-hidden] [ref=f114e38]:
+            - generic [ref=f114e41]:
+              - heading [level=1] [ref=f114e42]: A&F Co. Announces Q2 2026 Earnings Results
+              - link [ref=f114e45] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/blog/af-co-announces-q2-earnings/
+                - text: Learn More
+          - tabpanel [aria-hidden] [ref=f114e46]:
+            - generic [ref=f114e49]:
+              - heading [level=2] [ref=f114e50]: A&F and NFL Build on Official Fashion Partnership
+              - link [ref=f114e53] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/blog/af-and-nfl-build-on-official-fashion-partnership/
+                - text: Learn More
+          - tabpanel [aria-hidden] [ref=f114e54]:
+            - generic [ref=f114e57]:
+              - heading [level=2] [ref=f114e58]: Denin Made Iconic
+              - link [ref=f114e61] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/blog/denim-made-iconic/
+                - text: Learn About Our Fall Denim Campaign
+        - list:
+          - listitem [ref=f114e62]:
+            - button "Go to slide 1" [ref=f114e63] [cursor=pointer]
+          - listitem [ref=f114e64]:
+            - button "Go to slide 2" [ref=f114e65] [cursor=pointer]
+          - listitem [ref=f114e66]:
+            - button "Go to slide 3" [ref=f114e67] [cursor=pointer]
+          - listitem [ref=f114e68]:
+            - button "Go to slide 4" [ref=f114e69] [cursor=pointer]
+      - generic [ref=f114e70]:
+        - figure [ref=f114e71]:
+          - img "Abercrombie & Fitch Co." [ref=f114e72]
+        - paragraph [ref=f114e73]: "Abercrombie & Fitch Co. (NYSE: ANF) is a leading, global, omnichannel specialty retailer of apparel and accessories for men, women and kids. Our brands share a commitment to offering products of enduring quality and exceptional comfort that allow consumers around the world to express their own individuality and style."
+        - paragraph
+        - link "About Us…" [ref=f114e76] [cursor=pointer]:
+          - /url: https://corporate.abercrombie.com/about-us/
+      - generic [ref=f114e77]:
+        - heading "Our Brands" [level=2] [ref=f114e78]
+        - generic [ref=f114e79]:
+          - generic [ref=f114e81]:
+            - generic:
+              - figure:
+                - link [ref=f114e83] [cursor=pointer]:
+                  - /url: https://corporate.abercrombie.com/about-us/our-brands/abercrombie-and-fitch/
+                  - img "Abercrombie & Fitch" [ref=f114e84]
+          - generic [ref=f114e86]:
+            - generic:
+              - figure:
+                - link [ref=f114e88] [cursor=pointer]:
+                  - /url: https://corporate.abercrombie.com/about-us/our-brands/ypb/
+          - generic [ref=f114e90]:
+            - generic:
+              - figure:
+                - link [ref=f114e92] [cursor=pointer]:
+                  - /url: https://corporate.abercrombie.com/about-us/our-brands/abercrombie-kids/
+                  - img "Abercrombie Kids" [ref=f114e93]
+          - generic [ref=f114e95]:
+            - generic:
+              - figure:
+                - link [ref=f114e97] [cursor=pointer]:
+                  - /url: https://corporate.abercrombie.com/about-us/our-brands/hollister/
+                  - img "Hollister" [ref=f114e98]
+        - link "Explore Our Brands" [ref=f114e101] [cursor=pointer]:
+          - /url: https://corporate.abercrombie.com/about-us/our-brands/
+      - generic [ref=f114e102]:
+        - figure [ref=f114e103]
+        - generic [ref=f114e105]:
+          - heading "You Belong at A&F Co." [level=2] [ref=f114e106]
+          - paragraph [ref=f114e107]: Wherever you are on your career journey, we welcome you to join us.
+          - link "Search & Apply" [ref=f114e110] [cursor=pointer]:
+            - /url: https://corporate.abercrombie.com/careers/
+      - generic [ref=f114e111]:
+        - heading "Recognition" [level=2] [ref=f114e112]
+        - generic [ref=f114e114]:
+          - group "1 of 3" [ref=f114e115]:
+            - generic [ref=f114e116]:
+              - figure [ref=f114e117]:
+                - img "EQ100_2026_color 073125" [ref=f114e118]
+              - generic [ref=f114e119]:
+                - heading "Best Places to Work for LGBTQ+ Equality 2026" [level=3] [ref=f114e120]
+                - paragraph [ref=f114e121]: "2026"
+          - group "2 of 3" [ref=f114e122]:
+            - generic [ref=f114e123]:
+              - figure [ref=f114e124]:
+                - img "AFCo-2025-GPTW" [ref=f114e125]
+              - generic [ref=f114e126]:
+                - heading "Certified by Great Place to Work" [level=3] [ref=f114e127]
+                - paragraph [ref=f114e128]: 2026-2027
+          - group "3 of 3" [ref=f114e129]:
+            - generic [ref=f114e130]:
+              - figure [ref=f114e131]:
+                - img "AFCo-2026-DisabilityIN" [ref=f114e132]
+              - generic [ref=f114e133]:
+                - heading "World’s Top Disability Inclusive Businesses" [level=3] [ref=f114e134]
+                - paragraph [ref=f114e135]: "2026"
+  - contentinfo [ref=f114e136]:
+    - generic [ref=f114e137]:
+      - navigation "breadcrumbs" [ref=f114e141]:
+        - generic [ref=f114e142]: Home
+      - generic [ref=f114e145]:
+        - figure [ref=f114e146]:
+          - img "Abercrombie & Fitch Co. logo" [ref=f114e147]
+        - separator [ref=f114e149]
+        - navigation "Menu" [ref=f114e151]:
+          - list [ref=f114e152]:
+            - listitem [ref=f114e153]:
+              - link "Our Brands" [ref=f114e154] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/about-us/our-brands/
+            - listitem [ref=f114e155]:
+              - link "Careers" [ref=f114e156] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/careers/
+            - listitem [ref=f114e157]:
+              - link "Contact Us" [ref=f114e158] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/contact-us/
+            - listitem [ref=f114e159]:
+              - link "Global Giving" [ref=f114e160] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/our-impact/
+            - listitem [ref=f114e161]:
+              - link "Inclusion & Diversity" [ref=f114e162] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/our-commitment/
+            - listitem [ref=f114e163]:
+              - link "Investors" [ref=f114e164] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/investors/
+            - listitem [ref=f114e165]:
+              - link "News" [ref=f114e166] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/news/
+            - listitem [ref=f114e167]:
+              - link "Sustainability" [ref=f114e168] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/sustainability/
+            - listitem [ref=f114e169]:
+              - link "Vulnerability Disclosure" [ref=f114e170] [cursor=pointer]:
+                - /url: https://corporate.abercrombie.com/vulnerability-disclosure/
+      - generic [ref=f114e172]:
+        - heading [level=2] [ref=f114e173]:
+          - strong [ref=f114e174]: FOLLOW ALONG OUR JOURNEY...
+        - paragraph [ref=f114e175]: See the latest news and events on Instagram and connect with us on LinkedIn...
+        - list [ref=f114e176]:
+          - listitem [ref=f114e177]:
+            - link "Instagram" [ref=f114e178] [cursor=pointer]:
+              - /url: https://www.instagram.com/lifeatanf
+          - listitem [ref=f114e182]:
+            - link "LinkedIn" [ref=f114e183] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/abercrombie-&-fitch/
+      - paragraph [ref=f114e189]:
+        - link "Website Terms Of Use" [ref=f114e190] [cursor=pointer]:
+          - /url: https://www.abercrombie.com/shop/CustomerService?textKey=HELP_SITEUSE&catalogId=10901&langId=-1&pageName=site-use&storeId=10051
+        - emphasis [ref=f114e191]: "|"
+        - link "Privacy Notice" [ref=f114e192] [cursor=pointer]:
+          - /url: https://corporate.abercrombie.com/privacy-notice/
+        - emphasis [ref=f114e193]: "|"
+        - text: ©2026 - Abercrombie & Fitch Co
+        - emphasis [ref=f114e194]: "|"
+        - text: All Right Reserved

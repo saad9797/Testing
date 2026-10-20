@@ -1,0 +1,19 @@
+[    1311ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.abercrombie.com/account:0
+[    2017ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[    2359ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[    2461ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    2471ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    2791ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[    3010ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/account:0
+[    3011ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/account:0
+[    4552ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=f3444275be2c415f61fed3b7c7f7917d&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Faccount:6
+[    5914ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://consent-api.onetrust.com/v2/preferences:0
+[    5915ms] [LOG] OT - Error in fetch URL : https://consent-api.onetrust.com/v2/preferences Exception : {"message":"Error Loading Data","statusCode":401} @ https://cdn.cookielaw.org/consent/d2fc6750-42e2-43de-a0bf-19c48ecdc38c/otSDKStub.js:37
+[    7591ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://edge.fullstory.com/s/fs.js:1
+[    9007ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/account:0

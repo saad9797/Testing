@@ -1,0 +1,1619 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Skip to main content >" [ref=e9] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=e10]:
+        - link "Go back to homepage" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=e13]
+        - generic [ref=e15]:
+          - link [ref=e18] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=e25] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=e32] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=e39] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=e44]:
+      - link [ref=e45] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=e51]: Learn more about HackerOne
+      - link "Log in" [ref=e53] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=e56]:
+    - generic [ref=e58]:
+      - tree [ref=e60]:
+        - button [ref=e62] [cursor=pointer]:
+          - img "collapse menu" [ref=e63]:
+            - img "collapse menu" [ref=e65]
+        - generic [ref=e68]:
+          - treeitem "Security page" [expanded] [ref=e69] [cursor=pointer]
+          - group [ref=e72]:
+            - treeitem "Program guidelines" [ref=e73] [cursor=pointer]
+            - treeitem "Scope" [selected] [ref=e75] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=e77] [cursor=pointer]
+            - treeitem "Thanks" [ref=e79] [cursor=pointer]
+            - treeitem "Updates" [ref=e81] [cursor=pointer]
+            - treeitem "Collaborators" [ref=e83] [cursor=pointer]
+            - treeitem "Safe harbor" [ref=e85] [cursor=pointer]
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: Search
+                - generic [ref=e96]:
+                  - img "Search" [ref=e98]:
+                    - img "Search" [ref=e100]
+                  - searchbox "Search" [ref=e103]
+              - generic [ref=e104]:
+                - generic [ref=e105]: Scope
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: All scopes
+                    - combobox [ref=e114]
+                  - generic [aria-hidden] [ref=e116] [cursor=pointer]
+              - generic [ref=e119]:
+                - generic [ref=e120]: Maximum severity
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: Any
+                    - combobox [ref=e129]
+                  - generic [aria-hidden] [ref=e131] [cursor=pointer]
+              - generic [ref=e134]:
+                - generic [ref=e135]: Bounty eligibility
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - generic [ref=e142]: All
+                    - combobox [ref=e144]
+                  - generic [aria-hidden] [ref=e146] [cursor=pointer]
+              - button [ref=e150] [cursor=pointer]:
+                - img "Toggle extra filters" [ref=e151]:
+                  - img "Toggle extra filters" [ref=e153]
+            - generic [ref=e156]:
+              - link "Download Burp Suite Project Configuration File" [ref=e159] [cursor=pointer]:
+                - /url: ../teams/8x8-bounty/assets/download_burp_project_file.json
+              - link "Download CSV" [ref=e162] [cursor=pointer]:
+                - /url: ../teams/8x8-bounty/assets/download_csv.csv
+              - generic [ref=e164]:
+                - link "View changes" [ref=e165] [cursor=pointer]:
+                  - /url: /8x8-bounty/scope_versions
+                - generic [ref=e166]: (Last updated on August 31, 2026)
+              - generic:
+                - generic [ref=e167]: 1-100 of 138
+                - link [ref=e168] [cursor=pointer]:
+                  - /url: /8x8-bounty/policy_scopes
+            - table [ref=e178]:
+              - rowgroup [ref=e179]:
+                - row [ref=e180]:
+                  - columnheader [ref=e181] [cursor=pointer]:
+                    - strong [ref=e182]: Asset name
+                  - columnheader [ref=e189] [cursor=pointer]:
+                    - strong [ref=e190]: Type
+                  - columnheader [ref=e197] [cursor=pointer]:
+                    - strong [ref=e198]: Coverage
+                  - columnheader [ref=e205] [cursor=pointer]:
+                    - strong [ref=e206]: Max. severity
+                  - columnheader [ref=e213] [cursor=pointer]:
+                    - strong [ref=e214]: Bounty
+                  - columnheader [ref=e221] [cursor=pointer]:
+                    - strong [ref=e222]: Last update
+                  - columnheader [ref=e229] [cursor=pointer]:
+                    - strong [ref=e230]:
+                      - generic [ref=e231]: Resolved Reports
+              - rowgroup [ref=e242]:
+                - row [ref=e243]:
+                  - cell "work.8x8.com 8x8 Work for Web, the browser-based counterpart of 8x8 Work for Desktop, enables you to collaborate efficiently with your colleagues and business contacts. ⚠️ 8x8 does not provide test credentials." [ref=e244]:
+                    - strong [ref=e246]: work.8x8.com
+                    - generic [ref=e247]:
+                      - generic [ref=e248]: 8x8 Work for Web, the browser-based counterpart of 8x8 Work for Desktop, enables you to collaborate efficiently with your colleagues and business contacts.
+                      - generic [ref=e249]: ⚠️ 8x8 does not provide test credentials.
+                  - cell "Domain" [ref=e250]
+                  - cell "In scope" [ref=e251]
+                  - cell "Critical" [ref=e257]
+                  - cell "Eligible" [ref=e267]
+                  - cell "Jul 24, 2025" [ref=e280]
+                  - cell "5 (0%)" [ref=e282]
+                - row [ref=e284]:
+                  - cell [ref=e285]:
+                    - strong [ref=e287]: work-staging.8x8.com
+                  - cell "Domain" [ref=e288]
+                  - cell "In scope" [ref=e289]
+                  - cell "Critical" [ref=e295]
+                  - cell "Eligible" [ref=e305]
+                  - cell "Jan 9, 2023" [ref=e318]
+                  - cell "0 (0%)" [ref=e320]
+                - row [ref=e322]:
+                  - 'cell "voapi.8x8.com VOAPI is a backend application responsible to process phone calls (like InboundCall, OutboundCall, Click2Dial, CallTransfer, CallMerge, Start/Stop CallRecording). ▶︎ AU Region: voapi-au.8x8.com ▶︎ UK Region: voapi-uk.8x8.com Cloudflare DDOS Cloudflare WAF F5 BIG-IP ASM Java Spring" [ref=e323]':
+                    - strong [ref=e325]: voapi.8x8.com
+                    - generic [ref=e326]:
+                      - generic [ref=e327]: VOAPI is a backend application responsible to process phone calls (like InboundCall, OutboundCall, Click2Dial, CallTransfer, CallMerge, Start/Stop CallRecording).
+                      - generic [ref=e328]: "▶︎ AU Region: voapi-au.8x8.com ▶︎ UK Region: voapi-uk.8x8.com"
+                    - generic [ref=e329]:
+                      - generic [ref=e330]: Cloudflare DDOS
+                      - generic [ref=e336]: Cloudflare WAF
+                      - generic [ref=e342]: F5 BIG-IP ASM
+                      - generic [ref=e348]: Java
+                      - generic [ref=e354]: Spring
+                  - cell "Domain" [ref=e360]
+                  - cell "In scope" [ref=e361]
+                  - cell "Critical" [ref=e367]
+                  - cell "Ineligible" [ref=e377]
+                  - cell "Jul 14, 2026" [ref=e390]
+                  - cell "9 (1%)" [ref=e392]
+                - row [ref=e394]:
+                  - 'cell "Virtual Office Desktop Download 8x8 Work for Desktop: https://support-portal.8x8.com/helpcenter/viewArticle.html?d=8bff4970-6fbf-4daf-842d-8ae9b533153d English JavaScript" [ref=e395]':
+                    - strong [ref=e397]: Virtual Office Desktop
+                    - generic [ref=e399]:
+                      - text: "Download 8x8 Work for Desktop:"
+                      - link "https://support-portal.8x8.com/helpcenter/viewArticle.html?d=8bff4970-6fbf-4daf-842d-8ae9b533153d" [ref=e400] [cursor=pointer]:
+                        - /url: https://support-portal.8x8.com/helpcenter/viewArticle.html?d=8bff4970-6fbf-4daf-842d-8ae9b533153d
+                    - generic [ref=e401]:
+                      - generic [ref=e402]: English
+                      - generic [ref=e408]: JavaScript
+                  - cell "Executable" [ref=e414]
+                  - cell "In scope" [ref=e415]
+                  - cell "Critical" [ref=e421]
+                  - cell "Ineligible" [ref=e431]
+                  - cell "Jul 14, 2026" [ref=e444]
+                  - cell "9 (1%)" [ref=e446]
+                - row [ref=e448]:
+                  - cell [ref=e449]:
+                    - strong [ref=e451]: vcc-ce.8x8.com
+                    - generic [ref=e453]:
+                      - text: "Customer Experience and Post-Call Survey Analytics front-end, e.g.:"
+                      - link "https://vcc-ce.8x8.com/analytix/rt-dashboard.htm" [ref=e454] [cursor=pointer]:
+                        - /url: https://vcc-ce.8x8.com/analytix/rt-dashboard.htm
+                  - cell "Domain" [ref=e455]
+                  - cell "In scope" [ref=e456]
+                  - cell "Critical" [ref=e462]
+                  - cell "Ineligible" [ref=e472]
+                  - cell "Jul 19, 2024" [ref=e485]
+                  - cell "0 (0%)" [ref=e487]
+                - row [ref=e489]:
+                  - 'cell "vcc-*.8x8.com ► Contact Center Agent Workspace: ./AGUI/login.php ► Configuration Manager: ./CM/login.php ⚠️ Latest version of software usually available on https://vcc-na30.8x8.com/ ⚠️ shareable Wallboard links are out of scope ⚠️ Third-party websites implementing 8x8 chat solutions (outside of *.8x8.com domains) are out of scope English Amazon Web Services Java MySQL Oracle Cloud PHP" [ref=e490]':
+                    - strong [ref=e492]: vcc-*.8x8.com
+                    - generic [ref=e493]:
+                      - generic [ref=e494]:
+                        - text: "► Contact Center Agent Workspace:"
+                        - code [ref=e495]: ./AGUI/login.php
+                        - text: "► Configuration Manager:"
+                        - code [ref=e496]: ./CM/login.php
+                      - generic [ref=e497]:
+                        - text: ⚠️ Latest version of software usually available on
+                        - link "https://vcc-na30.8x8.com/" [ref=e498] [cursor=pointer]:
+                          - /url: https://vcc-na30.8x8.com/
+                        - text: ⚠️ shareable Wallboard links are out of scope ⚠️ Third-party websites implementing 8x8 chat solutions (outside of
+                        - code [ref=e499]: "*.8x8.com"
+                        - text: domains) are out of scope
+                    - generic [ref=e500]:
+                      - generic [ref=e501]: English
+                      - generic [ref=e507]: Amazon Web Services
+                      - generic [ref=e513]: Java
+                      - generic [ref=e519]: MySQL
+                      - generic [ref=e525]: Oracle Cloud
+                      - generic [ref=e531]: PHP
+                  - cell "Wildcard" [ref=e537]
+                  - cell "In scope" [ref=e538]
+                  - cell "Critical" [ref=e544]
+                  - cell "Eligible" [ref=e554]
+                  - cell "Jul 13, 2025" [ref=e567]
+                  - cell "93 (7%)" [ref=e569]
+                - row [ref=e571]:
+                  - 'cell "vap.8x8.com (CPaaS) Admin Back Office Application for managing voice services. ▶︎ RDP: If You See Something, Say Something" [ref=e572]':
+                    - strong [ref=e574]: vap.8x8.com
+                    - generic [ref=e575]: "(CPaaS) Admin Back Office Application for managing voice services. ▶︎ RDP: If You See Something, Say Something"
+                  - cell "Domain" [ref=e577]
+                  - cell "In scope" [ref=e578]
+                  - cell "Critical" [ref=e584]
+                  - cell "Ineligible" [ref=e594]
+                  - cell "Aug 19, 2025" [ref=e607]
+                  - cell "0 (0%)" [ref=e609]
+                - row [ref=e611]:
+                  - cell [ref=e612]:
+                    - strong [ref=e614]: user-profile.8x8.com
+                  - cell "Domain" [ref=e615]
+                  - cell "In scope" [ref=e616]
+                  - cell "Critical" [ref=e622]
+                  - cell "Eligible" [ref=e632]
+                  - cell "Jan 9, 2023" [ref=e645]
+                  - cell "4 (0%)" [ref=e647]
+                - row [ref=e649]:
+                  - cell [ref=e650]:
+                    - strong [ref=e652]: user-profile-staging.8x8.com
+                  - cell "Domain" [ref=e653]
+                  - cell "In scope" [ref=e654]
+                  - cell "Critical" [ref=e660]
+                  - cell "Eligible" [ref=e670]
+                  - cell "Jan 9, 2023" [ref=e683]
+                  - cell "0 (0%)" [ref=e685]
+                - row [ref=e687]:
+                  - cell [ref=e688]:
+                    - strong [ref=e690]: uc.8x8pilot.com
+                  - cell "Domain" [ref=e691]
+                  - cell "In scope" [ref=e692]
+                  - cell "Critical" [ref=e698]
+                  - cell "Eligible" [ref=e708]
+                  - cell "Jan 9, 2023" [ref=e721]
+                  - cell "0 (0%)" [ref=e723]
+                - row [ref=e725]:
+                  - cell "sso.8x8pilot.com 8x8 Single Sign-On (SSO) is a session and user authentication service that permits a user to use one set of login credentials, such as name and password, to access multiple 8x8 applications. ⚠️ MFA-bypasses requiring prior knowledge of credentials will be treated with MEDIUM severity. Basic Bootstrap:8d398c47ea5957efd8bd86687bc98459 Cloudflare HSTS HTTP/3 Zipkin" [ref=e726]:
+                    - strong [ref=e728]: sso.8x8pilot.com
+                    - generic [ref=e730]:
+                      - text: 8x8 Single Sign-On (SSO) is a session and user authentication service that permits a user to use one set of login credentials, such as name and password, to access multiple 8x8 applications. ⚠️ MFA-bypasses requiring prior knowledge of credentials will be treated with
+                      - code [ref=e731]: MEDIUM
+                      - text: severity.
+                    - generic [ref=e732]:
+                      - generic [ref=e733]: Basic
+                      - generic [ref=e739]: Bootstrap:8d398c47ea5957efd8bd86687bc98459
+                      - generic [ref=e745]: Cloudflare
+                      - generic [ref=e751]: HSTS
+                      - generic [ref=e757]: HTTP/3
+                      - generic [ref=e763]: Zipkin
+                  - cell "Domain" [ref=e769]
+                  - cell "In scope" [ref=e770]
+                  - cell "Critical" [ref=e776]
+                  - cell "Eligible" [ref=e786]
+                  - cell "Jul 17, 2024" [ref=e799]
+                  - cell "1 (0%)" [ref=e801]
+                - row [ref=e803]:
+                  - cell [ref=e804]:
+                    - strong [ref=e806]: sso.8x8.com
+                    - generic [ref=e808]:
+                      - text: 8x8 Single Sign-On (SSO) is a session and user authentication service that permits a user to use one set of login credentials, such as name and password, to access multiple 8x8 applications. ⚠️ MFA-bypasses requiring prior knowledge of credentials will be treated with
+                      - code [ref=e809]: MEDIUM
+                      - text: severity.
+                  - cell "Domain" [ref=e810]
+                  - cell "In scope" [ref=e811]
+                  - cell "Critical" [ref=e817]
+                  - cell "Eligible" [ref=e827]
+                  - cell "Jul 17, 2024" [ref=e840]
+                  - cell "19 (1%)" [ref=e842]
+                - row [ref=e844]:
+                  - cell "sipsynergy.co.uk Apache HTTP Server Google PageSpeed:0 MySQL PHP:7.3.14 Slider Revolution:5.3.1.5 WordPress:6.4.10 Yoast SEO:7.0.3 YouTube" [ref=e845]:
+                    - strong [ref=e847]: sipsynergy.co.uk
+                    - generic [ref=e848]:
+                      - generic [ref=e849]: Apache HTTP Server
+                      - generic [ref=e855]: Google PageSpeed:0
+                      - generic [ref=e861]: MySQL
+                      - generic [ref=e867]: PHP:7.3.14
+                      - generic [ref=e873]: Slider Revolution:5.3.1.5
+                      - generic [ref=e879]: WordPress:6.4.10
+                      - generic [ref=e885]: Yoast SEO:7.0.3
+                      - generic [ref=e891]: YouTube
+                  - cell "Domain" [ref=e897]
+                  - cell "In scope" [ref=e898]
+                  - cell "Critical" [ref=e904]
+                  - cell "Ineligible" [ref=e914]
+                  - cell "Feb 26, 2026" [ref=e927]
+                  - cell "0 (0%)" [ref=e929]
+                - row [ref=e931]:
+                  - cell "qm-*.8x8.com Quality Management & Speech Analytics" [ref=e932]:
+                    - strong [ref=e934]: qm-*.8x8.com
+                    - generic [ref=e935]: Quality Management & Speech Analytics
+                  - cell "Wildcard" [ref=e937]
+                  - cell "In scope" [ref=e938]
+                  - cell "Critical" [ref=e944]
+                  - cell "Ineligible" [ref=e954]
+                  - cell "Jul 11, 2024" [ref=e967]
+                  - cell "1 (0%)" [ref=e969]
+                - row [ref=e971]:
+                  - cell "platform.8x8pilot.com Cloudflare HTTP/3" [ref=e972]:
+                    - strong [ref=e974]: platform.8x8pilot.com
+                    - generic [ref=e975]:
+                      - generic [ref=e976]: Cloudflare
+                      - generic [ref=e982]: HTTP/3
+                  - cell "Domain" [ref=e988]
+                  - cell "In scope" [ref=e989]
+                  - cell "Critical" [ref=e995]
+                  - cell "Eligible" [ref=e1005]
+                  - cell "Jan 9, 2023" [ref=e1018]
+                  - cell "0 (0%)" [ref=e1020]
+                - row [ref=e1022]:
+                  - cell [ref=e1023]:
+                    - strong [ref=e1025]: platform.8x8.com
+                  - cell "Domain" [ref=e1026]
+                  - cell "In scope" [ref=e1027]
+                  - cell "Critical" [ref=e1033]
+                  - cell "Eligible" [ref=e1043]
+                  - cell "Jan 9, 2023" [ref=e1056]
+                  - cell "0 (0%)" [ref=e1058]
+                - row [ref=e1060]:
+                  - cell "pay.8x8.com Cloudflare HTTP/3 Zipkin" [ref=e1061]:
+                    - strong [ref=e1063]: pay.8x8.com
+                    - generic [ref=e1064]:
+                      - generic [ref=e1065]: Cloudflare
+                      - generic [ref=e1071]: HTTP/3
+                      - generic [ref=e1077]: Zipkin
+                  - cell "Domain" [ref=e1083]
+                  - cell "In scope" [ref=e1084]
+                  - cell "Critical" [ref=e1090]
+                  - cell "Eligible" [ref=e1100]
+                  - cell "Jul 20, 2023" [ref=e1113]
+                  - cell "2 (0%)" [ref=e1115]
+                - row [ref=e1117]:
+                  - cell "org.vom8x8.sipua 8x8 Work - https://play.google.com/store/apps/details?id=org.vom8x8.sipua JavaScript" [ref=e1118]:
+                    - strong [ref=e1120]: org.vom8x8.sipua
+                    - generic [ref=e1122]:
+                      - text: 8x8 Work -
+                      - link "https://play.google.com/store/apps/details?id=org.vom8x8.sipua" [ref=e1123] [cursor=pointer]:
+                        - /url: https://play.google.com/store/apps/details?id=org.vom8x8.sipua
+                    - generic [ref=e1124]: JavaScript
+                  - 'cell "Android: Play Store" [ref=e1131]'
+                  - cell "In scope" [ref=e1132]
+                  - cell "Critical" [ref=e1138]
+                  - cell "Ineligible" [ref=e1148]
+                  - cell "May 16, 2026" [ref=e1161]
+                  - cell "7 (1%)" [ref=e1163]
+                - row [ref=e1165]:
+                  - 'cell "mcp.8x8.com ▶︎ RDP: If You See Something, Say Something 8x8''s MCP Catalog" [ref=e1166]':
+                    - strong [ref=e1168]: mcp.8x8.com
+                    - generic [ref=e1169]:
+                      - generic [ref=e1170]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e1171]: 8x8's MCP Catalog
+                  - cell "Domain" [ref=e1172]
+                  - cell "In scope" [ref=e1173]
+                  - cell "Critical" [ref=e1179]
+                  - cell "Ineligible" [ref=e1189]
+                  - cell "Jul 1, 2026" [ref=e1202]
+                  - cell "0 (0%)" [ref=e1204]
+                - row [ref=e1206]:
+                  - 'cell "map.8x8.com ▶︎ RDP: If You See Something, Say Something (CPaaS) Admin Back Office Application. Staging: map.8x8staging.com Development: map.8x8pilot.com" [ref=e1207]':
+                    - strong [ref=e1209]: map.8x8.com
+                    - generic [ref=e1210]:
+                      - generic [ref=e1211]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e1212]: (CPaaS) Admin Back Office Application.
+                      - generic [ref=e1213]: "Staging: map.8x8staging.com Development: map.8x8pilot.com"
+                  - cell "Domain" [ref=e1214]
+                  - cell "In scope" [ref=e1215]
+                  - cell "Critical" [ref=e1221]
+                  - cell "Ineligible" [ref=e1231]
+                  - cell "Aug 30, 2026" [ref=e1244]
+                  - cell "1 (0%)" [ref=e1246]
+                - row [ref=e1248]:
+                  - 'cell "maestro.8x8.cloud ▶︎ RDP: If You See Something, Say Something A CTI (Computer Telephony Integration) bridge via the Maestro SDK. Cloudflare HTTP/3" [ref=e1249]':
+                    - strong [ref=e1251]: maestro.8x8.cloud
+                    - generic [ref=e1252]:
+                      - generic [ref=e1253]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e1254]: A CTI (Computer Telephony Integration) bridge via the Maestro SDK.
+                    - generic [ref=e1255]:
+                      - generic [ref=e1256]: Cloudflare
+                      - generic [ref=e1262]: HTTP/3
+                  - cell "Domain" [ref=e1268]
+                  - cell "In scope" [ref=e1269]
+                  - cell "Critical" [ref=e1275]
+                  - cell "Ineligible" [ref=e1285]
+                  - cell "Jul 27, 2026" [ref=e1298]
+                  - cell "2 (0%)" [ref=e1300]
+                - row [ref=e1302]:
+                  - cell "Intellectual Property on Public Domains Leaks identified in public domains are in scope, provided they contain sensitive or proprietary information that could impact our organization’s confidentiality, integrity, or availability." [ref=e1303]:
+                    - strong [ref=e1305]: Intellectual Property on Public Domains
+                    - generic [ref=e1306]: Leaks identified in public domains are in scope, provided they contain sensitive or proprietary information that could impact our organization’s confidentiality, integrity, or availability.
+                  - cell "Other" [ref=e1308]
+                  - cell "In scope" [ref=e1309]
+                  - cell "Critical" [ref=e1315]
+                  - cell "Eligible" [ref=e1325]
+                  - cell "Aug 26, 2026" [ref=e1338]
+                  - cell "29 (2%)" [ref=e1340]
+                - row [ref=e1342]:
+                  - cell [ref=e1343]:
+                    - strong [ref=e1345]: https://webrtc.8x8.com/
+                  - cell "URL" [ref=e1346]
+                  - cell "In scope" [ref=e1347]
+                  - cell "Critical" [ref=e1353]
+                  - cell "Eligible" [ref=e1363]
+                  - cell "Jul 13, 2023" [ref=e1376]
+                  - cell "0 (0%)" [ref=e1378]
+                - row [ref=e1380]:
+                  - cell [ref=e1381]:
+                    - strong [ref=e1383]: https://8x8.vc/xmpp-websocket
+                  - cell "URL" [ref=e1384]
+                  - cell "In scope" [ref=e1385]
+                  - cell "Critical" [ref=e1391]
+                  - cell "Ineligible" [ref=e1401]
+                  - cell "Jul 10, 2026" [ref=e1414]
+                  - cell "5 (0%)" [ref=e1416]
+                - row [ref=e1418]:
+                  - 'cell "https://*.chalet.8x8.com/ws/v1 8x8 Chat provides comprehensive team messaging capabilities including 1:1 instant messaging, public and private chat rooms, file sharing, and seamless integration with voice and video calling - all designed to streamline team communications and collaboration within organizations. Out of Scope: ⚠️ Third-party websites implementing 8x8 chat solutions (outside of *.8x8.com domains)" [ref=e1419]':
+                    - strong [ref=e1421]: https://*.chalet.8x8.com/ws/v1
+                    - generic [ref=e1422]:
+                      - generic [ref=e1423]: 8x8 Chat provides comprehensive team messaging capabilities including 1:1 instant messaging, public and private chat rooms, file sharing, and seamless integration with voice and video calling - all designed to streamline team communications and collaboration within organizations.
+                      - generic [ref=e1424]:
+                        - strong [ref=e1425]: Out of Scope
+                        - text: ": ⚠️ Third-party websites implementing 8x8 chat solutions (outside of"
+                        - code [ref=e1426]: "*.8x8.com"
+                        - text: domains)
+                  - cell "Wildcard" [ref=e1427]
+                  - cell "In scope" [ref=e1428]
+                  - cell "Critical" [ref=e1434]
+                  - cell "Eligible" [ref=e1444]
+                  - cell "Jul 13, 2025" [ref=e1457]
+                  - cell "2 (0%)" [ref=e1459]
+                - row [ref=e1461]:
+                  - cell "dashboard.qa.ai.8x8.com Analytics for 8x8 Work Java Jetty:9.4.44" [ref=e1462]:
+                    - strong [ref=e1464]: dashboard.qa.ai.8x8.com
+                    - generic [ref=e1465]: Analytics for 8x8 Work
+                    - generic [ref=e1467]:
+                      - generic [ref=e1468]: Java
+                      - generic [ref=e1474]: Jetty:9.4.44
+                  - cell "Domain" [ref=e1480]
+                  - cell "In scope" [ref=e1481]
+                  - cell "Critical" [ref=e1487]
+                  - cell "Ineligible" [ref=e1497]
+                  - cell "Jul 11, 2024" [ref=e1510]
+                  - cell "0 (0%)" [ref=e1512]
+                - row [ref=e1514]:
+                  - 'cell "connect.8x8.com ⚠️ Temporary Scope Exclusion: campaign.wavecell.com, contacts.8x8.com (and equivalents in other regions) ⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID) ⚠️ out of scope: IDORs based on AccountId and subAccountId ⚠️ when testing support functionality please add \"HackerOne\" in your subject line and limit the number of requests to an absolute minimum Amazon CloudFront Amazon S3 Amazon Web Services HSTS" [ref=e1515]':
+                    - strong [ref=e1517]: connect.8x8.com
+                    - generic [ref=e1518]:
+                      - heading [level=2] [ref=e1519]:
+                        - text: ⚠️
+                        - strong [ref=e1520]: Temporary Scope Exclusion
+                        - text: ": campaign.wavecell.com, contacts.8x8.com (and equivalents in other regions)"
+                      - generic [ref=e1521]:
+                        - text: "⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID) ⚠️ out of scope: IDORs based on"
+                        - code [ref=e1522]: AccountId
+                        - text: and
+                        - code [ref=e1523]: subAccountId
+                        - text: ⚠️ when testing support functionality please add "HackerOne" in your subject line and limit the number of requests to an absolute minimum
+                    - generic [ref=e1524]:
+                      - generic [ref=e1525]: Amazon CloudFront
+                      - generic [ref=e1531]: Amazon S3
+                      - generic [ref=e1537]: Amazon Web Services
+                      - generic [ref=e1543]: HSTS
+                  - cell "Domain" [ref=e1549]
+                  - cell "In scope" [ref=e1550]
+                  - cell "Critical" [ref=e1556]
+                  - cell "Ineligible" [ref=e1566]
+                  - cell "Jul 14, 2026" [ref=e1579]
+                  - cell "116 (9%)" [ref=e1581]
+                - row [ref=e1583]:
+                  - cell "cloud8.8x8.com Bootstrap:8d398c47ea5957efd8bd86687bc98459 Cloudflare HSTS HTTP/3 Zipkin" [ref=e1584]:
+                    - strong [ref=e1586]: cloud8.8x8.com
+                    - generic [ref=e1587]:
+                      - generic [ref=e1588]: Bootstrap:8d398c47ea5957efd8bd86687bc98459
+                      - generic [ref=e1594]: Cloudflare
+                      - generic [ref=e1600]: HSTS
+                      - generic [ref=e1606]: HTTP/3
+                      - generic [ref=e1612]: Zipkin
+                  - cell "Domain" [ref=e1618]
+                  - cell "In scope" [ref=e1619]
+                  - cell "Critical" [ref=e1625]
+                  - cell "Ineligible" [ref=e1635]
+                  - cell "Jul 1, 2026" [ref=e1648]
+                  - cell "56 (4%)" [ref=e1650]
+                - row [ref=e1652]:
+                  - 'cell "Cloud Misconfigurations ▶︎ RDP: If You See Something, Say Something Any Cloud asset & configuration owned by 8x8 is in-scope, across various Cloud providers." [ref=e1653]':
+                    - strong [ref=e1655]: Cloud Misconfigurations
+                    - generic [ref=e1656]:
+                      - generic [ref=e1657]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e1658]: Any Cloud asset & configuration owned by 8x8 is in-scope, across various Cloud providers.
+                  - cell "Other" [ref=e1659]
+                  - cell "In scope" [ref=e1660]
+                  - cell "Critical" [ref=e1666]
+                  - cell "Ineligible" [ref=e1676]
+                  - cell "Mar 26, 2025" [ref=e1689]
+                  - cell "2 (0%)" [ref=e1691]
+                - row [ref=e1693]:
+                  - cell "callroute.io Amazon CloudFront Amazon Web Services HSTS" [ref=e1694]:
+                    - strong [ref=e1696]: callroute.io
+                    - generic [ref=e1697]:
+                      - generic [ref=e1698]: Amazon CloudFront
+                      - generic [ref=e1704]: Amazon Web Services
+                      - generic [ref=e1710]: HSTS
+                  - cell "Domain" [ref=e1716]
+                  - cell "In scope" [ref=e1717]
+                  - cell "Critical" [ref=e1723]
+                  - cell "Ineligible" [ref=e1733]
+                  - cell "Feb 26, 2026" [ref=e1746]
+                  - cell "1 (0%)" [ref=e1748]
+                - row [ref=e1750]:
+                  - cell "callroute.com Cloudflare Google Tag Manager HSTS HTTP/3 Litespeed Cache WordPress WP Rocket Yoast SEO:28.3" [ref=e1751]:
+                    - strong [ref=e1753]: callroute.com
+                    - generic [ref=e1754]:
+                      - generic [ref=e1755]: Cloudflare
+                      - generic [ref=e1761]: Google Tag Manager
+                      - generic [ref=e1767]: HSTS
+                      - generic [ref=e1773]: HTTP/3
+                      - generic [ref=e1779]: Litespeed Cache
+                      - generic [ref=e1785]: WordPress
+                      - generic [ref=e1791]: WP Rocket
+                      - generic [ref=e1797]: Yoast SEO:28.3
+                  - cell "Domain" [ref=e1803]
+                  - cell "In scope" [ref=e1804]
+                  - cell "Critical" [ref=e1810]
+                  - cell "Ineligible" [ref=e1820]
+                  - cell "Feb 26, 2026" [ref=e1833]
+                  - cell "1 (0%)" [ref=e1835]
+                - row [ref=e1837]:
+                  - 'cell "bridge.8x8.com ▶︎ RDP: If You See Something, Say Something 8x8 Community Feature Hub Production: bridge.8x8.com Staging: bridge.8x8staging.com Cloudflare HSTS HTTP/3" [ref=e1838]':
+                    - strong [ref=e1840]: bridge.8x8.com
+                    - generic [ref=e1841]:
+                      - generic [ref=e1842]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e1843]: 8x8 Community Feature Hub
+                      - generic [ref=e1844]: "Production: bridge.8x8.com Staging: bridge.8x8staging.com"
+                    - generic [ref=e1845]:
+                      - generic [ref=e1846]: Cloudflare
+                      - generic [ref=e1852]: HSTS
+                      - generic [ref=e1858]: HTTP/3
+                  - cell "Domain" [ref=e1864]
+                  - cell "In scope" [ref=e1865]
+                  - cell "Critical" [ref=e1871]
+                  - cell "Ineligible" [ref=e1881]
+                  - cell "Aug 30, 2026" [ref=e1894]
+                  - cell "2 (0%)" [ref=e1896]
+                - row [ref=e1898]:
+                  - cell [ref=e1899]:
+                    - strong [ref=e1901]: "ASN: AS62876"
+                    - generic [ref=e1902]:
+                      - generic [ref=e1903]:
+                        - strong [ref=e1904]: 8X8-AS-CORP, US
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - list [ref=e1905]:
+                        - listitem [ref=e1906]: 209.94.72.0/24
+                  - cell "Other" [ref=e1907]
+                  - cell "In scope" [ref=e1908]
+                  - cell "Critical" [ref=e1914]
+                  - cell "Ineligible" [ref=e1924]
+                  - cell "Jun 3, 2025" [ref=e1937]
+                  - cell "0 (0%)" [ref=e1939]
+                - row [ref=e1941]:
+                  - cell [ref=e1942]:
+                    - strong [ref=e1944]: "ASN: AS62306"
+                    - generic [ref=e1945]:
+                      - generic [ref=e1946]:
+                        - strong [ref=e1947]: RO-8X8-AS, RO
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - list [ref=e1948]:
+                        - listitem [ref=e1949]: 185.221.220.0/24
+                  - cell "Other" [ref=e1950]
+                  - cell "In scope" [ref=e1951]
+                  - cell "Critical" [ref=e1957]
+                  - cell "Ineligible" [ref=e1967]
+                  - cell "Jun 3, 2025" [ref=e1980]
+                  - cell "0 (0%)" [ref=e1982]
+                - row [ref=e1984]:
+                  - cell [ref=e1985]:
+                    - strong [ref=e1987]: "ASN: AS49856"
+                    - generic [ref=e1989]:
+                      - strong [ref=e1990]: EIGHT-AS, GB
+                      - text: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Other" [ref=e1991]
+                  - cell "In scope" [ref=e1992]
+                  - cell "Critical" [ref=e1998]
+                  - cell "Ineligible" [ref=e2008]
+                  - cell "Jun 3, 2025" [ref=e2021]
+                  - cell "0 (0%)" [ref=e2023]
+                - row [ref=e2025]:
+                  - cell [ref=e2026]:
+                    - strong [ref=e2028]: "ASN: AS46680"
+                    - generic [ref=e2030]:
+                      - strong [ref=e2031]: CONTACTUAL, US
+                      - text: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Other" [ref=e2032]
+                  - cell "In scope" [ref=e2033]
+                  - cell "Critical" [ref=e2039]
+                  - cell "Ineligible" [ref=e2049]
+                  - cell "Jun 3, 2025" [ref=e2062]
+                  - cell "0 (0%)" [ref=e2064]
+                - row [ref=e2066]:
+                  - cell [ref=e2067]:
+                    - strong [ref=e2069]: "ASN: AS44965"
+                    - generic [ref=e2070]:
+                      - generic [ref=e2071]:
+                        - strong [ref=e2072]: CONTACTUAL, US
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - list [ref=e2073]:
+                        - listitem [ref=e2074]: 109.70.61.0/24
+                        - listitem [ref=e2075]: 217.163.57.0/24
+                        - listitem [ref=e2076]: 66.81.220.0/24
+                  - cell "Other" [ref=e2077]
+                  - cell "In scope" [ref=e2078]
+                  - cell "Critical" [ref=e2084]
+                  - cell "Ineligible" [ref=e2094]
+                  - cell "Jun 3, 2025" [ref=e2107]
+                  - cell "0 (0%)" [ref=e2109]
+                - row [ref=e2111]:
+                  - cell [ref=e2112]:
+                    - strong [ref=e2114]: "ASN: AS398067"
+                    - generic [ref=e2116]:
+                      - strong [ref=e2117]: 8X8-AS-SJC01, US
+                      - text: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Other" [ref=e2118]
+                  - cell "In scope" [ref=e2119]
+                  - cell "Critical" [ref=e2125]
+                  - cell "Ineligible" [ref=e2135]
+                  - cell "Jun 3, 2025" [ref=e2148]
+                  - cell "0 (0%)" [ref=e2150]
+                - row [ref=e2152]:
+                  - cell [ref=e2153]:
+                    - strong [ref=e2155]: "ASN: AS395362"
+                    - generic [ref=e2156]:
+                      - generic [ref=e2157]:
+                        - strong [ref=e2158]: 8X8-AS-1, US
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - list [ref=e2159]:
+                        - listitem [ref=e2160]: 8.25.218.0/24
+                        - listitem [ref=e2161]: 38.99.96.0/24
+                  - cell "Other" [ref=e2162]
+                  - cell "In scope" [ref=e2163]
+                  - cell "Critical" [ref=e2169]
+                  - cell "Ineligible" [ref=e2179]
+                  - cell "Jun 3, 2025" [ref=e2192]
+                  - cell "0 (0%)" [ref=e2194]
+                - row [ref=e2196]:
+                  - cell [ref=e2197]:
+                    - strong [ref=e2199]: "ASN: AS32308"
+                    - generic [ref=e2200]:
+                      - generic [ref=e2201]:
+                        - strong [ref=e2202]: 8X8-AS, US
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - list [ref=e2203]:
+                        - listitem [ref=e2204]: 192.84.17.0/24
+                        - listitem [ref=e2205]: 216.59.140.0/24
+                        - listitem [ref=e2206]: 8.28.3.0/24
+                        - listitem [ref=e2207]: 8.28.0.0/24
+                        - listitem [ref=e2208]: 63.209.12.0/24
+                        - listitem [ref=e2209]: 8.28.2.0/24
+                        - listitem [ref=e2210]: 216.59.142.0/24
+                        - listitem [ref=e2211]: 216.59.141.0/24
+                        - listitem [ref=e2212]: 8.28.1.0/24
+                        - listitem [ref=e2213]: 162.221.239.0/24
+                        - listitem [ref=e2214]: 8.21.164.0/24
+                        - listitem [ref=e2215]: 216.59.136.0/24
+                        - listitem [ref=e2216]: 216.59.137.0/24
+                        - listitem [ref=e2217]: 192.84.18.0/24
+                        - listitem [ref=e2218]: 216.59.143.0/24
+                        - listitem [ref=e2219]: 8.25.198.0/24
+                        - listitem [ref=e2220]: 162.221.236.0/23
+                        - listitem [ref=e2221]: 192.84.16.0/24
+                        - listitem [ref=e2222]: 162.221.236.0/24
+                        - listitem [ref=e2223]: 162.221.238.0/24
+                        - listitem [ref=e2224]: 216.59.136.0/21
+                        - listitem [ref=e2225]: 192.84.16.0/22
+                  - cell "Other" [ref=e2226]
+                  - cell "In scope" [ref=e2227]
+                  - cell "Critical" [ref=e2233]
+                  - cell "Ineligible" [ref=e2243]
+                  - cell "Jun 3, 2025" [ref=e2256]
+                  - cell "0 (0%)" [ref=e2258]
+                - row [ref=e2260]:
+                  - cell [ref=e2261]:
+                    - strong [ref=e2263]: "ASN: AS206422"
+                    - generic [ref=e2265]:
+                      - strong [ref=e2266]: IN2TEL-BT, IE
+                      - text: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Other" [ref=e2267]
+                  - cell "In scope" [ref=e2268]
+                  - cell "Critical" [ref=e2274]
+                  - cell "Ineligible" [ref=e2284]
+                  - cell "Jun 3, 2025" [ref=e2297]
+                  - cell "0 (0%)" [ref=e2299]
+                - row [ref=e2301]:
+                  - cell [ref=e2302]:
+                    - strong [ref=e2304]: "ASN: AS199687"
+                    - generic [ref=e2306]:
+                      - strong [ref=e2307]: IN2TEL-DB3, IE
+                      - text: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Other" [ref=e2308]
+                  - cell "In scope" [ref=e2309]
+                  - cell "Critical" [ref=e2315]
+                  - cell "Ineligible" [ref=e2325]
+                  - cell "Jun 3, 2025" [ref=e2338]
+                  - cell "0 (0%)" [ref=e2340]
+                - row [ref=e2342]:
+                  - cell [ref=e2343]:
+                    - strong [ref=e2345]: "ASN: AS198554"
+                    - generic [ref=e2346]:
+                      - generic [ref=e2347]:
+                        - strong [ref=e2348]: DXI-AS, GB
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - list [ref=e2349]:
+                        - listitem [ref=e2350]: 109.70.59.0/24
+                        - listitem [ref=e2351]: 185.173.49.0/24
+                        - listitem [ref=e2352]: 185.173.48.0/22
+                        - listitem [ref=e2353]: 109.70.58.0/24
+                        - listitem [ref=e2354]: 185.173.48.0/24
+                  - cell "Other" [ref=e2355]
+                  - cell "In scope" [ref=e2356]
+                  - cell "Critical" [ref=e2362]
+                  - cell "Ineligible" [ref=e2372]
+                  - cell "Jun 3, 2025" [ref=e2385]
+                  - cell "0 (0%)" [ref=e2387]
+                - row [ref=e2389]:
+                  - cell [ref=e2390]:
+                    - strong [ref=e2392]: "ASN: AS133144"
+                    - generic [ref=e2393]:
+                      - generic [ref=e2394]:
+                        - strong [ref=e2395]: M8X8INC-AS-AP 8x8, Inc., US
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - list [ref=e2396]:
+                        - listitem [ref=e2397]: 103.252.162.0/24
+                        - listitem [ref=e2398]: 103.239.164.0/24
+                        - listitem [ref=e2399]: 66.81.216.0/24
+                        - listitem [ref=e2400]: 66.81.217.0/24
+                  - cell "Other" [ref=e2401]
+                  - cell "In scope" [ref=e2402]
+                  - cell "Critical" [ref=e2408]
+                  - cell "Ineligible" [ref=e2418]
+                  - cell "Jun 3, 2025" [ref=e2431]
+                  - cell "0 (0%)" [ref=e2433]
+                - row [ref=e2435]:
+                  - cell "apps.8x8.com 8x8 Application Panel Bootstrap:8d398c47ea5957efd8bd86687bc98459 Cloudflare HSTS HTTP/3 Zipkin" [ref=e2436]:
+                    - strong [ref=e2438]: apps.8x8.com
+                    - generic [ref=e2439]: 8x8 Application Panel
+                    - generic [ref=e2441]:
+                      - generic [ref=e2442]: Bootstrap:8d398c47ea5957efd8bd86687bc98459
+                      - generic [ref=e2448]: Cloudflare
+                      - generic [ref=e2454]: HSTS
+                      - generic [ref=e2460]: HTTP/3
+                      - generic [ref=e2466]: Zipkin
+                  - cell "Domain" [ref=e2472]
+                  - cell "In scope" [ref=e2473]
+                  - cell "Critical" [ref=e2479]
+                  - cell "Eligible" [ref=e2489]
+                  - cell "Jul 23, 2025" [ref=e2502]
+                  - cell "0 (0%)" [ref=e2504]
+                - row [ref=e2506]:
+                  - cell "api.8x8.com Cloudflare HTTP/3" [ref=e2507]:
+                    - strong [ref=e2509]: api.8x8.com
+                    - generic [ref=e2510]:
+                      - generic [ref=e2511]: Cloudflare
+                      - generic [ref=e2517]: HTTP/3
+                  - cell "Domain" [ref=e2523]
+                  - cell "In scope" [ref=e2524]
+                  - cell "Critical" [ref=e2530]
+                  - cell "Ineligible" [ref=e2540]
+                  - cell "Jul 1, 2024" [ref=e2553]
+                  - cell "0 (0%)" [ref=e2555]
+                - row [ref=e2557]:
+                  - cell "analytics-*.8x8.com Analytics for Contact Center ⚠️ shareable Wallboard links are out of scope" [ref=e2558]:
+                    - strong [ref=e2560]: analytics-*.8x8.com
+                    - generic [ref=e2561]: Analytics for Contact Center ⚠️ shareable Wallboard links are out of scope
+                  - cell "Wildcard" [ref=e2563]
+                  - cell "In scope" [ref=e2564]
+                  - cell "Critical" [ref=e2570]
+                  - cell "Ineligible" [ref=e2580]
+                  - cell "Jul 11, 2024" [ref=e2593]
+                  - cell "0 (0%)" [ref=e2595]
+                - row [ref=e2597]:
+                  - cell "admin.8x8.com Administration portal for managing your 8x8 service including users and telephony features Bootstrap:8d398c47ea5957efd8bd86687bc98459 Cloudflare HSTS HTTP/3 Zipkin" [ref=e2598]:
+                    - strong [ref=e2600]: admin.8x8.com
+                    - generic [ref=e2601]: Administration portal for managing your 8x8 service including users and telephony features
+                    - generic [ref=e2603]:
+                      - generic [ref=e2604]: Bootstrap:8d398c47ea5957efd8bd86687bc98459
+                      - generic [ref=e2610]: Cloudflare
+                      - generic [ref=e2616]: HSTS
+                      - generic [ref=e2622]: HTTP/3
+                      - generic [ref=e2628]: Zipkin
+                  - cell "Domain" [ref=e2634]
+                  - cell "In scope" [ref=e2635]
+                  - cell "Critical" [ref=e2641]
+                  - cell "Eligible" [ref=e2651]
+                  - cell "Jul 23, 2025" [ref=e2664]
+                  - cell "11 (1%)" [ref=e2666]
+                - row [ref=e2668]:
+                  - cell "8x8-work https://apps.apple.com/us/app/8x8-work/id348177448 The 8x8 Work app for iPhone puts your business communications in your pocket—secure voice calls, HD video meetings, and team chat, all in one beautifully streamlined app. Whether in back-to-back meetings or between coffee breaks, 8x8 Work keeps you seamlessly connected." [ref=e2669]:
+                    - strong [ref=e2671]: 8x8-work
+                    - generic [ref=e2672]:
+                      - link "https://apps.apple.com/us/app/8x8-work/id348177448" [ref=e2674] [cursor=pointer]:
+                        - /url: https://apps.apple.com/us/app/8x8-work/id348177448
+                      - generic [ref=e2675]: The 8x8 Work app for iPhone puts your business communications in your pocket—secure voice calls, HD video meetings, and team chat, all in one beautifully streamlined app. Whether in back-to-back meetings or between coffee breaks, 8x8 Work keeps you seamlessly connected.
+                  - 'cell "iOS: App Store" [ref=e2676]'
+                  - cell "In scope" [ref=e2677]
+                  - cell "Critical" [ref=e2683]
+                  - cell "Ineligible" [ref=e2693]
+                  - cell "May 16, 2026" [ref=e2706]
+                  - cell "3 (0%)" [ref=e2708]
+                - row [ref=e2710]:
+                  - 'cell "8x8 Communication APIs Transform customer interactions with our seamless SMS, messaging, video, and voice solutions. ⚠️ Self Sign-up is available: https://connect.8x8.com/ ⚠️ 8x8 CPaaS developer portal ⚠️ All APIs listed under \"8x8 Connect\" are in-scope. ⚠️ In-Scope examples: sms.8x8.com chatapps.8x8.com {product}.8x8.uk {product}.8x8.id {product}.us.8x8.com {product}.{region}.cpaas-net.8x8.com Amazon Web Services Google Cloud Platform" [ref=e2711]':
+                    - strong [ref=e2713]: 8x8 Communication APIs
+                    - generic [ref=e2714]:
+                      - generic [ref=e2715]:
+                        - text: "Transform customer interactions with our seamless SMS, messaging, video, and voice solutions. ⚠️ Self Sign-up is available:"
+                        - link "https://connect.8x8.com/" [ref=e2716] [cursor=pointer]:
+                          - /url: https://connect.8x8.com/
+                        - text: ⚠️
+                        - link "8x8 CPaaS developer portal" [ref=e2717] [cursor=pointer]:
+                          - /url: https://developer.8x8.com/connect
+                        - text: "⚠️ All APIs listed under \"8x8 Connect\" are in-scope. ⚠️ In-Scope examples:"
+                      - list [ref=e2718]:
+                        - listitem [ref=e2719]: sms.8x8.com
+                        - listitem [ref=e2720]: chatapps.8x8.com
+                        - listitem [ref=e2721]: "{product}.8x8.uk"
+                        - listitem [ref=e2722]: "{product}.8x8.id"
+                        - listitem [ref=e2723]: "{product}.us.8x8.com"
+                        - listitem [ref=e2724]: "{product}.{region}.cpaas-net.8x8.com"
+                    - generic [ref=e2725]:
+                      - generic [ref=e2726]: Amazon Web Services
+                      - generic [ref=e2732]: Google Cloud Platform
+                  - cell "API" [ref=e2738]
+                  - cell "In scope" [ref=e2739]
+                  - cell "Critical" [ref=e2745]
+                  - cell "Ineligible" [ref=e2755]
+                  - cell "Jul 14, 2026" [ref=e2768]
+                  - cell "9 (1%)" [ref=e2770]
+                - row [ref=e2772]:
+                  - cell [ref=e2773]:
+                    - strong [ref=e2775]: "*.wavecell.com"
+                  - cell "Wildcard" [ref=e2776]
+                  - cell "In scope" [ref=e2777]
+                  - cell "Critical" [ref=e2783]
+                  - cell "Eligible" [ref=e2793]
+                  - cell "Jul 13, 2023" [ref=e2806]
+                  - cell "34 (3%)" [ref=e2808]
+                - row [ref=e2810]:
+                  - 'cell "*.ucverse.com ▶︎ RDP: If You See Something, Say Something" [ref=e2811]':
+                    - strong [ref=e2813]: "*.ucverse.com"
+                    - generic [ref=e2814]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e2816]
+                  - cell "In scope" [ref=e2817]
+                  - cell "Critical" [ref=e2823]
+                  - cell "Ineligible" [ref=e2833]
+                  - cell "Dec 17, 2025" [ref=e2846]
+                  - cell "1 (0%)" [ref=e2848]
+                - row [ref=e2850]:
+                  - 'cell "*.thinkingphones.net ▶︎ RDP: If You See Something, Say Something" [ref=e2851]':
+                    - strong [ref=e2853]: "*.thinkingphones.net"
+                    - generic [ref=e2854]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e2856]
+                  - cell "In scope" [ref=e2857]
+                  - cell "Critical" [ref=e2863]
+                  - cell "Ineligible" [ref=e2873]
+                  - cell "Sep 2, 2024" [ref=e2886]
+                  - cell "6 (0%)" [ref=e2888]
+                - row [ref=e2890]:
+                  - 'cell "*.thinkingphones.com ▶︎ RDP: If You See Something, Say Something" [ref=e2891]':
+                    - strong [ref=e2893]: "*.thinkingphones.com"
+                    - generic [ref=e2894]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e2896]
+                  - cell "In scope" [ref=e2897]
+                  - cell "Critical" [ref=e2903]
+                  - cell "Ineligible" [ref=e2913]
+                  - cell "Sep 2, 2024" [ref=e2926]
+                  - cell "7 (1%)" [ref=e2928]
+                - row [ref=e2930]:
+                  - 'cell "*.prod.cloud.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e2931]':
+                    - strong [ref=e2933]: "*.prod.cloud.8x8.com"
+                    - generic [ref=e2934]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e2936]
+                  - cell "In scope" [ref=e2937]
+                  - cell "Critical" [ref=e2943]
+                  - cell "Ineligible" [ref=e2953]
+                  - cell "Feb 17, 2025" [ref=e2966]
+                  - cell "0 (0%)" [ref=e2968]
+                - row [ref=e2970]:
+                  - cell "*.packet8.net Amazon Web Services" [ref=e2971]:
+                    - strong [ref=e2973]: "*.packet8.net"
+                    - generic [ref=e2974]: Amazon Web Services
+                  - cell "Wildcard" [ref=e2981]
+                  - cell "In scope" [ref=e2982]
+                  - cell "Critical" [ref=e2988]
+                  - cell "Eligible" [ref=e2998]
+                  - cell "Jul 13, 2023" [ref=e3011]
+                  - cell "8 (1%)" [ref=e3013]
+                - row [ref=e3015]:
+                  - cell [ref=e3016]:
+                    - strong [ref=e3018]: "*.p8t.us"
+                  - cell "Wildcard" [ref=e3019]
+                  - cell "In scope" [ref=e3020]
+                  - cell "Critical" [ref=e3026]
+                  - cell "Eligible" [ref=e3036]
+                  - cell "Jul 13, 2023" [ref=e3049]
+                  - cell "0 (0%)" [ref=e3051]
+                - row [ref=e3053]:
+                  - 'cell "*.jitsi.net Jitsi is a set of open-source projects that allows you to easily build and deploy secure videoconferencing solutions. We are best known for our Jitsi Meet video conferencing platform. Out of Scope: ⚠️ Application logic bugs or non-production features in alpha.jitsi.net or moderated-pilot.jitsi.net Amazon Web Services Oracle Cloud" [ref=e3054]':
+                    - strong [ref=e3056]: "*.jitsi.net"
+                    - generic [ref=e3057]:
+                      - generic [ref=e3058]: Jitsi is a set of open-source projects that allows you to easily build and deploy secure videoconferencing solutions. We are best known for our Jitsi Meet video conferencing platform.
+                      - generic [ref=e3059]:
+                        - strong [ref=e3060]: "Out of Scope:"
+                        - text: ⚠️ Application logic bugs or non-production features in
+                        - link "alpha.jitsi.net" [ref=e3061] [cursor=pointer]:
+                          - /url: https://alpha.jitsi.net/
+                        - text: or
+                        - link "moderated-pilot.jitsi.net" [ref=e3062] [cursor=pointer]:
+                          - /url: https://moderated-pilot.jitsi.net/
+                    - generic [ref=e3063]:
+                      - generic [ref=e3064]: Amazon Web Services
+                      - generic [ref=e3070]: Oracle Cloud
+                  - cell "Wildcard" [ref=e3076]
+                  - cell "In scope" [ref=e3077]
+                  - cell "Critical" [ref=e3083]
+                  - cell "Ineligible" [ref=e3093]
+                  - cell "Jul 2, 2026" [ref=e3106]
+                  - cell "90 (7%)" [ref=e3108]
+                - row [ref=e3110]:
+                  - 'cell "*.jit.si Jitsi is a set of open-source projects that allows you to easily build and deploy secure videoconferencing solutions. We are best known for our Jitsi Meet video conferencing platform, meet.jit.si where we host a Jitsi Meet instance that the community can use for totally free video conferences , and the Jitsi Videobridge that powers all of our multi-party video capabilities. Out of Scope: ⚠️ Application logic bugs or non-production features in beta.meet.jit.si Amazon Web Services C++ Java JavaScript Kotlin Objective-C Oracle Cloud React" [ref=e3111]':
+                    - strong [ref=e3113]: "*.jit.si"
+                    - generic [ref=e3114]:
+                      - generic [ref=e3115]:
+                        - text: Jitsi is a set of open-source projects that allows you to easily build and deploy secure videoconferencing solutions. We are best known for our Jitsi Meet video conferencing platform,
+                        - link "meet.jit.si" [ref=e3116] [cursor=pointer]:
+                          - /url: https://meet.jit.si/
+                        - text: where we host a Jitsi Meet instance that the community can use for totally free video conferences , and the Jitsi Videobridge that powers all of our multi-party video capabilities.
+                      - generic [ref=e3117]:
+                        - strong [ref=e3118]: "Out of Scope:"
+                        - text: ⚠️ Application logic bugs or non-production features in
+                        - link "beta.meet.jit.si" [ref=e3119] [cursor=pointer]:
+                          - /url: https://beta.meet.jit.si/
+                    - generic [ref=e3120]:
+                      - generic [ref=e3121]: Amazon Web Services
+                      - generic [ref=e3127]: C++
+                      - generic [ref=e3133]: Java
+                      - generic [ref=e3139]: JavaScript
+                      - generic [ref=e3145]: Kotlin
+                      - generic [ref=e3151]: Objective-C
+                      - generic [ref=e3157]: Oracle Cloud
+                      - generic [ref=e3163]: React
+                  - cell "Wildcard" [ref=e3169]
+                  - cell "In scope" [ref=e3170]
+                  - cell "Critical" [ref=e3176]
+                  - cell "Ineligible" [ref=e3186]
+                  - cell "Jul 2, 2026" [ref=e3199]
+                  - cell "36 (3%)" [ref=e3201]
+                - row [ref=e3203]:
+                  - 'cell "*.in2tel.ie ▶︎ RDP: If You See Something, Say Something" [ref=e3204]':
+                    - strong [ref=e3206]: "*.in2tel.ie"
+                    - generic [ref=e3207]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3209]
+                  - cell "In scope" [ref=e3210]
+                  - cell "Critical" [ref=e3216]
+                  - cell "Ineligible" [ref=e3226]
+                  - cell "Feb 27, 2025" [ref=e3239]
+                  - cell "3 (0%)" [ref=e3241]
+                - row [ref=e3243]:
+                  - 'cell "*.chalet.8x8.com 8x8 Chat provides comprehensive team messaging capabilities including 1:1 instant messaging, public and private chat rooms, file sharing, and seamless integration with voice and video calling - all designed to streamline team communications and collaboration within organizations. Out of Scope: ⚠️ Third-party websites implementing 8x8 chat solutions (outside of *.8x8.com domains)" [ref=e3244]':
+                    - strong [ref=e3246]: "*.chalet.8x8.com"
+                    - generic [ref=e3247]:
+                      - generic [ref=e3248]: 8x8 Chat provides comprehensive team messaging capabilities including 1:1 instant messaging, public and private chat rooms, file sharing, and seamless integration with voice and video calling - all designed to streamline team communications and collaboration within organizations.
+                      - generic [ref=e3249]:
+                        - strong [ref=e3250]: Out of Scope
+                        - text: ": ⚠️ Third-party websites implementing 8x8 chat solutions (outside of"
+                        - code [ref=e3251]: "*.8x8.com"
+                        - text: domains)
+                  - cell "Wildcard" [ref=e3252]
+                  - cell "In scope" [ref=e3253]
+                  - cell "Critical" [ref=e3259]
+                  - cell "Eligible" [ref=e3269]
+                  - cell "Jul 13, 2025" [ref=e3282]
+                  - cell "5 (0%)" [ref=e3284]
+                - row [ref=e3286]:
+                  - 'cell "*.call-control.ie ▶︎ RDP: If You See Something, Say Something" [ref=e3287]':
+                    - strong [ref=e3289]: "*.call-control.ie"
+                    - generic [ref=e3290]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3292]
+                  - cell "In scope" [ref=e3293]
+                  - cell "Critical" [ref=e3299]
+                  - cell "Ineligible" [ref=e3309]
+                  - cell "May 30, 2025" [ref=e3322]
+                  - cell "0 (0%)" [ref=e3324]
+                - row [ref=e3326]:
+                  - 'cell "*.8x8staging.com ▶︎ RDP: If You See Something, Say Something" [ref=e3327]':
+                    - strong [ref=e3329]: "*.8x8staging.com"
+                    - generic [ref=e3330]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3332]
+                  - cell "In scope" [ref=e3333]
+                  - cell "Critical" [ref=e3339]
+                  - cell "Ineligible" [ref=e3349]
+                  - cell "Aug 31, 2026" [ref=e3362]
+                  - cell "4 (0%)" [ref=e3364]
+                - row [ref=e3366]:
+                  - 'cell "*.8x8e2e.com ▶︎ RDP: If You See Something, Say Something" [ref=e3367]':
+                    - strong [ref=e3369]: "*.8x8e2e.com"
+                    - generic [ref=e3370]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3372]
+                  - cell "In scope" [ref=e3373]
+                  - cell "Critical" [ref=e3379]
+                  - cell "Ineligible" [ref=e3389]
+                  - cell "Sep 2, 2024" [ref=e3402]
+                  - cell "2 (0%)" [ref=e3404]
+                - row [ref=e3406]:
+                  - cell [ref=e3407]:
+                    - strong [ref=e3409]: "*.8x8cloud.net"
+                  - cell "Wildcard" [ref=e3410]
+                  - cell "In scope" [ref=e3411]
+                  - cell "Critical" [ref=e3417]
+                  - cell "Eligible" [ref=e3427]
+                  - cell "Jul 13, 2023" [ref=e3440]
+                  - cell "14 (1%)" [ref=e3442]
+                - row [ref=e3444]:
+                  - cell "*.8x8.vc Professional Meetings and Jitsi as a Service. At this time 8x8 does not provide credentials and researchers are responsible for any fees occurred if signing up for the service. Amazon Web Services C++ Java JavaScript Kotlin Objective-C Oracle Cloud React" [ref=e3445]:
+                    - strong [ref=e3447]: "*.8x8.vc"
+                    - generic [ref=e3448]: Professional Meetings and Jitsi as a Service. At this time 8x8 does not provide credentials and researchers are responsible for any fees occurred if signing up for the service.
+                    - generic [ref=e3450]:
+                      - generic [ref=e3451]: Amazon Web Services
+                      - generic [ref=e3457]: C++
+                      - generic [ref=e3463]: Java
+                      - generic [ref=e3469]: JavaScript
+                      - generic [ref=e3475]: Kotlin
+                      - generic [ref=e3481]: Objective-C
+                      - generic [ref=e3487]: Oracle Cloud
+                      - generic [ref=e3493]: React
+                  - cell "Wildcard" [ref=e3499]
+                  - cell "In scope" [ref=e3500]
+                  - cell "Critical" [ref=e3506]
+                  - cell "Ineligible" [ref=e3516]
+                  - cell "Jul 10, 2026" [ref=e3529]
+                  - cell "59 (5%)" [ref=e3531]
+                - row [ref=e3533]:
+                  - 'cell "*.8x8.uk ▶︎ RDP: If You See Something, Say Something" [ref=e3534]':
+                    - strong [ref=e3536]: "*.8x8.uk"
+                    - generic [ref=e3537]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3539]
+                  - cell "In scope" [ref=e3540]
+                  - cell "Critical" [ref=e3546]
+                  - cell "Ineligible" [ref=e3556]
+                  - cell "Sep 2, 2024" [ref=e3569]
+                  - cell "0 (0%)" [ref=e3571]
+                - row [ref=e3573]:
+                  - 'cell "*.8x8.id ▶︎ RDP: If You See Something, Say Something" [ref=e3574]':
+                    - strong [ref=e3576]: "*.8x8.id"
+                    - generic [ref=e3577]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3579]
+                  - cell "In scope" [ref=e3580]
+                  - cell "Critical" [ref=e3586]
+                  - cell "Ineligible" [ref=e3596]
+                  - cell "Sep 2, 2024" [ref=e3609]
+                  - cell "2 (0%)" [ref=e3611]
+                - row [ref=e3613]:
+                  - 'cell "*.8x8.engineering ▶︎ RDP: If You See Something, Say Something" [ref=e3614]':
+                    - strong [ref=e3616]: "*.8x8.engineering"
+                    - generic [ref=e3617]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3619]
+                  - cell "In scope" [ref=e3620]
+                  - cell "Critical" [ref=e3626]
+                  - cell "Ineligible" [ref=e3636]
+                  - cell "Aug 30, 2026" [ref=e3649]
+                  - cell "0 (0%)" [ref=e3651]
+                - row [ref=e3653]:
+                  - 'cell "*.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e3654]':
+                    - strong [ref=e3656]: "*.8x8.com"
+                    - generic [ref=e3657]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3659]
+                  - cell "In scope" [ref=e3660]
+                  - cell "Critical" [ref=e3666]
+                  - cell "Ineligible" [ref=e3676]
+                  - cell "Sep 2, 2024" [ref=e3689]
+                  - cell "185 (14%)" [ref=e3691]
+                - row [ref=e3693]:
+                  - 'cell "*.8x8.co.uk ▶︎ RDP: If You See Something, Say Something" [ref=e3694]':
+                    - strong [ref=e3696]: "*.8x8.co.uk"
+                    - generic [ref=e3697]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3699]
+                  - cell "In scope" [ref=e3700]
+                  - cell "Critical" [ref=e3706]
+                  - cell "Ineligible" [ref=e3716]
+                  - cell "Sep 2, 2024" [ref=e3729]
+                  - cell "2 (0%)" [ref=e3731]
+                - row [ref=e3733]:
+                  - 'cell "*.8x8.cloud ▶︎ RDP: If You See Something, Say Something" [ref=e3734]':
+                    - strong [ref=e3736]: "*.8x8.cloud"
+                    - generic [ref=e3737]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e3739]
+                  - cell "In scope" [ref=e3740]
+                  - cell "Critical" [ref=e3746]
+                  - cell "Ineligible" [ref=e3756]
+                  - cell "Aug 30, 2026" [ref=e3769]
+                  - cell "0 (0%)" [ref=e3771]
+                - row [ref=e3773]:
+                  - 'cell "video-agent.8x8.com ▶︎ RDP: If You See Something, Say Something 8x8 Video Interaction revolutionizes customer engagement by enabling one-to-one video calls with our easy-to-use solution. Launch live video chats instantly—no sign-ups or downloads needed." [ref=e3774]':
+                    - strong [ref=e3776]: video-agent.8x8.com
+                    - generic [ref=e3777]:
+                      - generic [ref=e3778]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e3779]: 8x8 Video Interaction revolutionizes customer engagement by enabling one-to-one video calls with our easy-to-use solution. Launch live video chats instantly—no sign-ups or downloads needed.
+                  - cell "Domain" [ref=e3780]
+                  - cell "In scope" [ref=e3781]
+                  - cell "High" [ref=e3787]
+                  - cell "Ineligible" [ref=e3797]
+                  - cell "May 29, 2026" [ref=e3810]
+                  - cell "0 (0%)" [ref=e3812]
+                - row [ref=e3814]:
+                  - 'cell "Third Party Application ▶︎ RDP: If You See Something, Say Something ⚠️ Evaluation on case-by-case basis" [ref=e3815]':
+                    - strong [ref=e3817]: Third Party Application
+                    - generic [ref=e3818]: "▶︎ RDP: If You See Something, Say Something ⚠️ Evaluation on case-by-case basis"
+                  - cell "Other" [ref=e3820]
+                  - cell "In scope" [ref=e3821]
+                  - cell "High" [ref=e3827]
+                  - cell "Ineligible" [ref=e3837]
+                  - cell "Sep 18, 2024" [ref=e3850]
+                  - cell "4 (0%)" [ref=e3852]
+                - row [ref=e3854]:
+                  - 'cell "resolve.8x8.com ▶︎ RDP: If You See Something, Say Something 8x8 Resolve, a mobile-first critical communications and incident management solution purpose-built to reach deskless and distributed workers." [ref=e3855]':
+                    - strong [ref=e3857]: resolve.8x8.com
+                    - generic [ref=e3858]:
+                      - generic [ref=e3859]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e3860]: 8x8 Resolve, a mobile-first critical communications and incident management solution purpose-built to reach deskless and distributed workers.
+                  - cell "Domain" [ref=e3861]
+                  - cell "In scope" [ref=e3862]
+                  - cell "High" [ref=e3868]
+                  - cell "Ineligible" [ref=e3878]
+                  - cell "May 29, 2026" [ref=e3891]
+                  - cell "1 (0%)" [ref=e3893]
+                - row [ref=e3895]:
+                  - 'cell "pubtools.private.8x8cloud.net ▶︎ RDP: If You See Something, Say Something Global Technical Support Enablement Amazon ALB Amazon Web Services Bootstrap HSTS Nginx:1.18.0 Ubuntu" [ref=e3896]':
+                    - strong [ref=e3898]: pubtools.private.8x8cloud.net
+                    - generic [ref=e3899]:
+                      - generic [ref=e3900]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e3901]: Global Technical Support Enablement
+                    - generic [ref=e3902]:
+                      - generic [ref=e3903]: Amazon ALB
+                      - generic [ref=e3909]: Amazon Web Services
+                      - generic [ref=e3915]: Bootstrap
+                      - generic [ref=e3921]: HSTS
+                      - generic [ref=e3927]: Nginx:1.18.0
+                      - generic [ref=e3933]: Ubuntu
+                  - cell "Domain" [ref=e3939]
+                  - cell "In scope" [ref=e3940]
+                  - cell "High" [ref=e3946]
+                  - cell "Ineligible" [ref=e3956]
+                  - cell "Jun 14, 2026" [ref=e3969]
+                  - cell "5 (0%)" [ref=e3971]
+                - row [ref=e3973]:
+                  - 'cell "https://www.npmjs.com/package/@8x8/pui-partner-comm ▶︎ RDP: If You See Something, Say Something 8x8 platform-ui package for partner integration" [ref=e3974]':
+                    - strong [ref=e3976]: https://www.npmjs.com/package/@8x8/pui-partner-comm
+                    - generic [ref=e3977]:
+                      - generic [ref=e3978]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e3979]: 8x8 platform-ui package for partner integration
+                  - cell "Other" [ref=e3980]
+                  - cell "In scope" [ref=e3981]
+                  - cell "High" [ref=e3987]
+                  - cell "Ineligible" [ref=e3997]
+                  - cell "Feb 12, 2025" [ref=e4010]
+                  - cell "0 (0%)" [ref=e4012]
+                - row [ref=e4014]:
+                  - 'cell "Discovered Leaked Credentials ▶︎ RDP: If You See Something, Say Something 🚨 Testing of customer/consumer credentials is strictly prohibited ⚠️ Researchers should submit the leaked credentials to us and must NOT test their validity beyond authenticating and then immediately deauthenticating - without exercising any functionality ⚠️ Researchers must always include the source of where they found a leak ⚠️ Researchers must not purchase credentials from a source that obtained them illegally" [ref=e4015]':
+                    - strong [ref=e4017]: Discovered Leaked Credentials
+                    - generic [ref=e4018]: "▶︎ RDP: If You See Something, Say Something 🚨 Testing of customer/consumer credentials is strictly prohibited ⚠️ Researchers should submit the leaked credentials to us and must NOT test their validity beyond authenticating and then immediately deauthenticating - without exercising any functionality ⚠️ Researchers must always include the source of where they found a leak ⚠️ Researchers must not purchase credentials from a source that obtained them illegally"
+                  - cell "Other" [ref=e4020]
+                  - cell "In scope" [ref=e4021]
+                  - cell "High" [ref=e4027]
+                  - cell "Ineligible" [ref=e4037]
+                  - cell "Sep 20, 2024" [ref=e4050]
+                  - cell "14 (1%)" [ref=e4052]
+                - row [ref=e4054]:
+                  - 'cell "developer.8x8.com ▶︎ RDP: If You See Something, Say Something Powered by GitHub Pages. Docusaurus:3.9.1 Fastly GitHub Pages React Varnish Webpack" [ref=e4055]':
+                    - strong [ref=e4057]: developer.8x8.com
+                    - generic [ref=e4058]:
+                      - generic [ref=e4059]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4060]: Powered by GitHub Pages.
+                    - generic [ref=e4061]:
+                      - generic [ref=e4062]: Docusaurus:3.9.1
+                      - generic [ref=e4068]: Fastly
+                      - generic [ref=e4074]: GitHub Pages
+                      - generic [ref=e4080]: React
+                      - generic [ref=e4086]: Varnish
+                      - generic [ref=e4092]: Webpack
+                  - cell "Domain" [ref=e4098]
+                  - cell "In scope" [ref=e4099]
+                  - cell "High" [ref=e4105]
+                  - cell "Ineligible" [ref=e4115]
+                  - cell "Oct 31, 2025" [ref=e4128]
+                  - cell "0 (0%)" [ref=e4130]
+                - row [ref=e4132]:
+                  - 'cell "community.8x8.com ▶︎ RDP: If You See Something, Say Something Powered by Higher Logic. Amazon ALB Amazon S3 Amazon Web Services Bootstrap:3.4.1 HSTS jQuery Microsoft ASP.NET Slick" [ref=e4133]':
+                    - strong [ref=e4135]: community.8x8.com
+                    - generic [ref=e4137]:
+                      - text: "▶︎ RDP: If You See Something, Say Something Powered by"
+                      - link "Higher Logic" [ref=e4138] [cursor=pointer]:
+                        - /url: https://support.higherlogic.com/hc/en-us/articles/12907719279380-Security-related-Support
+                      - text: .
+                    - generic [ref=e4139]:
+                      - generic [ref=e4140]: Amazon ALB
+                      - generic [ref=e4146]: Amazon S3
+                      - generic [ref=e4152]: Amazon Web Services
+                      - generic [ref=e4158]: Bootstrap:3.4.1
+                      - generic [ref=e4164]: HSTS
+                      - generic [ref=e4170]: jQuery
+                      - generic [ref=e4176]: Microsoft ASP.NET
+                      - generic [ref=e4182]: Slick
+                  - cell "Domain" [ref=e4188]
+                  - cell "In scope" [ref=e4189]
+                  - cell "High" [ref=e4195]
+                  - cell "Ineligible" [ref=e4205]
+                  - cell "Mar 4, 2025" [ref=e4218]
+                  - cell "2 (0%)" [ref=e4220]
+                - row [ref=e4222]:
+                  - 'cell "admin-resolve.8x8.com ▶︎ RDP: If You See Something, Say Something 8x8 Resolve, a mobile-first critical communications and incident management solution purpose-built to reach deskless and distributed workers." [ref=e4223]':
+                    - strong [ref=e4225]: admin-resolve.8x8.com
+                    - generic [ref=e4226]:
+                      - generic [ref=e4227]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4228]: 8x8 Resolve, a mobile-first critical communications and incident management solution purpose-built to reach deskless and distributed workers.
+                  - cell "Domain" [ref=e4229]
+                  - cell "In scope" [ref=e4230]
+                  - cell "High" [ref=e4236]
+                  - cell "Ineligible" [ref=e4246]
+                  - cell "May 29, 2026" [ref=e4259]
+                  - cell "2 (0%)" [ref=e4261]
+                - row [ref=e4263]:
+                  - 'cell "8x8.my.site.com Portal for management of your 8x8 account, billing, orders, and support cases ⚠️ when testing support functionality please add \"HackerOne\" in your subject line and limit the number of requests to an absolute minimum ⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID) Salesforce" [ref=e4264]':
+                    - strong [ref=e4266]: 8x8.my.site.com
+                    - generic [ref=e4267]: "Portal for management of your 8x8 account, billing, orders, and support cases ⚠️ when testing support functionality please add \"HackerOne\" in your subject line and limit the number of requests to an absolute minimum ⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID)"
+                    - generic [ref=e4269]: Salesforce
+                  - cell "Domain" [ref=e4276]
+                  - cell "In scope" [ref=e4277]
+                  - cell "High" [ref=e4283]
+                  - cell "Ineligible" [ref=e4293]
+                  - cell "Jul 22, 2024" [ref=e4306]
+                  - cell "17 (1%)" [ref=e4308]
+                - row [ref=e4310]:
+                  - 'cell "8x8 Partner Portal ▶︎ https://partnerxchange.8x8.com/ ▶︎ https://8x8.my.site.com/partnerxchange/ ▶︎ https://8x8.force.com/partnerxchange/ ⚠️ out of scope: Disclosure of non-sensitive information, such as Name, City, etc. ⚠️ out of scope: ContentDocument if considered non-sensitive (e.g. marketing collateral) ⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID) Salesforce" [ref=e4311]':
+                    - strong [ref=e4313]: 8x8 Partner Portal
+                    - generic [ref=e4315]:
+                      - text: ▶︎
+                      - link "https://partnerxchange.8x8.com/" [ref=e4316] [cursor=pointer]:
+                        - /url: https://partnerxchange.8x8.com/
+                      - text: ▶︎
+                      - link "https://8x8.my.site.com/partnerxchange/" [ref=e4317] [cursor=pointer]:
+                        - /url: https://8x8.my.site.com/partnerxchange/
+                      - text: ▶︎
+                      - link "https://8x8.force.com/partnerxchange/" [ref=e4318] [cursor=pointer]:
+                        - /url: https://8x8.force.com/partnerxchange/
+                      - text: "⚠️ out of scope: Disclosure of non-sensitive information, such as"
+                      - code [ref=e4319]: Name
+                      - text: ","
+                      - code [ref=e4320]: City
+                      - text: ", etc. ⚠️ out of scope:"
+                      - code [ref=e4321]: ContentDocument
+                      - text: "if considered non-sensitive (e.g. marketing collateral) ⚠️ out of scope: IDORs in form of unguessable/non-enumerable identifier (UUID)"
+                    - generic [ref=e4322]: Salesforce
+                  - cell "Other" [ref=e4329]
+                  - cell "In scope" [ref=e4330]
+                  - cell "High" [ref=e4336]
+                  - cell "Ineligible" [ref=e4346]
+                  - cell "Aug 1, 2025" [ref=e4359]
+                  - cell "23 (2%)" [ref=e4361]
+                - row [ref=e4363]:
+                  - 'cell "*.ociadmin.cloud.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e4364]':
+                    - strong [ref=e4366]: "*.ociadmin.cloud.8x8.com"
+                    - generic [ref=e4367]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e4369]
+                  - cell "In scope" [ref=e4370]
+                  - cell "High" [ref=e4376]
+                  - cell "Ineligible" [ref=e4386]
+                  - cell "Feb 17, 2025" [ref=e4399]
+                  - cell "1 (0%)" [ref=e4401]
+                - row [ref=e4403]:
+                  - 'cell "*.labs.8x8.com ▶︎ RDP: If You See Something, Say Something 8x8''s Vibe Platform" [ref=e4404]':
+                    - strong [ref=e4406]: "*.labs.8x8.com"
+                    - generic [ref=e4407]:
+                      - generic [ref=e4408]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4409]: 8x8's Vibe Platform
+                  - cell "Wildcard" [ref=e4410]
+                  - cell "In scope" [ref=e4411]
+                  - cell "High" [ref=e4417]
+                  - cell "Ineligible" [ref=e4427]
+                  - cell "Jul 1, 2026" [ref=e4440]
+                  - cell "1 (0%)" [ref=e4442]
+                - row [ref=e4444]:
+                  - 'cell "*.acceptance.cloud.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e4445]':
+                    - strong [ref=e4447]: "*.acceptance.cloud.8x8.com"
+                    - generic [ref=e4448]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e4450]
+                  - cell "In scope" [ref=e4451]
+                  - cell "High" [ref=e4457]
+                  - cell "Ineligible" [ref=e4467]
+                  - cell "Feb 17, 2025" [ref=e4480]
+                  - cell "2 (0%)" [ref=e4482]
+                - row [ref=e4484]:
+                  - 'cell "*-vpn.8x8.com VPN Infrastructure (Palo Alto GlobalProtect) ▶︎ RDP: If You See Something, Say Something Testing Guidelines: ⚠️ No attempts to exploit vulnerabilities to access internal 8x8 networks ⚠️ No brute force or DoS testing against authentication mechanisms ⚠️ Identical vulnerabilities affecting multiple VPN portals will be treated as a single issue. Please report once and include all affected instances. This asset includes (but is not limited to): sgc01-vpn.8x8.com hk-vpn.8x8.com *-vpn-contractors.8x8.com" [ref=e4485]':
+                    - strong [ref=e4487]: "*-vpn.8x8.com"
+                    - generic [ref=e4488]:
+                      - generic [ref=e4489]:
+                        - strong [ref=e4490]: VPN Infrastructure (Palo Alto GlobalProtect)
+                        - text: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4491]: "Testing Guidelines: ⚠️ No attempts to exploit vulnerabilities to access internal 8x8 networks ⚠️ No brute force or DoS testing against authentication mechanisms ⚠️ Identical vulnerabilities affecting multiple VPN portals will be treated as a single issue. Please report once and include all affected instances."
+                      - generic [ref=e4492]: "This asset includes (but is not limited to):"
+                      - list [ref=e4493]:
+                        - listitem [ref=e4494]: sgc01-vpn.8x8.com
+                        - listitem [ref=e4495]: hk-vpn.8x8.com
+                        - listitem [ref=e4496]: "*-vpn-contractors.8x8.com"
+                  - cell "Wildcard" [ref=e4497]
+                  - cell "In scope" [ref=e4498]
+                  - cell "High" [ref=e4504]
+                  - cell "Ineligible" [ref=e4514]
+                  - cell "Jun 16, 2025" [ref=e4527]
+                  - cell "1 (0%)" [ref=e4529]
+                - row [ref=e4531]:
+                  - 'cell "unreal-agents.8x8pilot.com ▶︎ RDP: If You See Something, Say Something UnrealAgents (Staging Environment) (incl. unreal-agents-tools.8x8pilot.com & unreal-agents-sys.8x8pilot.com) Cloudflare HTTP/3" [ref=e4532]':
+                    - strong [ref=e4534]: unreal-agents.8x8pilot.com
+                    - generic [ref=e4535]:
+                      - generic [ref=e4536]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4537]:
+                        - text: UnrealAgents (Staging Environment) (
+                        - emphasis [ref=e4538]:
+                          - text: incl.
+                          - code [ref=e4539]: unreal-agents-tools.8x8pilot.com
+                          - text: "&"
+                          - code [ref=e4540]: unreal-agents-sys.8x8pilot.com
+                        - text: )
+                    - generic [ref=e4541]:
+                      - generic [ref=e4542]: Cloudflare
+                      - generic [ref=e4548]: HTTP/3
+                  - cell "Domain" [ref=e4554]
+                  - cell "In scope" [ref=e4555]
+                  - cell "Medium" [ref=e4561]
+                  - cell "Ineligible" [ref=e4571]
+                  - cell "Oct 31, 2025" [ref=e4584]
+                  - cell "0 (0%)" [ref=e4586]
+                - row [ref=e4588]:
+                  - 'cell "support-portal.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e4589]':
+                    - strong [ref=e4591]: support-portal.8x8.com
+                    - generic [ref=e4592]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Domain" [ref=e4594]
+                  - cell "In scope" [ref=e4595]
+                  - cell "Medium" [ref=e4601]
+                  - cell "Ineligible" [ref=e4611]
+                  - cell "Jan 10, 2026" [ref=e4624]
+                  - cell "3 (0%)" [ref=e4626]
+                - row [ref=e4628]:
+                  - 'cell "debug.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e4629]':
+                    - strong [ref=e4631]: debug.8x8.com
+                    - generic [ref=e4632]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Domain" [ref=e4634]
+                  - cell "In scope" [ref=e4635]
+                  - cell "Medium" [ref=e4641]
+                  - cell "Ineligible" [ref=e4651]
+                  - cell "Jan 28, 2025" [ref=e4664]
+                  - cell "0 (0%)" [ref=e4666]
+                - row [ref=e4668]:
+                  - 'cell "converse.8x8.com ▶︎ RDP: If You See Something, Say Something 8x8 Converse. Simplify your customer service stream by unifying every messaging app conversation into a single interface." [ref=e4669]':
+                    - strong [ref=e4671]: converse.8x8.com
+                    - generic [ref=e4672]:
+                      - generic [ref=e4673]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4674]: 8x8 Converse. Simplify your customer service stream by unifying every messaging app conversation into a single interface.
+                  - cell "Domain" [ref=e4675]
+                  - cell "In scope" [ref=e4676]
+                  - cell "Medium" [ref=e4682]
+                  - cell "Ineligible" [ref=e4692]
+                  - cell "May 29, 2026" [ref=e4705]
+                  - cell "1 (0%)" [ref=e4707]
+                - row [ref=e4709]:
+                  - 'cell "*.unreal-agents.jitsi.net ▶︎ RDP: If You See Something, Say Something UnrealAgents (Development Environment)" [ref=e4710]':
+                    - strong [ref=e4712]: "*.unreal-agents.jitsi.net"
+                    - generic [ref=e4713]:
+                      - generic [ref=e4714]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4715]: UnrealAgents (Development Environment)
+                  - cell "Wildcard" [ref=e4716]
+                  - cell "In scope" [ref=e4717]
+                  - cell "Medium" [ref=e4723]
+                  - cell "Ineligible" [ref=e4733]
+                  - cell "Oct 31, 2025" [ref=e4746]
+                  - cell "0 (0%)" [ref=e4748]
+                - row [ref=e4750]:
+                  - 'cell "*.unreal-agents.com ▶︎ RDP: If You See Something, Say Something UnrealAgents" [ref=e4751]':
+                    - strong [ref=e4753]: "*.unreal-agents.com"
+                    - generic [ref=e4754]:
+                      - generic [ref=e4755]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4756]: UnrealAgents
+                  - cell "Wildcard" [ref=e4757]
+                  - cell "In scope" [ref=e4758]
+                  - cell "Medium" [ref=e4764]
+                  - cell "Ineligible" [ref=e4774]
+                  - cell "Oct 31, 2025" [ref=e4787]
+                  - cell "0 (0%)" [ref=e4789]
+                - row [ref=e4791]:
+                  - 'cell "*.staging.cloud.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e4792]':
+                    - strong [ref=e4794]: "*.staging.cloud.8x8.com"
+                    - generic [ref=e4795]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e4797]
+                  - cell "In scope" [ref=e4798]
+                  - cell "Medium" [ref=e4804]
+                  - cell "Ineligible" [ref=e4814]
+                  - cell "Feb 17, 2025" [ref=e4827]
+                  - cell "2 (0%)" [ref=e4829]
+                - row [ref=e4831]:
+                  - 'cell "*.preview.8x8.vc ▶︎ RDP: If You See Something, Say Something AI Studio: Build Voice & Text AI Agents" [ref=e4832]':
+                    - strong [ref=e4834]: "*.preview.8x8.vc"
+                    - generic [ref=e4835]:
+                      - generic [ref=e4836]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4837]: "AI Studio: Build Voice & Text AI Agents"
+                  - cell "Wildcard" [ref=e4838]
+                  - cell "In scope" [ref=e4839]
+                  - cell "Medium" [ref=e4845]
+                  - cell "Ineligible" [ref=e4855]
+                  - cell "Apr 28, 2026" [ref=e4868]
+                  - cell "0 (0%)" [ref=e4870]
+                - row [ref=e4872]:
+                  - 'cell "*.packet8-pilot.net ▶︎ RDP: If You See Something, Say Something" [ref=e4873]':
+                    - strong [ref=e4875]: "*.packet8-pilot.net"
+                    - generic [ref=e4876]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e4878]
+                  - cell "In scope" [ref=e4879]
+                  - cell "Medium" [ref=e4885]
+                  - cell "Ineligible" [ref=e4895]
+                  - cell "Mar 10, 2025" [ref=e4908]
+                  - cell "0 (0%)" [ref=e4910]
+                - row [ref=e4912]:
+                  - 'cell "*.cceng.8x8.com ▶︎ RDP: If You See Something, Say Something" [ref=e4913]':
+                    - strong [ref=e4915]: "*.cceng.8x8.com"
+                    - generic [ref=e4916]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e4918]
+                  - cell "In scope" [ref=e4919]
+                  - cell "Medium" [ref=e4925]
+                  - cell "Ineligible" [ref=e4935]
+                  - cell "Nov 20, 2024" [ref=e4948]
+                  - cell "0 (0%)" [ref=e4950]
+                - row [ref=e4952]:
+                  - 'cell "*.ai.8x8.vc ▶︎ RDP: If You See Something, Say Something AI Studio: Build Voice & Text AI Agents" [ref=e4953]':
+                    - strong [ref=e4955]: "*.ai.8x8.vc"
+                    - generic [ref=e4956]:
+                      - generic [ref=e4957]: "▶︎ RDP: If You See Something, Say Something"
+                      - generic [ref=e4958]: "AI Studio: Build Voice & Text AI Agents"
+                  - cell "Wildcard" [ref=e4959]
+                  - cell "In scope" [ref=e4960]
+                  - cell "Medium" [ref=e4966]
+                  - cell "Ineligible" [ref=e4976]
+                  - cell "Apr 28, 2026" [ref=e4989]
+                  - cell "3 (0%)" [ref=e4991]
+                - row [ref=e4993]:
+                  - 'cell "*.8x8testb.com ▶︎ RDP: If You See Something, Say Something" [ref=e4994]':
+                    - strong [ref=e4996]: "*.8x8testb.com"
+                    - generic [ref=e4997]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e4999]
+                  - cell "In scope" [ref=e5000]
+                  - cell "Medium" [ref=e5006]
+                  - cell "Ineligible" [ref=e5016]
+                  - cell "Mar 10, 2025" [ref=e5029]
+                  - cell "0 (0%)" [ref=e5031]
+                - row [ref=e5033]:
+                  - 'cell "*.8x8testa.com ▶︎ RDP: If You See Something, Say Something" [ref=e5034]':
+                    - strong [ref=e5036]: "*.8x8testa.com"
+                    - generic [ref=e5037]: "▶︎ RDP: If You See Something, Say Something"
+                  - cell "Wildcard" [ref=e5039]
+                  - cell "In scope" [ref=e5040]
+                  - cell "Medium" [ref=e5046]
+                  - cell "Ineligible" [ref=e5056]
+                  - cell "Mar 10, 2025" [ref=e5069]
+                  - cell "1 (0%)" [ref=e5071]
+            - generic [ref=e5074]:
+              - generic [ref=e5075]: 1-100 of 138
+              - link [ref=e5076] [cursor=pointer]:
+                - /url: /8x8-bounty/policy_scopes
+          - generic [ref=e5084]:
+            - button [ref=e5085] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=e5086]:
+                - img "Collapse sidebar" [ref=e5088]
+            - generic [ref=e5093]:
+              - generic [ref=e5094]:
+                - generic [ref=e5095]:
+                  - img "8x8-bounty" [ref=e5099]
+                  - generic [ref=e5100]: 8x8
+                - generic [ref=e5102]:
+                  - generic [ref=e5103]:
+                    - link "https://www.8x8.com" [ref=e5104] [cursor=pointer]:
+                      - /url: https://www.8x8.com
+                    - link "@8x8" [ref=e5105] [cursor=pointer]:
+                      - /url: https://x.com/8x8
+                  - generic [ref=e5106]: Let's power your CX ambitions.
+                  - generic [ref=e5107]:
+                    - text: Bounty
+                    - generic [ref=e5108]: launched in Jan 2023
+                - generic [ref=e5111]:
+                  - text: "Response efficiency: 100%"
+                  - img "Response efficiency calculation information" [ref=e5114] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=e5116]
+              - generic [ref=e5118]:
+                - link "upload Submit without Report Assistant" [ref=e5121] [cursor=pointer]:
+                  - /url: /8x8-bounty/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=e5122]:
+                    - img "upload" [ref=e5124]
+                  - generic [ref=e5126]: Submit without Report Assistant
+                - generic [ref=e5128]:
+                  - heading "Rewards" [level=1] [ref=e5129]
+                  - table [ref=e5132]:
+                    - row [ref=e5134]:
+                      - columnheader [ref=e5135]:
+                        - paragraph [ref=e5139]: Severity
+                      - columnheader [ref=e5140]:
+                        - paragraph [ref=e5144]: Rewards
+                    - generic [ref=e5145]:
+                      - row [ref=e5146]:
+                        - cell "Low Avg. bounty $95 24.63% submissions" [ref=e5147]:
+                          - generic [ref=e5149]:
+                            - generic [ref=e5150]: Low
+                            - paragraph [ref=e5155]:
+                              - generic [ref=e5156]: Avg. bounty $95
+                              - generic [ref=e5157]: 24.63% submissions
+                        - cell "$50" [ref=e5158]
+                      - row [ref=e5161]:
+                        - cell "Medium Avg. bounty $500 40.42% submissions" [ref=e5162]:
+                          - generic [ref=e5164]:
+                            - generic [ref=e5165]: Medium
+                            - paragraph [ref=e5170]:
+                              - generic [ref=e5171]: Avg. bounty $500
+                              - generic [ref=e5172]: 40.42% submissions
+                        - cell "$100 – $250" [ref=e5173]
+                      - row [ref=e5176]:
+                        - cell "High Avg. bounty $1,152 28.46% submissions" [ref=e5177]:
+                          - generic [ref=e5179]:
+                            - generic [ref=e5180]: High
+                            - paragraph [ref=e5185]:
+                              - generic [ref=e5186]: Avg. bounty $1,152
+                              - generic [ref=e5187]: 28.46% submissions
+                        - cell "$250 – $500" [ref=e5188]
+                      - row [ref=e5191]:
+                        - cell "Critical Avg. bounty $2,286 6.49% submissions" [ref=e5192]:
+                          - generic [ref=e5194]:
+                            - generic [ref=e5195]: Critical
+                            - paragraph [ref=e5200]:
+                              - generic [ref=e5201]: Avg. bounty $2,286
+                              - generic [ref=e5202]: 6.49% submissions
+                        - cell "$500 – $1,000" [ref=e5203]
+                - generic [ref=e5206]:
+                  - heading "Stats" [level=1] [ref=e5207]
+                  - table [ref=e5208]:
+                    - rowgroup [ref=e5209]:
+                      - row [ref=e5210]:
+                        - cell "Total bounties paid" [ref=e5211]
+                        - cell "$488,735" [ref=e5212]
+                      - row [ref=e5215]:
+                        - cell "Average bounty" [ref=e5216]
+                        - cell "$500" [ref=e5217]
+                      - row [ref=e5220]:
+                        - cell "Top bounty range" [ref=e5221]
+                        - cell "$1,337 - $3,000" [ref=e5222]:
+                          - generic [ref=e5223]:
+                            - generic [ref=e5224]: $1,337
+                            - text: "-"
+                            - generic [ref=e5226]: $3,000
+                      - row [ref=e5228]:
+                        - cell "Bounties paid | 90 days" [ref=e5229]
+                        - cell "$31,072" [ref=e5230]
+                      - row [ref=e5233]:
+                        - cell "Reports received | 90 days" [ref=e5234]
+                        - cell "621" [ref=e5235]
+                      - row [ref=e5236]:
+                        - cell "Last report resolved" [ref=e5237]
+                        - cell "a day ago" [ref=e5238]
+                      - row [ref=e5239]:
+                        - cell "Reports resolved" [ref=e5240]
+                        - cell "1295" [ref=e5241]
+                      - row [ref=e5242]:
+                        - cell "Hackers thanked" [ref=e5243]
+                        - cell "694" [ref=e5244]
+                      - row [ref=e5245]:
+                        - cell "Assets In Scope" [ref=e5246]
+                        - cell "115" [ref=e5247]
+        - generic [ref=e5253]:
+          - generic [ref=e5254]: © HackerOne
+          - list [ref=e5255]:
+            - listitem [ref=e5256]:
+              - link "Opportunities" [ref=e5257] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=e5258]:
+              - link "Security" [ref=e5259] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=e5260]:
+              - link "Leaderboard" [ref=e5261] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=e5262]:
+              - link "Blog" [ref=e5263] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=e5264]:
+              - link "Status" [ref=e5265] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=e5266]:
+              - link "Docs" [ref=e5267] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=e5268]:
+              - link "Support" [ref=e5269] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=e5270]:
+              - link "Disclosure Guidelines" [ref=e5271] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=e5272]:
+              - link "Press" [ref=e5273] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=e5274]:
+              - link "Privacy" [ref=e5275] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=e5276]:
+              - link "Terms" [ref=e5277] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=e5278]:
+              - link [ref=e5279] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=e5280]

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private, must-revalidate
+Date: Thu, 24 Sep 2026 15:33:12 GMT
+Access-Control-Allow-Origin: https://vcc-na30.8x8.com
+Expires: Sat, 1 Jan 2000 00:00:00 GMT
+Last-Modified: Thu, 24 Sep 2026 15:33:12 GMT
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=157680000; includeSubDomains
+

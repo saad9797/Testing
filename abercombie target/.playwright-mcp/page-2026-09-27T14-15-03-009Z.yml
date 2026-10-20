@@ -1,0 +1,306 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link "Skip to Content" [ref=e4] [cursor=pointer]:
+      - /url: "#main-content-start"
+    - generic [ref=e6]:
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link [ref=e9] [cursor=pointer]:
+            - /url: /shop/wd?pagefm=navigation-top+nav
+            - img "Top category for ANF adult categories" [ref=e10]
+        - listitem [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: /shop/wd/kids?pagefm=navigation-top+nav
+            - img "Top category for ANF Kids categories" [ref=e13]
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - button "Free Standard Shipping on Orders Over US$150^ •" [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=e20]: •
+          - button [aria-hidden] [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=e23]: •
+            - generic [ref=e24]: Free Standard Shipping on Orders Over US$150^
+            - generic [ref=e25]: •
+        - button [aria-hidden] [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=e28]: •
+          - generic [ref=e29]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=e30]: •
+          - generic [ref=e31]: Free Standard Shipping on Orders Over US$150^
+          - generic [ref=e32]: •
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - link "abercrombie and fitch" [ref=e36] [cursor=pointer]:
+          - /url: /shop/wd?pagefm=navigation-logo
+        - navigation "Main menu" [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - heading [level=2] [ref=e41]:
+                - link "New" [ref=e42] [cursor=pointer]:
+                  - /url: /shop/wd/new
+              - button "Open Menu" [ref=e43]
+            - listitem [ref=e46]:
+              - heading [level=2] [ref=e47]:
+                - link "Women's" [ref=e48] [cursor=pointer]:
+                  - /url: /shop/wd/womens
+              - button "Open Menu" [ref=e49]
+            - listitem [ref=e52]:
+              - heading [level=2] [ref=e53]:
+                - link "Men's" [ref=e54] [cursor=pointer]:
+                  - /url: /shop/wd/mens
+              - button "Open Menu" [ref=e55]
+            - listitem [ref=e58]:
+              - heading [level=2] [ref=e59]:
+                - link "NFL" [ref=e60] [cursor=pointer]:
+                  - /url: /shop/wd/nfl
+              - button "Open Menu" [ref=e61]
+      - generic [ref=e64]:
+        - button [ref=e66] [cursor=pointer]:
+          - img "Search" [ref=e67]
+          - generic: Search
+        - link "View My List" [ref=e69] [cursor=pointer]:
+          - /url: /shop/MySavesView?URL=MySavesView&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-my+saves
+        - button "MiniBag Shopping Bag" [ref=e76] [cursor=pointer]:
+          - img "MiniBag" [ref=e77]
+          - generic [ref=e78]: Shopping Bag
+        - status "Loading" [ref=e83]:
+          - paragraph [ref=e100]: Loading...
+    - status [ref=e101]
+  - main [ref=e104]:
+    - generic [ref=e109]:
+      - generic [ref=e114]:
+        - button [ref=e118] [cursor=pointer]:
+          - paragraph [ref=e123]: Pause video
+        - generic [ref=e126]:
+          - generic [ref=e127]: Field Guide to Fall
+          - generic [ref=e129]: A seasonal edit bringing countryside ease to the rhythm of the city.
+          - generic [ref=e132]:
+            - link "SHOP WOMEN'S" [ref=e133] [cursor=pointer]:
+              - /url: "/shop/wd/womens?icmp=ICT:FALL26:F-A:HP:T20:DIV:CAM:X:SeptWk2:FASH:"
+            - link "EXPLORE THE LOOKBOOK" [ref=e134] [cursor=pointer]:
+              - /url: "/shop/wd/br/FallCheatSheet?icmp=ICT:FALL26:F-A:HP:T20:FEA:CAM:X:SeptWk2:FASH:"
+      - generic [ref=e143]:
+        - generic [ref=e144]: The Layered Lookbook
+        - generic [ref=e146]: Jackets, shirts and pants cut for the cooler days of fall.
+        - generic [ref=e149]:
+          - link "SHOP MEN'S" [ref=e150] [cursor=pointer]:
+            - /url: "/shop/wd/mens-fall-preview-615746483?icmp=ICT:FALL26:M-A:HP:T25:COLL:CAM:X:SeptWk2:FASH:"
+          - link "EXPLORE THE LOOKBOOK" [ref=e151] [cursor=pointer]:
+            - /url: "/shop/wd/br/MensFallCheatSheet?icmp=ICT:FALL26:M-A:HP:T25:FEA:CAM:X:SeptWk2:FASH:"
+      - generic [ref=e156]:
+        - 'img "NFL: Officially Licensed Product" [ref=e160]'
+        - generic [ref=e163]:
+          - generic [ref=e164]: New to the Game
+          - generic [ref=e166]: Layer up in elevated team pieces made for more than just game day.
+          - link "SHOP NFL" [ref=e170] [cursor=pointer]:
+            - /url: "/shop/wd/nfl?icmp=ICT:FALL26:D-A:HP:T45:NFL:CAM:X:SepWk4:NFL:"
+      - generic [ref=e179]:
+        - generic [ref=e180]: "New In: Low Rise"
+        - link "SHOP WOMEN'S" [ref=e184] [cursor=pointer]:
+          - /url: "/shop/wd/womens-jeans-bottoms?icmp=ICT:FALL26:F-A:HP:T47:DNM:PDT:X:SepWk4:X:"
+      - generic [ref=e193]:
+        - generic [ref=e194]: NFL for Everyone
+        - generic [ref=e196]: Outfits for the biggest (and smallest) fans.
+        - link "SHOP ALL NFL" [ref=e200] [cursor=pointer]:
+          - /url: "/shop/wd/nfl?icmp=ICT:FALL26:D-A:HP:T45:NFL:CAM:X:AugWk4:NFL:"
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic [ref=e207]:
+                      - link "SHOP WOMEN'S" [ref=e208] [cursor=pointer]:
+                        - /url: "/shop/wd/womens-activewear?icmp=ICT:FALL26:F-A:HP:T75:ATV:PDT:X:SeptWk1:X:"
+                      - link "SHOP MEN'S" [ref=e209] [cursor=pointer]:
+                        - /url: "/shop/wd/mens-activewear?icmp=ICT:FALL26:M-A:HP:T75:ATV:PDT:X:SeptWk1:X:"
+                    - generic [ref=e212]:
+                      - generic [ref=e213]: Denim Made Iconic
+                      - generic [ref=e216]:
+                        - link "SHOP WOMEN'S" [ref=e217] [cursor=pointer]:
+                          - /url: "/shop/wd/womens-jeans-bottoms?icmp=ICT:FALL26:F-A:HP:T75:DNM:CAM:X:SeptWk1:DNM:"
+                        - link "SHOP MEN'S" [ref=e218] [cursor=pointer]:
+                          - /url: "/shop/wd/mens-jeans-bottoms?icmp=ICT:FALL26:M-A:HP:T75:DNM:CAM:X:SeptWk1:DNM:"
+                    - generic [ref=e221]:
+                      - generic [ref=e222]: Final Steps
+                      - generic [ref=e225]:
+                        - link "SHOP WOMEN'S" [ref=e226] [cursor=pointer]:
+                          - /url: "/shop/wd/womens-shoes?icmp=ICT:FALL26:F-A:HP:T75:SHOE:PDT:X:SeptWk1:X:"
+                        - link "SHOP MEN'S" [ref=e227] [cursor=pointer]:
+                          - /url: "/shop/wd/mens-shoes?icmp=ICT:FALL26:M-A:HP:T75:SHOE:PDT:X:SeptWk1:X:"
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: Staple Sweaters
+                      - generic [ref=e234]:
+                        - link "SHOP WOMEN'S" [ref=e235] [cursor=pointer]:
+                          - /url: "/shop/wd/womens-sweaters-tops?icmp=ICT:FALL26:F-A:HP:T75:SWT:PDT:X:SeptWk1:X:"
+                        - link "SHOP MEN'S" [ref=e236] [cursor=pointer]:
+                          - /url: "/shop/wd/mens-sweaters-tops?icmp=ICT:FALL26:M-A:HP:T75:SWT:PDT:X:SeptWk1:X:"
+                    - generic [ref=e239]:
+                      - generic [ref=e240]: Fall Dresses
+                      - link "SHOP WOMEN'S" [ref=e244] [cursor=pointer]:
+                        - /url: "/shop/wd/womens-dresses-and-jumpsuits?icmp=ICT:FALL26:F-A:HP:T75:DRE:PDT:X:SeptWk1:X:"
+      - generic [ref=e251]:
+        - generic [ref=e253]:
+          - generic [ref=e254]: Download the App
+          - generic [ref=e256]: Opt into push to stay in the know on all things Abercrombie.
+        - generic [ref=e259]:
+          - generic [ref=e260]:
+            - generic [ref=e261]: Fifth Avenue
+            - generic [ref=e262]: Come see us IRL or choose in-store pickup at checkout.
+          - generic [ref=e263]:
+            - generic [ref=e264]: Find Your Store
+            - generic [ref=e265]: Come see us IRL or choose in-store pickup at checkout.
+            - button "GET DIRECTIONS" [ref=e267] [cursor=pointer]
+  - contentinfo [ref=e269]:
+    - generic [ref=e271]:
+      - generic [ref=e272]: ^Offer valid online only. Free standard shipping and handling applied to subtotal after all discounts and before tax and shipping/handling at checkout. To qualify, orders must be shipped via Standard Ground service.
+      - link "See All Offer Details" [ref=e281] [cursor=pointer]:
+        - /url: /shop/wd/br/PromotionInfo?icmp=ICT:EVGRN:D:HP:FT:LLP:PRM:LegalDisclaimers:EVGRN
+    - generic [ref=e283]:
+      - generic [ref=e284]:
+        - img "abercrombie and fitch" [ref=e287]: 
+        - generic [ref=e288]:
+          - separator [ref=e289]
+          - heading "Our Brands" [level=2] [ref=e290]
+          - list [ref=e291]:
+            - listitem [ref=e292]:
+              - link [ref=e293] [cursor=pointer]:
+                - /url: https://www.abercrombie.com
+                - img "abercrombie and fitch" [ref=e295]: 
+            - listitem [ref=e296]:
+              - link [ref=e297] [cursor=pointer]:
+                - /url: https://www.abercrombie.com/shop/wd/kids
+                - img "abercrombie kids" [ref=e299]: 
+            - listitem [ref=e300]:
+              - link [ref=e301] [cursor=pointer]:
+                - /url: https://www.hollisterco.com
+                - img "hollister co." [ref=e303]: 
+      - generic [ref=e304]:
+        - heading "About Us" [level=2] [ref=e305]
+        - list [ref=e306]:
+          - listitem [ref=e307]:
+            - link "Brand Protection" [ref=e308] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=brand-protection&textKey=LEGAL_BRAND_PROTECTION&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=e309]:
+            - link "Careers" [ref=e310] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/careers
+          - listitem [ref=e311]:
+            - link "A&F Gives Back" [ref=e312] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-impact
+          - listitem [ref=e313]:
+            - link "Accessibility" [ref=e314] [cursor=pointer]:
+              - /url: /shop/wd/help/Accessibility?pagefm=navigation-footer
+          - listitem [ref=e315]:
+            - link "Inclusion & Diversity" [ref=e316] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-commitment
+          - listitem [ref=e317]:
+            - link "Investors" [ref=e318] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/investors
+          - listitem [ref=e319]:
+            - link "Press Room" [ref=e320] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/news/media-gallery
+          - listitem [ref=e321]:
+            - link "Sustainability" [ref=e322] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/sustainability
+      - generic [ref=e323]:
+        - heading "Help" [level=2] [ref=e324]
+        - list [ref=e325]:
+          - listitem [ref=e326]:
+            - link "Customer Help" [ref=e327] [cursor=pointer]:
+              - /url: /shop/wd/help
+          - listitem [ref=e328]:
+            - link "Order Help" [ref=e329] [cursor=pointer]:
+              - /url: /shop/wd/help/lookup-order
+          - listitem [ref=e330]:
+            - link "Shipping & Handling" [ref=e331] [cursor=pointer]:
+              - /url: /shop/wd/help/shipping-handling
+          - listitem [ref=e332]:
+            - link "Online Returns" [ref=e333] [cursor=pointer]:
+              - /url: /shop/wd/help/online-return-exchange-policy
+          - listitem [ref=e334]:
+            - link "Track My Order" [ref=e335] [cursor=pointer]:
+              - /url: /shop/wd/help/trackorder
+          - listitem [ref=e336]:
+            - link "Gift Cards & E-Cards Balance" [ref=e337] [cursor=pointer]:
+              - /url: /shop/wd/help/giftcard-balance-check
+          - listitem [ref=e338]:
+            - link "My Account" [ref=e339] [cursor=pointer]:
+              - /url: /shop/UserAccountView?storeId=11203&catalogId=10901&langId=-1
+          - listitem [ref=e340]:
+            - link "Currency" [ref=e341] [cursor=pointer]:
+              - /url: /shop/wd/help/currency?storeId=11203&catalogId=10901&langId=-1
+      - generic [ref=e342]:
+        - list [ref=e343]:
+          - listitem [ref=e344]:
+            - link "Find a Store" [ref=e345] [cursor=pointer]:
+              - /url: /shop/StoreLocator?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+              - generic [aria-hidden] [ref=e346]: 
+          - listitem [ref=e348]
+        - generic [ref=e350]:
+          - switch "High Contrast" [ref=e351]
+          - generic [ref=e352] [cursor=pointer]: High Contrast
+      - generic [ref=e358]:
+        - generic [ref=e364]:
+          - heading "Subscribe" [level=2] [ref=e366]
+          - generic [ref=e369]:
+            - textbox "Email Address" [ref=e370]
+            - generic: Email Address
+            - button "Join" [ref=e371] [cursor=pointer]
+        - list [ref=e373]:
+          - listitem [ref=e374]:
+            - link "Instagram" [ref=e375] [cursor=pointer]:
+              - /url: http://instagram.com/abercrombie
+              - generic [aria-hidden] [ref=e376]: 
+          - listitem [ref=e377]:
+            - link "Facebook" [ref=e378] [cursor=pointer]:
+              - /url: https://www.facebook.com/Abercrombie
+              - generic [aria-hidden] [ref=e379]: 
+          - listitem [ref=e380]:
+            - link "pinterest" [ref=e381] [cursor=pointer]:
+              - /url: http://www.pinterest.com/abercrombie1892/
+              - generic [aria-hidden] [ref=e382]: 
+          - listitem [ref=e383]:
+            - link "Youtube" [ref=e384] [cursor=pointer]:
+              - /url: https://www.youtube.com/abercrombie
+              - generic [aria-hidden] [ref=e385]: 
+    - generic [ref=e387]:
+      - separator [ref=e388]
+      - generic [ref=e389]:
+        - generic [aria-hidden] [ref=e391]: 
+        - list [ref=e392]:
+          - listitem [ref=e393]:
+            - link "Privacy" [ref=e394] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=privacy&textKey=LEGAL_PRIVACY_POLICY&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=e395]:
+            - text: "|"
+            - link "Sale Terms" [ref=e396] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=sale-terms&textKey=LEGAL_SALES_TERMS&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=e397]:
+            - text: "|"
+            - link "Website Terms of Use" [ref=e398] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=e399]:
+            - text: "|"
+            - link "Endorsements Social Media Engagement" [ref=e400] [cursor=pointer]:
+              - /url: /shop/CustomerService?pageName=social-media&textKey=LEGAL_SOCIAL_MEDIA_POLICY&storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=e401]:
+            - text: "|"
+            - link "Site Map" [ref=e402] [cursor=pointer]:
+              - /url: /shop/SiteMapView?storeId=11203&catalogId=10901&langId=-1&pagefm=navigation-footer
+          - listitem [ref=e403]:
+            - text: "|"
+            - button "Manage My Preferences" [ref=e404]
+          - listitem [ref=e405]:
+            - text: "|"
+            - link "Responsible Disclosure" [ref=e406] [cursor=pointer]:
+              - /url: https://corporate.abercrombie.com/our-company/contact-us/vulnerability-disclosure/
+    - text: 
+  - generic: 
+  - generic:  
+  - generic: 
+  - generic: 
+  - generic:     
+  - generic: 
+  - generic:       

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <link href="/./OEM/vcc/en_US/css/login.css?_v=e20aa7e" media="all" rel="Stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/./OEM/vcc/en_US/branding/images/favicon.ico">
+
+    <script src="../GEN/js/jQuery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../AGUI/js/jqueryplaceholder.js?_v=e20aa7e"></script>
+
+    <script type="text/javascript">
+        var $j = jQuery.noConflict();
+        var img_path = '/./OEM/vcc/common/images';
+        var branding_img_path = '/./OEM/vcc/en_US/branding/images';
+        var localized_img_path = '/./OEM/vcc/en_US/images';
+        var oem = 'vcc';
+        var lang = 'en_US';
+        // CWE ID 798 - can be mitigated, values came from LDAP, this is just a placeholder
+        var usernameParam = 'loginId';
+        var tenantNameParam = 'tenantId';
+        var redirectedParam = 'redirected';
+        var redirect8x8SSO = '';
+        var ssoUsernameParam = 'username';
+        var ssoMsgParam = 'msg';
+        var ssoMsgValue = 'vcc.messages.agui_login_redirect';
+        var voVccConsumerKey = 'vcc-na30';
+        var analyticKey = '4541aba6a8122b2dd53c1d05e233c8da';
+        redirect8x8SSO = redirect8x8SSO.length ? JSON.parse(redirect8x8SSO) : false;
+        window.keepCookies = '';
+    </script>
+
+    <script type="text/javascript" src="../GEN/js/prototype.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../rtapi/js/cookie.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../AGUI/js/SHA.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../GEN/js/browser_tricorder.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../GEN/js/common.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../AGUI/js/loadAguiServiceWorker.js"></script>
+    <script type="text/javascript" src="../AGUI/js/agent_rtapi_lib.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../GEN/js/retryCallAsyncFn.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../AGUI/js/load_remote_scripts.js?_v=e20aa7e"></script>
+        <script type="text/javascript" src="../AGUI/js/ErrorTypes.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../AGUI/js/vccLogger.js?_v=e20aa7e"></script>
+    <script type="text/javascript">
+        var shellConfig = {
+            MFERegistryService: {
+                cloud8BaseUrl: 'https://cloud8-cf.8x8.com',
+                cloud8RegistryPath: '/platform-mfe-registry/public/v1/builds',
+                params: {
+                    platform: 'na30-P1',
+                    cluster: 'na30',
+                    deliveryRealm: 'production',
+                    site: 'us2'
+                }
+            },
+            grafanaConfig: {
+                grafanaFeApiKey: 'Tx7UR9uPnhaInSZYbS4MFYV5',
+                grafanaFeCollectorURL: 'https://cc-fe-p01-iad.8x8.com/collect'
+            }
+        };
+        var appShellPromise = loadShellApp(shellConfig);
+        vccLogger.init(appShellPromise);
+    </script>
+    <script type="text/javascript" src="../AGUI/js/login_shared.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../AGUI/js/login.js?_v=e20aa7e"></script>
+    <script type="text/javascript" src="../GEN/js/browser_tricorder.js?_v=e20aa7e"></script>
+  </head>
+
+  <body onload="initLogin();">
+    <div id="login_agui">
+      <div class="login_agui_container">
+        <img src="/./OEM/vcc/en_US/branding/images/login_logo.png" />
+        <form name="loginform" onsubmit="return false;">
+          <input type="hidden" name="action1" value="Log In">
+          <input type="hidden" id="query_string" name="query_string" value="">
+          <input type="hidden" id="login1" name="login1" value="">
+          <input type="hidden" id="pwd" name="pwd" value="">
+          <input type="hidden" id="post_tenant" name="post_tenant" value="">
+          <input type="hidden" id="auto_login" value="">
+          <input type="hidden" id="tenant" value="">
+          <div id="error-messages">
+            <div id="login-failed" style="display: none;">The user name and password you entered are invalid.</div>
+            <div id="unknown-error" style="display: none;">The system is unavailable. Please try again later.</div>
+            <div id="agent-permanent-locked" style="display: none;">Your account has been permanently locked. Please contact your administrator.</div>
+            <div id="agent-temporary-locked" style="display: none;">Your account has been temporarily locked.</div>
+            <div id="login-not-allowed" style="display: none;">Unauthorized Access. Your account isn't set up for this URL.<br/><br/>Please log out from the single sign-on system (SSO) or clear your browser's cache.<br/><br/>If you're still having trouble, contact your administrator for help.</div>
+            <div id="no-tenant-name" style="display: none;">Your user name must contain your tenant name.</div>
+            <div id="relogin" style="display: none;">  has logged in from another browser</div>
+            <div id="ext-error" style="display: none;"></div>
+            <div id="exceed_max_login" style="display: none;">Maximum concurrent login(s) reached. Please contact your administrator for further assistance.</div>
+            <div id="tenant-in-maintenance" style="display: none;">Your account is currently in maintenance. Please try again later.</div>
+          </div>
+          <table>
+            <tr><td><input type="text" id="user" onkeypress="hideErrors();" value="" placeholder="Username" /></td></tr>
+            <tr><td><input type="password" id="pass" onkeypress="hideErrors();" value="" placeholder="Password" autocomplete="off"/></td></tr>
+          </table>
+          <a id="login_b" class="enabled" type="submit" href="#" onclick="login(); return false;">Login</a>
+          <a class="forgot_pwd" href="javascript:forgetPassword()">Forgot Password?</a>
+        </form>
+      </div>
+
+      <div id="message-center">
+        Version: 12.0.0.0.20260914180030604<br>
+        Release: e20aa7e
+      </div>
+
+      <div id="copy">
+        &copy; 2026 8x8, Inc.
+      </div>
+    </div>
+
+    <div id="unsupported-browser" class="modal">
+        <div class="content">
+            <a href="#" class="close" onclick="return hideUnsupportedBrowserWarning();">&times;</a>
+            <h1>Sorry, your browser version is not supported</h1>
+            <p id="unsupported-browser-message">You are using ##browserName##, which is not supported by VCC. User experience and performance will be impacted negatively. Please upgrade your browser.</p>
+            <p>You can download newer versions of supported browsers using the following links:</p>
+            <ul class="browser-list">
+                <li>
+                    <a href="http://www.google.com/chrome">
+                        <img src="/./OEM/vcc/common/images/browsers/chrome.png" class="browser-logo" alt="Google Chrome" />
+                        <h2>Google Chrome</h2>
+                        <span class="browser-version">Latest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.firefox.com/">
+                        <img src="/./OEM/vcc/common/images/browsers/firefox.png" class="browser-logo" alt="Mozilla Firefox" />
+                        <h2>Mozilla Firefox</h2>
+                        <span class="browser-version">Latest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://windows.microsoft.com/ie">
+                        <img src="/./OEM/vcc/common/images/browsers/ie.png" class="browser-logo" alt="Internet Explorer" />
+                        <h2>Internet Explorer</h2>
+                        <span class="browser-version">9.0 and above</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        browserTricorder.addClasses();
+
+        $j("form").on("keydown", function(event) {
+            if (event.currentTarget.name == "loginform" && event.keyCode == 13) {
+                login();
+                return false;
+            }
+        });
+
+        if ($j("body").hasClass("isIE8") || $j("body").hasClass("isIE9")) {
+            $j("input").placeholder();
+        }
+    </script>
+  </body>
+</html>

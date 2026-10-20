@@ -1,0 +1,202 @@
+- generic [ref=f8e4]:
+  - banner [ref=f8e5]:
+    - generic [ref=f8e6]:
+      - link "Skip to main content >" [ref=f8e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f8e9]:
+        - link "Go back to homepage" [ref=f8e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f8e12]
+        - generic [ref=f8e14]:
+          - link [ref=f8e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f8e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f8e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f8e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f8e43]:
+      - link [ref=f8e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f8e50]: Learn more about HackerOne
+      - link "Log in" [ref=f8e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f8e55]:
+    - generic [ref=f8e57]:
+      - tree [ref=f8e110]:
+        - button [ref=f8e112] [cursor=pointer]:
+          - img "collapse menu" [ref=f8e113]:
+            - img "collapse menu" [ref=f8e115]
+        - generic [ref=f8e118]:
+          - treeitem "Security page" [expanded] [ref=f8e119] [cursor=pointer]
+          - group [ref=f8e122]:
+            - treeitem "Program guidelines" [ref=f8e123] [cursor=pointer]
+            - treeitem "Scope" [ref=f8e125] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f8e127] [cursor=pointer]
+            - treeitem "Thanks" [ref=f8e129] [cursor=pointer]
+            - treeitem "Updates" [ref=f8e131] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f8e133] [cursor=pointer]
+            - treeitem "Safe harbor" [selected] [ref=f8e135] [cursor=pointer]
+      - generic [ref=f8e58]:
+        - generic [ref=f8e137]:
+          - generic [ref=f8e139]:
+            - generic [ref=f8e140]: Gold Standard Safe Harbor
+            - generic [ref=f8e142]:
+              - generic [ref=f8e143]: Gold Standard Safe Harbor supports the protection of organizations and hackers engaged in Good Faith Security Research. "Good Faith Security Research" is accessing a computer solely for purposes of good-faith testing, investigation, and/or correction of a security flaw or vulnerability, where such activity is carried out in a manner designed to avoid any harm to individuals or the public, and where the information derived from the activity is used primarily to promote the security or safety of the class of devices, machines, or online services to which the accessed computer belongs, or those who use such devices, machines, or online services.
+              - generic [ref=f8e144]: We consider Good Faith Security Research to be authorized activity that is protected from adversarial legal action by us. We waive any relevant restriction in our Terms of Service ("TOS") and/or Acceptable Use Policies ("AUP") that conflicts with the standard for Good Faith Security Research outlined here.
+              - generic [ref=f8e145]: "This means that, for activity conducted while this program is active, we:"
+              - list [ref=f8e146]:
+                - listitem [ref=f8e147]:
+                  - strong [ref=f8e148]: Will not
+                  - text: bring legal action against you or report you for Good Faith Security Research, including for bypassing technological measures we use to protect the applications in scope; and,
+                - listitem [ref=f8e149]:
+                  - strong [ref=f8e150]: Will
+                  - text: take steps to make known that you conducted Good Faith Security Research if someone else brings legal action against you.
+              - generic [ref=f8e151]: You should contact us for clarification before engaging in conduct that you think may be inconsistent with Good Faith Security Research or unaddressed by our policy.
+              - generic [ref=f8e152]: Keep in mind that we are not able to authorize security research on third-party infrastructure, and a third party is not bound by this safe harbor statement.
+          - generic [ref=f8e154]:
+            - button [ref=f8e155] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f8e156]:
+                - img "Collapse sidebar" [ref=f8e158]
+            - generic [ref=f8e163]:
+              - generic [ref=f8e164]:
+                - generic [ref=f8e165]:
+                  - img "8x8-bounty" [ref=f8e169]
+                  - generic [ref=f8e170]: 8x8
+                - generic [ref=f8e172]:
+                  - generic [ref=f8e173]:
+                    - link "https://www.8x8.com" [ref=f8e174] [cursor=pointer]:
+                      - /url: https://www.8x8.com
+                    - link "@8x8" [ref=f8e175] [cursor=pointer]:
+                      - /url: https://x.com/8x8
+                  - generic [ref=f8e176]: Let's power your CX ambitions.
+                  - generic [ref=f8e177]:
+                    - text: Bounty
+                    - generic [ref=f8e178]: launched in Jan 2023
+                - generic [ref=f8e181]:
+                  - text: "Response efficiency: 100%"
+                  - img "Response efficiency calculation information" [ref=f8e184] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=f8e186]
+              - generic [ref=f8e188]:
+                - link "upload Submit without Report Assistant" [ref=f8e191] [cursor=pointer]:
+                  - /url: /8x8-bounty/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=f8e192]:
+                    - img "upload" [ref=f8e194]
+                  - generic [ref=f8e196]: Submit without Report Assistant
+                - generic [ref=f8e198]:
+                  - heading "Rewards" [level=1] [ref=f8e199]
+                  - table [ref=f8e202]:
+                    - row [ref=f8e204]:
+                      - columnheader [ref=f8e205]:
+                        - paragraph [ref=f8e209]: Severity
+                      - columnheader [ref=f8e210]:
+                        - paragraph [ref=f8e214]: Rewards
+                    - generic [ref=f8e215]:
+                      - row [ref=f8e216]:
+                        - cell "Low Avg. bounty $95 24.63% submissions" [ref=f8e217]:
+                          - generic [ref=f8e219]:
+                            - generic [ref=f8e220]: Low
+                            - paragraph [ref=f8e225]:
+                              - generic [ref=f8e226]: Avg. bounty $95
+                              - generic [ref=f8e227]: 24.63% submissions
+                        - cell "$50" [ref=f8e228]
+                      - row [ref=f8e231]:
+                        - cell "Medium Avg. bounty $500 40.42% submissions" [ref=f8e232]:
+                          - generic [ref=f8e234]:
+                            - generic [ref=f8e235]: Medium
+                            - paragraph [ref=f8e240]:
+                              - generic [ref=f8e241]: Avg. bounty $500
+                              - generic [ref=f8e242]: 40.42% submissions
+                        - cell "$100 – $250" [ref=f8e243]
+                      - row [ref=f8e246]:
+                        - cell "High Avg. bounty $1,152 28.46% submissions" [ref=f8e247]:
+                          - generic [ref=f8e249]:
+                            - generic [ref=f8e250]: High
+                            - paragraph [ref=f8e255]:
+                              - generic [ref=f8e256]: Avg. bounty $1,152
+                              - generic [ref=f8e257]: 28.46% submissions
+                        - cell "$250 – $500" [ref=f8e258]
+                      - row [ref=f8e261]:
+                        - cell "Critical Avg. bounty $2,286 6.49% submissions" [ref=f8e262]:
+                          - generic [ref=f8e264]:
+                            - generic [ref=f8e265]: Critical
+                            - paragraph [ref=f8e270]:
+                              - generic [ref=f8e271]: Avg. bounty $2,286
+                              - generic [ref=f8e272]: 6.49% submissions
+                        - cell "$500 – $1,000" [ref=f8e273]
+                - generic [ref=f8e276]:
+                  - heading "Stats" [level=1] [ref=f8e277]
+                  - table [ref=f8e278]:
+                    - rowgroup [ref=f8e279]:
+                      - row [ref=f8e280]:
+                        - cell "Total bounties paid" [ref=f8e281]
+                        - cell "$488,735" [ref=f8e282]
+                      - row [ref=f8e285]:
+                        - cell "Average bounty" [ref=f8e286]
+                        - cell "$500" [ref=f8e287]
+                      - row [ref=f8e290]:
+                        - cell "Top bounty range" [ref=f8e291]
+                        - cell "$1,337 - $3,000" [ref=f8e292]:
+                          - generic [ref=f8e293]:
+                            - generic [ref=f8e294]: $1,337
+                            - text: "-"
+                            - generic [ref=f8e296]: $3,000
+                      - row [ref=f8e298]:
+                        - cell "Bounties paid | 90 days" [ref=f8e299]
+                        - cell "$31,072" [ref=f8e300]
+                      - row [ref=f8e303]:
+                        - cell "Reports received | 90 days" [ref=f8e304]
+                        - cell "621" [ref=f8e305]
+                      - row [ref=f8e306]:
+                        - cell "Last report resolved" [ref=f8e307]
+                        - cell "a day ago" [ref=f8e308]
+                      - row [ref=f8e309]:
+                        - cell "Reports resolved" [ref=f8e310]
+                        - cell "1295" [ref=f8e311]
+                      - row [ref=f8e312]:
+                        - cell "Hackers thanked" [ref=f8e313]
+                        - cell "694" [ref=f8e314]
+                      - row [ref=f8e315]:
+                        - cell "Assets In Scope" [ref=f8e316]
+                        - cell "115" [ref=f8e317]
+        - generic [ref=f8e66]:
+          - generic [ref=f8e67]: © HackerOne
+          - list [ref=f8e68]:
+            - listitem [ref=f8e69]:
+              - link "Opportunities" [ref=f8e70] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f8e71]:
+              - link "Security" [ref=f8e72] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f8e73]:
+              - link "Leaderboard" [ref=f8e74] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f8e75]:
+              - link "Blog" [ref=f8e76] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f8e77]:
+              - link "Status" [ref=f8e78] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f8e79]:
+              - link "Docs" [ref=f8e80] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f8e81]:
+              - link "Support" [ref=f8e82] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f8e83]:
+              - link "Disclosure Guidelines" [ref=f8e84] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f8e85]:
+              - link "Press" [ref=f8e86] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f8e87]:
+              - link "Privacy" [ref=f8e88] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f8e89]:
+              - link "Terms" [ref=f8e90] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f8e91]:
+              - link [ref=f8e92] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f8e93]

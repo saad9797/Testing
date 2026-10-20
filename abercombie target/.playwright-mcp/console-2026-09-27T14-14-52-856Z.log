@@ -1,0 +1,18 @@
+[    2772ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.abercrombie.com/shop/wd:7
+[    4126ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[    4305ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    4311ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    4438ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[    4630ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[    4631ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[   10619ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[   10680ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[   10682ms] [LOG] utag.view fired with: {user_state: guest, user_wcs_id: -1002, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: , global.user_hashed_phone: null} @ https://tags.abercrombie.com/main/prod/utag.js:12
+[   12939ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=da186035bc20e4aca96844136059f184&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd:6
+[   17133ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0

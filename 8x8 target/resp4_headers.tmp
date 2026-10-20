@@ -1,0 +1,26 @@
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+Date: Thu, 24 Sep 2026 15:17:46 GMT
+Location: https://vcc-na30.8x8.com/GEN/gen_check_tenant_admin.php?admin=testfoo%40testbar&type=cm_login
+Set-Cookie: vcc-web-apps=12.0.0.0.20260914180030604; expires=Fri, 25-Sep-2026 15:17:46 GMT; Max-Age=86400; path=/; secure; samesite=none
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=157680000; includeSubDomains
+
+HTTP/1.1 200 OK
+Content-Type: text/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private, must-revalidate
+Date: Thu, 24 Sep 2026 15:17:46 GMT
+Access-Control-Allow-Origin: https://vcc-na30.8x8.com
+Expires: Sat, 1 Jan 2000 00:00:00 GMT
+Last-Modified: Thu, 24 Sep 2026 15:17:46 GMT
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=157680000; includeSubDomains
+

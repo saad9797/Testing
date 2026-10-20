@@ -1,0 +1,30 @@
+[    1530ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.hollisterco.com/shop/wd:7
+[    4252ms] [LOG] JQMIGRATE: Logging is active @ https://www.hollisterco.com/hol/91e6adba/js/legacy/desktop/global.js:19203
+[    4619ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.hollisterco.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    4638ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.hollisterco.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[    5544ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.hollisterco.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[    6063ms] [LOG] noview override set: true @ https://tags.hollisterco.com/main/prod/utag.js:2
+[    6276ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.hollisterco.com/shop/wd:0
+[    6276ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.hollisterco.com/shop/wd:0
+[    7535ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=cce4eef58d65bcd944b95fd2f7bc5be&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.hollisterco.com%252Fshop%252Fwd:6
+[   12337ms] [LOG] Analytics event received - firing utag.view @ https://tags.hollisterco.com/main/prod/utag.js:4
+[   12383ms] [LOG] Wandz extraction failed TypeError: Cannot read properties of null (reading 'wdlObject')
+    at u.extend (https://tags.hollisterco.com/main/prod/utag.js:405:215)
+    at processAnalytics (https://tags.hollisterco.com/main/prod/utag.js:514:107)
+    at https://tags.hollisterco.com/main/prod/utag.js:508:654
+    at Object.getInstance (https://tags.hollisterco.com/main/prod/utag.js:399:8)
+    at u.send (https://tags.hollisterco.com/main/prod/utag.js:506:50)
+    at sendTag (https://tags.hollisterco.com/main/prod/utag.js:98:175)
+    at Object.trigger [as trigger_old] (https://tags.hollisterco.com/main/prod/utag.js:99:340)
+    at queueEventAndFireImplicitServices (https://tags.hollisterco.com/main/prod/utag.js:338:71)
+    at Object.newUtagHandlerTrigger [as trigger] (https://tags.hollisterco.com/main/prod/utag.js:301:32)
+    at Object.track (https://tags.hollisterco.com/main/prod/utag.js:89:52) @ https://tags.hollisterco.com/main/prod/utag.js:405
+[   12489ms] [LOG] utag.view fired with: {isCrsAnalyticsReady: true, global.account.user_state: guest, user_state: guest, user_wcs_id: undefined, user_device_id: cce4eef58d65bcd944b95fd2f7bc5be} @ https://tags.hollisterco.com/main/prod/utag.js:12
+[   13690ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://connect.facebook.net/en_US/fbevents.js:203
+[   16147ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.hollisterco.com/shop/wd:0

@@ -1,0 +1,366 @@
+- generic [ref=f17e5]:
+  - banner [ref=f17e6]:
+    - generic [ref=f17e7]:
+      - link "Skip to main content >" [ref=f17e9] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f17e10]:
+        - link "Go back to homepage" [ref=f17e12] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f17e13]
+        - generic [ref=f17e15]:
+          - link [ref=f17e18] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f17e25] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f17e32] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f17e39] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f17e44]:
+      - link [ref=f17e45] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f17e51]: Learn more about HackerOne
+      - link "Log in" [ref=f17e53] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f17e56]:
+    - generic [ref=f17e58]:
+      - tree [ref=f17e60]:
+        - button [ref=f17e62] [cursor=pointer]:
+          - img "collapse menu" [ref=f17e63]:
+            - img "collapse menu" [ref=f17e822]
+        - generic [ref=f17e68]:
+          - treeitem "Security page" [expanded] [ref=f17e69] [cursor=pointer]
+          - group [ref=f17e72]:
+            - treeitem "Program guidelines" [ref=f17e73] [cursor=pointer]
+            - treeitem "Scope" [active] [selected] [ref=f17e75] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f17e77] [cursor=pointer]
+            - treeitem "Thanks" [ref=f17e79] [cursor=pointer]
+            - treeitem "Updates" [ref=f17e81] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f17e83] [cursor=pointer]
+      - generic [ref=f17e85]:
+        - generic [ref=f17e824]:
+          - generic [ref=f17e827]:
+            - generic [ref=f17e828]:
+              - generic [ref=f17e829]:
+                - generic [ref=f17e830]: Search
+                - generic [ref=f17e832]:
+                  - img "Search" [ref=f17e834]:
+                    - img "Search" [ref=f17e2717]
+                  - searchbox "Search" [ref=f17e839]
+              - generic [ref=f17e840]:
+                - generic [ref=f17e841]: Scope
+                - generic [ref=f17e846]:
+                  - generic [ref=f17e847]:
+                    - generic [ref=f17e848]: All scopes
+                    - combobox [ref=f17e850]
+                  - generic [aria-hidden] [ref=f17e852] [cursor=pointer]
+              - generic [ref=f17e855]:
+                - generic [ref=f17e856]: Maximum severity
+                - generic [ref=f17e861]:
+                  - generic [ref=f17e862]:
+                    - generic [ref=f17e863]: Any
+                    - combobox [ref=f17e865]
+                  - generic [aria-hidden] [ref=f17e867] [cursor=pointer]
+              - generic [ref=f17e870]:
+                - generic [ref=f17e871]: Bounty eligibility
+                - generic [ref=f17e876]:
+                  - generic [ref=f17e877]:
+                    - generic [ref=f17e878]: All
+                    - combobox [ref=f17e880]
+                  - generic [aria-hidden] [ref=f17e882] [cursor=pointer]
+              - button [ref=f17e886] [cursor=pointer]:
+                - img "Toggle extra filters" [ref=f17e887]:
+                  - img "Toggle extra filters" [ref=f17e2721]
+            - generic [ref=f17e892]:
+              - link "Download Burp Suite Project Configuration File" [ref=f17e895] [cursor=pointer]:
+                - /url: ../teams/abercrombie_fitch_bbp/assets/download_burp_project_file.json
+              - link "Download CSV" [ref=f17e898] [cursor=pointer]:
+                - /url: ../teams/abercrombie_fitch_bbp/assets/download_csv.csv
+              - generic [ref=f17e2724]:
+                - link "View changes" [ref=f17e2725] [cursor=pointer]:
+                  - /url: /abercrombie_fitch_bbp/scope_versions
+                - generic [ref=f17e2726]: (Last updated on July 21, 2026)
+              - generic: 1-10 of 10
+            - table [ref=f17e902]:
+              - rowgroup [ref=f17e903]:
+                - row [ref=f17e2728]:
+                  - columnheader [ref=f17e905] [cursor=pointer]:
+                    - strong [ref=f17e906]: Asset name
+                  - columnheader [ref=f17e913] [cursor=pointer]:
+                    - strong [ref=f17e914]: Type
+                  - columnheader [ref=f17e921] [cursor=pointer]:
+                    - strong [ref=f17e922]: Coverage
+                  - columnheader [ref=f17e929] [cursor=pointer]:
+                    - strong [ref=f17e930]: Max. severity
+                  - columnheader [ref=f17e937] [cursor=pointer]:
+                    - strong [ref=f17e938]: Bounty
+                  - columnheader [ref=f17e945] [cursor=pointer]:
+                    - strong [ref=f17e946]: Last update
+                  - columnheader [ref=f17e2753] [cursor=pointer]:
+                    - strong [ref=f17e2754]:
+                      - generic [ref=f17e2755]: Resolved Reports
+              - rowgroup [ref=f17e953]:
+                - row [ref=f17e2766]:
+                  - cell [ref=f17e2767]:
+                    - strong [ref=f17e2769]: hollisterco.com
+                    - generic [ref=f17e2771]:
+                      - text: No credentials are required or provided for this asset. If you self-register for any accounts, please register with your
+                      - link "@wearehackerone" [ref=f17e2772] [cursor=pointer]:
+                        - /url: /wearehackerone
+                      - text: .com email address. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - cell "Domain" [ref=f17e2773]
+                  - cell "In scope" [ref=f17e2774]
+                  - cell "Critical" [ref=f17e2780]
+                  - cell "Eligible" [ref=f17e2790]
+                  - cell "Aug 12, 2022" [ref=f17e2803]
+                  - cell "8 (13%)" [ref=f17e2805]
+                - row [ref=f17e2807]:
+                  - cell "corporate.abercrombie.com No credentials are required or provided for this asset. You may not use exposed credentials to continue testing without explicit approval of the company." [ref=f17e2808]:
+                    - strong [ref=f17e2810]: corporate.abercrombie.com
+                    - generic [ref=f17e2811]: No credentials are required or provided for this asset. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - cell "Domain" [ref=f17e2813]
+                  - cell "In scope" [ref=f17e2814]
+                  - cell "Critical" [ref=f17e2820]
+                  - cell "Eligible" [ref=f17e2830]
+                  - cell "Jul 15, 2024" [ref=f17e2843]
+                  - cell "2 (3%)" [ref=f17e2845]
+                - row [ref=f17e2847]:
+                  - cell [ref=f17e2848]:
+                    - strong [ref=f17e2850]: com.abercrombie.hollister
+                    - generic [ref=f17e2852]:
+                      - text: No credentials are required or provided for this asset. If you self-register for any accounts, please register with your
+                      - link "@wearehackerone" [ref=f17e2853] [cursor=pointer]:
+                        - /url: /wearehackerone
+                      - text: .com email address. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - 'cell "Android: Play Store" [ref=f17e2854]'
+                  - cell "In scope" [ref=f17e2855]
+                  - cell "Critical" [ref=f17e2861]
+                  - cell "Eligible" [ref=f17e2871]
+                  - cell "Aug 9, 2022" [ref=f17e2884]
+                  - cell "1 (2%)" [ref=f17e2886]
+                - row [ref=f17e2888]:
+                  - cell [ref=f17e2889]:
+                    - strong [ref=f17e2891]: com.abercrombie.abercrombie
+                    - generic [ref=f17e2893]:
+                      - text: No credentials are required or provided for this asset. If you self-register for any accounts, please register with your
+                      - link "@wearehackerone" [ref=f17e2894] [cursor=pointer]:
+                        - /url: /wearehackerone
+                      - text: .com email address. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - 'cell "Android: Play Store" [ref=f17e2895]'
+                  - cell "In scope" [ref=f17e2896]
+                  - cell "Critical" [ref=f17e2902]
+                  - cell "Eligible" [ref=f17e2912]
+                  - cell "Aug 9, 2022" [ref=f17e2925]
+                  - cell "1 (2%)" [ref=f17e2927]
+                - row [ref=f17e2929]:
+                  - cell "anfcorp.com No credentials are required or provided for this asset. You may not use exposed credentials to continue testing without explicit approval of the company." [ref=f17e2930]:
+                    - strong [ref=f17e2932]: anfcorp.com
+                    - generic [ref=f17e2933]: No credentials are required or provided for this asset. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - cell "Domain" [ref=f17e2935]
+                  - cell "In scope" [ref=f17e2936]
+                  - cell "Critical" [ref=f17e2942]
+                  - cell "Eligible" [ref=f17e2952]
+                  - cell "Jul 15, 2024" [ref=f17e2965]
+                  - cell "15 (23%)" [ref=f17e2967]
+                - row [ref=f17e2969]:
+                  - cell [ref=f17e2970]:
+                    - strong [ref=f17e2972]: abercrombie.com
+                    - generic [ref=f17e2974]:
+                      - text: No credentials are required or provided for this asset. If you self-register for any accounts, please register with your
+                      - link "@wearehackerone" [ref=f17e2975] [cursor=pointer]:
+                        - /url: /wearehackerone
+                      - text: .com email address. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - cell "Domain" [ref=f17e2976]
+                  - cell "In scope" [ref=f17e2977]
+                  - cell "Critical" [ref=f17e2983]
+                  - cell "Eligible" [ref=f17e2993]
+                  - cell "Aug 12, 2022" [ref=f17e3006]
+                  - cell "23 (36%)" [ref=f17e3008]
+                - row [ref=f17e3010]:
+                  - cell [ref=f17e3011]:
+                    - strong [ref=f17e3013]: "383915209"
+                    - generic [ref=f17e3015]:
+                      - text: No credentials are required or provided for this asset. If you self-register for any accounts, please register with your
+                      - link "@wearehackerone" [ref=f17e3016] [cursor=pointer]:
+                        - /url: /wearehackerone
+                      - text: .com email address. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - 'cell "iOS: App Store" [ref=f17e3017]'
+                  - cell "In scope" [ref=f17e3018]
+                  - cell "Critical" [ref=f17e3024]
+                  - cell "Eligible" [ref=f17e3034]
+                  - cell "Aug 9, 2022" [ref=f17e3047]
+                  - cell "0 (0%)" [ref=f17e3049]
+                - row [ref=f17e3051]:
+                  - cell [ref=f17e3052]:
+                    - strong [ref=f17e3054]: "339041767"
+                    - generic [ref=f17e3056]:
+                      - text: No credentials are required or provided for this asset. If you self-register for any accounts, please register with your
+                      - link "@wearehackerone" [ref=f17e3057] [cursor=pointer]:
+                        - /url: /wearehackerone
+                      - text: .com email address. You may not use exposed credentials to continue testing without explicit approval of the company.
+                  - 'cell "iOS: App Store" [ref=f17e3058]'
+                  - cell "In scope" [ref=f17e3059]
+                  - cell "Critical" [ref=f17e3065]
+                  - cell "Eligible" [ref=f17e3075]
+                  - cell "Aug 9, 2022" [ref=f17e3088]
+                  - cell "0 (0%)" [ref=f17e3090]
+                - row [ref=f17e3092]:
+                  - cell [ref=f17e3093]:
+                    - strong [ref=f17e3095]: http://nonmerchvendorprofile.anfcorp.com
+                  - cell "URL" [ref=f17e3096]
+                  - cell "Out of scope" [ref=f17e3097]
+                  - cell "None" [ref=f17e3103]
+                  - cell "Ineligible" [ref=f17e3113]
+                  - cell "Jul 21, 2026" [ref=f17e3126]
+                  - cell "0 (0%)" [ref=f17e3128]
+                - row [ref=f17e3130]:
+                  - cell [ref=f17e3131]:
+                    - strong [ref=f17e3133]: applications.abercrombie.com/
+                  - cell "Domain" [ref=f17e3134]
+                  - cell "Out of scope" [ref=f17e3135]
+                  - cell "None" [ref=f17e3141]
+                  - cell "Ineligible" [ref=f17e3151]
+                  - cell "Aug 30, 2024" [ref=f17e3164]
+                  - cell "0 (0%)" [ref=f17e3166]
+            - generic [ref=f17e3168]: 1-10 of 10
+          - generic [ref=f17e2555]:
+            - button [ref=f17e2556] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f17e2557]:
+                - img "Collapse sidebar" [ref=f17e3172]
+            - generic [ref=f17e2564]:
+              - generic [ref=f17e2565]:
+                - generic [ref=f17e2566]:
+                  - img "abercrombie_fitch_bbp" [ref=f17e2570]
+                  - generic [ref=f17e2571]: Abercrombie & Fitch Bug Bounty
+                - generic [ref=f17e2573]:
+                  - generic [ref=f17e2574]:
+                    - link "http://abercrombie.com" [ref=f17e2575] [cursor=pointer]:
+                      - /url: http://abercrombie.com
+                    - link "@abercrombie" [ref=f17e2576] [cursor=pointer]:
+                      - /url: https://x.com/abercrombie
+                  - generic [ref=f17e2577]: Abercrombie & Fitch is an American lifestyle retailer that focuses on casual wear.
+                  - generic [ref=f17e2578]:
+                    - text: Bounty
+                    - generic [ref=f17e2579]: launched in Jul 2026
+                - generic [ref=f17e2582]:
+                  - text: "Response efficiency: 86%"
+                  - img "Response efficiency calculation information" [ref=f17e2585] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=f17e3175]
+              - generic [ref=f17e2589]:
+                - link "upload Submit without Report Assistant" [ref=f17e3177] [cursor=pointer]:
+                  - /url: /abercrombie_fitch_bbp/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=f17e2593]:
+                    - img "upload" [ref=f17e3179]
+                  - generic [ref=f17e2597]: Submit without Report Assistant
+                - generic [ref=f17e2599]:
+                  - heading "Rewards" [level=1] [ref=f17e2600]
+                  - table [ref=f17e2603]:
+                    - row [ref=f17e2605]:
+                      - columnheader [ref=f17e2606]:
+                        - paragraph [ref=f17e2610]: Severity
+                      - columnheader [ref=f17e2611]:
+                        - paragraph [ref=f17e2615]: Rewards
+                    - generic [ref=f17e2616]:
+                      - row [ref=f17e2617]:
+                        - cell "Low Avg. bounty $250 25% submissions" [ref=f17e2618]:
+                          - generic [ref=f17e3181]:
+                            - generic [ref=f17e3182]: Low
+                            - paragraph [ref=f17e3187]:
+                              - generic [ref=f17e3188]: Avg. bounty $250
+                              - generic [ref=f17e3189]: 25% submissions
+                        - cell "$250" [ref=f17e2629]
+                      - row [ref=f17e2632]:
+                        - cell "Medium Avg. bounty $750 35.94% submissions" [ref=f17e2633]:
+                          - generic [ref=f17e3191]:
+                            - generic [ref=f17e3192]: Medium
+                            - paragraph [ref=f17e3197]:
+                              - generic [ref=f17e3198]: Avg. bounty $750
+                              - generic [ref=f17e3199]: 35.94% submissions
+                        - cell "$750" [ref=f17e2644]
+                      - row [ref=f17e2647]:
+                        - cell "High Avg. bounty $2,600 17.19% submissions" [ref=f17e2648]:
+                          - generic [ref=f17e3201]:
+                            - generic [ref=f17e3202]: High
+                            - paragraph [ref=f17e3207]:
+                              - generic [ref=f17e3208]: Avg. bounty $2,600
+                              - generic [ref=f17e3209]: 17.19% submissions
+                        - cell "$2,500" [ref=f17e2659]
+                      - row [ref=f17e2662]:
+                        - cell "Critical Avg. bounty $2,250 21.88% submissions" [ref=f17e2663]:
+                          - generic [ref=f17e3211]:
+                            - generic [ref=f17e3212]: Critical
+                            - paragraph [ref=f17e3217]:
+                              - generic [ref=f17e3218]: Avg. bounty $2,250
+                              - generic [ref=f17e3219]: 21.88% submissions
+                        - cell "$4,000" [ref=f17e2674]
+                - generic [ref=f17e2677]:
+                  - heading "Stats" [level=1] [ref=f17e2678]
+                  - table [ref=f17e2679]:
+                    - rowgroup [ref=f17e2680]:
+                      - row [ref=f17e2681]:
+                        - cell "Total bounties paid" [ref=f17e2682]
+                        - cell "$112,700" [ref=f17e2683]
+                      - row [ref=f17e2686]:
+                        - cell "Average bounty" [ref=f17e2687]
+                        - cell "$750" [ref=f17e2688]
+                      - row [ref=f17e2691]:
+                        - cell "Top bounty" [ref=f17e2692]
+                        - cell "$4,000" [ref=f17e2693]
+                      - row [ref=f17e2696]:
+                        - cell "Bounties paid | 90 days" [ref=f17e2697]
+                        - cell "$22,750" [ref=f17e2698]
+                      - row [ref=f17e2701]:
+                        - cell "Reports received | 90 days" [ref=f17e2702]
+                        - cell "1502" [ref=f17e2703]
+                      - row [ref=f17e2704]:
+                        - cell "Last report resolved" [ref=f17e2705]
+                        - cell "5 days ago" [ref=f17e2706]
+                      - row [ref=f17e2707]:
+                        - cell "Reports resolved" [ref=f17e2708]
+                        - cell "64" [ref=f17e2709]
+                      - row [ref=f17e2710]:
+                        - cell "Hackers thanked" [ref=f17e2711]
+                        - cell "83" [ref=f17e2712]
+                      - row [ref=f17e2713]:
+                        - cell "Assets In Scope" [ref=f17e2714]
+                        - cell "8" [ref=f17e2715]
+        - generic [ref=f17e778]:
+          - generic [ref=f17e779]: © HackerOne
+          - list [ref=f17e780]:
+            - listitem [ref=f17e781]:
+              - link "Opportunities" [ref=f17e782] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f17e783]:
+              - link "Security" [ref=f17e784] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f17e785]:
+              - link "Leaderboard" [ref=f17e786] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f17e787]:
+              - link "Blog" [ref=f17e788] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f17e789]:
+              - link "Status" [ref=f17e790] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f17e791]:
+              - link "Docs" [ref=f17e792] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f17e793]:
+              - link "Support" [ref=f17e794] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f17e795]:
+              - link "Disclosure Guidelines" [ref=f17e796] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f17e797]:
+              - link "Press" [ref=f17e798] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f17e799]:
+              - link "Privacy" [ref=f17e800] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f17e801]:
+              - link "Terms" [ref=f17e802] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f17e803]:
+              - link [ref=f17e804] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f17e805]

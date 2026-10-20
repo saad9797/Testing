@@ -1,0 +1,66 @@
+- generic [ref=f13e4]:
+  - banner [ref=f13e5]:
+    - generic [ref=f13e6]:
+      - link "Skip to main content >" [ref=f13e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f13e9]:
+        - link "Go back to homepage" [ref=f13e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f13e12]
+        - generic [ref=f13e14]:
+          - link [ref=f13e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f13e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f13e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f13e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f13e43]:
+      - link "Learn more about HackerOne" [ref=f13e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f13e50]: Learn more about HackerOne
+      - link "Log in" [ref=f13e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f13e55]:
+    - generic [ref=f13e57]:
+      - tree [ref=f13e127]:
+        - button "collapse menu" [ref=f13e129] [cursor=pointer]:
+          - img "collapse menu" [ref=f13e130]:
+            - img "collapse menu" [ref=f13e132]
+        - generic [ref=f13e135]:
+          - treeitem "Security page" [expanded] [ref=f13e136] [cursor=pointer]
+          - group [ref=f13e139]:
+            - treeitem "Program guidelines" [selected] [ref=f13e140] [cursor=pointer]
+            - treeitem "Scope" [ref=f13e142] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f13e144] [cursor=pointer]
+            - treeitem "Thanks" [ref=f13e146] [cursor=pointer]
+            - treeitem "Updates" [ref=f13e148] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f13e150] [cursor=pointer]
+      - generic [ref=f13e58]:
+        - generic [ref=f13e152]:
+          - generic [ref=f13e154]:
+            - generic [ref=f13e155]
+            - generic [ref=f13e212]
+            - generic [ref=f13e268]
+            - generic [ref=f13e436]
+            - generic [ref=f13e451]
+            - generic [ref=f13e563]
+          - generic [ref=f13e693]:
+            - button "Collapse sidebar" [ref=f13e694] [cursor=pointer]
+            - generic [ref=f13e702]
+        - generic [ref=f13e98]:
+          - generic [ref=f13e99]: © HackerOne
+          - list [ref=f13e100]:
+            - listitem [ref=f13e101]
+            - listitem [ref=f13e103]
+            - listitem [ref=f13e105]
+            - listitem [ref=f13e107]
+            - listitem [ref=f13e109]
+            - listitem [ref=f13e111]
+            - listitem [ref=f13e113]
+            - listitem [ref=f13e115]
+            - listitem [ref=f13e117]
+            - listitem [ref=f13e119]
+            - listitem [ref=f13e121]
+            - listitem [ref=f13e123]

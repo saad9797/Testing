@@ -1,0 +1,841 @@
+- generic [ref=f4e4]:
+  - banner [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - link "Skip to main content >" [ref=f4e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f4e9]:
+        - link "Go back to homepage" [ref=f4e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f4e12]
+        - generic [ref=f4e14]:
+          - link [ref=f4e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f4e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f4e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f4e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f4e43]:
+      - link [ref=f4e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f4e50]: Learn more about HackerOne
+      - link "Log in" [ref=f4e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f4e55]:
+    - generic [ref=f4e73]:
+      - tree [ref=f4e75]:
+        - button [ref=f4e77] [cursor=pointer]:
+          - img "collapse menu" [ref=f4e78]:
+            - img "collapse menu" [ref=f4e80]
+        - generic [ref=f4e83]:
+          - treeitem "Security page" [expanded] [ref=f4e84] [cursor=pointer]
+          - group [ref=f4e87]:
+            - treeitem "Program guidelines" [selected] [ref=f4e88] [cursor=pointer]
+            - treeitem "Scope" [ref=f4e90] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f4e92] [cursor=pointer]
+            - treeitem "Thanks" [ref=f4e94] [cursor=pointer]
+            - treeitem "Updates" [ref=f4e96] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f4e98] [cursor=pointer]
+            - treeitem "Safe harbor" [ref=f4e100] [cursor=pointer]
+      - generic [ref=f4e102]:
+        - generic [ref=f4e103]:
+          - generic [ref=f4e105]:
+            - generic [ref=f4e106]:
+              - heading "Program highlights" [level=2] [ref=f4e109]
+              - generic [ref=f4e113]:
+                - generic [ref=f4e114]:
+                  - generic [ref=f4e115]:
+                    - generic [ref=f4e116]: Closed Scope
+                    - generic [ref=f4e124]:
+                      - text: Only accepts reports based on the listed scope.
+                      - link "Learn more about Closed Scope (opens in a new tab)" [ref=f4e126] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8490833-security-page#h_46a5b35ded
+                  - generic [ref=f4e131]:
+                    - generic [ref=f4e132]: Fast Payment
+                    - generic [ref=f4e140]:
+                      - text: Ensures payment within 1 month of receiving a vulnerability report.
+                      - link "Learn more about Fast Payment (opens in a new tab)" [ref=f4e142] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8490833-security-page#h_9c1fc6b7c0
+                  - generic [ref=f4e147]:
+                    - generic [ref=f4e148]: Gold Standard Safe Harbor
+                    - generic [ref=f4e156]:
+                      - text: Adheres to Gold Standard Safe Harbor.
+                      - link "Learn more about Gold Standard Safe Harbor (opens in a new tab)" [ref=f4e158] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8494525-gold-standard-safe-harbor-statement
+                  - generic [ref=f4e163]:
+                    - generic [ref=f4e164]: Platform Standards
+                    - generic [ref=f4e172]:
+                      - text: Fully compliant with Platform Standards.
+                      - link "Learn more about Platform Standards (opens in a new tab)" [ref=f4e174] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8369826-detailed-platform-standards#h_e01bc643a8
+                  - generic [ref=f4e179]:
+                    - generic [ref=f4e180]: Top Response Efficiency
+                    - generic [ref=f4e188]:
+                      - text: This program's response efficiency is above 90%.
+                      - link "Learn more about Top Response Efficiency (opens in a new tab)" [ref=f4e190] [cursor=pointer]:
+                        - /url: https://docs.hackerone.com/en/articles/8490880-response-target-indicators
+                - generic [ref=f4e195]:
+                  - generic [ref=f4e196]: Collaboration Enabled
+                  - generic [ref=f4e201]: Includes Retesting
+            - generic [ref=f4e206]:
+              - generic [ref=f4e210]:
+                - generic [ref=f4e216]: 1 hour
+                - generic [ref=f4e217]: Average time to first response
+              - generic [ref=f4e221]:
+                - generic [ref=f4e227]: 3 hours
+                - generic [ref=f4e228]: Average time to triage
+              - generic [ref=f4e232]:
+                - generic [ref=f4e238]: 1 day, 11 hours
+                - generic [ref=f4e239]: Average time to bounty
+              - generic [ref=f4e243]:
+                - generic [ref=f4e249]: 1 day, 14 hours
+                - generic [ref=f4e250]: Average time from submission to bounty
+              - generic [ref=f4e254]:
+                - generic [ref=f4e260]: 2 weeks, 3 days
+                - generic [ref=f4e261]: Average time to resolution
+            - generic [ref=f4e262]:
+              - generic [ref=f4e264]:
+                - heading "Rewards summary" [level=2] [ref=f4e265]
+                - generic [ref=f4e267]:
+                  - generic [ref=f4e268]: Last updated on September 15, 2026.
+                  - link "View changes" [ref=f4e269] [cursor=pointer]:
+                    - /url: /8x8-bounty/bounty_table_versions
+              - generic [ref=f4e277]:
+                - generic [ref=f4e278]: Each severity lists the 90-day average bounty and the percentage of total resolved reports, if applicable.
+                - table [ref=f4e280]:
+                  - row [ref=f4e282]:
+                    - columnheader [ref=f4e283]:
+                      - heading "Asset" [level=2] [ref=f4e287]
+                    - columnheader "Low Avg. bounty $95 24.63% submissions" [ref=f4e288]:
+                      - generic [ref=f4e292]:
+                        - generic [ref=f4e293]: Low
+                        - paragraph [ref=f4e298]:
+                          - generic [ref=f4e299]: Avg. bounty $95
+                          - generic [ref=f4e300]: 24.63% submissions
+                    - columnheader "Medium Avg. bounty $500 40.42% submissions" [ref=f4e301]:
+                      - generic [ref=f4e305]:
+                        - generic [ref=f4e306]: Medium
+                        - paragraph [ref=f4e311]:
+                          - generic [ref=f4e312]: Avg. bounty $500
+                          - generic [ref=f4e313]: 40.42% submissions
+                    - columnheader "High Avg. bounty $1,152 28.46% submissions" [ref=f4e314]:
+                      - generic [ref=f4e318]:
+                        - generic [ref=f4e319]: High
+                        - paragraph [ref=f4e324]:
+                          - generic [ref=f4e325]: Avg. bounty $1,152
+                          - generic [ref=f4e326]: 28.46% submissions
+                    - columnheader "Critical Avg. bounty $2,286 6.49% submissions" [ref=f4e327]:
+                      - generic [ref=f4e331]:
+                        - generic [ref=f4e332]: Critical
+                        - paragraph [ref=f4e337]:
+                          - generic [ref=f4e338]: Avg. bounty $2,286
+                          - generic [ref=f4e339]: 6.49% submissions
+                  - generic [ref=f4e340]:
+                    - row [ref=f4e341]:
+                      - cell "Intellectual Property on Public Domains" [ref=f4e342]
+                      - cell "$50" [ref=f4e347]
+                      - cell "$100" [ref=f4e350]
+                      - cell "$250" [ref=f4e353]
+                      - cell "$500" [ref=f4e356]
+                    - row [ref=f4e359]:
+                      - cell "All assets" [ref=f4e360]
+                      - cell "$50" [ref=f4e365]
+                      - cell "$250" [ref=f4e368]
+                      - cell "$500" [ref=f4e371]
+                      - cell "$1,000" [ref=f4e374]
+            - generic [ref=f4e377]:
+              - heading "Scope exclusions" [level=2] [ref=f4e380]
+              - generic [ref=f4e384]:
+                - generic [ref=f4e385]:
+                  - text: Core Ineligible Findings are out of scope.
+                  - link "Learn more" [ref=f4e386] [cursor=pointer]:
+                    - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+                - generic [ref=f4e392]:
+                  - generic [ref=f4e393]:
+                    - generic [ref=f4e394]: IDORs with Unpredictable IDs
+                    - generic [ref=f4e395]: IDORs having unguessable/non-enumerable identifier are out of scope.
+                  - generic [ref=f4e396]:
+                    - generic [ref=f4e397]: 0-day vulnerabilities
+                    - generic [ref=f4e398]: Public Zero-day vulnerabilities that have had an official patch for less than 1 month will be awarded on a case by case basis.
+                  - generic [ref=f4e399]:
+                    - generic [ref=f4e400]: Credential Stuffing
+                    - generic [ref=f4e401]: 🚨 Testing of customer credentials is strictly prohibited. We strongly advise our users not to reuse passwords from other platforms or services, and use multi-factor authentication when possible. Submissions related to Credential Stuffing are out of scope and will not be rewarded.
+                  - generic [ref=f4e402]:
+                    - generic [ref=f4e403]: Client-Side API Keys
+                    - generic [ref=f4e404]: Certain API keys (such as Google Maps, Analytics Services, …) are intentionally accessible to the end client. The only submissions which will be accepted have to show both how a key can be abused and how handling of the client key can be improved.
+            - generic [ref=f4e405]:
+              - generic [ref=f4e407]:
+                - heading "Overview" [level=2] [ref=f4e408]
+                - generic [ref=f4e410]:
+                  - generic [ref=f4e411]: Last updated on May 16, 2026.
+                  - link "View changes" [ref=f4e412] [cursor=pointer]:
+                    - /url: /8x8-bounty/policy_versions
+              - generic [ref=f4e420]:
+                - generic [ref=f4e421]: At 8x8, we help companies get their employees, customers and applications talking to make people more connected and productive no matter where they are in the world. At 8x8 we value security and recognize the importance of ensuring the integrity and confidentiality of global communications.
+                - heading "8x8 Product Scope" [level=2] [ref=f4e422]
+                - table [ref=f4e423]:
+                  - rowgroup [ref=f4e424]:
+                    - row [ref=f4e425]:
+                      - columnheader [ref=f4e426]:
+                        - strong [ref=f4e427]: 8x8 Work
+                      - columnheader "All your essential business communications brought together in one simple app." [ref=f4e428]
+                - generic [ref=f4e429]: "⚠️ Testing accounts or credentials are not being provided at this time. ⚠️ Product Assets:"
+                - list [ref=f4e430]:
+                  - listitem [ref=f4e431]:
+                    - text: "Web App:"
+                    - link "https://work.8x8.com/" [ref=f4e432] [cursor=pointer]:
+                      - /url: https://work.8x8.com/
+                  - listitem [ref=f4e433]:
+                    - text: "8x8 Work for Desktop:"
+                    - link "https://support-portal.8x8.com/helpcenter/viewArticle.html?d=8bff4970-6fbf-4daf-842d-8ae9b533153d" [ref=f4e434] [cursor=pointer]:
+                      - /url: https://support-portal.8x8.com/helpcenter/viewArticle.html?d=8bff4970-6fbf-4daf-842d-8ae9b533153d
+                  - listitem [ref=f4e435]:
+                    - text: "iOS App:"
+                    - link "https://apps.apple.com/us/app/8x8-work/id348177448" [ref=f4e436] [cursor=pointer]:
+                      - /url: https://apps.apple.com/us/app/8x8-work/id348177448
+                  - listitem [ref=f4e437]:
+                    - text: "Android App:"
+                    - link "https://play.google.com/store/apps/details?id=org.vom8x8.sipua" [ref=f4e438] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=org.vom8x8.sipua
+                - table [ref=f4e439]:
+                  - rowgroup [ref=f4e440]:
+                    - row [ref=f4e441]:
+                      - columnheader [ref=f4e442]:
+                        - strong [ref=f4e443]: 8x8 Virtual Contact Center
+                      - columnheader "A complete, secure cloud contact center solution that makes it easy to collaborate with agents and improve customer experiences." [ref=f4e444]
+                - generic [ref=f4e445]:
+                  - text: ⚠️ Testing accounts or credentials are not being provided at this time. ⚠️ We will accept one unique report for the application across all related domains as assumed single fix unless proven otherwise. ⚠️ Latest version of software usually available on
+                  - link "https://vcc-na30.8x8.com/" [ref=f4e446] [cursor=pointer]:
+                    - /url: https://vcc-na30.8x8.com/
+                  - text: "⚠️ Product Assets:"
+                - list [ref=f4e447]:
+                  - listitem [ref=f4e448]: "Configuration Manager: vcc-*.8x8.com/CM/"
+                  - listitem [ref=f4e449]: "8x8 Agent Workspace: vcc-*.8x8.com/AGUI/"
+                  - listitem [ref=f4e450]: "8x8 Quality Management: vcc-*.8x8.com/QM/"
+                  - listitem [ref=f4e451]:
+                    - text: "8x8 Supervisor Workspace:"
+                    - link "https://superx.8x8.com/" [ref=f4e452] [cursor=pointer]:
+                      - /url: https://superx.8x8.com/
+                  - listitem [ref=f4e453]: "8x8 Analytics for Contact Center: analytics-*.8x8.com"
+                - generic [ref=f4e454]: "⚠️ Additional Testing Information regarding \"Contact Center Agent Workspace\":"
+                - list [ref=f4e455]:
+                  - listitem [ref=f4e456]:
+                    - text: For the application to work properly behind a Proxy (e.g. BURP), an exception has to be added for
+                    - code [ref=f4e457]: jabbind3.php
+                    - list [ref=f4e458]:
+                      - listitem [ref=f4e459]: Proxy settings
+                      - listitem [ref=f4e460]: Search "streaming"
+                      - listitem [ref=f4e461]:
+                        - text: Add
+                        - code [ref=f4e462]: https://vcc-na1.8x8.com/agui/jabbind3.php
+                        - text: (e.g.) as "Streaming responses"
+                      - listitem [ref=f4e463]
+                - table [ref=f4e465]:
+                  - rowgroup [ref=f4e466]:
+                    - row [ref=f4e467]:
+                      - columnheader [ref=f4e468]:
+                        - strong [ref=f4e469]: Jitsi
+                      - columnheader [ref=f4e470]:
+                        - text: Jitsi is a world class open source video meeting solution. We strive to make a flexible and secure video meetings platform with the option of
+                        - strong [ref=f4e471]: end-to-end encryption (beta)
+                        - text: .
+                - generic [ref=f4e472]:
+                  - text: "⚠️ Have a feature request or bug not related to security? Let us know or contribute yourself:"
+                  - link "https://github.com/jitsi/" [ref=f4e473] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/
+                  - text: "⚠️ Product Assets:"
+                - list [ref=f4e474]:
+                  - listitem [ref=f4e475]: "Infrastructure: *.jitsi.net"
+                  - listitem [ref=f4e476]: "Infrastructure: *.jit.si"
+                  - listitem [ref=f4e477]:
+                    - text: "Source Code:"
+                    - link "https://github.com/jitsi" [ref=f4e478] [cursor=pointer]:
+                      - /url: https://github.com/jitsi
+                - generic [ref=f4e479]:
+                  - text: Open source repositories that support
+                  - link "Jitsi" [ref=f4e480] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/
+                  - text: . Jitsi Meet offers free, secure and open-source video conferencing. ⚠️ Good faith review of source that a reporter must have no association with the existence of the vulnerability in question.
+                - generic [ref=f4e481]:
+                  - strong [ref=f4e482]: "Proof of Concept Requirements:"
+                  - text: ⚠️ Vulnerability submissions must include practical exploitation demonstrations on one of the following environments ▶︎ The public Jitsi Meet instance (
+                  - link "meet.jit.si" [ref=f4e483] [cursor=pointer]:
+                    - /url: https://meet.jit.si/
+                  - text: ) ▶︎ 8x8 Video Meetings platform (
+                  - link "8x8.vc" [ref=f4e484] [cursor=pointer]:
+                    - /url: https://8x8.vc/
+                  - text: ) ▶︎ A self-hosted Jitsi deployment
+                - generic [ref=f4e485]:
+                  - text: ⚠️ For E2EE submissions please consult the
+                  - link "Jitsi End-to-End Encryption Whitepaper" [ref=f4e486] [cursor=pointer]:
+                    - /url: https://jitsi.org/e2ee-whitepaper/
+                  - text: to better understand the implemented Threat Model.
+                - generic [ref=f4e487]:
+                  - strong [ref=f4e488]: "Code Review Reports:"
+                  - text: ⚠️ Code-only vulnerabilities without proof of exploitation in production environments will typically be assessed at a lower severity level ⚠️ Vulnerabilities requiring local access to exploit will be assessed at a lower severity level (unless exceptional circumstances exist) ⚠️ Vulnerabilities exploitable only with development configurations (e.g.,
+                  - code [ref=f4e489]: BYPASS_AUTHORIZATION=1
+                  - text: ) will be assessed at a lower severity level
+                - generic [ref=f4e490]:
+                  - strong [ref=f4e491]: "Out of Scope:"
+                  - text: ▶︎ Not actively maintained or archived repositories ▶︎ Experimental repositories ▶︎ Reports for repositories that are forked should be submitted upstream, unless the report also affects one of our in-scope repos ▶︎
+                  - link "github.com/jitsi/jitsi-call-analytics" [ref=f4e492] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-call-analytics
+                  - text: ▶︎
+                  - link "github.com/jitsi/jitsi" [ref=f4e493] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi/
+                  - link "Jitsi Desktop" [ref=f4e494] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi/
+                  - text: is the heritage of
+                  - link "Jitsi Meet" [ref=f4e495] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-meet
+                  - text: . While some components are still used in e.g. Jigasi, the project is not actively developed anymore. Improvements, bugfixes and builds are entirely based on community contributions ▶︎
+                  - link ".github" [ref=f4e496] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/.github
+                  - text: ▶︎
+                  - link "cla-enforcer" [ref=f4e497] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/cla-enforcer
+                  - text: ▶︎
+                  - link "eslint-config-jitsi" [ref=f4e498] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/eslint-config-jitsi
+                  - text: ▶︎
+                  - link "excalidraw" [ref=f4e499] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/excalidraw
+                  - text: ▶︎
+                  - link "excalidraw-backend" [ref=f4e500] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/excalidraw-backend
+                  - text: ▶︎
+                  - link "felix" [ref=f4e501] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/felix
+                  - text: ▶︎
+                  - link "fmj" [ref=f4e502] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/fmj
+                  - text: ▶︎
+                  - link "go-offline-maven-plugin" [ref=f4e503] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/go-offline-maven-plugin
+                  - text: ▶︎
+                  - link "growl4j" [ref=f4e504] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/growl4j
+                  - text: ▶︎
+                  - link "gsoc-ideas" [ref=f4e505] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/gsoc-ideas
+                  - text: ▶︎
+                  - link "irc-api" [ref=f4e506] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/irc-api
+                  - text: ▶︎
+                  - link "jebml" [ref=f4e507] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jebml
+                  - text: ▶︎
+                  - link "jitsi-desktop-site" [ref=f4e508] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-desktop-site
+                  - text: ▶︎
+                  - link "jitsi-maven-repository" [ref=f4e509] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-maven-repository
+                  - text: ▶︎
+                  - link "jitsi-meet-file-sharing-service" [ref=f4e510] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-meet-file-sharing-service
+                  - text: ▶︎
+                  - link "jitsi-meet-load-test" [ref=f4e511] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-meet-load-test
+                  - text: ▶︎
+                  - link "jitsi-meet-logger" [ref=f4e512] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-meet-logger
+                  - text: ▶︎
+                  - link "jitsi-meet-react-sdk" [ref=f4e513] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-meet-react-sdk
+                  - text: ▶︎
+                  - link "jitsi-meet-release-notes" [ref=f4e514] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-meet-release-notes
+                  - text: ▶︎
+                  - link "jitsi-meet-torture" [ref=f4e515] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-meet-torture
+                  - text: ▶︎
+                  - link "jitsi-pseudotcp" [ref=f4e516] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-pseudotcp
+                  - text: ▶︎
+                  - link "jitsi-test-lab" [ref=f4e517] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-test-lab
+                  - text: ▶︎
+                  - link "jitsi-videobridge-openfire-plugin" [ref=f4e518] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jitsi-videobridge-openfire-plugin
+                  - text: ▶︎
+                  - link "jiwer" [ref=f4e519] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jiwer
+                  - text: ▶︎
+                  - link "jsocks" [ref=f4e520] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jsocks
+                  - text: ▶︎
+                  - link "jvb-dashboard" [ref=f4e521] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jvb-dashboard
+                  - text: ▶︎
+                  - link "jxs" [ref=f4e522] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/jxs
+                  - text: ▶︎
+                  - link "otr4j" [ref=f4e523] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/otr4j
+                  - text: ▶︎
+                  - link "portaudio" [ref=f4e524] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/portaudio
+                  - text: ▶︎
+                  - link "security-advisories" [ref=f4e525] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/security-advisories
+                  - text: ▶︎
+                  - link "Smack" [ref=f4e526] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/Smack
+                  - text: ▶︎
+                  - link "testrtc" [ref=f4e527] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/testrtc
+                  - text: ▶︎
+                  - link "winrt-libs" [ref=f4e528] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/winrt-libs
+                  - text: ▶︎
+                  - link "zrtp4j" [ref=f4e529] [cursor=pointer]:
+                    - /url: https://github.com/jitsi/zrtp4j
+                - table [ref=f4e530]:
+                  - rowgroup [ref=f4e531]:
+                    - row [ref=f4e532]:
+                      - columnheader [ref=f4e533]:
+                        - strong [ref=f4e534]: 8x8 Video Conferencing
+                      - columnheader "The best video conferencing solution for businesses of any size. Fully secure, reliable, packed with features and ridiculously simple to use." [ref=f4e535]
+                - generic [ref=f4e536]: "⚠️ Testing accounts or credentials are not being provided at this time. ⚠️ Product Assets:"
+                - list [ref=f4e537]:
+                  - listitem [ref=f4e538]:
+                    - text: "Web App:"
+                    - link "https://8x8.vc/" [ref=f4e539] [cursor=pointer]:
+                      - /url: https://8x8.vc/
+                - table [ref=f4e540]:
+                  - rowgroup [ref=f4e541]:
+                    - row [ref=f4e542]:
+                      - columnheader [ref=f4e543]:
+                        - strong [ref=f4e544]: Jitsi as a Service
+                      - columnheader "World's easiest way to add video meetings to your apps." [ref=f4e545]
+                - generic [ref=f4e546]:
+                  - text: "⚠️ Self Sign-up is available:"
+                  - link "https://jaas.8x8.vc/" [ref=f4e547] [cursor=pointer]:
+                    - /url: https://jaas.8x8.vc/
+                  - text: ⚠️
+                  - link "JaaS developer portal" [ref=f4e548] [cursor=pointer]:
+                    - /url: https://developer.8x8.com/jaas/docs/jaas-onboarding
+                - table [ref=f4e549]:
+                  - rowgroup [ref=f4e550]:
+                    - row [ref=f4e551]:
+                      - columnheader [ref=f4e552]:
+                        - strong [ref=f4e553]: 8x8 Connect
+                      - columnheader "A multi-channel communication platform designed for businesses who want to work smart, not hard." [ref=f4e554]
+                - generic [ref=f4e555]:
+                  - text: "⚠️ Self Sign-up is available:"
+                  - link "https://connect.8x8.com/" [ref=f4e556] [cursor=pointer]:
+                    - /url: https://connect.8x8.com/
+                  - text: ⚠️
+                  - link "8x8 CPaaS developer portal" [ref=f4e557] [cursor=pointer]:
+                    - /url: https://developer.8x8.com/connect
+                  - text: "⚠️ Product Assets:"
+                - list [ref=f4e558]:
+                  - listitem [ref=f4e559]:
+                    - text: "Web App:"
+                    - link "https://connect.8x8.com/" [ref=f4e560] [cursor=pointer]:
+                      - /url: https://connect.8x8.com/
+                  - listitem [ref=f4e561]: "8x8 Communication APIs: sms.8x8.com, sms.8x8.uk, sms.8x8.id, sms.us.8x8.com, chatapps.8x8.com, …"
+                - separator [ref=f4e562]
+                - heading "If You See Something, Say Something" [level=2] [ref=f4e564]
+                - generic [ref=f4e565]: We welcome and encourage any submissions that help identify potential security vulnerabilities or exposures affecting our organization. Vulnerabilities disclosed under Responsible Disclosure assets will not be eligible for bounties.
+                - heading "8x8 IP Ranges & Domains" [level=3] [ref=f4e566]
+                - link "https://support-portal.8x8.com/viewArticle.html?d=76af47f6-a987-4c2a-a0a2-53d87a79023d&q=x-series-technical-requirements&hl=en" [ref=f4e568] [cursor=pointer]:
+                  - /url: https://support-portal.8x8.com/viewArticle.html?d=76af47f6-a987-4c2a-a0a2-53d87a79023d&q=x-series-technical-requirements&hl=en
+                - heading "8x8 subsidiaries and acquisitions" [level=3] [ref=f4e569]
+                - list [ref=f4e570]:
+                  - listitem [ref=f4e571]: Callroute (2026)
+                  - listitem [ref=f4e572]: Maven Lab (2026)
+                  - listitem [ref=f4e573]: In2Tel (2025)
+                  - listitem [ref=f4e574]: Fuze (2022)
+                  - listitem [ref=f4e575]: Wavecell (2019)
+                  - listitem [ref=f4e576]: Jitsi (2018)
+                  - listitem [ref=f4e577]: Quality Software Corp. (QSC) (2015)
+                  - listitem [ref=f4e578]: MarianaIQ (2015)
+                  - listitem [ref=f4e579]: DXI (2015)
+                  - listitem [ref=f4e580]: Voicenet (2013)
+                  - listitem [ref=f4e581]: Contactual (2011)
+                - separator [ref=f4e582]
+                - heading "Response Targets" [level=2] [ref=f4e584]
+                - generic [ref=f4e585]: "8x8 will make a best effort to meet the following response targets for hackers participating in our program:"
+                - list [ref=f4e586]:
+                  - listitem [ref=f4e587]: Time to first response (from report submit) - 1 business days
+                  - listitem [ref=f4e588]: Time to triage (from report submit) - 2 business days
+                - heading "Disclosure Policy" [level=2] [ref=f4e589]
+                - list [ref=f4e590]:
+                  - listitem [ref=f4e591]: Let us know as soon as possible upon discovery of a potential security issue, and we'll make every effort to quickly resolve the issue.
+                  - listitem [ref=f4e592]: Please do not discuss vulnerabilities outside of the program without proper coordination and express consent from 8x8.
+                  - listitem [ref=f4e593]: Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of our service.
+                  - listitem [ref=f4e594]: Only interact with accounts you own or with explicit permission of the account holder. Please notify us immediately if you encounter exposure of information.
+                  - listitem [ref=f4e595]:
+                    - text: Follow HackerOne's
+                    - link "disclosure guidelines" [ref=f4e596] [cursor=pointer]:
+                      - /url: https://www.hackerone.com/disclosure-guidelines
+                    - text: .
+                - heading "Scope Exclusions" [level=2] [ref=f4e597]
+                - heading "Testing Conduct" [level=3] [ref=f4e598]
+                - generic [ref=f4e599]: "Please do not:"
+                - list [ref=f4e600]:
+                  - listitem [ref=f4e601]: Conduct automated or high-volume testing without prior coordination
+                  - listitem [ref=f4e602]: Perform any activity that could disrupt our service (DoS/DDoS)
+                  - listitem [ref=f4e603]: Send spam or unsolicited communications
+                  - listitem [ref=f4e604]: Engage in social engineering or phishing of 8x8 staff or contractors
+                  - listitem [ref=f4e605]: Make physical attempts against 8x8 property or data centers
+                - heading "Mobile-Specific Exclusions" [level=3] [ref=f4e606]
+                - list [ref=f4e607]:
+                  - listitem [ref=f4e608]: Findings requiring a malicious or attacker-controlled application installed on the victim's device
+                  - listitem [ref=f4e609]: Same-device cross-application attacks via Android intents, activities, services, broadcast receivers, content providers, IPC mechanisms, overlays, or accessibility features
+                  - listitem [ref=f4e610]: Task hijacking (StrandHogg) vulnerabilities
+                  - listitem [ref=f4e611]: Insecure data storage on rooted or jailbroken devices
+                  - listitem [ref=f4e612]: Issues requiring local code execution in the context of another application
+                - heading "Common Low-Impact Issues" [level=3] [ref=f4e613]
+                - list [ref=f4e614]:
+                  - listitem [ref=f4e615]: Missing security headers (HSTS, CSP, SPF, DMARC, X-Frame-Options, etc.)
+                  - listitem [ref=f4e616]: Missing cookie flags (Secure, HttpOnly, SameSite) without demonstrated exploit
+                  - listitem [ref=f4e617]: SSL/TLS configuration issues (weak ciphers, key size, deprecated protocols, BEAST, CRIME)
+                  - listitem [ref=f4e618]: Software version disclosure, banner identification, or descriptive error messages
+                  - listitem [ref=f4e619]: Clickjacking on non-sensitive pages
+                  - listitem [ref=f4e620]: Self-XSS without further security impact
+                  - listitem [ref=f4e621]: CSRF on unauthenticated forms or forms with no sensitive action
+                  - listitem [ref=f4e622]: CSV injection without demonstrated impact
+                  - listitem [ref=f4e623]: Tab-nabbing
+                - heading "Authentication & Access Control" [level=3] [ref=f4e624]
+                - list [ref=f4e625]:
+                  - listitem [ref=f4e626]: Credential stuffing attacks (users are responsible for password uniqueness and enabling MFA)
+                  - listitem [ref=f4e627]: Rate limiting or brute force issues without demonstrated account compromise
+                  - listitem [ref=f4e628]: Issues requiring MITM or physical access to a user's device
+                - heading "Dependencies & Browsers" [level=3] [ref=f4e629]
+                - list [ref=f4e630]:
+                  - listitem [ref=f4e631]: Vulnerable libraries or dependencies without a demonstrated Proof of Concept showing exploitability in our application context
+                  - listitem [ref=f4e632]: Issues only affecting outdated browsers (more than 2 stable versions behind current release)
+                - heading "Disclosure Timing" [level=3] [ref=f4e633]
+                - list [ref=f4e634]:
+                  - listitem [ref=f4e635]: Public zero-day vulnerabilities patched less than 1 month ago (evaluated case-by-case)
+                - heading "Scanner Findings" [level=3] [ref=f4e636]
+                - list [ref=f4e637]:
+                  - listitem [ref=f4e638]: Low-severity issues reported by automated scanners without demonstrated security impact or exploitation path
+                - heading "Target Specific Scope Exclusion - connect.8x8.com" [level=3] [ref=f4e639]
+                - list [ref=f4e640]:
+                  - listitem [ref=f4e641]:
+                    - text: IDORs having unguessable/non-enumerable identifier are out of scope
+                    - list [ref=f4e642]:
+                      - listitem [ref=f4e643]: IDORs in form of an UUID
+                      - listitem [ref=f4e644]:
+                        - text: IDORs based on
+                        - code [ref=f4e645]: AccountId
+                        - text: and
+                        - code [ref=f4e646]: subAccountId
+                  - listitem [ref=f4e647]: When testing support functionality please add "HackerOne" in your subject line and limit the number of requests to an absolute minimum.
+                - heading "Testing Identification" [level=2] [ref=f4e648]
+                - list [ref=f4e649]:
+                  - listitem [ref=f4e650]:
+                    - text: Please utilize your [username]
+                    - link "@wearehackerone" [ref=f4e651] [cursor=pointer]:
+                      - /url: /wearehackerone
+                    - text: .com alias when submitting information within the applications.
+                  - listitem [ref=f4e652]:
+                    - text: To help us identify and classify researcher traffic, 8x8 requests you to include your HackerOne username value to each and every HTTP request made by yourself or any tooling you use. Please use the following format appended to
+                    - code [ref=f4e653]: User-Agent
+                    - text: ":"
+                    - code [ref=f4e654]: "X-HackerOne: [H1 username]"
+                - heading "Safe Harbor" [level=2] [ref=f4e655]
+                - generic [ref=f4e656]:
+                  - text: The
+                  - link "Gold Standard Safe Harbor" [ref=f4e657] [cursor=pointer]:
+                    - /url: https://hackerone.com/8x8-bounty/safe_harbor
+                  - text: applies.
+                - heading "What other researchers are saying …" [level=2] [ref=f4e658]
+                - list [ref=f4e659]:
+                  - listitem [ref=f4e660]:
+                    - blockquote [ref=f4e661]:
+                      - emphasis [ref=f4e663]: Lightning fast as always, wish all programs were like this!
+                  - listitem [ref=f4e664]:
+                    - blockquote [ref=f4e665]:
+                      - emphasis [ref=f4e667]: 8x8 is the best bug bounty program on HackerOne by far.
+                  - listitem [ref=f4e668]:
+                    - blockquote [ref=f4e669]:
+                      - emphasis [ref=f4e671]: Best Program Team!
+                  - listitem [ref=f4e672]:
+                    - blockquote [ref=f4e673]:
+                      - emphasis [ref=f4e675]: Thank you for being one of the fastest response triager as well as super transparent, someone that works with hackers just like a collaboration.
+                  - listitem [ref=f4e676]:
+                    - blockquote [ref=f4e677]:
+                      - emphasis [ref=f4e679]: That was the fastest triage ever I think.
+                  - listitem [ref=f4e680]:
+                    - blockquote [ref=f4e681]:
+                      - emphasis [ref=f4e683]: This is the fastest program to date. Not only is the response time is insane, but also the way your security team works with researchers is awesome. Totally love the fact that you guys are putting security as your top priority.
+                  - listitem [ref=f4e684]:
+                    - blockquote [ref=f4e685]:
+                      - emphasis [ref=f4e687]: The fastest response I've seen in hackerone history, also on the weekend
+                  - listitem [ref=f4e688]:
+                    - blockquote [ref=f4e689]:
+                      - emphasis [ref=f4e691]: That must be been the fastest fix I've ever seen! <24h from report to remediation, love to see it.
+                - strong [ref=f4e693]: Thank you for helping keep 8x8 and our users safe!
+            - generic [ref=f4e694]:
+              - generic [ref=f4e696]:
+                - heading "Top hackers" [level=2] [ref=f4e697]
+                - link "See all hackers" [ref=f4e700] [cursor=pointer]:
+                  - /url: /8x8-bounty/thanks
+              - generic [ref=f4e708]:
+                - generic [ref=f4e709]:
+                  - generic [ref=f4e710]: "1"
+                  - img "pentestor" [ref=f4e714]
+                  - generic [ref=f4e715]:
+                    - link "pentestor" [ref=f4e716] [cursor=pointer]:
+                      - /url: /pentestor?type=user
+                    - generic "3869" [ref=f4e718]: "Reputation: 3k"
+                - generic [ref=f4e719]:
+                  - generic [ref=f4e720]: "2"
+                  - generic [ref=f4e722]:
+                    - img "exhandler" [ref=f4e724]
+                    - img [ref=f4e726]:
+                      - img "Clear-verified badge" [ref=f4e727]
+                  - generic [ref=f4e732]:
+                    - link "exhandler" [ref=f4e733] [cursor=pointer]:
+                      - /url: /exhandler?type=user
+                    - generic "2644" [ref=f4e735]: "Reputation: 2k"
+                - generic [ref=f4e736]:
+                  - generic [ref=f4e737]: "3"
+                  - generic [ref=f4e739]:
+                    - img "emperor" [ref=f4e741]
+                    - img [ref=f4e743]:
+                      - img "Clear-verified badge" [ref=f4e744]
+                  - generic [ref=f4e749]:
+                    - link "emperor" [ref=f4e750] [cursor=pointer]:
+                      - /url: /emperor?type=user
+                    - generic "2378" [ref=f4e752]: "Reputation: 2k"
+                - generic [ref=f4e753]:
+                  - generic [ref=f4e754]: "4"
+                  - generic [ref=f4e756]:
+                    - img "d0xing" [ref=f4e758]
+                    - img [ref=f4e760]:
+                      - img "ID-verified" [ref=f4e761]
+                  - generic [ref=f4e765]:
+                    - link "d0xing" [ref=f4e766] [cursor=pointer]:
+                      - /url: /d0xing?type=user
+                    - generic "1634" [ref=f4e768]: "Reputation: 1k"
+                - generic [ref=f4e769]:
+                  - generic [ref=f4e770]: "5"
+                  - generic [ref=f4e772]:
+                    - img "adnanmalikinfo" [ref=f4e774]
+                    - img [ref=f4e776]:
+                      - img "ID-verified" [ref=f4e777]
+                  - generic [ref=f4e781]:
+                    - link "adnanmalikinfo" [ref=f4e782] [cursor=pointer]:
+                      - /url: /adnanmalikinfo?type=user
+                    - generic "1160" [ref=f4e784]: "Reputation: 1k"
+                - generic [ref=f4e785]:
+                  - generic [ref=f4e786]: "6"
+                  - generic [ref=f4e788]:
+                    - img "p3rr0" [ref=f4e790]
+                    - img [ref=f4e792]:
+                      - img "Clear-verified badge" [ref=f4e793]
+                  - generic [ref=f4e798]:
+                    - link "p3rr0" [ref=f4e799] [cursor=pointer]:
+                      - /url: /p3rr0?type=user
+                    - generic "849" [ref=f4e801]: "Reputation: 849"
+                - generic [ref=f4e802]:
+                  - generic [ref=f4e803]: "7"
+                  - generic [ref=f4e805]:
+                    - img "godiego" [ref=f4e807]
+                    - img [ref=f4e809]:
+                      - img "Clear-verified badge" [ref=f4e810]
+                  - generic [ref=f4e815]:
+                    - link "godiego" [ref=f4e816] [cursor=pointer]:
+                      - /url: /godiego?type=user
+                    - generic "558" [ref=f4e818]: "Reputation: 558"
+                - generic [ref=f4e819]:
+                  - generic [ref=f4e820]: "8"
+                  - generic [ref=f4e822]:
+                    - img "brusc" [ref=f4e824]
+                    - img [ref=f4e826]:
+                      - img "Clear-verified badge" [ref=f4e827]
+                  - generic [ref=f4e832]:
+                    - link "brusc" [ref=f4e833] [cursor=pointer]:
+                      - /url: /brusc?type=user
+                    - generic "542" [ref=f4e835]: "Reputation: 542"
+                - generic [ref=f4e836]:
+                  - generic [ref=f4e837]: "9"
+                  - generic [ref=f4e839]:
+                    - img "sharp488" [ref=f4e841]
+                    - img [ref=f4e843]:
+                      - img "Clear-verified badge" [ref=f4e844]
+                  - generic [ref=f4e849]:
+                    - link "sharp488" [ref=f4e850] [cursor=pointer]:
+                      - /url: /sharp488?type=user
+                    - generic "508" [ref=f4e852]: "Reputation: 508"
+                - generic [ref=f4e853]:
+                  - generic [ref=f4e854]: "10"
+                  - generic [ref=f4e856]:
+                    - img "medmahmoudi" [ref=f4e858]
+                    - img [ref=f4e860]:
+                      - img "Clear-verified badge" [ref=f4e861]
+                  - generic [ref=f4e866]:
+                    - link "medmahmoudi" [ref=f4e867] [cursor=pointer]:
+                      - /url: /medmahmoudi?type=user
+                    - generic "350" [ref=f4e869]: "Reputation: 350"
+                - generic [ref=f4e870]:
+                  - generic [ref=f4e871]: "11"
+                  - generic [ref=f4e873]:
+                    - img "insiderinvests" [ref=f4e875]
+                    - img [ref=f4e877]:
+                      - img "Clear-verified badge" [ref=f4e878]
+                  - generic [ref=f4e883]:
+                    - link "insiderinvests" [ref=f4e884] [cursor=pointer]:
+                      - /url: /insiderinvests?type=user
+                    - generic "279" [ref=f4e886]: "Reputation: 279"
+                - generic [ref=f4e887]:
+                  - generic [ref=f4e888]: "12"
+                  - generic [ref=f4e890]:
+                    - img "achinech" [ref=f4e892]
+                    - img [ref=f4e894]:
+                      - img "ID-verified" [ref=f4e895]
+                  - generic [ref=f4e899]:
+                    - link "achinech" [ref=f4e900] [cursor=pointer]:
+                      - /url: /achinech?type=user
+                    - generic "264" [ref=f4e902]: "Reputation: 264"
+          - generic [ref=f4e904]:
+            - button [ref=f4e905] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f4e906]:
+                - img "Collapse sidebar" [ref=f4e908]
+            - generic [ref=f4e913]:
+              - generic [ref=f4e914]:
+                - generic [ref=f4e915]:
+                  - img "8x8-bounty" [ref=f4e919]
+                  - generic [ref=f4e920]: 8x8
+                - generic [ref=f4e922]:
+                  - generic [ref=f4e923]:
+                    - link "https://www.8x8.com" [ref=f4e924] [cursor=pointer]:
+                      - /url: https://www.8x8.com
+                    - link "@8x8" [ref=f4e925] [cursor=pointer]:
+                      - /url: https://x.com/8x8
+                  - generic [ref=f4e926]: Let's power your CX ambitions.
+                  - generic [ref=f4e927]:
+                    - text: Bounty
+                    - generic [ref=f4e928]: launched in Jan 2023
+                - generic [ref=f4e931]:
+                  - text: "Response efficiency: 100%"
+                  - img "Response efficiency calculation information" [ref=f4e934] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=f4e936]
+              - generic [ref=f4e938]:
+                - link "upload Submit without Report Assistant" [ref=f4e941] [cursor=pointer]:
+                  - /url: /8x8-bounty/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=f4e942]:
+                    - img "upload" [ref=f4e944]
+                  - generic [ref=f4e946]: Submit without Report Assistant
+                - generic [ref=f4e948]:
+                  - heading "Rewards" [level=1] [ref=f4e949]
+                  - table [ref=f4e952]:
+                    - row [ref=f4e954]:
+                      - columnheader [ref=f4e955]:
+                        - paragraph [ref=f4e959]: Severity
+                      - columnheader [ref=f4e960]:
+                        - paragraph [ref=f4e964]: Rewards
+                    - generic [ref=f4e965]:
+                      - row [ref=f4e966]:
+                        - cell "Low Avg. bounty $95 24.63% submissions" [ref=f4e967]:
+                          - generic [ref=f4e969]:
+                            - generic [ref=f4e970]: Low
+                            - paragraph [ref=f4e975]:
+                              - generic [ref=f4e976]: Avg. bounty $95
+                              - generic [ref=f4e977]: 24.63% submissions
+                        - cell "$50" [ref=f4e978]
+                      - row [ref=f4e981]:
+                        - cell "Medium Avg. bounty $500 40.42% submissions" [ref=f4e982]:
+                          - generic [ref=f4e984]:
+                            - generic [ref=f4e985]: Medium
+                            - paragraph [ref=f4e990]:
+                              - generic [ref=f4e991]: Avg. bounty $500
+                              - generic [ref=f4e992]: 40.42% submissions
+                        - cell "$100 – $250" [ref=f4e993]
+                      - row [ref=f4e996]:
+                        - cell "High Avg. bounty $1,152 28.46% submissions" [ref=f4e997]:
+                          - generic [ref=f4e999]:
+                            - generic [ref=f4e1000]: High
+                            - paragraph [ref=f4e1005]:
+                              - generic [ref=f4e1006]: Avg. bounty $1,152
+                              - generic [ref=f4e1007]: 28.46% submissions
+                        - cell "$250 – $500" [ref=f4e1008]
+                      - row [ref=f4e1011]:
+                        - cell "Critical Avg. bounty $2,286 6.49% submissions" [ref=f4e1012]:
+                          - generic [ref=f4e1014]:
+                            - generic [ref=f4e1015]: Critical
+                            - paragraph [ref=f4e1020]:
+                              - generic [ref=f4e1021]: Avg. bounty $2,286
+                              - generic [ref=f4e1022]: 6.49% submissions
+                        - cell "$500 – $1,000" [ref=f4e1023]
+                - generic [ref=f4e1026]:
+                  - heading "Stats" [level=1] [ref=f4e1027]
+                  - table [ref=f4e1028]:
+                    - rowgroup [ref=f4e1029]:
+                      - row [ref=f4e1030]:
+                        - cell "Total bounties paid" [ref=f4e1031]
+                        - cell "$488,735" [ref=f4e1032]
+                      - row [ref=f4e1035]:
+                        - cell "Average bounty" [ref=f4e1036]
+                        - cell "$500" [ref=f4e1037]
+                      - row [ref=f4e1040]:
+                        - cell "Top bounty range" [ref=f4e1041]
+                        - cell "$1,337 - $3,000" [ref=f4e1042]:
+                          - generic [ref=f4e1043]:
+                            - generic [ref=f4e1044]: $1,337
+                            - text: "-"
+                            - generic [ref=f4e1046]: $3,000
+                      - row [ref=f4e1048]:
+                        - cell "Bounties paid | 90 days" [ref=f4e1049]
+                        - cell "$31,072" [ref=f4e1050]
+                      - row [ref=f4e1053]:
+                        - cell "Reports received | 90 days" [ref=f4e1054]
+                        - cell "621" [ref=f4e1055]
+                      - row [ref=f4e1056]:
+                        - cell "Last report resolved" [ref=f4e1057]
+                        - cell "a day ago" [ref=f4e1058]
+                      - row [ref=f4e1059]:
+                        - cell "Reports resolved" [ref=f4e1060]
+                        - cell "1295" [ref=f4e1061]
+                      - row [ref=f4e1062]:
+                        - cell "Hackers thanked" [ref=f4e1063]
+                        - cell "694" [ref=f4e1064]
+                      - row [ref=f4e1065]:
+                        - cell "Assets In Scope" [ref=f4e1066]
+                        - cell "115" [ref=f4e1067]
+        - generic [ref=f4e1073]:
+          - generic [ref=f4e1074]: © HackerOne
+          - list [ref=f4e1075]:
+            - listitem [ref=f4e1076]:
+              - link "Opportunities" [ref=f4e1077] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f4e1078]:
+              - link "Security" [ref=f4e1079] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f4e1080]:
+              - link "Leaderboard" [ref=f4e1081] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f4e1082]:
+              - link "Blog" [ref=f4e1083] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f4e1084]:
+              - link "Status" [ref=f4e1085] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f4e1086]:
+              - link "Docs" [ref=f4e1087] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f4e1088]:
+              - link "Support" [ref=f4e1089] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f4e1090]:
+              - link "Disclosure Guidelines" [ref=f4e1091] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f4e1092]:
+              - link "Press" [ref=f4e1093] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f4e1094]:
+              - link "Privacy" [ref=f4e1095] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f4e1096]:
+              - link "Terms" [ref=f4e1097] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f4e1098]:
+              - link [ref=f4e1099] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f4e1100]

@@ -1,0 +1,55 @@
+[   13631ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.abercrombie.com/shop/wd:7
+[   16462ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[   16580ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[   16602ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[   17023ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[   17293ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[   17616ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[   17616ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[   18621ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=da186035bc20e4aca96844136059f184&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd:6
+[   19521ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[   19525ms] [LOG] utag.link fired with: {isCrsAnalyticsReady: true, user_state: null, user_wcs_id: -1002, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: } @ https://tags.abercrombie.com/main/prod/utag.js:13
+[   22146ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://c.amazon-adsystem.com/aat/amzn.js:1
+[   23616ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[   23712ms] [LOG] utag.view fired with: {isCrsAnalyticsReady: true, user_state: guest, user_wcs_id: undefined, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: } @ https://edge.fullstory.com/s/fs.js:1
+[   26470ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[   47421ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://cdn.branch.io/branch-latest.min.js:0
+[   72120ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://imgs.signifyd.com/KN663i-a2wAN0VOq?a74bdbf616a63cef=kIErCKOTxAAJR96Ecme4kYsFI-VQaf4xu3JLiR1Q74kvADmsMUzwfV_8x8rS6GHdGdNMtwP3bpZAd9v3romGwItFQ-XMTiWFVA3a2lbG2XLKxg2lMfiOGyK5T7gCgSrXqm-iR5KridYOMd7YMFZxWw&jac=1&je=3235262e75696f3d7567607274635f6b6e7c677a6e616c5d6f646e7b:0
+[   75473ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://h.online-metrix.net/s1aQM6INHz6Gz6FK?50b5b2f2cd95628d=jIke7-kihTPSIR6YEqN9dZqzpW6uUcXcQzvzKwI7ZUo3e9HpZ3PwsRdlFjlYw2hCfxyVWfIOEWsa8_4EniQFg-rraLKgGXqOyieP0lHfF_LMRzz15yj99N7AkBtCkm9FVk6TrSW2xw0PjnzXdKvKusqa3ma8UBykhhGA89B4iCvj9gFKdTpGlxrj1fC1rzEpi7eSJl6mZdTIGpE:0
+[   75473ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://imgs.signifyd.com/7WxepujHf1NjPYSU?7980756fe8666e30=HhrDrnJBxwmwoTDoC1sbnYUBXcwXp_TNqOSL1Ldr7NHvjlgnLekx00b-tvNjTNGZTpcwjw44N51SyYurNo3LHfOFzYoJD66FjgaLaXg2Qv3ea2IKOqd0bxjG94CI8IPxwAIJyh4Z6b9MDGQcEYKUUOEzwvmLPDqKcGqzCcmiaeVEzQSvz5_PkVnuZ9PAAXJf7jVxrVSR0G2ObA:0
+[   75623ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://imgs.signifyd.com/QZMwOA2xNwn6ij63?40e036059276042a=8XeWLJgpF8q-4x3bOTbDXakKc013sTR6S77O_6ZXhdl2tv6WQvedzRMQ02yVpslmlfuXqEyfvG0WZVA1VRJp3B6l-trMBYTlVbO5vwkIIF4k640oB5sRm6zqjzFdpUaARmuB6zJko5iMWZQKpQDiWX_c2LMoLsv4hjz1k_8-OkGgh-RV9NAGMkTDabwofChnvyvfTp6zb8B2Bgw:0
+[   76864ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[   76932ms] [LOG] utag.link fired with: {isCrsAnalyticsReady: true, user_state: guest, user_wcs_id: undefined, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: } @ https://edge.fullstory.com/s/fs.js:1
+[   77386ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[   77430ms] [LOG] utag.link fired with: {isCrsAnalyticsReady: true, user_state: guest, user_wcs_id: undefined, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: } @ https://edge.fullstory.com/s/fs.js:1
+[   91087ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[   91142ms] [LOG] utag.link fired with: {isCrsAnalyticsReady: true, user_state: guest, user_wcs_id: undefined, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: } @ https://edge.fullstory.com/s/fs.js:1
+[  162199ms] [LOG] Analytics event received - firing utag.view @ https://edge.fullstory.com/s/fs.js:1
+[  162290ms] [LOG] utag.link fired with: {isCrsAnalyticsReady: true, user_state: authenticated, user_wcs_id: 21796361028, user_device_id: , user_hashed_email: } @ https://edge.fullstory.com/s/fs.js:1
+[  162293ms] [ERROR] [Analytics Adapter] Schema validation failed: {timestamp: 2026-09-27T14:21:07.214Z, message: Schema validation failed, event_name: login_success, schema_name: login_success, environment: prod} @ https://www.abercrombie.com/shop/ruxitagentjs_ICA15789NPRTUVXfhqrux_10345260810170330.js:432
+[  162297ms] [ERROR] {timestamp: 2026-09-27T14:21:07.214Z, message: Schema validation failed, event_name: login_success, schema_name: login_success, environment: prod} @ https://www.abercrombie.com/shop/ruxitagentjs_ICA15789NPRTUVXfhqrux_10345260810170330.js:432
+[  163565ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.abercrombie.com/shop/wd:7
+[  164265ms] [LOG] JQMIGRATE: Logging is active @ https://www.abercrombie.com/anf/91e6adba/js/legacy/desktop/global.js:19203
+[  164471ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[  164480ms] [WARNING] Warning: fragment with name linkListValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/customer/2ee0d7d0/scripts/customer.js:1159
+[  164778ms] [WARNING] Warning: fragment with name eSpotContentValues already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names @ https://www.abercrombie.com/static/checkout/3c64befd/scripts/checkoutMFE.js:1
+[  164981ms] [LOG] noview override set: true @ https://tags.abercrombie.com/main/prod/utag.js:2
+[  165062ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[  165062ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://www.abercrombie.com/shop/wd:0
+[  165382ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://cdn-scripts.signifyd.com/o/lite.js?sessionId=da186035bc20e4aca96844136059f184&ping=false&profile=true&pageURL=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd&referrer=https%253A%252F%252Fwww.abercrombie.com%252Fshop%252Fwd:6
+[  165564ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[  165566ms] [LOG] utag.link fired with: {global.account.user_device_id: da186035bc20e4aca96844136059f184, user_state: null, user_wcs_id: -1002, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: } @ https://tags.abercrombie.com/main/prod/utag.js:13
+[  171123ms] [LOG] Analytics event received - firing utag.view @ https://tags.abercrombie.com/main/prod/utag.js:4
+[  171130ms] [LOG] utag.view fired with: {global.account.user_device_id: da186035bc20e4aca96844136059f184, user_state: null, user_wcs_id: -1002, user_device_id: da186035bc20e4aca96844136059f184, user_hashed_email: } @ https://tags.abercrombie.com/main/prod/utag.js:12

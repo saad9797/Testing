@@ -1,0 +1,364 @@
+- generic [ref=f13e4]:
+  - banner [ref=f13e5]:
+    - generic [ref=f13e6]:
+      - link "Skip to main content >" [ref=f13e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f13e9]:
+        - link "Go back to homepage" [ref=f13e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f13e12]
+        - generic [ref=f13e14]:
+          - link [ref=f13e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f13e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f13e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f13e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f13e43]:
+      - link [ref=f13e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f13e50]: Learn more about HackerOne
+      - link "Log in" [ref=f13e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f13e55]:
+    - generic [ref=f13e57]:
+      - tree [ref=f13e127]:
+        - button [ref=f13e129] [cursor=pointer]:
+          - img "collapse menu" [ref=f13e130]:
+            - img "collapse menu" [ref=f13e870]
+        - generic [ref=f13e135]:
+          - treeitem "Security page" [expanded] [ref=f13e136] [cursor=pointer]
+          - group [ref=f13e139]:
+            - treeitem "Program guidelines" [ref=f13e140] [cursor=pointer]
+            - treeitem "Scope" [active] [selected] [ref=f13e142] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f13e144] [cursor=pointer]
+            - treeitem "Thanks" [ref=f13e146] [cursor=pointer]
+            - treeitem "Updates" [ref=f13e148] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f13e150] [cursor=pointer]
+      - generic [ref=f13e58]:
+        - generic [ref=f13e872]:
+          - generic [ref=f13e875]:
+            - generic [ref=f13e876]:
+              - generic [ref=f13e877]:
+                - generic [ref=f13e878]: Search
+                - generic [ref=f13e880]:
+                  - img "Search" [ref=f13e882]:
+                    - img "Search" [ref=f13e884]
+                  - searchbox "Search" [ref=f13e887]
+              - generic [ref=f13e888]:
+                - generic [ref=f13e889]: Scope
+                - generic [ref=f13e894]:
+                  - generic [ref=f13e895]:
+                    - generic [ref=f13e896]: All scopes
+                    - combobox [ref=f13e898]
+                  - generic [aria-hidden] [ref=f13e900] [cursor=pointer]
+              - generic [ref=f13e903]:
+                - generic [ref=f13e904]: Maximum severity
+                - generic [ref=f13e909]:
+                  - generic [ref=f13e910]:
+                    - generic [ref=f13e911]: Any
+                    - combobox [ref=f13e913]
+                  - generic [aria-hidden] [ref=f13e915] [cursor=pointer]
+              - generic [ref=f13e918]:
+                - generic [ref=f13e919]: Bounty eligibility
+                - generic [ref=f13e924]:
+                  - generic [ref=f13e925]:
+                    - generic [ref=f13e926]: All
+                    - combobox [ref=f13e928]
+                  - generic [aria-hidden] [ref=f13e930] [cursor=pointer]
+              - button [ref=f13e934] [cursor=pointer]:
+                - img "Toggle extra filters" [ref=f13e935]:
+                  - img "Toggle extra filters" [ref=f13e937]
+            - generic [ref=f13e940]:
+              - link "Download Burp Suite Project Configuration File" [ref=f13e943] [cursor=pointer]:
+                - /url: ../teams/arc-bbp/assets/download_burp_project_file.json
+              - link "Download CSV" [ref=f13e946] [cursor=pointer]:
+                - /url: ../teams/arc-bbp/assets/download_csv.csv
+              - generic [ref=f13e947]: 1-9 of 9
+            - table [ref=f13e952]:
+              - rowgroup [ref=f13e953]:
+                - row [ref=f13e954]:
+                  - columnheader [ref=f13e955] [cursor=pointer]:
+                    - strong [ref=f13e956]: Asset name
+                  - columnheader [ref=f13e963] [cursor=pointer]:
+                    - strong [ref=f13e964]: Type
+                  - columnheader [ref=f13e971] [cursor=pointer]:
+                    - strong [ref=f13e972]: Coverage
+                  - columnheader [ref=f13e979] [cursor=pointer]:
+                    - strong [ref=f13e980]: Max. severity
+                  - columnheader [ref=f13e987] [cursor=pointer]:
+                    - strong [ref=f13e988]: Bounty
+                  - columnheader [ref=f13e995] [cursor=pointer]:
+                    - strong [ref=f13e996]: Last update
+                  - columnheader [ref=f13e1003] [cursor=pointer]:
+                    - strong [ref=f13e1004]:
+                      - generic [ref=f13e1005]: Resolved Reports
+              - rowgroup [ref=f13e1016]:
+                - row [ref=f13e1017]:
+                  - cell "New rpc.testnet.arc.network" [ref=f13e1018]:
+                    - generic [ref=f13e1019]: New
+                    - strong [ref=f13e1026]: rpc.testnet.arc.network
+                  - cell "Domain" [ref=f13e1027]
+                  - cell "In scope" [ref=f13e1028]
+                  - cell "Critical" [ref=f13e1034]
+                  - cell "Eligible" [ref=f13e1044]
+                  - cell "Updated Sep 14, 2026" [ref=f13e1048]:
+                    - generic [ref=f13e1049]:
+                      - generic [ref=f13e1050]: Updated
+                      - text: Sep 14, 2026
+                  - cell "0 (0%)" [ref=f13e1056]
+                - row [ref=f13e1058]:
+                  - cell "New rpc.drpc.testnet.arc.network" [ref=f13e1059]:
+                    - generic [ref=f13e1060]: New
+                    - strong [ref=f13e1067]: rpc.drpc.testnet.arc.network
+                  - cell "Domain" [ref=f13e1068]
+                  - cell "In scope" [ref=f13e1069]
+                  - cell "Critical" [ref=f13e1075]
+                  - cell "Eligible" [ref=f13e1085]
+                  - cell "Updated Sep 15, 2026" [ref=f13e1089]:
+                    - generic [ref=f13e1090]:
+                      - generic [ref=f13e1091]: Updated
+                      - text: Sep 15, 2026
+                  - cell "0 (0%)" [ref=f13e1097]
+                - row [ref=f13e1099]:
+                  - 'cell "https://github.com/circlefin/malachite The repository containing the source-code for Malachite. Malachite is a Byzantine-fault tolerant (BFT) consensus engine implemented in Rust. Partial scope only: in scope is code/crates minus the starknet and test folders; everything outside code/crates is out of scope." [ref=f13e1100]':
+                    - strong [ref=f13e1102]: https://github.com/circlefin/malachite
+                    - generic [ref=f13e1103]:
+                      - generic [ref=f13e1104]: The repository containing the source-code for Malachite. Malachite is a Byzantine-fault tolerant (BFT) consensus engine implemented in Rust.
+                      - generic [ref=f13e1105]:
+                        - mark [ref=f13e1106]: "Partial scope only:"
+                        - text: in scope is code/crates minus the starknet and test folders; everything outside code/crates is out of scope.
+                  - cell "Source code" [ref=f13e1107]
+                  - cell "In scope" [ref=f13e1108]
+                  - cell "Critical" [ref=f13e1114]
+                  - cell "Eligible" [ref=f13e1124]
+                  - cell "Updated Sep 14, 2026" [ref=f13e1128]:
+                    - generic [ref=f13e1129]:
+                      - generic [ref=f13e1130]: Updated
+                      - text: Sep 14, 2026
+                  - cell "0 (0%)" [ref=f13e1136]
+                - row [ref=f13e1138]:
+                  - cell "New https://github.com/circlefin/arc-remote-signer" [ref=f13e1139]:
+                    - generic [ref=f13e1140]: New
+                    - strong [ref=f13e1147]: https://github.com/circlefin/arc-remote-signer
+                  - cell "Source code" [ref=f13e1148]
+                  - cell "In scope" [ref=f13e1149]
+                  - cell "Critical" [ref=f13e1155]
+                  - cell "Eligible" [ref=f13e1165]
+                  - cell "Updated Sep 14, 2026" [ref=f13e1169]:
+                    - generic [ref=f13e1170]:
+                      - generic [ref=f13e1171]: Updated
+                      - text: Sep 14, 2026
+                  - cell "0 (0%)" [ref=f13e1177]
+                - row [ref=f13e1179]:
+                  - cell "New https://github.com/circlefin/arc-node" [ref=f13e1180]:
+                    - generic [ref=f13e1181]: New
+                    - strong [ref=f13e1188]: https://github.com/circlefin/arc-node
+                  - cell "Source code" [ref=f13e1189]
+                  - cell "In scope" [ref=f13e1190]
+                  - cell "Critical" [ref=f13e1196]
+                  - cell "Eligible" [ref=f13e1206]
+                  - cell "Updated Sep 14, 2026" [ref=f13e1210]:
+                    - generic [ref=f13e1211]:
+                      - generic [ref=f13e1212]: Updated
+                      - text: Sep 14, 2026
+                  - cell "0 (0%)" [ref=f13e1218]
+                - row [ref=f13e1220]:
+                  - cell "New *.arc.io Eligible for Tier B bounty payouts. Only for Circle-owned assets." [ref=f13e1221]:
+                    - generic [ref=f13e1222]: New
+                    - strong [ref=f13e1229]: "*.arc.io"
+                    - generic [ref=f13e1230]:
+                      - generic [ref=f13e1231]: Eligible for Tier B bounty payouts.
+                      - generic [ref=f13e1232]: Only for Circle-owned assets.
+                  - cell "Wildcard" [ref=f13e1233]
+                  - cell "In scope" [ref=f13e1234]
+                  - cell "Critical" [ref=f13e1240]
+                  - cell "Eligible" [ref=f13e1250]
+                  - cell "Updated Sep 21, 2026" [ref=f13e1254]:
+                    - generic [ref=f13e1255]:
+                      - generic [ref=f13e1256]: Updated
+                      - text: Sep 21, 2026
+                  - cell "2 (100%)" [ref=f13e1262]
+                - row [ref=f13e1264]:
+                  - cell "New help.arc.io" [ref=f13e1265]:
+                    - generic [ref=f13e1266]: New
+                    - strong [ref=f13e1273]: help.arc.io
+                  - cell "Domain" [ref=f13e1274]
+                  - cell "Out of scope" [ref=f13e1275]
+                  - cell "None" [ref=f13e1281]
+                  - cell "Ineligible" [ref=f13e1291]
+                  - cell "Updated Sep 17, 2026" [ref=f13e1295]:
+                    - generic [ref=f13e1296]:
+                      - generic [ref=f13e1297]: Updated
+                      - text: Sep 17, 2026
+                  - cell "0 (0%)" [ref=f13e1303]
+                - row [ref=f13e1305]:
+                  - cell "New explorer.arc.io" [ref=f13e1306]:
+                    - generic [ref=f13e1307]: New
+                    - strong [ref=f13e1314]: explorer.arc.io
+                  - cell "Domain" [ref=f13e1315]
+                  - cell "Out of scope" [ref=f13e1316]
+                  - cell "None" [ref=f13e1322]
+                  - cell "Ineligible" [ref=f13e1332]
+                  - cell "Updated Sep 17, 2026" [ref=f13e1336]:
+                    - generic [ref=f13e1337]:
+                      - generic [ref=f13e1338]: Updated
+                      - text: Sep 17, 2026
+                  - cell "0 (0%)" [ref=f13e1344]
+                - row [ref=f13e1346]:
+                  - cell "New community.arc.io" [ref=f13e1347]:
+                    - generic [ref=f13e1348]: New
+                    - strong [ref=f13e1355]: community.arc.io
+                  - cell "Domain" [ref=f13e1356]
+                  - cell "Out of scope" [ref=f13e1357]
+                  - cell "None" [ref=f13e1363]
+                  - cell "Ineligible" [ref=f13e1373]
+                  - cell "Updated Sep 17, 2026" [ref=f13e1377]:
+                    - generic [ref=f13e1378]:
+                      - generic [ref=f13e1379]: Updated
+                      - text: Sep 17, 2026
+                  - cell "0 (0%)" [ref=f13e1385]
+            - generic [ref=f13e1387]: 1-9 of 9
+          - generic [ref=f13e1391]:
+            - button [ref=f13e1392] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f13e1393]:
+                - img "Collapse sidebar" [ref=f13e1395]
+            - generic [ref=f13e1400]:
+              - generic [ref=f13e1401]:
+                - generic [ref=f13e1402]:
+                  - img "arc-bbp" [ref=f13e1406]
+                  - generic [ref=f13e1407]: Arc
+                - generic [ref=f13e1409]:
+                  - generic [ref=f13e1410]:
+                    - link "https://www.arc.io" [ref=f13e1411] [cursor=pointer]:
+                      - /url: https://www.arc.io
+                    - link "@arc" [ref=f13e1412] [cursor=pointer]:
+                      - /url: https://x.com/arc
+                  - generic [ref=f13e1413]: Arc is an open internet platform for the world’s financial markets, real-time value movement, and agentic economic activity.
+                  - generic [ref=f13e1414]:
+                    - text: Bounty
+                    - generic [ref=f13e1415]: launched in Sep 2026
+                - generic [ref=f13e1418]:
+                  - text: "Response efficiency: 99%"
+                  - img "Response efficiency calculation information" [ref=f13e1421] [cursor=pointer]:
+                    - img "Response efficiency calculation information" [ref=f13e1423]
+              - generic [ref=f13e1425]:
+                - link "upload Submit report" [ref=f13e1428] [cursor=pointer]:
+                  - /url: /arc-bbp/reports/new?type=team&report_type=vulnerability
+                  - img "upload" [ref=f13e1429]:
+                    - img "upload" [ref=f13e1431]
+                  - generic [ref=f13e1433]: Submit report
+                - generic [ref=f13e1435]:
+                  - heading "Rewards" [level=1] [ref=f13e1436]
+                  - table [ref=f13e1439]:
+                    - row [ref=f13e1441]:
+                      - columnheader [ref=f13e1442]:
+                        - paragraph [ref=f13e1446]: Severity
+                      - columnheader [ref=f13e1447]:
+                        - paragraph [ref=f13e1451]: Rewards
+                    - generic [ref=f13e1452]:
+                      - row [ref=f13e1453]:
+                        - cell "Low Avg. bounty n/a 0% submissions" [ref=f13e1454]:
+                          - generic [ref=f13e1456]:
+                            - generic [ref=f13e1457]: Low
+                            - paragraph [ref=f13e1462]:
+                              - generic [ref=f13e1463]: Avg. bounty n/a
+                              - generic [ref=f13e1464]: 0% submissions
+                        - cell "$50 – $5,000" [ref=f13e1465]
+                      - row [ref=f13e1468]:
+                        - cell "Medium Avg. bounty $500 100% submissions" [ref=f13e1469]:
+                          - generic [ref=f13e1471]:
+                            - generic [ref=f13e1472]: Medium
+                            - paragraph [ref=f13e1477]:
+                              - generic [ref=f13e1478]: Avg. bounty $500
+                              - generic [ref=f13e1479]: 100% submissions
+                        - cell "$400 – $10,000" [ref=f13e1480]
+                      - row [ref=f13e1483]:
+                        - cell "High Avg. bounty n/a 0% submissions" [ref=f13e1484]:
+                          - generic [ref=f13e1486]:
+                            - generic [ref=f13e1487]: High
+                            - paragraph [ref=f13e1492]:
+                              - generic [ref=f13e1493]: Avg. bounty n/a
+                              - generic [ref=f13e1494]: 0% submissions
+                        - cell "$800 – $20,000" [ref=f13e1495]
+                      - row [ref=f13e1498]:
+                        - cell "Critical Avg. bounty n/a 0% submissions" [ref=f13e1499]:
+                          - generic [ref=f13e1501]:
+                            - generic [ref=f13e1502]: Critical
+                            - paragraph [ref=f13e1507]:
+                              - generic [ref=f13e1508]: Avg. bounty n/a
+                              - generic [ref=f13e1509]: 0% submissions
+                        - cell "$3,000 – $200,000" [ref=f13e1510]
+                - generic [ref=f13e1513]:
+                  - heading "Stats" [level=1] [ref=f13e1514]
+                  - table [ref=f13e1515]:
+                    - rowgroup [ref=f13e1516]:
+                      - row [ref=f13e1517]:
+                        - cell "Total bounties paid" [ref=f13e1518]
+                        - cell "$1,050" [ref=f13e1519]
+                      - row [ref=f13e1522]:
+                        - cell "Average bounty" [ref=f13e1523]
+                        - cell "$500" [ref=f13e1524]
+                      - row [ref=f13e1527]:
+                        - cell "Top bounty" [ref=f13e1528]
+                        - cell "$500" [ref=f13e1529]
+                      - row [ref=f13e1532]:
+                        - cell "Bounties paid | 90 days" [ref=f13e1533]
+                        - cell "$1,050" [ref=f13e1534]
+                      - row [ref=f13e1537]:
+                        - cell "Reports received | 90 days" [ref=f13e1538]
+                        - cell "2677" [ref=f13e1539]
+                      - row [ref=f13e1540]:
+                        - cell "Last report resolved" [ref=f13e1541]
+                        - cell "9 days ago" [ref=f13e1542]
+                      - row [ref=f13e1543]:
+                        - cell "Reports resolved" [ref=f13e1544]
+                        - cell "2" [ref=f13e1545]
+                      - row [ref=f13e1546]:
+                        - cell "Hackers thanked" [ref=f13e1547]
+                        - cell "7" [ref=f13e1548]
+                      - row [ref=f13e1549]:
+                        - cell "Assets In Scope" [ref=f13e1550]
+                        - cell "6" [ref=f13e1551]
+        - generic [ref=f13e98]:
+          - generic [ref=f13e99]: © HackerOne
+          - list [ref=f13e100]:
+            - listitem [ref=f13e101]:
+              - link "Opportunities" [ref=f13e102] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f13e103]:
+              - link "Security" [ref=f13e104] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f13e105]:
+              - link "Leaderboard" [ref=f13e106] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f13e107]:
+              - link "Blog" [ref=f13e108] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f13e109]:
+              - link "Status" [ref=f13e110] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f13e111]:
+              - link "Docs" [ref=f13e112] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f13e113]:
+              - link "Support" [ref=f13e114] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f13e115]:
+              - link "Disclosure Guidelines" [ref=f13e116] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f13e117]:
+              - link "Press" [ref=f13e118] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f13e119]:
+              - link "Privacy" [ref=f13e120] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f13e121]:
+              - link "Terms" [ref=f13e122] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f13e123]:
+              - link [ref=f13e124] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f13e125]

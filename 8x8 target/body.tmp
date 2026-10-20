@@ -1,0 +1,17 @@
+<!-- File index.html Version 1.2 Date 06/20/06 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+ <HEAD>
+  <META HTTP-EQUIV=Refresh Content="0;url=CM/login.php">
+  <TITLE>Welcome to Configuration Manager</TITLE>
+  <LINK REL="SHORTCUT ICON" href="/OEM/contactual/en_US/branding/images/favicon.ico">
+ </HEAD>
+ <BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#000080" ALINK="#FF0000">
+<P>
+<center>
+<HR WIDTH="50%" SIZE="8">
+<font face=verdana color=darkblue>You will now be automatically redirected to login screen.</font>
+<HR WIDTH="50%" SIZE="8">
+</center>
+</BODY>
+</HTML>

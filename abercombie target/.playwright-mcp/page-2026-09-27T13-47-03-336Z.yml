@@ -1,0 +1,257 @@
+- generic [ref=f170e2]:
+  - generic [ref=f170e4]:
+    - generic [ref=f170e5]:
+      - link "Homepage" [ref=f170e6] [cursor=pointer]:
+        - /url: /?source=---top_nav_layout_nav-------------------------------------------
+      - combobox "search" [ref=f170e14]
+    - button "Get the Medium app" [ref=f170e16] [cursor=pointer]:
+      - generic [ref=f170e20]: Get app
+    - link "Write" [ref=f170e23] [cursor=pointer]:
+      - /url: /m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav--------------------
+    - generic [ref=f170e29]:
+      - paragraph [ref=f170e30]:
+        - button "Sign up" [ref=f170e32]
+      - paragraph [ref=f170e34]:
+        - link "Sign in" [ref=f170e36] [cursor=pointer]:
+          - /url: /m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&source=post_page---top_nav_layout_nav-----------------------global_nav--------------------
+    - button "user options menu" [ref=f170e41] [cursor=pointer]:
+      - img "Unknown user" [ref=f170e43]
+  - generic [ref=f170e47]:
+    - generic:
+      - dialog
+    - navigation "Table of contents":
+      - button "Table of contents" [ref=f170e48] [cursor=pointer]
+    - article [ref=f170e56]:
+      - generic [ref=f170e60]:
+        - generic [ref=f170e63]:
+          - generic [ref=f170e64]:
+            - 'heading "One OTP, Two Emails: How a Race Condition Led to Pre Account Takeover" [level=1] [ref=f170e65]'
+            - generic [ref=f170e68]:
+              - generic [ref=f170e69]:
+                - generic [ref=f170e70]:
+                  - link [ref=f170e74] [cursor=pointer]:
+                    - /url: /@0xHax0r?source=post_page---byline--c15e5d7d41f2-----------------------------------------
+                    - img "Mesum Raza" [ref=f170e77]
+                  - generic [ref=f170e81]:
+                    - link "Mesum Raza" [ref=f170e86] [cursor=pointer]:
+                      - /url: /@0xHax0r?source=post_page---byline--c15e5d7d41f2-----------------------------------------
+                    - button "Follow" [ref=f170e87] [cursor=pointer]
+                - generic [ref=f170e92]:
+                  - generic [ref=f170e93]: 4 min read
+                  - generic [aria-hidden] [ref=f170e95]: ·
+                  - generic [ref=f170e96]: Jul 6, 2026
+              - generic [ref=f170e97]:
+                - generic [ref=f170e99]:
+                  - generic [ref=f170e101]:
+                    - link [ref=f170e104] [cursor=pointer]:
+                      - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc15e5d7d41f2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&user=Mesum+Raza&userId=42e5b3fc0919&source=---header_actions--c15e5d7d41f2---------------------clap_footer--------------------
+                      - generic [ref=f170e107]:
+                        - img "clap"
+                    - paragraph [ref=f170e112]:
+                      - button "5" [ref=f170e113] [cursor=pointer]
+                  - button "responses" [ref=f170e118] [cursor=pointer]
+                  - link "Repost" [ref=f170e126] [cursor=pointer]:
+                    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2Fc15e5d7d41f2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&user=Mesum+Raza&userId=42e5b3fc0919&source=---header_actions--c15e5d7d41f2---------------------repost_header--------------------
+                - generic [ref=f170e132]:
+                  - link [ref=f170e138] [cursor=pointer]:
+                    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc15e5d7d41f2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&source=---header_actions--c15e5d7d41f2---------------------bookmark_footer--------------------
+                    - img "Add to list bookmark button" [ref=f170e140]
+                  - link [ref=f170e149] [cursor=pointer]:
+                    - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3Dc15e5d7d41f2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&source=---header_actions--c15e5d7d41f2---------------------post_audio_button--------------------
+                    - button "Listen" [ref=f170e153]
+                  - button "Share Post" [ref=f170e160] [cursor=pointer]
+          - paragraph [ref=f170e163]: Assalamualikum everyone. I hope you all are doing well. It’s been a while since I posted a write-up, so here’s something interesting I found during testing.
+          - paragraph [ref=f170e164]: Recently, while testing a change-email feature, I found an interesting race condition that allowed me to bypass the email verification process.
+          - paragraph [ref=f170e165]: "The interesting part was simple: I was able to receive an OTP on an email address I controlled and use that OTP in a verification flow involving another email address."
+          - paragraph [ref=f170e166]: This could lead to a pre-account takeover scenario without requiring access to the target email inbox.
+          - paragraph [ref=f170e167]: Here is how I found it.
+        - separator [ref=f170e168]
+        - generic [ref=f170e174]:
+          - heading "Understanding the Change Email Flow" [level=2] [ref=f170e175]
+          - paragraph [ref=f170e176]: The application had a standard change-email functionality.
+          - paragraph [ref=f170e177]: "The normal process was:"
+          - list [ref=f170e178]:
+            - listitem [ref=f170e179]: The user enters a new email address.
+            - listitem [ref=f170e180]: The application sends an OTP to that email.
+            - listitem [ref=f170e181]: The user enters the OTP.
+            - listitem [ref=f170e182]: The application verifies the code.
+            - listitem [ref=f170e183]: The email change is completed.
+          - paragraph [ref=f170e184]: Nothing unusual so far.
+          - paragraph [ref=f170e185]: I started testing the feature normally. I checked the usual things around the OTP flow, such as requesting multiple codes and observing how the application handled different requests.
+          - paragraph [ref=f170e186]: After some testing, I decided to check how the application would behave if OTP requests for different email addresses were processed at the same time.
+          - paragraph [ref=f170e187]: That is where the interesting behavior started.
+        - separator [ref=f170e188]
+        - generic [ref=f170e194]:
+          - heading "Testing the OTP Requests in Parallel" [level=2] [ref=f170e195]
+          - paragraph [ref=f170e196]: I intercepted the request responsible for generating the change-email OTP and sent it to Burp Repeater.
+          - paragraph [ref=f170e197]: "The relevant part of the first request looked like this:"
+          - generic [ref=f170e198]:
+            - generic [ref=f170e199]: "POST /auth/email/update HTTP/2Host: [REDACTED]Content-Type: application/json"
+            - generic [ref=f170e200]:
+              - text: "{ \"step\": 2, \"email\": \""
+              - link "attacker@example.com" [ref=f170e201] [cursor=pointer]:
+                - /url: mailto:attacker@example.com
+              - text: "\", \"type\": 2}"
+          - paragraph [ref=f170e202]: "I then created another copy of the same request but changed the email address:"
+          - generic [ref=f170e203]:
+            - generic [ref=f170e204]: "POST /auth/email/update HTTP/2Host: [REDACTED]Content-Type: application/json"
+            - generic [ref=f170e205]:
+              - text: "{ \"step\": 2, \"email\": \""
+              - link "target@example.com" [ref=f170e206] [cursor=pointer]:
+                - /url: mailto:target@example.com
+              - text: "\", \"type\": 2}"
+          - paragraph [ref=f170e207]: "So at this point, I had two OTP requests:"
+          - generic [ref=f170e208]: Request A → attacker@example.comRequest B → target@example.com
+          - paragraph [ref=f170e210]: Instead of sending these requests one after another, I grouped them in Burp Repeater and sent them in parallel.
+          - paragraph [ref=f170e211]: Both requests were processed.
+          - paragraph [ref=f170e212]: Then I checked the email address I controlled.
+          - paragraph [ref=f170e213]: "The OTP email looked like this:"
+          - generic [ref=f170e214]: "Verification code: [SAME OTP]This code will be valid for the next 30 minutes."
+          - paragraph [ref=f170e216]: The important observation was that the OTP generated during the concurrent requests was the same across the email-change operations.
+          - paragraph [ref=f170e217]: At first, this was interesting, but the same OTP being generated was not enough to prove a serious vulnerability.
+          - paragraph [ref=f170e218]: "The real question was:"
+          - paragraph [ref=f170e219]:
+            - strong [ref=f170e220]: Could the OTP I received on an email address I controlled be used to verify the other email-change operation?
+          - generic [ref=f170e221]:
+            - heading "Get Mesum Raza’s stories in your inbox" [level=2] [ref=f170e223]
+            - paragraph [ref=f170e225]: Join Medium for free to get updates from this writer.
+            - generic [ref=f170e226]:
+              - textbox "Enter your email" [ref=f170e230]
+              - button "Subscribe" [ref=f170e233]
+            - generic [ref=f170e235]:
+              - generic [ref=f170e236]:
+                - checkbox "Remember me for faster sign in" [checked]
+                - generic [ref=f170e237] [cursor=pointer]
+              - paragraph [ref=f170e241]: Remember me for faster sign in
+          - paragraph [ref=f170e242]: So I tested it.
+        - separator [ref=f170e243]
+        - generic [ref=f170e249]:
+          - heading "From Interesting Behavior to Exploitation" [level=2] [ref=f170e250]
+          - paragraph [ref=f170e251]: I took the OTP received on my controlled email address and used it in the verification request involving the other email address.
+          - paragraph [ref=f170e252]: "The relevant part of the verification request looked like this:"
+          - generic [ref=f170e253]:
+            - generic [ref=f170e254]: "POST /auth/email/update HTTP/2Host: [REDACTED]Content-Type: application/json"
+            - generic [ref=f170e255]:
+              - text: "{ \"step\": 3, \"email\": \""
+              - link "target@example.com" [ref=f170e256] [cursor=pointer]:
+                - /url: mailto:target@example.com
+              - text: "\", \"otp\": \"[OTP RECEIVED ON ATTACKER EMAIL]\"}"
+          - paragraph [ref=f170e257]: The server accepted the request.
+          - paragraph [ref=f170e258]: "The relevant response was:"
+          - generic [ref=f170e259]: "HTTP/2 200 OKContent-Type: application/json{ \"status\": \"success\"}"
+          - paragraph [ref=f170e261]: That was the vulnerability.
+          - paragraph [ref=f170e262]: The OTP I received through an email address under my control could be used to complete another email verification flow.
+          - paragraph [ref=f170e263]: "In simple words, the application was supposed to prove:"
+          - blockquote [ref=f170e264]:
+            - paragraph [ref=f170e265]:
+              - emphasis [ref=f170e266]: You have access to this specific email address.
+          - paragraph [ref=f170e267]: But because of the race condition, I could obtain the required OTP through an email address I controlled and use it in another verification context.
+          - paragraph [ref=f170e268]: I did not need access to the other inbox.
+        - separator [ref=f170e269]
+        - generic [ref=f170e275]:
+          - heading "Breaking Down the Attack" [level=2] [ref=f170e276]
+          - paragraph [ref=f170e277]: The easiest way to understand the issue is with a simple example.
+          - paragraph [ref=f170e278]: "Imagine there are two email addresses:"
+          - generic [ref=f170e279]: Target email:target@example.comAttacker-controlled email:attacker@example.com
+          - paragraph [ref=f170e281]: I prepared OTP requests for both email addresses and sent them at the same time.
+          - paragraph [ref=f170e282]: "Conceptually, the result was:"
+          - generic [ref=f170e283]: "Concurrent Request Aattacker@example.com │ ▼ OTP: XXXXXXConcurrent Request Btarget@example.com │ ▼ OTP: XXXXXX"
+          - paragraph [ref=f170e285]:
+            - text: Because I controlled
+            - code [ref=f170e286]: attacker@example.com
+            - text: ", I knew the OTP."
+          - paragraph [ref=f170e287]: "I then used that OTP in the relevant verification flow:"
+          - generic [ref=f170e288]: OTP received by attacker │ ▼Verification request │ ▼Target email context │ ▼ SUCCESS
+          - paragraph [ref=f170e290]: The complexity was in finding and reproducing the race condition.
+          - paragraph [ref=f170e291]: "The actual security problem was much simpler:"
+          - paragraph [ref=f170e292]:
+            - strong [ref=f170e293]: A verification code obtained through one email address could be used to complete a verification flow that should have required access to another email address.
+        - separator [ref=f170e294]
+        - generic [ref=f170e300]:
+          - heading "Increasing the Impact" [level=2] [ref=f170e301]
+          - paragraph [ref=f170e302]: After confirming the email verification bypass, I checked what could happen after exploitation.
+          - paragraph [ref=f170e303]: One important possibility was enabling authenticator-based two-factor authentication on the affected account.
+          - paragraph [ref=f170e304]: After gaining control, an attacker could configure 2FA using an authenticator under their control. This way even if the victim resets the password, 2FA will block him for logging in his own account which became an Account Deadlock, neither attacker nor victim can access the account.
+          - figure [ref=f170e305]:
+            - button "Press enter or click to view image in full size" [ref=f170e306]
+        - separator [ref=f170e310]
+        - generic [ref=f170e316]:
+          - heading "Reporting the Issue" [level=2] [ref=f170e317]
+          - paragraph [ref=f170e318]: After confirming the behavior, I was confident that this was not just a small issue but something that could be abused in a real scenario.
+          - paragraph [ref=f170e319]: So I quickly drafted a report explaining the full flow and guess what the team reviewed it and acknowledged the issue.
+        - separator [ref=f170e320]
+        - generic [ref=f170e326]:
+          - paragraph [ref=f170e327]: Feel free to connect!
+          - paragraph [ref=f170e328]:
+            - text: "LinkedIn:"
+            - link "https://www.linkedin.com/in/mesum-raza-471651234/" [ref=f170e329] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/mesum-raza-471651234/
+    - contentinfo [ref=f170e330]:
+      - generic [ref=f170e334]:
+        - generic [ref=f170e335]:
+          - generic [ref=f170e338]:
+            - link [ref=f170e341] [cursor=pointer]:
+              - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc15e5d7d41f2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&user=Mesum+Raza&userId=42e5b3fc0919&source=---footer_actions--c15e5d7d41f2---------------------clap_footer--------------------
+              - generic [ref=f170e344]:
+                - img "clap"
+            - paragraph [ref=f170e349]:
+              - button "5" [ref=f170e350] [cursor=pointer]
+          - button "responses" [ref=f170e355] [cursor=pointer]
+          - link "Repost" [ref=f170e363] [cursor=pointer]:
+            - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2Fc15e5d7d41f2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&user=Mesum+Raza&userId=42e5b3fc0919&source=---footer_actions--c15e5d7d41f2---------------------repost_footer--------------------
+        - generic [ref=f170e369]:
+          - link [ref=f170e376] [cursor=pointer]:
+            - /url: /m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc15e5d7d41f2&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%400xHax0r%2Fone-otp-two-emails-how-a-race-condition-led-to-pre-account-takeover-c15e5d7d41f2&source=---footer_actions--c15e5d7d41f2---------------------bookmark_footer--------------------
+            - img "Add to list bookmark button" [ref=f170e378]
+          - button "Share Post" [ref=f170e386] [cursor=pointer]
+    - generic [ref=f170e393]:
+      - link [ref=f170e396] [cursor=pointer]:
+        - /url: /@0xHax0r?source=post_page---post_author_info--c15e5d7d41f2-----------------------------------------
+        - img "Mesum Raza" [ref=f170e398]
+      - generic [ref=f170e401]:
+        - link [ref=f170e402] [cursor=pointer]:
+          - /url: /@0xHax0r?source=post_page---post_author_info--c15e5d7d41f2-----------------------------------------
+          - heading "Written by Mesum Raza" [level=2] [ref=f170e403]
+        - generic [ref=f170e404]:
+          - link "29 followers" [ref=f170e407] [cursor=pointer]:
+            - /url: /@0xHax0r/followers?source=post_page---post_author_info--c15e5d7d41f2-----------------------------------------
+          - generic [ref=f170e408]:
+            - generic [aria-hidden] [ref=f170e409]: ·
+            - link "15 following" [ref=f170e410] [cursor=pointer]:
+              - /url: /@0xHax0r/following?source=post_page---post_author_info--c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e412]: Security Researcher | CAP | ISO/IEC 27001 | BS Cyber Security | NED'27 | Offensive Security
+      - button "Follow" [ref=f170e416] [cursor=pointer]
+    - generic [ref=f170e480]:
+      - link [ref=f170e482] [cursor=pointer]:
+        - /url: https://help.medium.com/hc/en-us?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e483]: Help
+      - link [ref=f170e485] [cursor=pointer]:
+        - /url: https://status.medium.com/?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e486]: Status
+      - link [ref=f170e488] [cursor=pointer]:
+        - /url: /about?autoplay=1&source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e489]: About
+      - link [ref=f170e491] [cursor=pointer]:
+        - /url: /jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e492]: Careers
+      - link [ref=f170e494] [cursor=pointer]:
+        - /url: mailto:pressinquiries@medium.com
+        - paragraph [ref=f170e495]: Press
+      - link [ref=f170e497] [cursor=pointer]:
+        - /url: https://blog.medium.com/?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e498]: Blog
+      - link [ref=f170e500] [cursor=pointer]:
+        - /url: https://medium.com/store
+        - paragraph [ref=f170e501]: Store
+      - link [ref=f170e503] [cursor=pointer]:
+        - /url: https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e504]: Privacy
+      - link [ref=f170e506] [cursor=pointer]:
+        - /url: https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e507]: Rules
+      - link [ref=f170e509] [cursor=pointer]:
+        - /url: https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e510]: Terms
+      - link [ref=f170e512] [cursor=pointer]:
+        - /url: https://speechify.com/medium?source=post_page-----c15e5d7d41f2-----------------------------------------
+        - paragraph [ref=f170e513]: Text to speech

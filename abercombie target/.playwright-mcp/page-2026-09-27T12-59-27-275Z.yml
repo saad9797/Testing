@@ -1,0 +1,305 @@
+- generic [ref=f41e4]:
+  - banner [ref=f41e5]:
+    - generic [ref=f41e6]:
+      - link "Skip to main content >" [ref=f41e8] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f41e9]:
+        - link "Go back to homepage" [ref=f41e11] [cursor=pointer]:
+          - /url: /
+          - img "Hackerone logo" [ref=f41e12]
+        - generic [ref=f41e14]:
+          - link [ref=f41e17] [cursor=pointer]:
+            - /url: /hacktivity/overview
+          - link [ref=f41e24] [cursor=pointer]:
+            - /url: /opportunities/all
+          - link [ref=f41e31] [cursor=pointer]:
+            - /url: /directory/programs
+          - link [ref=f41e38] [cursor=pointer]:
+            - /url: /leaderboard
+    - generic [ref=f41e43]:
+      - link [ref=f41e44] [cursor=pointer]:
+        - /url: https://www.hackerone.com
+        - strong [ref=f41e50]: Learn more about HackerOne
+      - link "Log in" [ref=f41e52] [cursor=pointer]:
+        - /url: /users/sign_in
+  - main [ref=f41e55]:
+    - generic [ref=f41e73]:
+      - tree [ref=f41e75]:
+        - button [ref=f41e77] [cursor=pointer]:
+          - img "collapse menu" [ref=f41e78]:
+            - img "collapse menu" [ref=f41e80]
+        - generic [ref=f41e83]:
+          - treeitem "Security page" [expanded] [ref=f41e84] [cursor=pointer]
+          - group [ref=f41e87]:
+            - treeitem "Program guidelines" [selected] [ref=f41e88] [cursor=pointer]
+            - treeitem "Scope" [ref=f41e90] [cursor=pointer]
+            - treeitem "Hacktivity" [ref=f41e92] [cursor=pointer]
+            - treeitem "Thanks" [ref=f41e94] [cursor=pointer]
+            - treeitem "Updates" [ref=f41e96] [cursor=pointer]
+            - treeitem "Collaborators" [ref=f41e98] [cursor=pointer]
+      - generic [ref=f41e100]:
+        - generic [ref=f41e115]:
+          - strong [ref=f41e116]: Square Open Source
+          - text: is not accepting submissions at this time.
+        - generic [ref=f41e117]:
+          - generic [ref=f41e119]:
+            - generic [ref=f41e120]:
+              - generic [ref=f41e124]:
+                - generic [ref=f41e130]: N/A
+                - generic [ref=f41e131]: Average time to first response
+              - generic [ref=f41e135]:
+                - generic [ref=f41e141]: N/A
+                - generic [ref=f41e142]: Average time to bounty
+              - generic [ref=f41e146]:
+                - generic [ref=f41e152]: N/A
+                - generic [ref=f41e153]: Average time from submission to bounty
+              - generic [ref=f41e157]:
+                - generic [ref=f41e163]: N/A
+                - generic [ref=f41e164]: Average time to resolution
+            - generic [ref=f41e165]:
+              - heading "Scope exclusions" [level=2] [ref=f41e168]
+              - generic [ref=f41e173]:
+                - text: Core Ineligible Findings are out of scope.
+                - link "Learn more" [ref=f41e174] [cursor=pointer]:
+                  - /url: https://docs.hackerone.com/en/articles/8494488-core-ineligible-findings
+            - generic [ref=f41e180]:
+              - generic [ref=f41e182]:
+                - heading "Overview" [level=2] [ref=f41e183]
+                - generic [ref=f41e185]:
+                  - generic [ref=f41e186]: Last updated on July 17, 2017.
+                  - link "View changes" [ref=f41e187] [cursor=pointer]:
+                    - /url: /square-open-source/policy_versions
+              - generic [ref=f41e195]:
+                - heading "Rewarding security bugs in our open source projects" [level=1] [ref=f41e196]
+                - generic [ref=f41e197]: Square recognizes the important contributions the security research community can make. Part of keeping Square's customers safe is making sure that we find and fix any security issues in our open source projects. If you find any vulnerabilities in any of our participating open source projects, send us a report. Even better, send us a fix!
+                - generic [ref=f41e198]:
+                  - text: "Note: this program is to report issues in our open source projects. If you believe you have discovered a security vulnerability in one of Square's domains ("
+                  - link "squareup.com" [ref=f41e199] [cursor=pointer]:
+                    - /url: https://squareup.com
+                  - text: ","
+                  - link "square.com" [ref=f41e200] [cursor=pointer]:
+                    - /url: https://square.com
+                  - text: ", or"
+                  - link "cash.me" [ref=f41e201] [cursor=pointer]:
+                    - /url: https://cash.me
+                  - text: ), please report them at
+                  - link "https://hackerone.com/square" [ref=f41e202] [cursor=pointer]:
+                    - /url: https://hackerone.com/square
+                  - text: .
+                - heading "Attributes of a good report" [level=1] [ref=f41e203]
+                - list [ref=f41e204]:
+                  - listitem [ref=f41e205]: Detailed explanation of the bug.
+                  - listitem [ref=f41e206]: Include specific source code references when possible. You should at least list which project you are referring to.
+                  - listitem [ref=f41e207]: Please include a proof-of-concept of the issue you're reporting.
+                  - listitem [ref=f41e208]: Describe the versions of all relevant components of the issue (e.g. browser, operating system, mobile app version, etc.).
+                - heading "How to send a fix" [level=1] [ref=f41e209]
+                - generic [ref=f41e210]:
+                  - text: Please do not open a pull request to fix an issue you're reporting. This would unnecessarily reveal any potential vulnerabilities. Instead, if you'd like to send us a fix, attach a patch file to the issue you open. You'll need to sign our
+                  - link "Individual Contributor License Agreement" [ref=f41e211] [cursor=pointer]:
+                    - /url: https://spreadsheets.google.com/spreadsheet/viewform?formkey=dDViT2xzUHAwRkI3X3k5Z0lQM091OGc6MQ&ndplr=1
+                  - text: before any patches can be accepted.
+                - heading "Scope" [level=1] [ref=f41e212]
+                - generic [ref=f41e213]:
+                  - text: Projects which are hosted at
+                  - link "https://github.com/square/" [ref=f41e214] [cursor=pointer]:
+                    - /url: https://github.com/square/
+                  - text: ", which contain a"
+                  - code [ref=f41e215]: BUG-BOUNTY.md
+                  - text: file in the root directory, and only the latest code in the
+                  - code [ref=f41e216]: master
+                  - text: "branch. Currently, the projects in scope are:"
+                - list [ref=f41e217]:
+                  - listitem [ref=f41e218]:
+                    - link "git-fastclone" [ref=f41e219] [cursor=pointer]:
+                      - /url: https://github.com/square/git-fastclone
+                  - listitem [ref=f41e220]:
+                    - link "Go-JOSE" [ref=f41e221] [cursor=pointer]:
+                      - /url: https://github.com/square/go-jose
+                  - listitem [ref=f41e222]:
+                    - link "js-JOSE" [ref=f41e223] [cursor=pointer]:
+                      - /url: https://github.com/square/js-jose
+                  - listitem [ref=f41e224]:
+                    - link "Keywhiz" [ref=f41e225] [cursor=pointer]:
+                      - /url: https://github.com/square/keywhiz
+                  - listitem [ref=f41e226]:
+                    - link "KeywhizFs" [ref=f41e227] [cursor=pointer]:
+                      - /url: https://github.com/square/keywhiz-fs
+                  - listitem [ref=f41e228]:
+                    - link "OkHttp" [ref=f41e229] [cursor=pointer]:
+                      - /url: https://github.com/square/okhttp
+                  - listitem [ref=f41e230]:
+                    - link "Okio" [ref=f41e231] [cursor=pointer]:
+                      - /url: https://github.com/square/okio
+                  - listitem [ref=f41e232]:
+                    - link [ref=f41e233] [cursor=pointer]:
+                      - /url: https://github.com/square/pam_krb5_ccache
+                      - text: pam
+                      - insertion [ref=f41e234]: krb
+                      - text: cache
+                  - listitem [ref=f41e235]:
+                    - link "ghostunnel" [ref=f41e236] [cursor=pointer]:
+                      - /url: https://github.com/square/ghostunnel
+                  - listitem [ref=f41e237]:
+                    - link "rails-auth" [ref=f41e238] [cursor=pointer]:
+                      - /url: https://github.com/square/rails-auth
+                  - listitem [ref=f41e239]:
+                    - link "Retrofit" [ref=f41e240] [cursor=pointer]:
+                      - /url: https://github.com/square/retrofit
+                  - listitem [ref=f41e241]:
+                    - link "Squalor" [ref=f41e242] [cursor=pointer]:
+                      - /url: https://github.com/square/squalor
+                  - listitem [ref=f41e243]:
+                    - link "Valet" [ref=f41e244] [cursor=pointer]:
+                      - /url: https://github.com/square/Valet
+                  - listitem [ref=f41e245]:
+                    - link "Wire" [ref=f41e246] [cursor=pointer]:
+                      - /url: https://github.com/square/wire
+                - heading "Ineligible reports" [level=1] [ref=f41e247]
+                - list [ref=f41e248]:
+                  - listitem [ref=f41e249]: Issues related to software not under our control. Issues in underlying libraries used by our open source projects are not eligible for a reward. You are more than welcome to report them and we will follow up to try to get things fixed.
+                  - listitem [ref=f41e250]: Most of our open source development is publicly visible. Reports related to an issue being fixed in a branch or being tracked in a public way will therefore not be eligible for a bounty.
+                  - listitem [ref=f41e251]: Reports of issues without a proof-of-concept or clear path to exploitation.
+                  - listitem [ref=f41e252]: Issues which can only be reproduced on specific combinations of hardware or software not used by Square.
+            - generic [ref=f41e253]:
+              - generic [ref=f41e255]:
+                - heading "Top hackers" [level=2] [ref=f41e256]
+                - link "See all hackers" [ref=f41e259] [cursor=pointer]:
+                  - /url: /square-open-source/thanks
+              - generic [ref=f41e267]:
+                - generic [ref=f41e268]:
+                  - generic [ref=f41e269]: "1"
+                  - img "cryptosubtlety" [ref=f41e273]
+                  - generic [ref=f41e274]:
+                    - link "cryptosubtlety" [ref=f41e275] [cursor=pointer]:
+                      - /url: /cryptosubtlety?type=user
+                    - generic "110" [ref=f41e277]: "Reputation: 110"
+                - generic [ref=f41e278]:
+                  - generic [ref=f41e279]: "2"
+                  - img "bburky" [ref=f41e283]
+                  - generic [ref=f41e284]:
+                    - link "bburky" [ref=f41e285] [cursor=pointer]:
+                      - /url: /bburky?type=user
+                    - generic "44" [ref=f41e287]: "Reputation: 44"
+                - generic [ref=f41e288]:
+                  - generic [ref=f41e289]: "3"
+                  - img "ikoz" [ref=f41e293]
+                  - generic [ref=f41e294]:
+                    - link "ikoz" [ref=f41e295] [cursor=pointer]:
+                      - /url: /ikoz?type=user
+                    - generic "22" [ref=f41e297]: "Reputation: 22"
+                - generic [ref=f41e298]:
+                  - generic [ref=f41e299]: "4"
+                  - img "levigross" [ref=f41e303]
+                  - generic [ref=f41e304]:
+                    - link "levigross" [ref=f41e305] [cursor=pointer]:
+                      - /url: /levigross?type=user
+                    - generic "22" [ref=f41e307]: "Reputation: 22"
+                - generic [ref=f41e308]:
+                  - generic [ref=f41e309]: "5"
+                  - img "anish2good" [ref=f41e313]
+                  - generic [ref=f41e314]:
+                    - link "anish2good" [ref=f41e315] [cursor=pointer]:
+                      - /url: /anish2good?type=user
+                    - generic "22" [ref=f41e317]: "Reputation: 22"
+          - generic [ref=f41e319]:
+            - button [ref=f41e320] [cursor=pointer]:
+              - img "Collapse sidebar" [ref=f41e321]:
+                - img "Collapse sidebar" [ref=f41e323]
+            - generic [ref=f41e328]:
+              - generic [ref=f41e329]:
+                - generic [ref=f41e330]:
+                  - img "square-open-source" [ref=f41e334]
+                  - generic [ref=f41e335]: Square Open Source
+                - generic [ref=f41e337]:
+                  - generic [ref=f41e338]:
+                    - link "https://github.com/square" [ref=f41e339] [cursor=pointer]:
+                      - /url: https://github.com/square
+                    - link "@SquareEng" [ref=f41e340] [cursor=pointer]:
+                      - /url: https://x.com/SquareEng
+                  - generic [ref=f41e341]:
+                    - text: Bounty
+                    - generic [ref=f41e342]: launched in May 2015
+              - generic [ref=f41e343]:
+                - generic [ref=f41e345]:
+                  - button "upload Submit without Report Assistant" [disabled]:
+                    - img "upload":
+                      - generic:
+                        - img "upload"
+                    - generic: Submit without Report Assistant
+                - generic [ref=f41e346]:
+                  - heading "Stats" [level=1] [ref=f41e347]
+                  - table [ref=f41e348]:
+                    - rowgroup [ref=f41e349]:
+                      - row [ref=f41e350]:
+                        - cell "Minimum bounty" [ref=f41e351]
+                        - cell "$500" [ref=f41e352]
+                      - row [ref=f41e355]:
+                        - cell "Total bounties paid" [ref=f41e356]
+                        - cell ">$10,000" [ref=f41e357]:
+                          - text: ">"
+                          - generic [ref=f41e358]: $10,000
+                      - row [ref=f41e360]:
+                        - cell "Average bounty" [ref=f41e361]
+                        - cell "$1,000" [ref=f41e362]
+                      - row [ref=f41e365]:
+                        - cell "Top bounty range" [ref=f41e366]
+                        - cell "$2,250 - $2,500" [ref=f41e367]:
+                          - generic [ref=f41e368]:
+                            - generic [ref=f41e369]: $2,250
+                            - text: "-"
+                            - generic [ref=f41e371]: $2,500
+                      - row [ref=f41e373]:
+                        - cell "Bounties paid | 90 days" [ref=f41e374]
+                        - cell "-" [ref=f41e375]
+                      - row [ref=f41e377]:
+                        - cell "Reports received | 90 days" [ref=f41e378]
+                        - cell "0" [ref=f41e379]
+                      - row [ref=f41e380]:
+                        - cell "Last report resolved" [ref=f41e381]
+                        - cell "9 years ago" [ref=f41e382]
+                      - row [ref=f41e383]:
+                        - cell "Reports resolved" [ref=f41e384]
+                        - cell "10" [ref=f41e385]
+                      - row [ref=f41e386]:
+                        - cell "Hackers thanked" [ref=f41e387]
+                        - cell "5" [ref=f41e388]
+        - generic [ref=f41e394]:
+          - generic [ref=f41e395]: © HackerOne
+          - list [ref=f41e396]:
+            - listitem [ref=f41e397]:
+              - link "Opportunities" [ref=f41e398] [cursor=pointer]:
+                - /url: /opportunities/all
+            - listitem [ref=f41e399]:
+              - link "Security" [ref=f41e400] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f41e401]:
+              - link "Leaderboard" [ref=f41e402] [cursor=pointer]:
+                - /url: /leaderboard
+            - listitem [ref=f41e403]:
+              - link "Blog" [ref=f41e404] [cursor=pointer]:
+                - /url: https://www.hackerone.com/blog
+            - listitem [ref=f41e405]:
+              - link "Status" [ref=f41e406] [cursor=pointer]:
+                - /url: https://www.hackeronestatus.com/
+            - listitem [ref=f41e407]:
+              - link "Docs" [ref=f41e408] [cursor=pointer]:
+                - /url: https://docs.hackerone.com
+            - listitem [ref=f41e409]:
+              - link "Support" [ref=f41e410] [cursor=pointer]:
+                - /url: /auth/freshdesk_sso
+            - listitem [ref=f41e411]:
+              - link "Disclosure Guidelines" [ref=f41e412] [cursor=pointer]:
+                - /url: https://www.hackerone.com/disclosure-guidelines
+            - listitem [ref=f41e413]:
+              - link "Press" [ref=f41e414] [cursor=pointer]:
+                - /url: https://www.hackerone.com/press
+            - listitem [ref=f41e415]:
+              - link "Privacy" [ref=f41e416] [cursor=pointer]:
+                - /url: https://www.hackerone.com/privacy
+            - listitem [ref=f41e417]:
+              - link "Terms" [ref=f41e418] [cursor=pointer]:
+                - /url: https://www.hackerone.com/terms
+            - listitem [ref=f41e419]:
+              - link [ref=f41e420] [cursor=pointer]:
+                - /url: https://x.com/hacker0x01
+                - img "X" [ref=f41e421]

@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Date: Thu, 24 Sep 2026 20:04:48 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 2224
+Connection: keep-alive
+Set-Cookie: AWSALB=tDUe5FTJWMI/iPkvrxuZiR7goAFW2XO3SJkcAhKneJR37V+Zv7+rIZ6oz7YcOAPNTuHd7ikhXRXcmY7GwuHMvn2iT2UXc15D/AOoKNq6zeuQuG6h6GKRy1mUHc/6; Expires=Thu, 01 Oct 2026 20:04:48 GMT; Path=/
+Set-Cookie: AWSALBCORS=tDUe5FTJWMI/iPkvrxuZiR7goAFW2XO3SJkcAhKneJR37V+Zv7+rIZ6oz7YcOAPNTuHd7ikhXRXcmY7GwuHMvn2iT2UXc15D/AOoKNq6zeuQuG6h6GKRy1mUHc/6; Expires=Thu, 01 Oct 2026 20:04:48 GMT; Path=/; SameSite=None; Secure
+Server: nginx/1.18.0 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';object-src 'none';frame-ancestors 'self';form-action 'self';script-src 'self' 'nonce-PHTOAGvN72buGE1Bx0cgxA==' https://code.jquery.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com;script-src-attr 'none';style-src 'self' 'unsafe-inline' https://use.fontawesome.com https://stackpath.bootstrapcdn.com https://netdna.bootstrapcdn.com https://fonts.googleapis.com;font-src 'self' data: https://use.fontawesome.com https://netdna.bootstrapcdn.com https://fonts.gstatic.com;img-src 'self' data: https:;connect-src 'self';report-uri /csp-report
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Content-Length,X-JSON-Response
+ETag: W/"8b0-L+EzP7hKmndNIhBTt0Q+q78ioEM"
+Set-Cookie: connect.sid=s%3A5huHTamSt_7kz-PkSAIt7hnsNLMg9wTT.uHbrx3FU7TCUyagM39nXdTNIfpnTTX3nqF6c3Dd7uyo; Path=/; Expires=Fri, 25 Sep 2026 08:04:48 GMT
+
